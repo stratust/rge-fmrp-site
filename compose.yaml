@@ -1,0 +1,7 @@
+services:
+  rge-fmrp:
+    image: stratust/rge-fmrp:latest
+    container_name: rge-fmrp
+    ports:
+      - "30210:80"
+    restart: unless-stopped
