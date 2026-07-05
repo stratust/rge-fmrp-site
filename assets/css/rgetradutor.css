@@ -1,0 +1,44 @@
+/* ═══════════════════════════════════════════════════════
+   RGETRADUTOR.CSS — Estilo do tradutor Google
+   ═══════════════════════════════════════════════════════ */
+
+.tradutor-custom-buttons {
+    display: flex;
+    gap: 6px;
+}
+.btn-tradutor {
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 2px;
+    cursor: pointer;
+    transition: border-color .2s, opacity .2s;
+    opacity: .55;
+}
+.btn-tradutor:hover {
+    opacity: 1;
+}
+.btn-tradutor.active {
+    opacity: 1;
+    border-color: var(--primary-green, #1a5c3a);
+}
+.btn-tradutor img {
+    display: block;
+    border-radius: 3px;
+}
+
+/* Ocultar banner do Google Translate */
+.goog-te-banner-frame.skiptranslate,
+.goog-te-gadget-icon,
+.goog-logo-link {
+    display: none !important;
+}
+.goog-te-gadget {
+    font-size: 0 !important;
+}
+body {
+    top: 0 !important;
+}
+iframe.goog-te-banner-frame {
+    display: none !important;
+}

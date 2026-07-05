@@ -1,0 +1,42 @@
+/* ═══════════════════════════════════════════════════════
+   BTN-TOPO.CSS — Botão voltar ao topo
+   ═══════════════════════════════════════════════════════ */
+
+.btn-topo {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--primary-green, #1a5c3a);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,.2);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .3s, visibility .3s, transform .3s;
+    z-index: 999;
+}
+.btn-topo:hover {
+    background: var(--dark-green, #0f3d26);
+    color: var(--accent-green, #4ade80);
+    transform: translateY(-3px);
+}
+.btn-topo.is-visible {
+    opacity: 1;
+    visibility: visible;
+}
+@media (max-width: 768px) {
+    .btn-topo {
+        bottom: 1rem;
+        right: 1rem;
+        width: 40px;
+        height: 40px;
+        font-size: 1.25rem;
+    }
+}
