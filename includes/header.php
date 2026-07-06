@@ -1,4 +1,65 @@
-    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+<?php
+/**
+ * header.php — Header completo reutilizável
+ * Inclui: DOCTYPE, <head>, navbar e estilos do menu
+ *
+ * Variáveis opcionais antes do require:
+ *   $pageTitle  — título da página (<title>)
+ */
+if (!isset($pageTitle)) $pageTitle = 'Departamento de Genética - FMRP/USP';
+?>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <!-- Importante para tradutor  -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?= htmlspecialchars($pageTitle) ?></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=8">
+</head>
+<body>
+<style>
+.navbar .dropdown-toggle::after {
+    display: inline-block !important;
+    margin-left: .55em;
+    vertical-align: .15em;
+    content: "";
+    border-top: .35em solid;
+    border-right: .35em solid transparent;
+    border-bottom: 0;
+    border-left: .35em solid transparent;
+}
+
+.dropdown-toggle-split {
+    background: none;
+    border: none;
+    color: inherit;
+    line-height: 1;
+}
+
+.dropdown-toggle-split:hover,
+.dropdown-toggle-split:focus {
+    color: inherit;
+    box-shadow: none;
+}
+
+.menu-titulo{
+    cursor: default;      /* remove a mãozinha */
+    text-decoration: none;
+}
+
+.menu-titulo:hover{
+    text-decoration: none;
+}
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
         <div class="container">
           <!--  Logotipo do Depto de Genetica -->
           <a class="navbar-brand" href="index.php">
@@ -388,3 +449,30 @@ function checkActiveLang() {
         </div>
     </nav>
 <!-- Final - Navbar -->
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+    // Seleciona TODOS os menus dropdown
+    const dropdownMenus = document.querySelectorAll('.nav-item.dropdown');
+
+    dropdownMenus.forEach(function(menu) {
+
+        const submenu = menu.querySelector('.dropdown-menu');
+
+        // Abre ao passar o mouse
+        menu.addEventListener('mouseenter', function () {
+            menu.classList.add('show');
+            submenu.classList.add('show');
+        });
+
+        // Fecha ao retirar o mouse
+        menu.addEventListener('mouseleave', function () {
+            menu.classList.remove('show');
+            submenu.classList.remove('show');
+        });
+
+    });
+
+});
+</script>
