@@ -15,7 +15,7 @@
     
     
     
-    <link rel="stylesheet" href="assets/css/style.css?v=3">
+    <link rel="stylesheet" href="assets/css/style.css?v=5">
 </head>
 <style>
 .navbar .dropdown-toggle::after {
