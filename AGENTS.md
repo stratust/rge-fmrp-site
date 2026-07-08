@@ -187,12 +187,47 @@ Todos os valores de padding/margin/gap devem ser múltiplos de 4 ou 8:
 - Padrão de overlay SVG sutil (plus signs pattern, opacity 0.03)
 
 #### Cards
+
+O site tem **5 arquétipos de card**. Toda nova página deve usar UM destes. A
+página **`style-guide.php`** mostra exemplos visuais de cada um com o HTML pronto
+para copiar.
+
+**⚠️ Antes de criar um componente novo, abra `style-guide.php` no browser e veja
+se um destes já serve.** Se criar algo novo, adicione-o à style-guide.
+
+| Arquétipo | Classes | Quando usar |
+|---|---|---|
+| **Content Card** | `.rge-card` | Card genérico com texto. Base de todos os outros. |
+| **Icon Card** | `.rge-card` + `.icon-box` | Card com ícone no topo (info, contato, equipment, partner) |
+| **Media Card** | `.rge-card` (overflow:hidden + img) | Card com imagem (news, course, project, program) |
+| **Profile Card** | `.rge-card` + `.profile-avatar` ou img | Pessoa (docente, funcionário, team) |
+| **Highlight Box** | `.highlight-box` | Box de informação destacada (não é card clicável) |
+
+**Design Tokens de Card** (em `:root`):
+
+```css
+--card-bg: white;
+--card-radius: 12px;          /* 16px para hero/feature cards */
+--card-border: 1px solid rgba(0,0,0,0.04);
+--card-shadow: 0 3px 15px rgba(0,0,0,0.06);
+--card-shadow-hover: 0 8px 25px rgba(0,0,0,0.1);
+--card-hover-lift: -3px;      /* translateY no hover */
+--card-transition: all 0.3s ease;
+```
+
+**Regras de card:**
 - **Fundo**: branco (NUNCA cinza — o `.bg-light` é para SECTIONS, não cards)
 - **Border**: `1px solid rgba(0,0,0,0.04)`
-- **Shadow**: `var(--shadow-sm)` no estado normal
-- **Hover**: `translateY(-5px)` + `var(--shadow-lg)`
+- **Shadow**: `var(--card-shadow)` no estado normal
+- **Hover**: `translateY(-3px)` + `var(--card-shadow-hover)`
 - **Imagens**: vão edge-to-edge (`overflow: hidden` no card, NUNCA `padding` no card)
-- **Padding interno**: no `.card-body` apenas, nunca no card container
+- **Padding interno**: no body/inner div, nunca no container `.rge-card`
+- Sempre adicione `h-100` em cards dentro de colunas Bootstrap para igualar alturas
+
+**Classes legadas** (`info-card`, `contact-card`, `equipment-card`, `news-card`,
+`course-card`, `project-card`, etc.) ainda funcionam — são visualmente idênticas
+aos arquétipos acima e estão mapeadas no `style-guide.php`. Em código novo,
+prefira `.rge-card` + classes utilitárias do token system.
 
 #### Stats Bar
 - Fundo branco, border-bottom
@@ -327,3 +362,4 @@ sshpass -p 'SENHA' ssh truenas_admin@192.168.68.62 "
 | `laboratorio_doc.php` | Laboratórios | Lab detail, docente info |
 | `contato.php` | — | Contact cards, form, map |
 | `noticias.php` | — | News grid/list |
+| `style-guide.php` | — | **Design System** — catálogo de todos os componentes (não aparece no menu) |

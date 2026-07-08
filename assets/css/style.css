@@ -5,20 +5,103 @@
    ============================================ */
 
 /* ============================================
-   UNIFIED .rge-card CLASSES
-   Base classes for all card patterns across pages
+   CARD SYSTEM — Design Tokens & Base Classes
+   ============================================
+   5 arquétipos (ver style-guide.php):
+     1. Content Card  → .rge-card
+     2. Icon Card     → .rge-card + .icon-box
+     3. Media Card    → .rge-card (overflow:hidden + img)
+     4. Profile Card  → .rge-card + .profile-photo / .profile-avatar
+     5. Highlight Box → .highlight-box
+
+   REGRAS:
+   - Sempre use .rge-card como base
+   - Hover padrão: translateY(-3px) + sombra hover
+   - NUNCA crie um novo tipo de card sem adicionar ao style-guide.php
    ============================================ */
+
+/* Base card — todos os cards herdam destes tokens */
 .rge-card {
-    background: white;
-    border: 1px solid rgba(0,0,0,0.04);
-    border-radius: 12px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-    transition: all 0.3s ease;
-    
+    background: var(--card-bg);
+    border: var(--card-border);
+    border-radius: var(--card-radius);
+    box-shadow: var(--card-shadow);
+    transition: var(--card-transition);
 }
 
+/* Hover padrão para todos os cards .rge-card */
+.rge-card:hover {
+    transform: translateY(var(--card-hover-lift));
+    box-shadow: var(--card-shadow-hover);
+}
 
+/* ---- Icon Box (padrão compartilhado) ---- */
+/* Usado por: info-card, equipment-card, step-card, partner-card */
+/* Substitui definições duplicadas de .icon-box, .contact-icon, .equipment-icon, etc. */
+.rge-card .icon-box {
+    width: var(--icon-box-size);
+    height: var(--icon-box-size);
+    background: var(--icon-box-bg);
+    border-radius: var(--icon-box-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+    color: var(--icon-box-color);
+    font-size: clamp(0.9375rem, 3vw, 1.3rem);
+}
 
+/* ---- Profile Avatar (padrão compartilhado) ---- */
+.rge-card .profile-avatar {
+    width: 55px;
+    height: 55px;
+    background: var(--icon-box-bg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-green);
+    font-weight: 600;
+    font-size: 1.3rem;
+    flex-shrink: 0;
+}
+
+/* ---- Feature Link (padrão compartilhado) ---- */
+/* info-card a, contact-card a, project-link, course-link, program-link são idênticos */
+.rge-card .feature-link,
+.rge-card .card-link {
+    color: var(--card-link-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: gap 0.3s;
+}
+
+.rge-card .feature-link:hover,
+.rge-card .card-link:hover {
+    color: var(--dark-green);
+    gap: 12px;
+}
+
+/* ---- Card heading (padrão compartilhado) ---- */
+.rge-card > h5,
+.rge-card .card-title {
+    font-size: var(--card-heading-size);
+    font-weight: var(--card-heading-weight);
+    color: var(--card-heading-color);
+    margin-bottom: 0.75rem;
+}
+
+/* ---- Card body text (padrão compartilhado) ---- */
+.rge-card > p,
+.rge-card .card-text {
+    font-size: var(--card-text-size);
+    color: var(--card-text-color);
+    line-height: 1.6;
+}
 
 
 
@@ -48,6 +131,28 @@
   --shadow-sm: 0 3px 15px rgba(0,0,0,0.06);
   --shadow-md: 0 8px 25px rgba(0,0,0,0.08);
   --shadow-lg: 0 15px 40px rgba(0,0,0,0.10);
+
+  /* Card System Design Tokens */
+  --card-bg: white;
+  --card-radius: 12px;
+  --card-radius-lg: 16px;
+  --card-border: 1px solid rgba(0,0,0,0.04);
+  --card-shadow: 0 3px 15px rgba(0,0,0,0.06);
+  --card-shadow-hover: 0 8px 25px rgba(0,0,0,0.1);
+  --card-hover-lift: -3px;
+  --card-transition: all 0.3s ease;
+  --icon-box-size: 50px;
+  --icon-box-bg: rgba(26, 92, 58, 0.08);
+  --icon-box-radius: 10px;
+  --icon-box-color: var(--primary-green);
+  --icon-box-size-lg: 56px;
+  --icon-box-radius-lg: 14px;
+  --card-heading-color: #222;
+  --card-heading-size: 1.05rem;
+  --card-heading-weight: 600;
+  --card-text-color: #666;
+  --card-text-size: 0.9rem;
+  --card-link-color: var(--primary-green);
 }
 
 * {
