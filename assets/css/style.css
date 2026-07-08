@@ -5472,3 +5472,583 @@ iframe.goog-te-banner-frame {
     display: block;
     box-shadow: 0 10px 26px rgba(0,0,0,.16);
 }
+
+
+/* =========================================================
+   RESPONSIVO MOBILE — Mobile-first UX (Senior Full-Stack)
+   Breakpoints: 992px (tablet), 768px (fablet), 576px (phone), 375px (small)
+   Padrões: WCAG 2.1 AA, Apple HIG, Material Design 3
+   ========================================================= */
+
+/* ===== TABLET (max-width: 992px) ===== */
+@media (max-width: 992px) {
+    /* Navbar: reduz padding e font-size */
+    .navbar-brand img,
+    .navbar-brand svg {
+        height: 45px;
+    }
+
+    /* Hero: diminuir altura em paisagem */
+    .hero-section {
+        height: 480px;
+    }
+
+    /* Sections: padding mais compacto */
+    .about-section,
+    .research-section,
+    .intro-section,
+    .founders-section,
+    .comissoes-section,
+    .commissions-section,
+    .council-section,
+    .docentes-section {
+        padding: 3rem 0;
+    }
+}
+
+/* ===== FABLET / LARGE PHONE (max-width: 768px) ===== */
+@media (max-width: 768px) {
+    /* Hero: fonte e altura ajustados */
+    .hero-section {
+        height: 420px;
+    }
+
+    .hero-content h1,
+    .page-header h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content .subtitle {
+        font-size: 1.2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .page-header {
+        padding: 60px 0 50px;
+    }
+
+    .page-header p {
+        font-size: 1rem;
+    }
+
+    /* Features overlap ajustado */
+    .features-section {
+        margin-top: -30px;
+    }
+
+    /* Carousel controls */
+    .carousel-control-prev-custom { left: 0; }
+    .carousel-control-next-custom { right: 0; }
+
+    /* Timeline: modo left-aligned em mobile */
+    .timeline::before {
+        left: 20px;
+    }
+
+    .timeline-content {
+        width: calc(100% - 60px) !important;
+        margin-left: 50px !important;
+        margin-right: 0 !important;
+    }
+
+    .timeline-dot {
+        left: 20px;
+    }
+
+    /* Timeline final card override */
+    .ultima-etapa .timeline-content-esquerda {
+        margin-left: 50px !important;
+        margin-right: 0 !important;
+        width: calc(100% - 60px) !important;
+    }
+
+    /* Section headings */
+    .about-section h2,
+    .intro-section h2,
+    .commissions-section h2 {
+        font-size: 1.6rem;
+    }
+
+    /* Chefia grid: 2 colunas */
+    .chefia-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Chefia card header: menos altura */
+    .chefia-card-header {
+        height: 90px;
+    }
+
+    .chefia-avatar {
+        width: 80px;
+        height: 80px;
+        bottom: -40px;
+        font-size: 2rem;
+    }
+
+    .chefia-card-body {
+        padding: 2.5rem 1.5rem 1.5rem;
+    }
+
+    /* Footer: padding reduzido */
+    .footer {
+        padding: 2.5rem 0 1rem;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+
+    /* Comissao cards: altura auto em mobile */
+    .comissao-card {
+        height: auto !important;
+        min-height: 200px;
+    }
+
+    /* Custom table: scroll horizontal se necessário */
+    .table-responsive-custom {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .custom-table {
+        min-width: 500px;
+    }
+}
+
+/* ===== PHONE (max-width: 576px) ===== */
+@media (max-width: 576px) {
+    /* --- Body text: mínimo 16px (WCAG, Apple HIG) --- */
+    body {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    p, li {
+        font-size: 0.9375rem;
+        line-height: 1.6;
+    }
+
+    /* --- Touch targets: mínimo 44×44px (Apple HIG, WCAG 2.5.5) --- */
+    .navbar-toggler {
+        min-width: 44px;
+        min-height: 44px;
+        padding: 8px;
+    }
+
+    .btn,
+    .btn-green,
+    .btn-outline-light-custom,
+    .filter-btn,
+    .chefia-link {
+        min-height: 44px;
+        padding: 10px 20px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Filter buttons: wrap em mobile */
+    .filters-section .d-flex,
+    .filters-section .container > div {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .filter-btn {
+        margin: 0 4px 8px 0;
+        font-size: 0.8rem;
+        padding: 8px 14px;
+    }
+
+    /* --- Navbar: compactar --- */
+    .navbar {
+        padding: 0.35rem 0;
+    }
+
+    .navbar-brand img,
+    .navbar-brand svg {
+        height: 38px;
+    }
+
+    /* Idiomas: mais espaço entre bandeiras e hamburger */
+    .idiomas {
+        gap: 4px;
+    }
+
+    .idiomas button {
+        padding: 4px 6px;
+    }
+
+    /* --- Hero: mais compacto --- */
+    .hero-section {
+        height: 380px;
+    }
+
+    .hero-content h1,
+    .page-header h1 {
+        font-size: 1.75rem;
+    }
+
+    .hero-content .subtitle {
+        font-size: 1.1rem;
+    }
+
+    .hero-content p {
+        font-size: 0.9375rem;
+    }
+
+    /* --- Stats: grid 2×2 responsivo --- */
+    .stats-bar {
+        padding: 1.5rem 0;
+    }
+
+    .stat-number {
+        font-size: 1.6rem;
+    }
+
+    .stat-label {
+        font-size: 0.7rem;
+        letter-spacing: 0.5px;
+    }
+
+    /* --- Feature cards --- */
+    .feature-card {
+        padding: 1.25rem 1rem;
+    }
+
+    .feature-card p,
+    .research-item p {
+        font-size: 0.875rem;
+        max-width: 100%;
+    }
+
+    .feature-card h5,
+    .feature-card .h5 {
+        font-size: 0.95rem;
+    }
+
+    /* --- News carousel: 1 card visível em mobile --- */
+    .carousel-slide {
+        flex: 0 0 85%;
+    }
+
+    .news-card .news-body {
+        padding: 1rem;
+    }
+
+    .news-card .news-title {
+        font-size: 0.95rem;
+    }
+
+    .news-card .news-excerpt {
+        font-size: 0.825rem;
+    }
+
+    .news-card .news-date {
+        font-size: 0.7rem;
+    }
+
+    .news-card .news-img img {
+        height: 160px;
+    }
+
+    /* --- Carousel arrows: touch-friendly --- */
+    .carousel-arrow {
+        width: 44px;
+        height: 44px;
+        font-size: 1.1rem;
+    }
+
+    /* --- Chefia: 1 coluna --- */
+    .chefia-section {
+        padding: 24px 12px;
+    }
+
+    .chefia-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .chefia-card {
+        padding: 20px 16px;
+        border-radius: 18px;
+    }
+
+    .chefia-card h2,
+    .chefia-card h3 {
+        font-size: 20px;
+    }
+
+    .chefia-atual {
+        max-width: 100%;
+    }
+
+    .chefia-atual img {
+        width: 72px;
+        height: 72px;
+    }
+
+    /* --- Docente cards --- */
+    .docente-photo-wrap {
+        height: 180px;
+    }
+
+    .docente-body {
+        padding: 1.25rem;
+    }
+
+    .docente-name,
+    .func-name,
+    .founder-name {
+        font-size: 1rem;
+    }
+
+    .docente-role,
+    .func-role,
+    .founder-role {
+        font-size: 0.75rem;
+    }
+
+    .docente-area,
+    .docente-lattes {
+        font-size: 0.8rem;
+    }
+
+    /* --- Program cards (pós-graduação) --- */
+    .program-card {
+        padding: 1.5rem 1.25rem;
+    }
+
+    .program-card h3,
+    .program-card .h5 {
+        font-size: 1.1rem;
+    }
+
+    .program-card p {
+        font-size: 0.875rem;
+    }
+
+    .program-icon {
+        width: 48px;
+        height: 48px;
+        border-radius: 12px;
+        font-size: 1.3rem;
+    }
+
+    /* --- Timeline --- */
+    .timeline-content {
+        padding: 1.25rem;
+    }
+
+    .timeline-title {
+        font-size: 1rem;
+    }
+
+    .timeline-text {
+        font-size: 0.875rem;
+    }
+
+    /* --- Comissao --- */
+    .comissao-card {
+        padding: 1.25rem;
+        height: auto !important;
+        min-height: 0;
+    }
+
+    .comissao-title {
+        font-size: 0.95rem;
+    }
+
+    .comissao-desc {
+        font-size: 0.825rem;
+    }
+
+    .comissao-members {
+        font-size: 0.75rem;
+    }
+
+    /* --- Custom table: card-style em mobile --- */
+    .custom-table thead {
+        display: none;
+    }
+
+    .custom-table,
+    .custom-table tbody,
+    .custom-table tr,
+    .custom-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .custom-table tr {
+        margin-bottom: 1rem;
+        border: 1px solid #eee;
+        border-radius: 8px;
+        padding: 0.5rem;
+    }
+
+    .custom-table td {
+        border-bottom: 1px solid #f0f0f0;
+        padding: 0.6rem 0.5rem;
+        font-size: 0.875rem;
+    }
+
+    .custom-table td:last-child {
+        border-bottom: none;
+    }
+
+    .custom-table td::before {
+        content: attr(data-label);
+        font-weight: 600;
+        color: var(--primary-green);
+        display: block;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 2px;
+    }
+
+    /* --- Footer --- */
+    .footer {
+        padding: 2rem 0 1rem;
+        text-align: center;
+    }
+
+    .footer-desc {
+        max-width: 100%;
+        margin: 0 auto 1rem;
+    }
+
+    .footer h6 {
+        margin-top: 1.5rem;
+    }
+
+    .footer-contact-item {
+        justify-content: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+        margin-top: 2rem;
+    }
+
+    .footer-bottom-links a {
+        margin: 0 0.5rem;
+    }
+
+    /* --- Btn-topo: touch-friendly --- */
+    .btn-topo {
+        width: 48px;
+        height: 48px;
+        right: 16px;
+        bottom: 16px;
+        font-size: 20px;
+    }
+
+    /* --- Breadcrumbs --- */
+    .breadcrumb-custom a,
+    .breadcrumb-custom .active,
+    .breadcrumb-custom .separator {
+        font-size: 0.75rem;
+    }
+
+    /* --- Commission cards --- */
+    .commission-card {
+        padding: 1.25rem;
+    }
+
+    .commission-card h5,
+    .commission-card .h5 {
+        font-size: 1rem;
+    }
+
+    /* --- Mandate badge --- */
+    .mandate-badge {
+        font-size: 0.7rem;
+    }
+
+    /* --- Contact info --- */
+    .chefia-contact,
+    .chefia-contact-item {
+        font-size: 0.75rem;
+    }
+
+    .chefia-link {
+        font-size: 0.7rem;
+        padding: 6px 14px;
+    }
+
+    /* --- Founder cards --- */
+    .founder-card {
+        padding: 1.5rem;
+    }
+
+    .founder-avatar {
+        width: 64px;
+        height: 64px;
+        font-size: 1.5rem;
+    }
+}
+
+/* ===== SMALL PHONE (max-width: 375px) ===== */
+@media (max-width: 375px) {
+    /* Headings ainda menores */
+    .hero-content h1,
+    .page-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-content .subtitle {
+        font-size: 1rem;
+    }
+
+    .about-section h2,
+    .intro-section h2,
+    .commissions-section h2 {
+        font-size: 1.35rem;
+    }
+
+    /* Reduzir ainda mais padding das sections */
+    .about-section,
+    .research-section,
+    .intro-section,
+    .founders-section,
+    .docentes-section {
+        padding: 2rem 0;
+    }
+
+    /* Feature card: padding mínimo */
+    .feature-card {
+        padding: 1rem 0.75rem;
+    }
+
+    /* Program card: padding mínimo */
+    .program-card {
+        padding: 1.25rem 1rem;
+    }
+
+    /* Chefia card */
+    .chefia-card {
+        padding: 16px 12px;
+    }
+
+    /* Stats: menores */
+    .stat-number {
+        font-size: 1.3rem;
+    }
+
+    .stat-label {
+        font-size: 0.65rem;
+    }
+}
