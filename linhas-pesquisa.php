@@ -73,7 +73,7 @@ require __DIR__ . '/includes/header.php';
         <div class="container">
             <div class="section-label">Nossas Áreas</div>
             <div class="d-flex justify-content-between align-items-end mb-4">
-                <h2 style="font-size: 2rem; font-weight: 700; color: #222;">Linhas de pesquisa</h2>
+                <h2>Linhas de pesquisa</h2>
             </div>
 
             <div class="row g-4">

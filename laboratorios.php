@@ -70,7 +70,7 @@ require __DIR__ . '/includes/header.php';
     <section class="labs-section">
         <div class="container">
             <div class="section-label mb-4">Infraestrutura de Pesquisa</div>
-            <h2 class="mb-5" style="font-size: 2rem; font-weight: 700; color: #222;">Laboratórios de Pesquisa</h2>
+            <h2 class="mb-5">Laboratórios de Pesquisa</h2>
 
             <!-- Featured Lab -->
             <div class="featured-lab">
@@ -421,7 +421,7 @@ require __DIR__ . '/includes/header.php';
 
             <!-- Teaching Labs -->
             <div class="section-label mt-5 mb-4">Infraestrutura de Ensino</div>
-            <h2 class="mb-5" style="font-size: 2rem; font-weight: 700; color: #222;">Laboratórios de Ensino</h2>
+            <h2 class="mb-5">Laboratórios de Ensino</h2>
 
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">

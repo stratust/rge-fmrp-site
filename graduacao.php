@@ -73,7 +73,7 @@ require __DIR__ . '/includes/header.php';
     <section class="courses-section">
         <div class="container">
             <div class="section-label mb-2">Cursos Atendidos</div>
-            <h2 class="mb-5" style="font-size: 2rem; font-weight: 700; color: #222;">Nossos Alunos</h2>
+            <h2 class="mb-5">Nossos Alunos</h2>
 
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
@@ -150,7 +150,7 @@ require __DIR__ . '/includes/header.php';
     <section class="disciplines-section">
         <div class="container">
             <div class="section-label mb-2">Grade Curricular</div>
-            <h2 class="mb-5" style="font-size: 2rem; font-weight: 700; color: #222;">Disciplinas Oferecidas</h2>
+            <h2 class="mb-5">Disciplinas Oferecidas</h2>
 
             <div class="highlight-box mb-5">
                 <h3><i class="bi bi-info-circle me-2"></i>Informações Importantes</h3>
@@ -298,7 +298,7 @@ require __DIR__ . '/includes/header.php';
 <!--    <section class="labs-teaching-section">
         <div class="container">
             <div class="section-label mb-2">Infraestrutura</div>
-            <h2 class="mb-5" style="font-size: 2rem; font-weight: 700; color: #222;">Laboratórios de Ensino</h2>
+            <h2 class="mb-5">Laboratórios de Ensino</h2>
 
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">

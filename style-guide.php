@@ -47,7 +47,7 @@ require __DIR__ . '/includes/header.php';
 <section class="py-5">
     <div class="container">
         <div class="section-label mb-2">Fundação</div>
-        <h2 class="mb-5" style="font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222;">Design Tokens</h2>
+        <h2 class="mb-5" style="font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222;">Design Tokens</h2>
 
         <!-- Colors -->
         <h3 class="mb-4" style="font-size: 1.3rem; font-weight: 700; color: #222;">Cores</h3>
@@ -101,7 +101,7 @@ require __DIR__ . '/includes/header.php';
                         <td><code>h2 (section)</code></td>
                         <td>Títulos de seção</td>
                         <td><code>clamp(1.375rem, 5vw, 2.2rem)</code></td>
-                        <td><span style="font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222;">Section Title</span></td>
+                        <td><span style="font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222;">Section Title</span></td>
                     </tr>
                     <tr>
                         <td><code>h2 (page-header)</code></td>
@@ -202,7 +202,7 @@ require __DIR__ . '/includes/header.php';
 <section class="py-5" style="background: var(--bg-light);">
     <div class="container">
         <div class="section-label mb-2">Arquitetura</div>
-        <h2 class="mb-3" style="font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222;">Card System</h2>
+        <h2 class="mb-3" style="font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222;">Card System</h2>
         <p class="lead mb-5">5 arquitipos base. Tudo no site é uma variação destes. <strong>Não crie um novo tipo de card sem justificativa.</strong></p>
 
         <!-- Arquétipo 1: Content Card -->
@@ -689,7 +689,7 @@ require __DIR__ . '/includes/header.php';
 <section class="py-5">
     <div class="container">
         <div class="section-label mb-2">Ações</div>
-        <h2 class="mb-5" style="font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222;">Botões & Links</h2>
+        <h2 class="mb-5" style="font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222;">Botões & Links</h2>
 
         <h3 class="mb-4" style="font-size: 1.3rem; font-weight: 700; color: #222;">Botões Primários (Pill Shape)</h3>
         <div class="rge-card p-4 mb-5">
@@ -739,7 +739,7 @@ require __DIR__ . '/includes/header.php';
 <section class="py-5" style="background: var(--bg-light);">
     <div class="container">
         <div class="section-label mb-2">Metadados</div>
-        <h2 class="mb-5" style="font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222;">Badges & Tags</h2>
+        <h2 class="mb-5" style="font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222;">Badges & Tags</h2>
         <div class="rge-card p-4">
             <div class="d-flex flex-wrap gap-3 mb-4 align-items-center">
                 <span class="program-badge" style="position: static;">Program Badge</span>
@@ -772,7 +772,7 @@ require __DIR__ . '/includes/header.php';
 <section class="py-5">
     <div class="container">
         <div class="section-label mb-2">Pictogramas</div>
-        <h2 class="mb-5" style="font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222;">Padrões de Ícones</h2>
+        <h2 class="mb-5" style="font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222;">Padrões de Ícones</h2>
 
         <div class="row g-4 mb-5">
             <div class="col-md-4">
@@ -834,7 +834,7 @@ require __DIR__ . '/includes/header.php';
 <section class="py-5" style="background: var(--bg-light);">
     <div class="container">
         <div class="section-label mb-2">Estrutura</div>
-        <h2 class="mb-5" style="font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222;">Seções de Layout</h2>
+        <h2 class="mb-5" style="font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222;">Seções de Layout</h2>
 
         <div class="rge-card p-4 mb-4">
             <h4>Page Header <code>.page-header</code></h4>
@@ -877,7 +877,7 @@ require __DIR__ . '/includes/header.php';
 <section class="py-5">
     <div class="container">
         <div class="section-label mb-2">Input</div>
-        <h2 class="mb-5" style="font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222;">Formulários</h2>
+        <h2 class="mb-5" style="font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222;">Formulários</h2>
         <div class="rge-card p-4">
             <form class="contact-form">
                 <div class="mb-3">
@@ -907,7 +907,7 @@ require __DIR__ . '/includes/header.php';
 <section class="py-5" style="background: var(--bg-light);">
     <div class="container">
         <div class="section-label mb-2">Regras Críticas</div>
-        <h2 class="mb-5" style="font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222;">Regras Para Novas Páginas</h2>
+        <h2 class="mb-5" style="font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222;">Regras Para Novas Páginas</h2>
         <div class="rge-card p-4">
             <ol style="line-height: 2;">
                 <li><strong>Sempre comece com:</strong> <code>$pageTitle</code> → <code>require header.php</code> → conteúdo → <code>require footer.php</code></li>

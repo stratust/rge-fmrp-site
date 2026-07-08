@@ -956,7 +956,7 @@ body {
 }
 
 .setor-title {
-  font-size: clamp(0.9375rem, 3vw, 1.4rem);
+  font-size: clamp(1.25rem, 4vw, 1.875rem);
   font-weight: 700;
   color: var(--text-dark);
   margin: 0;
@@ -5711,3 +5711,18 @@ h2.h3, h3.h3, h4.h3 { font-size: 1.75rem; }
 h2.h4, h3.h4, h4.h4 { font-size: 1.5rem; }
 h2.h5, h3.h5, h4.h5 { font-size: 1.25rem; }
 h2.h6, h3.h6, h4.h6 { font-size: 1rem; }
+
+/* ============================================
+   SECTION HEADING DEFAULT
+   Any h2 inside a <section> that is NOT inside a card
+   and has no .h5/.h6 utility class gets the unified section title size.
+   This catches h2 elements that no section-specific CSS rule reaches.
+   ============================================ */
+section > .container > h2:not(.h5):not(.h6),
+section > .container > .row > div > h2:not(.h5):not(.h6),
+section > .container > div > h2:not(.h5):not(.h6),
+section .section-header h2:not(.h5):not(.h6) {
+    font-size: clamp(1.25rem, 4vw, 1.875rem);
+    font-weight: 700;
+    color: #222;
+}

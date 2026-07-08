@@ -56,7 +56,7 @@ require __DIR__ . '/includes/header.php';
     <section class="chefia-section">
         <div class="container">
             <div class="section-label mb-2">Gestão 2024-2026</div>
-            <h2 class="mb-5" style="font-size: 2rem; font-weight: 700; color: #222;">Chefia Atual</h2>
+            <h2 class="mb-5">Chefia Atual</h2>
 
             <div class="row g-4 justify-content-center">
                 <!-- Chefe -->
@@ -193,7 +193,7 @@ require __DIR__ . '/includes/header.php';
     <section class="comissoes-section" id="comissao">
         <div class="container">
             <div class="section-label mb-2">Estrutura de Gestão</div>
-            <h2 class="mb-5" style="font-size: 2rem; font-weight: 700; color: #222;">Comissões e Coordenações</h2>
+            <h2 class="mb-5">Comissões e Coordenações</h2>
 
             <div class="row g-5">
                 <div class="col-md-6 col-lg">
@@ -272,7 +272,7 @@ require __DIR__ . '/includes/header.php';
 <section class="historico-section">
    <div class="container">
         <div class="section-label mb-2">Trajetória Institucional</div>
-        <h2 class="mb-5 text-center" style="font-size: 2rem; font-weight: 700; color: #222;">Histórico de Chefias</h2>
+        <h2 class="mb-5 text-center">Histórico de Chefias</h2>
 
 <div class="timeline">
                     <div class="timeline-item current">

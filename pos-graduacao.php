@@ -79,7 +79,7 @@ require __DIR__ . '/includes/header.php';
     <section class="programs-section">
         <div class="container">
             <div class="section-label mb-2">Modalidades</div>
-            <h2 class="mb-5" style="font-size: 2rem; font-weight: 700; color: #222;">Nossos Cursos</h2>
+            <h2 class="mb-5">Nossos Cursos</h2>
 
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
@@ -135,7 +135,7 @@ require __DIR__ . '/includes/header.php';
     <section class="disciplines-section">
         <div class="container">
             <div class="section-label mb-2">Grade Curricular</div>
-            <h2 class="mb-5" style="font-size: 2rem; font-weight: 700; color: #222;">Disciplinas do Programa</h2>
+            <h2 class="mb-5">Disciplinas do Programa</h2>
 
             <div class="highlight-box mb-5">
                 <h3><i class="bi bi-info-circle me-2"></i>Organização Curricular</h3>
@@ -271,7 +271,7 @@ require __DIR__ . '/includes/header.php';
  <!--   <section class="admission-section">
         <div class="container">
             <div class="section-label mb-2">Processo Seletivo</div>
-            <h2 class="mb-5" style="font-size: 2rem; font-weight: 700; color: #222;">Como Ingressar</h2>
+            <h2 class="mb-5">Como Ingressar</h2>
 
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">

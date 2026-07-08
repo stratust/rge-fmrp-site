@@ -84,7 +84,7 @@ require __DIR__ . '/includes/header.php';
 
         <div class="section-label mb-2">Nossos Professores</div>
 
-        <h2 class="mb-3" style="font-size:2rem; font-weight:700; color:#222;">
+        <h2 class="mb-3">
             Corpo Docente
         </h2>
 

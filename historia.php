@@ -82,7 +82,7 @@ require __DIR__ . '/includes/header.php';
     <section class="timeline-section">
         <div class="container">
             <div class="section-label text-center justify-content-center mb-2">Linha do Tempo</div>
-            <h2 class="text-center mb-5" style="font-size: 2rem; font-weight: 700; color: #222;">Marcos Históricos</h2>
+            <h2 class="text-center mb-5">Marcos Históricos</h2>
 
             <div class="timeline">
                 <div class="timeline-item highlight  ultima-etapa">
@@ -206,7 +206,7 @@ require __DIR__ . '/includes/header.php';
     <section class="founders-section">
         <div class="container">
             <div class="section-label mb-2">Personalidades</div>
-            <h2 class="mb-5" style="font-size: 2rem; font-weight: 700; color: #222;">Figuras Fundamentais</h2>
+            <h2 class="mb-5">Figuras Fundamentais</h2>
 
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
@@ -285,7 +285,7 @@ Após concluir a residência foi contratada como Médica Geneticista pelo HC-FMR
     <section class="numbers-section">
         <div class="container">
             <div class="section-label text-center justify-content-center mb-2">Em Números</div>
-            <h2 class="text-center mb-5" style="font-size: 2rem; font-weight: 700; color: #222;">A Trajetória em Dados</h2>
+            <h2 class="text-center mb-5">A Trajetória em Dados</h2>
 
             <div class="row g-4">
                 <div class="col-6 col-md-4 col-lg-2">

@@ -41,7 +41,7 @@ require __DIR__ . '/includes/header.php';
         <div class="container">
             <div class="section-label">Oferta Atual</div>
             <div class="d-flex justify-content-between align-items-end mb-4">
-                <h2 style="font-size: 2rem; font-weight: 700; color: #222;">Cursos disponíveis</h2>
+                <h2>Cursos disponíveis</h2>
                 <div class="d-flex gap-2">
                     <select class="form-select form-select-sm" style="width: auto; font-size: 0.85rem; border-radius: 8px;">
                         <option selected>Todos os cursos</option>
