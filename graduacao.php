@@ -79,7 +79,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="course-card rge-card">
                         <div class="course-icon"><i class="bi bi-heart-pulse"></i></div>
-                        <h5 class="course-name">Medicina</h5>
+                        <h2 class="h5 course-name">Medicina</h2>
                         <p class="course-desc">Disciplinas de Genética Médica, Citogenética e Biologia Molecular aplicadas à formação médica, com ênfase em diagnóstico genético, conselho genético e bases moleculares das doenças.</p>
                         <div class="course-meta">
                             <div class="course-meta-item"><i class="bi bi-book"></i> Genética Médica, Biologia Molecular</div>
@@ -90,7 +90,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="course-card rge-card">
                         <div class="course-icon"><i class="bi bi-bug"></i></div>
-                        <h5 class="course-name">Ciências Biológicas – Bacharelado</h5>
+                        <h2 class="h5 course-name">Ciências Biológicas – Bacharelado</h2>
                         <p class="course-desc">Formação aprofundada em Genética Clássica, Molecular, Populacional e Evolutiva, preparando o aluno para atuação em pesquisa e desenvolvimento nas diversas áreas da Genética.</p>
                         <div class="course-meta">
                             <div class="course-meta-item"><i class="bi bi-book"></i> Genética Geral, Molecular, Evolutiva</div>
@@ -101,7 +101,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="course-card rge-card">
                         <div class="course-icon"><i class="bi bi-mortarboard"></i></div>
-                        <h5 class="course-name">Ciências Biológicas – Licenciatura</h5>
+                        <h2 class="h5 course-name">Ciências Biológicas – Licenciatura</h2>
                         <p class="course-desc">Disciplinas de Genética e Biologia Molecular voltadas para a formação de professores do ensino básico e médio, com foco em didática e metodologias de ensino das ciências.</p>
                         <div class="course-meta">
                             <div class="course-meta-item"><i class="bi bi-book"></i> Genética, Biologia Molecular</div>
@@ -112,7 +112,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="course-card rge-card">
                         <div class="course-icon"><i class="bi bi-laptop"></i></div>
-                        <h5 class="course-name">Informática Biomédica</h5>
+                        <h2 class="h5 course-name">Informática Biomédica</h2>
                         <p class="course-desc">Disciplinas de Bioinformática, Genômica e Análise de Dados Genéticos, integrando conhecimentos de biologia e computação para formação de profissionais da área de saúde digital.</p>
                         <div class="course-meta">
                             <div class="course-meta-item"><i class="bi bi-book"></i> Bioinformática, Genômica</div>
@@ -123,7 +123,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="course-card rge-card">
                         <div class="course-icon"><i class="bi bi-capsule"></i></div>
-                        <h5 class="course-name">Farmácia</h5>
+                        <h2 class="h5 course-name">Farmácia</h2>
                         <p class="course-desc">Disciplinas de Genética e Biologia Molecular com aplicações em farmacogenética, biotecnologia farmacêutica e desenvolvimento de medicamentos baseados em terapia gênica.</p>
                         <div class="course-meta">
                             <div class="course-meta-item"><i class="bi bi-book"></i> Genética, Biologia Molecular</div>
@@ -134,7 +134,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="course-card rge-card">
                         <div class="course-icon"><i class="bi bi-ear"></i></div>
-                        <h5 class="course-name">Fonoaudiologia e Terapia Ocupacional</h5>
+                        <h2 class="h5 course-name">Fonoaudiologia e Terapia Ocupacional</h2>
                         <p class="course-desc">Disciplinas de Genética Humana e Bases Moleculares das Doenças, com foco nas síndromes genéticas relacionadas às áreas de atuação desses profissionais.</p>
                         <div class="course-meta">
                             <div class="course-meta-item"><i class="bi bi-book"></i> Genética Humana, Bases Moleculares</div>
@@ -161,7 +161,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">GBM-001</div>
-                        <h5 class="discipline-name">Genética Geral</h5>
+                        <h2 class="h5 discipline-name">Genética Geral</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 60h – 4 créditos</div>
                             <div class="discipline-info-item"><i class="bi bi-people"></i> Ciências Biológicas, Farmácia</div>
@@ -172,7 +172,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">GBM-002</div>
-                        <h5 class="discipline-name">Biologia Molecular</h5>
+                        <h2 class="h5 discipline-name">Biologia Molecular</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 60h – 4 créditos</div>
                             <div class="discipline-info-item"><i class="bi bi-people"></i> Ciências Biológicas, Medicina</div>
@@ -183,7 +183,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">GBM-003</div>
-                        <h5 class="discipline-name">Citogenética</h5>
+                        <h2 class="h5 discipline-name">Citogenética</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 60h – 4 créditos</div>
                             <div class="discipline-info-item"><i class="bi bi-people"></i> Ciências Biológicas, Medicina</div>
@@ -194,7 +194,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">GBM-004</div>
-                        <h5 class="discipline-name">Genética Médica</h5>
+                        <h2 class="h5 discipline-name">Genética Médica</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 45h – 3 créditos</div>
                             <div class="discipline-info-item"><i class="bi bi-people"></i> Medicina, Fonoaudiologia</div>
@@ -205,7 +205,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">GBM-005</div>
-                        <h5 class="discipline-name">Genética Humana</h5>
+                        <h2 class="h5 discipline-name">Genética Humana</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 60h – 4 créditos</div>
                             <div class="discipline-info-item"><i class="bi bi-people"></i> Ciências Biológicas, Terapia Ocupacional</div>
@@ -216,7 +216,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">GBM-006</div>
-                        <h5 class="discipline-name">Genética de Populações e Evolução</h5>
+                        <h2 class="h5 discipline-name">Genética de Populações e Evolução</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 60h – 4 créditos</div>
                             <div class="discipline-info-item"><i class="bi bi-people"></i> Ciências Biológicas</div>
@@ -227,7 +227,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">GBM-007</div>
-                        <h5 class="discipline-name">Genética Molecular</h5>
+                        <h2 class="h5 discipline-name">Genética Molecular</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 60h – 4 créditos</div>
                             <div class="discipline-info-item"><i class="bi bi-people"></i> Ciências Biológicas (Bacharelado)</div>
@@ -238,7 +238,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">GBM-008</div>
-                        <h5 class="discipline-name">Bioinformática</h5>
+                        <h2 class="h5 discipline-name">Bioinformática</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 60h – 4 créditos</div>
                             <div class="discipline-info-item"><i class="bi bi-people"></i> Informática Biomédica, Ciências Biológicas</div>
@@ -249,7 +249,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">GBM-009</div>
-                        <h5 class="discipline-name">Genética de Microrganismos</h5>
+                        <h2 class="h5 discipline-name">Genética de Microrganismos</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 45h – 3 créditos</div>
                             <div class="discipline-info-item"><i class="bi bi-people"></i> Ciências Biológicas, Farmácia</div>
@@ -260,7 +260,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">GBM-010</div>
-                        <h5 class="discipline-name">Genética Vegetal</h5>
+                        <h2 class="h5 discipline-name">Genética Vegetal</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 45h – 3 créditos</div>
                             <div class="discipline-info-item"><i class="bi bi-people"></i> Ciências Biológicas</div>
@@ -271,7 +271,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">GBM-011</div>
-                        <h5 class="discipline-name">Genética Animal</h5>
+                        <h2 class="h5 discipline-name">Genética Animal</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 45h – 3 créditos</div>
                             <div class="discipline-info-item"><i class="bi bi-people"></i> Ciências Biológicas</div>
@@ -282,7 +282,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">GBM-012</div>
-                        <h5 class="discipline-name">Genômica e Proteômica</h5>
+                        <h2 class="h5 discipline-name">Genômica e Proteômica</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 45h – 3 créditos</div>
                             <div class="discipline-info-item"><i class="bi bi-people"></i> Ciências Biológicas, Informática Biomédica</div>
@@ -307,7 +307,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-mortarboard"></i>
                         </div>
                         <div class="lab-teach-body">
-                            <h5 class="lab-teach-name">Laboratório de Práticas em Genética</h5>
+                            <h2 class="h5 lab-teach-name">Laboratório de Práticas em Genética</h2>
                             <p class="lab-teach-desc">Espaço destinado às aulas práticas de graduação em Genética, Citogenética e Biologia Molecular. Equipado com microscópios, material para preparação de lâminas e kits didáticos de biologia molecular.</p>
                             <div class="lab-teach-meta">
                                 <div><i class="bi bi-people"></i> Capacidade: 30 alunos</div>
@@ -322,7 +322,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-laptop"></i>
                         </div>
                         <div class="lab-teach-body">
-                            <h5 class="lab-teach-name">Laboratório de Informática em Genética</h5>
+                            <h2 class="h5 lab-teach-name">Laboratório de Informática em Genética</h2>
                             <p class="lab-teach-desc">Sala equipada com estações de trabalho para aulas de bioinformática, análise de dados genéticos, simulações computacionais e acesso a bancos de dados genômicos.</p>
                             <div class="lab-teach-meta">
                                 <div><i class="bi bi-people"></i> Capacidade: 25 alunos</div>
@@ -337,7 +337,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-microscope"></i>
                         </div>
                         <div class="lab-teach-body">
-                            <h5 class="lab-teach-name">Laboratório de Microscopia</h5>
+                            <h2 class="h5 lab-teach-name">Laboratório de Microscopia</h2>
                             <p class="lab-teach-desc">Infraestrutura para ensino de técnicas de microscopia óptica e eletrônica, preparação de amostras biológicas e análise morfológica de células e tecidos.</p>
                             <div class="lab-teach-meta">
                                 <div><i class="bi bi-people"></i> Capacidade: 20 alunos</div>
@@ -350,36 +350,4 @@ require __DIR__ . '/includes/header.php';
         </div>
     </section>
 -->
-<style>
-.btn-enviar{
-    display:inline-flex;
-    /*align-items:center;*/
-    gap:10px;
-
-/*    background:linear-gradient(135deg,#0d6efd,#0b5ed7);*/
-    color:rgba(255,255,255,0.7);
-    text-decoration:none;
-
-   /* padding:5px 22px;*/
-    border-radius:12px;
-
-    font-size:0.85rem;;
-    font-weight:400;
-
-    transition:all .3s ease;
-    /*box-shadow:0 4px 14px rgba(13,110,253,.25);*/
-}
-
-.btn-enviar i{
-    font-size:12px;
-}
-
-.btn-enviar:hover{
-    transform:translateY(-2px);
-    /*background:linear-gradient(135deg,#0b5ed7,#084298);*/
-    color:#fff;
-    /*box-shadow:0 6px 18px rgba(13,110,253,.35);*/
-}
-</style>
-
 <?php require __DIR__ . '/includes/footer.php'; ?>

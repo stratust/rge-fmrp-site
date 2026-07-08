@@ -85,7 +85,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="program-card rge-card">
                         <div class="program-icon"><i class="bi bi-mortarboard"></i></div>
-                        <h5 class="program-name">Mestrado em Genética</h5>
+                        <h2 class="h5 program-name">Mestrado em Genética</h2>
                         <p class="program-desc">Formação voltada para a preparação de profissionais do ensino superior e pesquisadores. O candidato ao título de Mestre deve integralizar créditos em disciplinas de caráter mais abrangente, desenvolvendo uma dissertação de qualidade.</p>
                         <div class="program-meta">
                             <div class="program-meta-item"><i class="bi bi-clock"></i> Duração: 24 meses</div>
@@ -100,7 +100,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="program-card rge-card">
                         <div class="program-icon"><i class="bi bi-award"></i></div>
-                        <h5 class="program-name">Doutorado em Genética</h5>
+                        <h2 class="h5 program-name">Doutorado em Genética</h2>
                         <p class="program-desc">Formação avançada orientada para a produção de conhecimento original. O candidato ao título de Doutor cumpre disciplinas mais especializadas, tanto dentro da área de concentração como em outras áreas relacionadas ao seu projeto de pesquisa.</p>
                         <div class="program-meta">
                             <div class="program-meta-item"><i class="bi bi-clock"></i> Duração: 48 meses</div>
@@ -115,7 +115,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="program-card rge-card">
                         <div class="program-icon"><i class="bi bi-lightning-charge"></i></div>
-                        <h5 class="program-name">Doutorado Direto em Genética</h5>
+                        <h2 class="h5 program-name">Doutorado Direto em Genética</h2>
                         <p class="program-desc">Modalidade acelerada para candidatos com excelente desempenho acadêmico e potencial de pesquisa comprovado. Permite a obtenção do título de Doutor sem a necessidade prévia do título de Mestre, com projeto de pesquisa contínuo.</p>
                         <div class="program-meta">
                             <div class="program-meta-item"><i class="bi bi-clock"></i> Duração: 48 meses</div>
@@ -146,7 +146,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">PGG-001</div>
-                        <h5 class="discipline-name">Genética de Microrganismos</h5>
+                        <h2 class="h5 discipline-name">Genética de Microrganismos</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 60h – 4 créditos</div>
                         </div>
@@ -156,7 +156,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">PGG-002</div>
-                        <h5 class="discipline-name">Genética de Populações e Evolução</h5>
+                        <h2 class="h5 discipline-name">Genética de Populações e Evolução</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 60h – 4 créditos</div>
                         </div>
@@ -166,7 +166,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">PGG-003</div>
-                        <h5 class="discipline-name">Genética Animal</h5>
+                        <h2 class="h5 discipline-name">Genética Animal</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 60h – 4 créditos</div>
                         </div>
@@ -176,7 +176,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">PGG-004</div>
-                        <h5 class="discipline-name">Genética Vegetal</h5>
+                        <h2 class="h5 discipline-name">Genética Vegetal</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 60h – 4 créditos</div>
                         </div>
@@ -186,7 +186,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">PGG-005</div>
-                        <h5 class="discipline-name">Genética Molecular</h5>
+                        <h2 class="h5 discipline-name">Genética Molecular</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 60h – 4 créditos</div>
                         </div>
@@ -196,7 +196,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">PGG-006</div>
-                        <h5 class="discipline-name">Genética Humana</h5>
+                        <h2 class="h5 discipline-name">Genética Humana</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 60h – 4 créditos</div>
                         </div>
@@ -206,7 +206,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">PGG-007</div>
-                        <h5 class="discipline-name">Citogenética</h5>
+                        <h2 class="h5 discipline-name">Citogenética</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 60h – 4 créditos</div>
                         </div>
@@ -216,7 +216,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">PGG-008</div>
-                        <h5 class="discipline-name">Bioinformática</h5>
+                        <h2 class="h5 discipline-name">Bioinformática</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 60h – 4 créditos</div>
                         </div>
@@ -226,7 +226,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">PGG-009</div>
-                        <h5 class="discipline-name">Genética Clínica</h5>
+                        <h2 class="h5 discipline-name">Genética Clínica</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 60h – 4 créditos</div>
                         </div>
@@ -236,7 +236,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">PGG-010</div>
-                        <h5 class="discipline-name">Biologia Molecular</h5>
+                        <h2 class="h5 discipline-name">Biologia Molecular</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 60h – 4 créditos</div>
                         </div>
@@ -246,7 +246,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">PGG-011</div>
-                        <h5 class="discipline-name">Genômica e Proteômica</h5>
+                        <h2 class="h5 discipline-name">Genômica e Proteômica</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 60h – 4 créditos</div>
                         </div>
@@ -256,7 +256,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="discipline-card rge-card">
                         <div class="discipline-code">PGG-012</div>
-                        <h5 class="discipline-name">Seminários em Genética</h5>
+                        <h2 class="h5 discipline-name">Seminários em Genética</h2>
                         <div class="discipline-info">
                             <div class="discipline-info-item"><i class="bi bi-clock"></i> 30h – 2 créditos</div>
                         </div>
@@ -277,7 +277,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="admission-card rge-card">
                         <div class="admission-icon"><i class="bi bi-person-check"></i></div>
-                        <h5 class="admission-title">Pré-Requisitos</h5>
+                        <h2 class="h5 admission-title">Pré-Requisitos</h2>
                         <div class="admission-desc">
                             <ul>
                                 <li>Graduação em áreas da biologia (Biológicas, Agronomia, Medicina, Veterinária, Farmácia, Bioquímica, etc.)</li>
@@ -291,7 +291,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="admission-card rge-card">
                         <div class="admission-icon"><i class="bi bi-calendar-check"></i></div>
-                        <h5 class="admission-title">Processo Seletivo</h5>
+                        <h2 class="h5 admission-title">Processo Seletivo</h2>
                         <div class="admission-desc">
                             <ul>
                                 <li>Processo seletivo unificado pela FUVEST/FMRP-USP</li>
@@ -306,7 +306,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="admission-card rge-card">
                         <div class="admission-icon"><i class="bi bi-file-earmark-text"></i></div>
-                        <h5 class="admission-title">Documentação</h5>
+                        <h2 class="h5 admission-title">Documentação</h2>
                         <div class="admission-desc">
                             <ul>
                                 <li>Diploma ou certificado de conclusão da graduação</li>
@@ -349,37 +349,4 @@ require __DIR__ . '/includes/header.php';
             </div>
         </div>
     </section> -->
-
-<style>
-.btn-enviar{
-    display:inline-flex;
-    /*align-items:center;*/
-    gap:10px;
-
-/*    background:linear-gradient(135deg,#0d6efd,#0b5ed7);*/
-    color:rgba(255,255,255,0.7);
-    text-decoration:none;
-
-   /* padding:5px 22px;*/
-    border-radius:12px;
-
-    font-size:0.85rem;;
-    font-weight:400;
-
-    transition:all .3s ease;
-    /*box-shadow:0 4px 14px rgba(13,110,253,.25);*/
-}
-
-.btn-enviar i{
-    font-size:12px;
-}
-
-.btn-enviar:hover{
-    transform:translateY(-2px);
-    /*background:linear-gradient(135deg,#0b5ed7,#084298);*/
-    color:#fff;
-    /*box-shadow:0 6px 18px rgba(13,110,253,.35);*/
-}
-</style>
-
 <?php require __DIR__ . '/includes/footer.php'; ?>

@@ -962,39 +962,4 @@ require __DIR__ . '/includes/header.php';
         </div>
     </section>
 <!-- Manutenção e Infraestrutura -->
-
-
-
-<style>
-.btn-enviar{
-    display:inline-flex;
-    /*align-items:center;*/
-    gap:10px;
-
-/*    background:linear-gradient(135deg,#0d6efd,#0b5ed7);*/
-    color:rgba(255,255,255,0.7);
-    text-decoration:none;
-
-   /* padding:5px 22px;*/
-    border-radius:12px;
-
-    font-size:0.85rem;;
-    font-weight:400;
-
-    transition:all .3s ease;
-    /*box-shadow:0 4px 14px rgba(13,110,253,.25);*/
-}
-
-.btn-enviar i{
-    font-size:12px;
-}
-
-.btn-enviar:hover{
-    transform:translateY(-2px);
-    /*background:linear-gradient(135deg,#0b5ed7,#084298);*/
-    color:#fff;
-    /*box-shadow:0 6px 18px rgba(13,110,253,.35);*/
-}
-</style>
-
 <?php require __DIR__ . '/includes/footer.php'; ?>

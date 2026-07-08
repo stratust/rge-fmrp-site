@@ -5411,3 +5411,64 @@ iframe.goog-te-banner-frame {
 
 .doc-link:hover { color: var(--dark-green); }
 
+
+/* === btn-enviar (footer button) — moved from inline <style> for W3C compliance === */
+.btn-enviar{
+    display:inline-flex;
+    gap:10px;
+    color:rgba(255,255,255,0.7);
+    text-decoration:none;
+    border-radius:12px;
+    font-size:0.85rem;
+    font-weight:400;
+    transition:all .3s ease;
+}
+
+.btn-enviar i{
+    font-size:12px;
+}
+
+.btn-enviar:hover{
+    transform:translateY(-2px);
+    color:#fff;
+}
+
+/* === ods-img (docente ODS badges) — moved from inline <style> for W3C compliance === */
+.ods-img {
+    transition: transform 0.25s ease;
+}
+.ods-img:hover {
+    transform: scale(2);
+    z-index: 9999;
+    position: relative;
+}
+
+/* === carousel-wrapper (homepage) — moved from inline <style> === */
+.carousel-wrapper {
+    overflow: hidden;
+}
+.carousel-track {
+    display: flex;
+    gap: 24px;
+    transition: transform 0.5s ease;
+}
+.carousel-slide {
+    flex: 0 0 calc(33.333% - 16px);
+}
+
+/* === docente-foto (historia page) — moved from inline <style> === */
+.docente-foto {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 18px;
+    display: block;
+    box-shadow: 0 10px 26px rgba(0,0,0,.16);
+}
+.docente-foto-borda {
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+    margin: 0 auto 18px;
+    display: block;
+    box-shadow: 0 10px 26px rgba(0,0,0,.16);
+}

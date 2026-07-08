@@ -59,7 +59,7 @@ require __DIR__ . '/includes/header.php';
                                 <circle cx="14" cy="14" r="2" fill="#1a5c3a"/>
                             </svg>
                         </div>
-                        <h5>Aconselhamento Genético</h5>
+                        <h2 class="h5">Aconselhamento Genético</h2>
                         <p>Atendimento especializado para avaliação de riscos hereditários, esclarecimento de dúvidas e apoio à decisão sobre exames e reprodução.</p>
                         <ul class="service-list">
                             <li>Avaliação de história familiar</li>
@@ -79,7 +79,7 @@ require __DIR__ . '/includes/header.php';
                                 <line x1="14" y1="15" x2="14" y2="12" stroke="#1a5c3a" stroke-width="1.5"/>
                             </svg>
                         </div>
-                        <h5>Diagnóstico Molecular</h5>
+                        <h2 class="h5">Diagnóstico Molecular</h2>
                         <p>Exames de DNA de alta precisão para identificação de mutações associadas a doenças genéticas, incluindo sequenciamento de nova geração.</p>
                         <ul class="service-list">
                             <li>Sequenciamento de genes</li>
@@ -100,7 +100,7 @@ require __DIR__ . '/includes/header.php';
                                 <line x1="6" y1="20" x2="22" y2="20" stroke="#1a5c3a" stroke-width="1.5"/>
                             </svg>
                         </div>
-                        <h5>Citogenética</h5>
+                        <h2 class="h5">Citogenética</h2>
                         <p>Análise cromossômica para diagnóstico de síndromes, alterações numéricas e estruturais, com técnicas clássicas e moleculares.</p>
                         <ul class="service-list">
                             <li>Cariótipo de alta resolução</li>
@@ -119,7 +119,7 @@ require __DIR__ . '/includes/header.php';
                                 <circle cx="14" cy="14" r="2" fill="#1a5c3a"/>
                             </svg>
                         </div>
-                        <h5>Genética Oncológica</h5>
+                        <h2 class="h5">Genética Oncológica</h2>
                         <p>Identificação de predisposição hereditária ao câncer, orientação para rastreamento preventivo e acompanhamento de portadores.</p>
                         <ul class="service-list">
                             <li>Painéis de genes de câncer hereditário</li>
@@ -138,7 +138,7 @@ require __DIR__ . '/includes/header.php';
                                 <circle cx="14" cy="4" r="2" fill="#1a5c3a"/>
                             </svg>
                         </div>
-                        <h5>Genética Reprodutiva</h5>
+                        <h2 class="h5">Genética Reprodutiva</h2>
                         <p>Avaliação genética de casais com infertilidade, histórico de perdas gestacionais ou riscos de transmissão de doenças hereditárias.</p>
                         <ul class="service-list">
                             <li>Diagnóstico genético pré-implantação (PGT)</li>
@@ -159,7 +159,7 @@ require __DIR__ . '/includes/header.php';
                                 <circle cx="18" cy="19" r="2" fill="#1a5c3a"/>
                             </svg>
                         </div>
-                        <h5>Genética Pediátrica</h5>
+                        <h2 class="h5">Genética Pediátrica</h2>
                         <p>Diagnóstico e acompanhamento de síndromes, malformações congênitas e doenças metabólicas em crianças e adolescentes.</p>
                         <ul class="service-list">
                             <li>Avaliação de dismorfias</li>
@@ -186,35 +186,35 @@ require __DIR__ . '/includes/header.php';
                         <div class="step-item">
                             <span class="step-number">1</span>
                             <div class="step-content">
-                                <h6>Encaminhamento</h6>
+                                <h3 class="h6">Encaminhamento</h3>
                                 <p>Solicitação médica com justificativa clínica e histórico familiar.</p>
                             </div>
                         </div>
                         <div class="step-item">
                             <span class="step-number">2</span>
                             <div class="step-content">
-                                <h6>Agendamento</h6>
+                                <h3 class="h6">Agendamento</h3>
                                 <p>Entrada em contato via telefone ou e-mail para marcação da consulta.</p>
                             </div>
                         </div>
                         <div class="step-item">
                             <span class="step-number">3</span>
                             <div class="step-content">
-                                <h6>Avaliação Inicial</h6>
+                                <h3 class="h6">Avaliação Inicial</h3>
                                 <p>Consulta com médico geneticista para anamnese detalhada e exame físico.</p>
                             </div>
                         </div>
                         <div class="step-item">
                             <span class="step-number">4</span>
                             <div class="step-content">
-                                <h6>Exames e Diagnóstico</h6>
+                                <h3 class="h6">Exames e Diagnóstico</h3>
                                 <p>Coleta de amostras e realização dos exames genéticos indicados.</p>
                             </div>
                         </div>
                         <div class="step-item">
                             <span class="step-number">5</span>
                             <div class="step-content">
-                                <h6>Devolutiva e Acompanhamento</h6>
+                                <h3 class="h6">Devolutiva e Acompanhamento</h3>
                                 <p>Entrega de resultados com aconselhamento e encaminhamentos necessários.</p>
                             </div>
                         </div>
@@ -228,7 +228,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="row g-4 mt-2">
                         <div class="col-md-6">
                             <div class="info-card rge-card">
-                                <h5><i class="bi bi-clock"></i> Horário de Funcionamento</h5>
+                                <h2 class="h5"><i class="bi bi-clock"></i> Horário de Funcionamento</h2>
                                 <ul>
                                     <li><strong>Segunda a sexta:</strong> 8h às 17h</li>
                                     <li><strong>Atendimento:</strong> por agendamento</li>
@@ -238,7 +238,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <div class="col-md-6">
                             <div class="info-card rge-card">
-                                <h5><i class="bi bi-geo-alt"></i> Localização</h5>
+                                <h2 class="h5"><i class="bi bi-geo-alt"></i> Localização</h2>
                                 <ul>
                                     <li>Ambulatório de Genética Médica</li>
                                     <li>Hospital das Clínicas – FMRP/USP</li>
@@ -249,7 +249,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <div class="col-12">
                             <div class="info-card rge-card">
-                                <h5><i class="bi bi-telephone"></i> Contato para Agendamento</h5>
+                                <h2 class="h5"><i class="bi bi-telephone"></i> Contato para Agendamento</h2>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <p><strong>Telefone:</strong> (16) 3315-3300<br>
@@ -288,7 +288,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="staff-body">
-                            <h5>Prof. Dr. [Nome Completo]</h5>
+                            <h2 class="h5">Prof. Dr. [Nome Completo]</h2>
                             <div class="role">Coordenador do Serviço</div>
                             <p>Médico geneticista com doutorado em Genética Médica. Responsável pela gestão clínica e acadêmica do serviço.</p>
                             <div class="staff-contact">
@@ -304,7 +304,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="staff-body">
-                            <h5>Profa. Dra. [Nome Completo]</h5>
+                            <h2 class="h5">Profa. Dra. [Nome Completo]</h2>
                             <div class="role">Vice-Coordenadora</div>
                             <p>Geneticista clínica com especialização em genética oncológica e reprodutiva. Responsável pela supervisão dos programas de rastreamento.</p>
                             <div class="staff-contact">
@@ -320,7 +320,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="staff-body">
-                            <h5>Profa. Dra. [Nome Completo]</h5>
+                            <h2 class="h5">Profa. Dra. [Nome Completo]</h2>
                             <div class="role">Supervisora Técnica</div>
                             <p>Biomédica especialista em diagnóstico molecular e citogenética. Coordena os exames laboratoriais e garantia de qualidade.</p>
                             <div class="staff-contact">
@@ -345,7 +345,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="staff-body">
-                            <h5>Dr. [Nome Completo]</h5>
+                            <h2 class="h5">Dr. [Nome Completo]</h2>
                             <div class="role">Médico Geneticista</div>
                             <p>Especialista em genética pediátrica e síndromes de malformação. Atua no ambulatório de genética clínica.</p>
                             <div class="staff-contact">
@@ -360,7 +360,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="staff-body">
-                            <h5>Dra. [Nome Completo]</h5>
+                            <h2 class="h5">Dra. [Nome Completo]</h2>
                             <div class="role">Médica Geneticista</div>
                             <p>Especialista em genética oncológica e aconselhamento genético para câncer hereditário.</p>
                             <div class="staff-contact">
@@ -375,7 +375,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="staff-body">
-                            <h5>Dr. [Nome Completo]</h5>
+                            <h2 class="h5">Dr. [Nome Completo]</h2>
                             <div class="role">Médico Geneticista</div>
                             <p>Especialista em genética reprodutiva e medicina fetal. Coordena o programa de pré-natal genético.</p>
                             <div class="staff-contact">
@@ -390,7 +390,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="staff-body">
-                            <h5>Dra. [Nome Completo]</h5>
+                            <h2 class="h5">Dra. [Nome Completo]</h2>
                             <div class="role">Médica Geneticista</div>
                             <p>Especialista em doenças raras e genética metabólica. Atua no programa de atenção integral a síndromes raras.</p>
                             <div class="staff-contact">
@@ -414,7 +414,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="staff-body">
-                            <h5>[Nome Completo]</h5>
+                            <h2 class="h5">[Nome Completo]</h2>
                             <div class="role">Biomédica – Diagnóstico Molecular</div>
                             <p>Especialista em sequenciamento de nova geração e análise de variantes genéticas.</p>
                             <div class="staff-contact">
@@ -429,7 +429,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="staff-body">
-                            <h5>[Nome Completo]</h5>
+                            <h2 class="h5">[Nome Completo]</h2>
                             <div class="role">Biomédico – Citogenética</div>
                             <p>Responsável por cariótipos, FISH e array-CGH. Experiência em diagnóstico pré-natal.</p>
                             <div class="staff-contact">
@@ -444,7 +444,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="staff-body">
-                            <h5>[Nome Completo]</h5>
+                            <h2 class="h5">[Nome Completo]</h2>
                             <div class="role">Técnico de Laboratório</div>
                             <p>Suporte técnico em extração de DNA, PCR e preparo de amostras para sequenciamento.</p>
                             <div class="staff-contact">
@@ -459,7 +459,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="staff-body">
-                            <h5>[Nome Completo]</h5>
+                            <h2 class="h5">[Nome Completo]</h2>
                             <div class="role">Bioinformata</div>
                             <p>Análise computacional de dados genômicos, variant calling e interpretação de resultados NGS.</p>
                             <div class="staff-contact">
@@ -483,7 +483,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="staff-body">
-                            <h5>[Nome Completo]</h5>
+                            <h2 class="h5">[Nome Completo]</h2>
                             <div class="role">Psicóloga</div>
                             <p>Atua no aconselhamento psicológico de pacientes e famílias em processo de diagnóstico genético.</p>
                             <div class="staff-contact">
@@ -498,7 +498,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="staff-body">
-                            <h5>[Nome Completo]</h5>
+                            <h2 class="h5">[Nome Completo]</h2>
                             <div class="role">Assistente Social</div>
                             <p>Orientação sobre direitos, encaminhamentos sociais e apoio às famílias em situação de vulnerabilidade.</p>
                             <div class="staff-contact">
@@ -513,7 +513,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="staff-body">
-                            <h5>[Nome Completo]</h5>
+                            <h2 class="h5">[Nome Completo]</h2>
                             <div class="role">Nutricionista</div>
                             <p>Orientação nutricional especializada para pacientes com doenças metabólicas hereditárias.</p>
                             <div class="staff-contact">
@@ -528,7 +528,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="staff-body">
-                            <h5>[Nome Completo]</h5>
+                            <h2 class="h5">[Nome Completo]</h2>
                             <div class="role">Secretária Administrativa</div>
                             <p>Agendamento de consultas, organização de prontuários e atendimento ao público.</p>
                             <div class="staff-contact">
@@ -582,37 +582,4 @@ require __DIR__ . '/includes/header.php';
             </div>
         </div>
     </section>
-
-<style>
-.btn-enviar{
-    display:inline-flex;
-    /*align-items:center;*/
-    gap:10px;
-
-/*    background:linear-gradient(135deg,#0d6efd,#0b5ed7);*/
-    color:rgba(255,255,255,0.7);
-    text-decoration:none;
-
-   /* padding:5px 22px;*/
-    border-radius:12px;
-
-    font-size:0.85rem;;
-    font-weight:400;
-
-    transition:all .3s ease;
-    /*box-shadow:0 4px 14px rgba(13,110,253,.25);*/
-}
-
-.btn-enviar i{
-    font-size:12px;
-}
-
-.btn-enviar:hover{
-    transform:translateY(-2px);
-    /*background:linear-gradient(135deg,#0b5ed7,#084298);*/
-    color:#fff;
-    /*box-shadow:0 6px 18px rgba(13,110,253,.35);*/
-}
-</style>
-
 <?php require __DIR__ . '/includes/footer.php'; ?>

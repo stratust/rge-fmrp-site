@@ -21,10 +21,9 @@ if (!isset($pageTitle)) $pageTitle = 'Departamento de Genética - FMRP/USP';
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/style.css?v=8">
-</head>
-<body>
-<style>
+    <link rel="stylesheet" href="assets/css/style.css?v=9">
+    <link rel="stylesheet" href="assets/css/rgetradutor.css">
+    <style>
 .navbar .dropdown-toggle::after {
     display: inline-block !important;
     margin-left: .55em;
@@ -57,7 +56,9 @@ if (!isset($pageTitle)) $pageTitle = 'Departamento de Genética - FMRP/USP';
 .menu-titulo:hover{
     text-decoration: none;
 }
-</style>
+    </style>
+</head>
+<body>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
         <div class="container">
@@ -84,8 +85,6 @@ if (!isset($pageTitle)) $pageTitle = 'Departamento de Genética - FMRP/USP';
                 <div class="d-flex align-items-center me-3">
                     <!--  Importante - Tradutor -->
                          <link rel="stylesheet" href="assets/css/rgetradutor.css">
-<style>
-</style>
 <!-- Adicionamos a classe 'notranslate' na div pai -->
 <div class="tradutor-custom-buttons notranslate">  
 

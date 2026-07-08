@@ -67,7 +67,7 @@ require __DIR__ . '/includes/header.php';
                                 <path d="M12 6v6l4 2" stroke="#1a5c3a" stroke-width="2" stroke-linecap="round"/>
                             </svg>
                         </div>
-                        <h5>DESENVOLVIMENTO DE FERRAMENTAS E ANÁLISES EM BIOINFORMÁTICA</h5>
+                        <h2 class="h5">DESENVOLVIMENTO DE FERRAMENTAS E ANÁLISES EM BIOINFORMÁTICA</h2>
 						                        <p>Tem trabalhado ultimamente com proteínas de animais venenosos, visando a conexão das mesmas com  substratos de plantas medicinais (docking de proteínas). </p>
  						
                     </div>
@@ -82,7 +82,7 @@ require __DIR__ . '/includes/header.php';
                                 <path d="M3 9h18M9 21V9" stroke="#1a5c3a" stroke-width="2"/>
                             </svg>
                         </div>
-                        <h5>[Título da Linha 2]</h5>
+                        <h2 class="h5">[Título da Linha 2]</h2>
                         <p>[Descrição da segunda linha de pesquisa, abordando metodologias utilizadas, colaborações institucionais e impacto esperado dos estudos em desenvolvimento.]</p>
                     </div>
                 </div>
@@ -94,7 +94,7 @@ require __DIR__ . '/includes/header.php';
                                 <path d="M12 2v4M12 18v4M2 12h4M18 12h4" stroke="#1a5c3a" stroke-width="2" stroke-linecap="round"/>
                             </svg>
                         </div>
-                        <h5>[Título da Linha 3]</h5>
+                        <h2 class="h5">[Título da Linha 3]</h2>
                         <p>[Descrição da terceira linha de pesquisa, enfatizando aplicações translacionais, parcerias com hospitais ou indústria e potencial de inovação tecnológica.]</p>
                     </div>
                 </div> -->
@@ -122,7 +122,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="team-body">
-                            <h5>Prof. Dr. [Nome Completo]</h5>
+                            <h2 class="h5">Prof. Dr. [Nome Completo]</h2>
                             <div class="role">Pesquisador Responsável</div>
                             <p>[Doutor em area] pela [instituicao]. Pesquisa em [temas principais]. Coordenador de [projetos/grupos]. [Numero] publicacoes, [h-index].</p>
                             <div class="team-social">
@@ -140,7 +140,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="team-body">
-                            <h5>Prof. Dr. [Nome Completo]</h5>
+                            <h2 class="h5">Prof. Dr. [Nome Completo]</h2>
                             <div class="role">Co-Pesquisador / Vice-Coordenador</div>
                             <p>[Doutor em area] pela [instituicao]. Atua em [temas especificos] com foco em [metodologia]. Responsavel por [atividade especifica].</p>
                             <div class="team-social">
@@ -169,7 +169,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="team-body">
-                            <h5>Dr. [Nome Completo]</h5>
+                            <h2 class="h5">Dr. [Nome Completo]</h2>
                             <div class="role">Pos-Doutorando</div>
                             <p>[Doutor em area] pela [instituicao]. Pesquisa em [tema especifico]. Bolsista [agencia].</p>
                             <div class="team-social">
@@ -185,7 +185,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="team-body">
-                            <h5>Dra. [Nome Completo]</h5>
+                            <h2 class="h5">Dra. [Nome Completo]</h2>
                             <div class="role">Pesquisadora Visitante</div>
                             <p>[Doutor em area] pela [instituicao]. Colaboracao em [projeto/tema]. Periodo: [datas].</p>
                             <div class="team-social">
@@ -210,7 +210,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="team-body">
-                            <h5>Ana Lu&atilde;sa Rodrigues de &Atilde;vila</h5>
+                            <h2 class="h5">Ana Lu&atilde;sa Rodrigues de &Atilde;vila</h2>
                             <div class="role">Doutorando</div>
                             <p>Pesquisa em [tema da tese]. Bolsista [agencia]. Formacao em [area].</p>
                             <div class="team-social">
@@ -227,7 +227,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="team-body">
-                            <h5>Felipe James de Almeida Vasquez</h5>
+                            <h2 class="h5">Felipe James de Almeida Vasquez</h2>
                             <div class="role">Doutorando</div>
                             <p>Pesquisa em [tema da tese]. Bolsista [agencia]. Formacao em [area].</p>
                             <div class="team-social">
@@ -244,7 +244,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="team-body">
-                            <h5>Laura Maria de Ara&atilde;jo Pereira</h5>
+                            <h2 class="h5">Laura Maria de Ara&atilde;jo Pereira</h2>
                             <div class="role">Doutorando</div>
                             <p>Pesquisa em [tema da tese]. Bolsista [agencia]. Formacao em [area].</p>
                             <div class="team-social">
@@ -261,7 +261,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="team-body">
-                            <h5>Levy Bueno Alves</h5>
+                            <h2 class="h5">Levy Bueno Alves</h2>
                             <div class="role">Doutorando</div>
                             <p>Pesquisa em [tema da tese]. Bolsista [agencia]. Formacao em [area].</p>
                             <div class="team-social">
@@ -296,7 +296,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="team-body">
-                            <h5>[Nome Completo]</h5>
+                            <h2 class="h5">[Nome Completo]</h2>
                             <div class="role">Aluno de IC</div>
                             <p>Desenvolve projeto em [tema]. Bolsista [PIBIC/PIBIT/Outro]. Curso de [graduacao].</p>
                             <div class="team-social">
@@ -312,7 +312,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="team-body">
-                            <h5>[Nome Completo]</h5>
+                            <h2 class="h5">[Nome Completo]</h2>
                             <div class="role">Aluno de IC</div>
                             <p>Desenvolve projeto em [tema]. Bolsista [PIBIC/PIBIT/Outro]. Curso de [graduacao].</p>
                             <div class="team-social">
@@ -337,7 +337,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="team-body">
-                            <h5>[Nome Completo]</h5>
+                            <h2 class="h5">[Nome Completo]</h2>
                             <div class="role">Tecnico de Laboratorio</div>
                             <p>Responsavel por [atividades tecnicas]. Formacao em [area]. [Anos] de experiencia.</p>
                             <div class="team-social">
@@ -352,7 +352,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="team-body">
-                            <h5>[Nome Completo]</h5>
+                            <h2 class="h5">[Nome Completo]</h2>
                             <div class="role">Tecnico de Bioinformatica</div>
                             <p>Suporte em analise de dados, pipelines computacionais e manutencao de servidores.</p>
                             <div class="team-social">
@@ -368,7 +368,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="team-body">
-                            <h5>[Nome Completo]</h5>
+                            <h2 class="h5">[Nome Completo]</h2>
                             <div class="role">Secretaria / Administrativo</div>
                             <p>Gestao administrativa do laboratorio, compras, relatorios e comunicacao institucional.</p>
                             <div class="team-social">
@@ -394,7 +394,7 @@ require __DIR__ . '/includes/header.php';
             <div class="row">
                 <div class="col-lg-10">
                     <div class="pub-card">
-                        <h6>[Titulo completo do artigo cientifico publicado em revista internacional de alto impacto]</h6>
+                        <h3 class="h6">[Titulo completo do artigo cientifico publicado em revista internacional de alto impacto]</h3>
                         <div class="pub-meta">
                             <span><i class="bi bi-journal-text"></i>[Nome da Revista]</span>
                             <span><i class="bi bi-calendar"></i>2025</span>
@@ -405,7 +405,7 @@ require __DIR__ . '/includes/header.php';
                         <a href="#" class="pub-link">Ver publicacao <i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
                     <div class="pub-card">
-                        <h6>[Titulo de outro artigo relevante do laboratorio]</h6>
+                        <h3 class="h6">[Titulo de outro artigo relevante do laboratorio]</h3>
                         <div class="pub-meta">
                             <span><i class="bi bi-journal-text"></i>[Nome da Revista]</span>
                             <span><i class="bi bi-calendar"></i>2024</span>
@@ -416,7 +416,7 @@ require __DIR__ . '/includes/header.php';
                         <a href="#" class="pub-link">Ver publicacao <i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
                     <div class="pub-card">
-                        <h6>[Titulo de artigo em revista de acesso aberto ou preprint]</h6>
+                        <h3 class="h6">[Titulo de artigo em revista de acesso aberto ou preprint]</h3>
                         <div class="pub-meta">
                             <span><i class="bi bi-journal-text"></i>[Nome da Revista / BioRxiv]</span>
                             <span><i class="bi bi-calendar"></i>2024</span>
@@ -426,7 +426,7 @@ require __DIR__ . '/includes/header.php';
                         <a href="#" class="pub-link">Ver publicacao <i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
                     <div class="pub-card">
-                        <h6>[Titulo de capitulo de livro ou review convidado]</h6>
+                        <h3 class="h6">[Titulo de capitulo de livro ou review convidado]</h3>
                         <div class="pub-meta">
                             <span><i class="bi bi-book"></i>[Titulo do Livro / Editora]</span>
                             <span><i class="bi bi-calendar"></i>2024</span>
@@ -457,7 +457,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="funding-card">
                         <div class="funding-icon"><i class="bi bi-cash-stack"></i></div>
-                        <h5>[Titulo do Projeto / Edital]</h5>
+                        <h2 class="h5">[Titulo do Projeto / Edital]</h2>
                         <p>Agencia: [FAPESP / CNPq / CAPES / Outra]</p>
                         <p class="period"><i class="bi bi-calendar-range"></i> [Ano] – [Ano] | Valor: R$ [XXX.XXX,XX]</p>
                     </div>
@@ -465,7 +465,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="funding-card">
                         <div class="funding-icon"><i class="bi bi-cash-stack"></i></div>
-                        <h5>[Titulo do Projeto / Edital]</h5>
+                        <h2 class="h5">[Titulo do Projeto / Edital]</h2>
                         <p>Agencia: [FAPESP / CNPq / CAPES / Outra]</p>
                         <p class="period"><i class="bi bi-calendar-range"></i> [Ano] – [Ano] | Valor: R$ [XXX.XXX,XX]</p>
                     </div>
@@ -473,7 +473,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="funding-card">
                         <div class="funding-icon"><i class="bi bi-cash-stack"></i></div>
-                        <h5>[Titulo do Projeto / Edital]</h5>
+                        <h2 class="h5">[Titulo do Projeto / Edital]</h2>
                         <p>Agencia: [FAPESP / CNPq / CAPES / Outra]</p>
                         <p class="period"><i class="bi bi-calendar-range"></i> [Ano] – [Ano] | Valor: R$ [XXX.XXX,XX]</p>
                     </div>
@@ -481,7 +481,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="funding-card">
                         <div class="funding-icon"><i class="bi bi-cash-stack"></i></div>
-                        <h5>[Titulo do Projeto / Edital]</h5>
+                        <h2 class="h5">[Titulo do Projeto / Edital]</h2>
                         <p>Agencia: [NIH / ERC / NSF / Outra Internacional]</p>
                         <p class="period"><i class="bi bi-calendar-range"></i> [Ano] – [Ano] | Valor: US$ [XXX.XXX,XX]</p>
                     </div>
@@ -489,7 +489,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="funding-card">
                         <div class="funding-icon"><i class="bi bi-cash-stack"></i></div>
-                        <h5>[Titulo do Projeto / Edital]</h5>
+                        <h2 class="h5">[Titulo do Projeto / Edital]</h2>
                         <p>Agencia: [Industria / Parceria Publico-Privada]</p>
                         <p class="period"><i class="bi bi-calendar-range"></i> [Ano] – [Ano] | Valor: R$ [XXX.XXX,XX]</p>
                     </div>
@@ -513,7 +513,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="partnership-card">
                         <div class="partnership-flag">BR</div>
                         <div class="partnership-content">
-                            <h6>[Nome da Instituicao]</h6>
+                            <h3 class="h6">[Nome da Instituicao]</h3>
                             <p>[Cidade, Estado]</p>
                             <p class="type">Colaboracao Nacional</p>
                             <p style="font-size: 0.8rem; color: #888; margin-top: 0.5rem;">[Breve descricao da parceria e projetos conjuntos]</p>
@@ -524,7 +524,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="partnership-card">
                         <div class="partnership-flag">BR</div>
                         <div class="partnership-content">
-                            <h6>[Nome da Instituicao]</h6>
+                            <h3 class="h6">[Nome da Instituicao]</h3>
                             <p>[Cidade, Estado]</p>
                             <p class="type">Colaboracao Nacional</p>
                             <p style="font-size: 0.8rem; color: #888; margin-top: 0.5rem;">[Breve descricao da parceria e projetos conjuntos]</p>
@@ -535,7 +535,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="partnership-card">
                         <div class="partnership-flag">US</div>
                         <div class="partnership-content">
-                            <h6>[Nome da Instituicao]</h6>
+                            <h3 class="h6">[Nome da Instituicao]</h3>
                             <p>[Cidade, Pais]</p>
                             <p class="type">Colaboracao Internacional</p>
                             <p style="font-size: 0.8rem; color: #888; margin-top: 0.5rem;">[Breve descricao da parceria e projetos conjuntos]</p>
@@ -546,7 +546,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="partnership-card">
                         <div class="partnership-flag">UK</div>
                         <div class="partnership-content">
-                            <h6>[Nome da Instituicao]</h6>
+                            <h3 class="h6">[Nome da Instituicao]</h3>
                             <p>[Cidade, Pais]</p>
                             <p class="type">Colaboracao Internacional</p>
                             <p style="font-size: 0.8rem; color: #888; margin-top: 0.5rem;">[Breve descricao da parceria e projetos conjuntos]</p>
@@ -557,7 +557,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="partnership-card">
                         <div class="partnership-flag">DE</div>
                         <div class="partnership-content">
-                            <h6>[Nome da Instituicao]</h6>
+                            <h3 class="h6">[Nome da Instituicao]</h3>
                             <p>[Cidade, Pais]</p>
                             <p class="type">Colaboracao Internacional</p>
                             <p style="font-size: 0.8rem; color: #888; margin-top: 0.5rem;">[Breve descricao da parceria e projetos conjuntos]</p>
@@ -568,7 +568,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="partnership-card">
                         <div class="partnership-flag">FR</div>
                         <div class="partnership-content">
-                            <h6>[Nome da Instituicao]</h6>
+                            <h3 class="h6">[Nome da Instituicao]</h3>
                             <p>[Cidade, Pais]</p>
                             <p class="type">Colaboracao Internacional</p>
                             <p style="font-size: 0.8rem; color: #888; margin-top: 0.5rem;">[Breve descricao da parceria e projetos conjuntos]</p>
@@ -596,7 +596,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-cpu"></i>
                         </div>
                         <div class="infra-body">
-                            <h5>[Equipamento Principal 1]</h5>
+                            <h2 class="h5">[Equipamento Principal 1]</h2>
                             <p>[Descricao tecnica do equipamento e principais aplicacoes no desenvolvimento das pesquisas.]</p>
                         </div>
                     </div>
@@ -607,7 +607,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-microscope"></i>
                         </div>
                         <div class="infra-body">
-                            <h5>[Equipamento Principal 2]</h5>
+                            <h2 class="h5">[Equipamento Principal 2]</h2>
                             <p>[Descricao tecnica do equipamento e principais aplicacoes no desenvolvimento das pesquisas.]</p>
                         </div>
                     </div>
@@ -618,7 +618,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-pc-display"></i>
                         </div>
                         <div class="infra-body">
-                            <h5>[Equipamento Principal 3]</h5>
+                            <h2 class="h5">[Equipamento Principal 3]</h2>
                             <p>[Descricao tecnica do equipamento e principais aplicacoes no desenvolvimento das pesquisas.]</p>
                         </div>
                     </div>
@@ -629,7 +629,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-box-seam"></i>
                         </div>
                         <div class="infra-body">
-                            <h5>[Equipamento Principal 4]</h5>
+                            <h2 class="h5">[Equipamento Principal 4]</h2>
                             <p>[Descricao tecnica do equipamento e principais aplicacoes no desenvolvimento das pesquisas.]</p>
                         </div>
                     </div>
@@ -713,37 +713,4 @@ require __DIR__ . '/includes/header.php';
             </div>
         </div>
     </section>
-
-<style>
-.btn-enviar{
-    display:inline-flex;
-    /*align-items:center;*/
-    gap:10px;
-
-/*    background:linear-gradient(135deg,#0d6efd,#0b5ed7);*/
-    color:rgba(255,255,255,0.7);
-    text-decoration:none;
-
-   /* padding:5px 22px;*/
-    border-radius:12px;
-
-    font-size:0.85rem;;
-    font-weight:400;
-
-    transition:all .3s ease;
-    /*box-shadow:0 4px 14px rgba(13,110,253,.25);*/
-}
-
-.btn-enviar i{
-    font-size:12px;
-}
-
-.btn-enviar:hover{
-    transform:translateY(-2px);
-    /*background:linear-gradient(135deg,#0b5ed7,#084298);*/
-    color:#fff;
-    /*box-shadow:0 6px 18px rgba(13,110,253,.35);*/
-}
-</style>
-
 <?php require __DIR__ . '/includes/footer.php'; ?>

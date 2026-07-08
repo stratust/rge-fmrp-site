@@ -5,26 +5,6 @@ require __DIR__ . '/includes/header.php';
 
 
 <!-- Page-specific styles -->
-<style>
-.docente-foto {
-  width: 100px;
-  height: 100px;
-/*  object-fit: cover;
-  border-radius: 50%;*/
-  margin: 0 auto 18px;
-  display: block;
-  box-shadow: 0 10px 26px rgba(0,0,0,.16);
-}
-.docente-foto-borda {
-  width: 100px;
-  height: 100px;
-/*  object-fit: cover; */
-  border-radius: 25%;
-  margin: 0 auto 18px;
-  display: block;
-  box-shadow: 0 10px 26px rgba(0,0,0,.16);
-}
-</style>
     <!-- Page Header -->
     <section class="page-header">
         <div class="container page-header-content">
@@ -235,7 +215,7 @@ require __DIR__ . '/includes/header.php';
               src="assets/img/fotos_antigas/kerr.jpg" 
               alt="Kerr"
               class="docente-foto-borda"></div>
-                        <h5 class="founder-name">Prof. Dr. Warwick Estevam Kerr</h5>
+                        <h2 class="h5 founder-name">Prof. Dr. Warwick Estevam Kerr</h2>
                         <div class="founder-role">Fundador e Primeiro Chefe (1965–1975)</div>
                         <p class="founder-desc">Agrônomo, geneticista e primeiro Diretor Científico da FAPESP. Criou o Departamento de Genética em 1965 e o primeiro sistema de integração inter-unidades da USP. Foi também diretor do INPA e reitor da Universidade Estadual do Maranhão. Faleceu em 15 de setembro de 2018, aos 96 anos.</p>
                     </div>
@@ -246,7 +226,7 @@ require __DIR__ . '/includes/header.php';
               src="assets/img/fotos_antigas/Jose-Moura-Goncalves.jpg" 
               alt="Kerr"
               class="docente-foto-borda"></div>
-                        <h5 class="founder-name">Prof. Dr. José Moura Gonçalves</h5>
+                        <h2 class="h5 founder-name">Prof. Dr. José Moura Gonçalves</h2>
                         <div class="founder-role">Diretor da FMRP (1963)</div>
                         <p class="founder-desc">Bioquímico e Diretor da FMRP na época da convocação de Kerr. Foi o líder do processo de criação do Curso de Ciências Biológicas na faculdade e o responsável por trazer o ensino de Genética para Ribeirão Preto.</p>
                     </div>
@@ -256,7 +236,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="founder-avatar"><img 
               src="assets/img/fotos_antigas/iris.jpg"               alt="Iris Ferrari"
               class="docente-foto-borda"></div>
-                        <h5 class="founder-name">Iris Ferrari</h5>
+                        <h2 class="h5 founder-name">Iris Ferrari</h2>
                         <div class="founder-role">Serviço de Genética Médica (1975-1978)</div>
 <!--                        <p class="founder-desc">Ex-aluno e orientado de Kerr, assumiu a coordenação do setor de Genética de Abelhas em 1974. Um dos docentes mais antigos do grupo da Genética de Ribeirão Preto, tendo acompanhado todo o desenvolvimento do departamento desde seus primórdios.</p> -->
 							<p class="founder-desc">Em 1977 ingressou no recém-inaugurado programa de residência em Genética Médica do Hospital das Clínicas da Faculdade de Medicina,
@@ -270,7 +250,7 @@ Após concluir a residência foi contratada como Médica Geneticista pelo HC-FMR
               src="assets/img/fotos_antigas/Henrique-Krieger.webp" 
               alt="Kerr"
               class="docente-foto-borda"></div>
-                        <h5 class="founder-name">Prof. Dr. Henrique Krieger</h5>
+                        <h2 class="h5 founder-name">Prof. Dr. Henrique Krieger</h2>
                         <div class="founder-role">Primeiro Docente Contratado (1965)</div>
                         <p class="founder-desc">Biólogo formado pela Universidade Federal do Paraná, retornava de um doutorado na Universidade do Havaí sob orientação do Prof. Newton Morton. Foi o segundo docente contratado pelo departamento, contribuindo para a consolidação da Genética Humana.</p>
                     </div>
@@ -281,7 +261,7 @@ Após concluir a residência foi contratada como Médica Geneticista pelo HC-FMR
               src="assets/img/fotos_antigas/mestriner.jpg" 
               alt="Kerr"
               class="docente-foto-borda"></div>
-                        <h5 class="founder-name">Prof. Dr. Moacyr Antonio Mestriner</h5>
+                        <h2 class="h5 founder-name">Prof. Dr. Moacyr Antonio Mestriner</h2>
                         <div class="founder-role">Docente Fundador (1966)</div>
                         <p class="founder-desc">Médico que havia estagiado no Departamento de Bioquímica da FMRP. Foi contratado inicialmente como biologista, integrando-se ao grupo de docentes da fase inicial e contribuindo para o desenvolvimento da Genética Bioquímica.</p>
                     </div>
@@ -292,7 +272,7 @@ Após concluir a residência foi contratada como Médica Geneticista pelo HC-FMR
               src="assets/img/fotos_antigas/Hildebrando.jpg" 
               alt="Kerr"
               class="docente-foto-borda"></div>
-                        <h5 class="founder-name">Prof. Dr. Luiz Hildebrando Pereira da Silva</h5>
+                        <h2 class="h5 founder-name">Prof. Dr. Luiz Hildebrando Pereira da Silva</h2>
                         <div class="founder-role">Docente Fundador (1968)</div>
                         <p class="founder-desc">Pesquisador do Instituto Pasteur em Paris, convidado a retornar ao Brasil em 1968. Organizou o laboratório de Genética de Microrganismos no departamento, trazendo expertise internacional em genética microbiana.</p>
                     </div>
@@ -347,37 +327,4 @@ Após concluir a residência foi contratada como Médica Geneticista pelo HC-FMR
             </div>
         </div>
     </section>
-
-<style>
-.btn-enviar{
-    display:inline-flex;
-    /*align-items:center;*/
-    gap:10px;
-
-/*    background:linear-gradient(135deg,#0d6efd,#0b5ed7);*/
-    color:rgba(255,255,255,0.7);
-    text-decoration:none;
-
-   /* padding:5px 22px;*/
-    border-radius:12px;
-
-    font-size:0.85rem;;
-    font-weight:400;
-
-    transition:all .3s ease;
-    /*box-shadow:0 4px 14px rgba(13,110,253,.25);*/
-}
-
-.btn-enviar i{
-    font-size:12px;
-}
-
-.btn-enviar:hover{
-    transform:translateY(-2px);
-    /*background:linear-gradient(135deg,#0b5ed7,#084298);*/
-    color:#fff;
-    /*box-shadow:0 6px 18px rgba(13,110,253,.35);*/
-}
-</style>
-
 <?php require __DIR__ . '/includes/footer.php'; ?>

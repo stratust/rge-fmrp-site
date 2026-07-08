@@ -97,22 +97,6 @@ require __DIR__ . '/includes/header.php';
                           data-nome="WILSON ARAÚJO DA SILVA JUNIOR"
                            data-area="GENÉTICA MOLECULAR E BIOINFORMÁTICA">
                               
-<style> 
-
-.ods-img {
-    transition: transform 0.25s ease;
-}
-
-.ods-img:hover {
-    transform: scale(2);
-    z-index: 9999;
-    position: relative;
-}
-
-</style>
-
-
-
                                  
                     
                     
@@ -148,8 +132,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h5 class="docente-name">
-                                Wilson Araújo da Silva Junior                            </h5>
+                            <h2 class="h5 docente-name">
+                                Wilson Araújo da Silva Junior                            </h2>
 
      
                             <!--  Area/Setor  -->
@@ -275,22 +259,6 @@ require __DIR__ . '/includes/header.php';
                           data-nome="ESTER SILVEIRA RAMOS"
                            data-area="GENÉTICA HUMANA E MÉDICA">
                               
-<style> 
-
-.ods-img {
-    transition: transform 0.25s ease;
-}
-
-.ods-img:hover {
-    transform: scale(2);
-    z-index: 9999;
-    position: relative;
-}
-
-</style>
-
-
-
                                  
                     
                     
@@ -326,8 +294,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h5 class="docente-name">
-                                Ester Silveira Ramos                            </h5>
+                            <h2 class="h5 docente-name">
+                                Ester Silveira Ramos                            </h2>
 
      
                             <!--  Area/Setor  -->
@@ -477,22 +445,6 @@ require __DIR__ . '/includes/header.php';
                           data-nome="ALEXANDRO GUTERRES DA SILVA"
                            data-area="GENÉTICA MOLECULAR E BIOINFORMÁTICA">
                               
-<style> 
-
-.ods-img {
-    transition: transform 0.25s ease;
-}
-
-.ods-img:hover {
-    transform: scale(2);
-    z-index: 9999;
-    position: relative;
-}
-
-</style>
-
-
-
                                  
                     
                     
@@ -527,8 +479,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h5 class="docente-name">
-                                Alexandro Guterres da Silva                            </h5>
+                            <h2 class="h5 docente-name">
+                                Alexandro Guterres da Silva                            </h2>
 
      
                             <!--  Area/Setor  -->
@@ -678,22 +630,6 @@ require __DIR__ . '/includes/header.php';
                           data-nome="APARECIDA MARIA FONTES"
                            data-area="DOENÇAS METABÓLICAS HEREDITÁRIAS">
                               
-<style> 
-
-.ods-img {
-    transition: transform 0.25s ease;
-}
-
-.ods-img:hover {
-    transform: scale(2);
-    z-index: 9999;
-    position: relative;
-}
-
-</style>
-
-
-
                                  
                     
                     
@@ -728,8 +664,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h5 class="docente-name">
-                                Aparecida Maria Fontes                            </h5>
+                            <h2 class="h5 docente-name">
+                                Aparecida Maria Fontes                            </h2>
 
      
                             <!--  Area/Setor  -->
@@ -867,22 +803,6 @@ require __DIR__ . '/includes/header.php';
                           data-nome="DAVID DE JONG"
                            data-area="BIOLOGIA E GENÉTICA DE ABELHAS">
                               
-<style> 
-
-.ods-img {
-    transition: transform 0.25s ease;
-}
-
-.ods-img:hover {
-    transform: scale(2);
-    z-index: 9999;
-    position: relative;
-}
-
-</style>
-
-
-
                                  
                     
                     
@@ -917,8 +837,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h5 class="docente-name">
-                                David de Jong                            </h5>
+                            <h2 class="h5 docente-name">
+                                David de Jong                            </h2>
 
      
                             <!--  Area/Setor  -->
@@ -1044,22 +964,6 @@ require __DIR__ . '/includes/header.php';
                           data-nome="ISRAEL GOMY"
                            data-area="GENÉTICA MOLECULAR E BIOINFORMÁTICA">
                               
-<style> 
-
-.ods-img {
-    transition: transform 0.25s ease;
-}
-
-.ods-img:hover {
-    transform: scale(2);
-    z-index: 9999;
-    position: relative;
-}
-
-</style>
-
-
-
                                  
                     
                     
@@ -1094,8 +998,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h5 class="docente-name">
-                                Israel Gomy                            </h5>
+                            <h2 class="h5 docente-name">
+                                Israel Gomy                            </h2>
 
      
                             <!--  Area/Setor  -->
@@ -1221,22 +1125,6 @@ require __DIR__ . '/includes/header.php';
                           data-nome="JEREMY ANDREW SQUIRE"
                            data-area="CITOGENÉTICA MOLECULAR HUMANA">
                               
-<style> 
-
-.ods-img {
-    transition: transform 0.25s ease;
-}
-
-.ods-img:hover {
-    transform: scale(2);
-    z-index: 9999;
-    position: relative;
-}
-
-</style>
-
-
-
                                  
                     
                     
@@ -1271,8 +1159,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h5 class="docente-name">
-                                Jeremy Andrew Squire                            </h5>
+                            <h2 class="h5 docente-name">
+                                Jeremy Andrew Squire                            </h2>
 
      
                             <!--  Area/Setor  -->
@@ -1374,22 +1262,6 @@ require __DIR__ . '/includes/header.php';
                           data-nome="MARIA CRISTINA DA SILVA PRANCHEVICIUS"
                            data-area="GENÉTICA E EVOLUÇÃO">
                               
-<style> 
-
-.ods-img {
-    transition: transform 0.25s ease;
-}
-
-.ods-img:hover {
-    transform: scale(2);
-    z-index: 9999;
-    position: relative;
-}
-
-</style>
-
-
-
                                  
                     
                     
@@ -1409,8 +1281,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h5 class="docente-name">
-                                Maria Cristina da Silva Pranchevicius                            </h5>
+                            <h2 class="h5 docente-name">
+                                Maria Cristina da Silva Pranchevicius                            </h2>
 
      
                             <!--  Area/Setor  -->
@@ -1479,22 +1351,6 @@ require __DIR__ . '/includes/header.php';
                           data-nome="MARINA CANDIDO VISONTAI CORMEDI"
                            data-area="ONCOGENÉTICA HUMANA">
                               
-<style> 
-
-.ods-img {
-    transition: transform 0.25s ease;
-}
-
-.ods-img:hover {
-    transform: scale(2);
-    z-index: 9999;
-    position: relative;
-}
-
-</style>
-
-
-
                                  
                     
                     
@@ -1529,8 +1385,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h5 class="docente-name">
-                                Marina Candido Visontai Cormedi                            </h5>
+                            <h2 class="h5 docente-name">
+                                Marina Candido Visontai Cormedi                            </h2>
 
      
                             <!--  Area/Setor  -->
@@ -1632,22 +1488,6 @@ require __DIR__ . '/includes/header.php';
                           data-nome="NILCE MARIA MARTINEZ ROSSI"
                            data-area="GENÉTICA E BIOLOGIA MOLECULAR DE FUNGOS">
                               
-<style> 
-
-.ods-img {
-    transition: transform 0.25s ease;
-}
-
-.ods-img:hover {
-    transform: scale(2);
-    z-index: 9999;
-    position: relative;
-}
-
-</style>
-
-
-
                                  
                     
                     
@@ -1682,8 +1522,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h5 class="docente-name">
-                                Nilce Maria Martinez Rossi                            </h5>
+                            <h2 class="h5 docente-name">
+                                Nilce Maria Martinez Rossi                            </h2>
 
      
                             <!--  Area/Setor  -->
@@ -1785,22 +1625,6 @@ require __DIR__ . '/includes/header.php';
                           data-nome="REINALDO OTÁVIO ALVARENGA ALVES DE BRITO"
                            data-area="GENÉTICA, MELHORAMENTO ANIMAL E COMPUTAÇÃO">
                               
-<style> 
-
-.ods-img {
-    transition: transform 0.25s ease;
-}
-
-.ods-img:hover {
-    transform: scale(2);
-    z-index: 9999;
-    position: relative;
-}
-
-</style>
-
-
-
                                  
                     
                     
@@ -1820,8 +1644,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h5 class="docente-name">
-                                Reinaldo Otávio Alvarenga Alves de Brito                            </h5>
+                            <h2 class="h5 docente-name">
+                                Reinaldo Otávio Alvarenga Alves de Brito                            </h2>
 
      
                             <!--  Area/Setor  -->
@@ -1890,22 +1714,6 @@ require __DIR__ . '/includes/header.php';
                           data-nome="SILVANA GIULIATTI"
                            data-area="BIOINFORMÁTICA">
                               
-<style> 
-
-.ods-img {
-    transition: transform 0.25s ease;
-}
-
-.ods-img:hover {
-    transform: scale(2);
-    z-index: 9999;
-    position: relative;
-}
-
-</style>
-
-
-
                                  
                     
                     
@@ -1940,8 +1748,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h5 class="docente-name">
-                                Silvana Giuliatti                            </h5>
+                            <h2 class="h5 docente-name">
+                                Silvana Giuliatti                            </h2>
 
      
                             <!--  Area/Setor  -->
@@ -2067,22 +1875,6 @@ require __DIR__ . '/includes/header.php';
                           data-nome="THIAGO YUKIO KIKUCHI OLIVEIRA"
                            data-area="BIOINFORMÁTICA">
                               
-<style> 
-
-.ods-img {
-    transition: transform 0.25s ease;
-}
-
-.ods-img:hover {
-    transform: scale(2);
-    z-index: 9999;
-    position: relative;
-}
-
-</style>
-
-
-
                                  
                     
                     
@@ -2117,8 +1909,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h5 class="docente-name">
-                                Thiago Yukio Kikuchi Oliveira                            </h5>
+                            <h2 class="h5 docente-name">
+                                Thiago Yukio Kikuchi Oliveira                            </h2>
 
      
                             <!--  Area/Setor  -->
@@ -2187,22 +1979,6 @@ require __DIR__ . '/includes/header.php';
                           data-nome="VICTOR EVANGELISTA DE FARIA FERRAZ"
                            data-area="GENÉTICA HUMANA E MÉDICA">
                               
-<style> 
-
-.ods-img {
-    transition: transform 0.25s ease;
-}
-
-.ods-img:hover {
-    transform: scale(2);
-    z-index: 9999;
-    position: relative;
-}
-
-</style>
-
-
-
                                  
                     
                     
@@ -2237,8 +2013,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h5 class="docente-name">
-                                Victor Evangelista de Faria Ferraz                            </h5>
+                            <h2 class="h5 docente-name">
+                                Victor Evangelista de Faria Ferraz                            </h2>
 
      
                             <!--  Area/Setor  -->
@@ -2362,22 +2138,6 @@ require __DIR__ . '/includes/header.php';
                           data-nome="AGUINALDO LUIZ SIMÕES"
                            data-area="GENÉTICA BIOQUÍMICA">
                               
-<style> 
-
-.ods-img {
-    transition: transform 0.25s ease;
-}
-
-.ods-img:hover {
-    transform: scale(2);
-    z-index: 9999;
-    position: relative;
-}
-
-</style>
-
-
-
                                  
                     
                     
@@ -2412,8 +2172,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h5 class="docente-name">
-                                Aguinaldo Luiz Simões                            </h5>
+                            <h2 class="h5 docente-name">
+                                Aguinaldo Luiz Simões                            </h2>
 
      
                             <!--  Area/Setor  -->
@@ -2482,22 +2242,6 @@ require __DIR__ . '/includes/header.php';
                           data-nome="ANTONIO ROSSI FILHO"
                            data-area="BIOQUÍMICA E IMUNOLOGIA">
                               
-<style> 
-
-.ods-img {
-    transition: transform 0.25s ease;
-}
-
-.ods-img:hover {
-    transform: scale(2);
-    z-index: 9999;
-    position: relative;
-}
-
-</style>
-
-
-
                                  
                     
                     
@@ -2532,8 +2276,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h5 class="docente-name">
-                                Antonio Rossi Filho                            </h5>
+                            <h2 class="h5 docente-name">
+                                Antonio Rossi Filho                            </h2>
 
      
                             <!--  Area/Setor  -->
@@ -2612,22 +2356,6 @@ require __DIR__ . '/includes/header.php';
                           data-nome="KLAUS HARTMANN HARTFELDER"
                            data-area="BIOLOGIA E GENÉTICA DE ABELHAS">
                               
-<style> 
-
-.ods-img {
-    transition: transform 0.25s ease;
-}
-
-.ods-img:hover {
-    transform: scale(2);
-    z-index: 9999;
-    position: relative;
-}
-
-</style>
-
-
-
                                  
                     
                     
@@ -2662,8 +2390,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h5 class="docente-name">
-                                Klaus Hartmann Hartfelder                            </h5>
+                            <h2 class="h5 docente-name">
+                                Klaus Hartmann Hartfelder                            </h2>
 
      
                             <!--  Area/Setor  -->
@@ -2809,39 +2537,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 </script>
-
-
-
-<style>
-.btn-enviar{
-    display:inline-flex;
-    /*align-items:center;*/
-    gap:10px;
-
-/*    background:linear-gradient(135deg,#0d6efd,#0b5ed7);*/
-    color:rgba(255,255,255,0.7);
-    text-decoration:none;
-
-   /* padding:5px 22px;*/
-    border-radius:12px;
-
-    font-size:0.85rem;;
-    font-weight:400;
-
-    transition:all .3s ease;
-    /*box-shadow:0 4px 14px rgba(13,110,253,.25);*/
-}
-
-.btn-enviar i{
-    font-size:12px;
-}
-
-.btn-enviar:hover{
-    transform:translateY(-2px);
-    /*background:linear-gradient(135deg,#0b5ed7,#084298);*/
-    color:#fff;
-    /*box-shadow:0 6px 18px rgba(13,110,253,.35);*/
-}
-</style>
-
 <?php require __DIR__ . '/includes/footer.php'; ?>

@@ -44,7 +44,7 @@ require __DIR__ . '/includes/header.php';
                             <div class="news-body">
                                 <span class="news-category">Evento</span>
                                 <div class="news-date"><i class="bi bi-calendar3"></i> 15 MAI 2025</div>
-                                <h5 class="news-title">Departamento promove simpósio sobre edição genômica</h5>
+                                <h2 class="h5 news-title">Departamento promove simpósio sobre edição genômica</h2>
                                 <a href="noticias.php#" class="news-link">LEIA MAIS <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
@@ -55,7 +55,7 @@ require __DIR__ . '/includes/header.php';
                             <div class="news-body">
                                 <span class="news-category">Ensino</span>
                                 <div class="news-date"><i class="bi bi-calendar3"></i> 28 ABR 2025</div>
-                                <h5 class="news-title">Abertas as inscrições para pós-graduação 2026</h5>
+                                <h2 class="h5 news-title">Abertas as inscrições para pós-graduação 2026</h2>
                                 <a href="noticias.php#" class="news-link">LEIA MAIS <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
@@ -96,7 +96,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="news-body">
                             <span class="news-category">Pesquisa</span>
                             <div class="news-date"><i class="bi bi-calendar3"></i> 20 MAI 2025</div>
-                            <h5 class="news-title">Estudo revela novo mecanismo genético em doenças raras</h5>
+                            <h2 class="h5 news-title">Estudo revela novo mecanismo genético em doenças raras</h2>
                             <p class="news-excerpt">Pesquisa do departamento identifica vias celulares envolvidas em doenças genéticas neurológicas.</p>
                             <a href="noticias.php#" class="news-link">LEIA MAIS <i class="bi bi-arrow-right"></i></a>
                         </div>
@@ -112,7 +112,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="news-body">
                             <span class="news-category">Evento</span>
                             <div class="news-date"><i class="bi bi-calendar3"></i> 15 MAI 2025</div>
-                            <h5 class="news-title">Departamento promove simpósio sobre edição genômica</h5>
+                            <h2 class="h5 news-title">Departamento promove simpósio sobre edição genômica</h2>
                             <p class="news-excerpt">Evento reuniu pesquisadores nacionais e internacionais para discutir os avanços em CRISPR.</p>
                             <a href="noticias.php#" class="news-link">LEIA MAIS <i class="bi bi-arrow-right"></i></a>
                         </div>
@@ -128,7 +128,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="news-body">
                             <span class="news-category">Pesquisa</span>
                             <div class="news-date"><i class="bi bi-calendar3"></i> 05 MAI 2025</div>
-                            <h5 class="news-title">Novo artigo publicado em revista internacional</h5>
+                            <h2 class="h5 news-title">Novo artigo publicado em revista internacional</h2>
                             <p class="news-excerpt">Trabalho da equipe de genética molecular é destaque na revista Genetics & Development.</p>
                             <a href="noticias.php#" class="news-link">LEIA MAIS <i class="bi bi-arrow-right"></i></a>
                         </div>
@@ -144,7 +144,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="news-body">
                             <span class="news-category">Ensino</span>
                             <div class="news-date"><i class="bi bi-calendar3"></i> 28 ABR 2025</div>
-                            <h5 class="news-title">Abertas as inscrições para pós-graduação 2026</h5>
+                            <h2 class="h5 news-title">Abertas as inscrições para pós-graduação 2026</h2>
                             <p class="news-excerpt">Processo seletivo para Mestrado e Doutorado. Inscrições até 30/06.</p>
                             <a href="noticias.php#" class="news-link">LEIA MAIS <i class="bi bi-arrow-right"></i></a>
                         </div>
@@ -160,7 +160,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="news-body">
                             <span class="news-category">Extensão</span>
                             <div class="news-date"><i class="bi bi-calendar3"></i> 22 ABR 2025</div>
-                            <h5 class="news-title">Programa de divulgação científica visita escolas da região</h5>
+                            <h2 class="h5 news-title">Programa de divulgação científica visita escolas da região</h2>
                             <p class="news-excerpt">Alunos de graduação levam conhecimento sobre genética a comunidades escolares de Ribeirão Preto.</p>
                             <a href="noticias.php#" class="news-link">LEIA MAIS <i class="bi bi-arrow-right"></i></a>
                         </div>
@@ -176,7 +176,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="news-body">
                             <span class="news-category">Pesquisa</span>
                             <div class="news-date"><i class="bi bi-calendar3"></i> 10 ABR 2025</div>
-                            <h5 class="news-title">Descoberta de novo gene associado à resistência em plantas</h5>
+                            <h2 class="h5 news-title">Descoberta de novo gene associado à resistência em plantas</h2>
                             <p class="news-excerpt">Estudo abre perspectivas para o desenvolvimento de cultivares mais resilientes.</p>
                             <a href="noticias.php#" class="news-link">LEIA MAIS <i class="bi bi-arrow-right"></i></a>
                         </div>
@@ -192,7 +192,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="news-body">
                             <span class="news-category">Evento</span>
                             <div class="news-date"><i class="bi bi-calendar3"></i> 02 ABR 2025</div>
-                            <h5 class="news-title">Semana da Genética 2025: inscrições abertas</h5>
+                            <h2 class="h5 news-title">Semana da Genética 2025: inscrições abertas</h2>
                             <p class="news-excerpt">Evento anual traz palestras, workshops e apresentações de trabalhos científicos.</p>
                             <a href="noticias.php#" class="news-link">LEIA MAIS <i class="bi bi-arrow-right"></i></a>
                         </div>
@@ -208,7 +208,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="news-body">
                             <span class="news-category">Ensino</span>
                             <div class="news-date"><i class="bi bi-calendar3"></i> 25 MAR 2025</div>
-                            <h5 class="news-title">Novo laboratório de bioinformática é inaugurado</h5>
+                            <h2 class="h5 news-title">Novo laboratório de bioinformática é inaugurado</h2>
                             <p class="news-excerpt">Espaço conta com equipamentos de última geração para análise de dados genômicos.</p>
                             <a href="noticias.php#" class="news-link">LEIA MAIS <i class="bi bi-arrow-right"></i></a>
                         </div>
@@ -224,7 +224,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="news-body">
                             <span class="news-category">Pesquisa</span>
                             <div class="news-date"><i class="bi bi-calendar3"></i> 18 MAR 2025</div>
-                            <h5 class="news-title">Colaboração internacional avança em estudos de evolução genética</h5>
+                            <h2 class="h5 news-title">Colaboração internacional avança em estudos de evolução genética</h2>
                             <p class="news-excerpt">Parceria com universidades europeias amplia compreensão sobre diversidade genética.</p>
                             <a href="noticias.php#" class="news-link">LEIA MAIS <i class="bi bi-arrow-right"></i></a>
                         </div>
@@ -274,37 +274,4 @@ require __DIR__ . '/includes/header.php';
             </div>
         </div>
     </section>
-
-<style>
-.btn-enviar{
-    display:inline-flex;
-    /*align-items:center;*/
-    gap:10px;
-
-/*    background:linear-gradient(135deg,#0d6efd,#0b5ed7);*/
-    color:rgba(255,255,255,0.7);
-    text-decoration:none;
-
-   /* padding:5px 22px;*/
-    border-radius:12px;
-
-    font-size:0.85rem;;
-    font-weight:400;
-
-    transition:all .3s ease;
-    /*box-shadow:0 4px 14px rgba(13,110,253,.25);*/
-}
-
-.btn-enviar i{
-    font-size:12px;
-}
-
-.btn-enviar:hover{
-    transform:translateY(-2px);
-    /*background:linear-gradient(135deg,#0b5ed7,#084298);*/
-    color:#fff;
-    /*box-shadow:0 6px 18px rgba(13,110,253,.35);*/
-}
-</style>
-
 <?php require __DIR__ . '/includes/footer.php'; ?>

@@ -101,7 +101,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <div class="project-body">
                             <span class="project-tag">Genética Médica</span>
-                            <h5 class="project-title">Genética de Doenças Raras no Brasil Central</h5>
+                            <h2 class="h5 project-title">Genética de Doenças Raras no Brasil Central</h2>
                             <p class="project-excerpt">Caracterização molecular de doenças genéticas neurológicas e metabólicas em famílias do estado de São Paulo, visando diagnóstico e aconselhamento genético.</p>
                             <div class="project-meta">
                                 <span><i class="bi bi-calendar3"></i> 2023–2027</span>
@@ -122,7 +122,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <div class="project-body">
                             <span class="project-tag">Genética de Plantas</span>
-                            <h5 class="project-title">Resiliência Genética de Culturas Agrícolas à Seca</h5>
+                            <h2 class="h5 project-title">Resiliência Genética de Culturas Agrícolas à Seca</h2>
                             <p class="project-excerpt">Identificação de genes associados à tolerância hídrica em soja e milho por meio de análise genômica e edição gênica CRISPR.</p>
                             <div class="project-meta">
                                 <span><i class="bi bi-calendar3"></i> 2025–2029</span>
@@ -143,7 +143,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <div class="project-body">
                             <span class="project-tag">Genômica e Bioinformática</span>
-                            <h5 class="project-title">Atlas Genômico da Diversidade Brasileira</h5>
+                            <h2 class="h5 project-title">Atlas Genômico da Diversidade Brasileira</h2>
                             <p class="project-excerpt">Mapeamento da variabilidade genética de populações brasileiras para estudos de medicina de precisão e compreensão da história evolutiva humana.</p>
                             <div class="project-meta">
                                 <span><i class="bi bi-calendar3"></i> 2022–2026</span>
@@ -164,7 +164,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <div class="project-body">
                             <span class="project-tag">Biologia Celular</span>
-                            <h5 class="project-title">Mecanismos de Senescência Celular e Envelhecimento</h5>
+                            <h2 class="h5 project-title">Mecanismos de Senescência Celular e Envelhecimento</h2>
                             <p class="project-excerpt">Investigação das vias moleculares envolvidas no envelhecimento celular e potencial terapêutico de moduladores de autofagia.</p>
                             <div class="project-meta">
                                 <span><i class="bi bi-calendar3"></i> 2023–2026</span>
@@ -185,7 +185,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <div class="project-body">
                             <span class="project-tag">Genética de Populações</span>
-                            <h5 class="project-title">Conservação Genética de Anfíbios Ameaçados</h5>
+                            <h2 class="h5 project-title">Conservação Genética de Anfíbios Ameaçados</h2>
                             <p class="project-excerpt">Avaliação da diversidade genética e conectividade populacional de espécies endêmicas da Mata Atlântica para planejamento de estratégias de conservação.</p>
                             <div class="project-meta">
                                 <span><i class="bi bi-calendar3"></i> 2024–2028</span>
@@ -206,7 +206,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <div class="project-body">
                             <span class="project-tag">Genética Molecular</span>
-                            <h5 class="project-title">Desenvolvimento de Kit Diagnóstico para Doenças Mitocondriais</h5>
+                            <h2 class="h5 project-title">Desenvolvimento de Kit Diagnóstico para Doenças Mitocondriais</h2>
                             <p class="project-excerpt">Desenvolvimento e validação de painel de NGS para diagnóstico molecular de doenças mitocondriais hereditárias, com transferência tecnológica para o setor privado.</p>
                             <div class="project-meta">
                                 <span><i class="bi bi-calendar3"></i> 2020–2024</span>
@@ -230,7 +230,7 @@ require __DIR__ . '/includes/header.php';
             <div class="timeline-item">
                 <div class="timeline-date"><span>2025</span>MAI</div>
                 <div class="timeline-content">
-                    <h5>Aprovação de novo projeto FAPESP Temático</h5>
+                    <h2 class="h5">Aprovação de novo projeto FAPESP Temático</h2>
                     <p>Projeto "Genômica Funcional de Doenças Neurodegenerativas" aprovado com financiamento de R$ 2,5 milhões para os próximos 5 anos.</p>
                     <div class="meta"><i class="bi bi-check-circle"></i> Financiamento aprovado</div>
                 </div>
@@ -239,7 +239,7 @@ require __DIR__ . '/includes/header.php';
             <div class="timeline-item">
                 <div class="timeline-date"><span>2025</span>MAR</div>
                 <div class="timeline-content">
-                    <h5>Parceria internacional com Universidade de Oxford</h5>
+                    <h2 class="h5">Parceria internacional com Universidade de Oxford</h2>
                     <p>Acordo de cooperação para estudos de genética de populações e evolução molecular, incluindo intercâmbio de pesquisadores e estudantes.</p>
                     <div class="meta"><i class="bi bi-globe"></i> Cooperação internacional</div>
                 </div>
@@ -248,7 +248,7 @@ require __DIR__ . '/includes/header.php';
             <div class="timeline-item">
                 <div class="timeline-date"><span>2024</span>DEZ</div>
                 <div class="timeline-content">
-                    <h5>Conclusão do projeto de diagnóstico mitocondrial</h5>
+                    <h2 class="h5">Conclusão do projeto de diagnóstico mitocondrial</h2>
                     <p>Kit de NGS para doenças mitocondriais validado e licenciado para empresa brasileira de biotecnologia.</p>
                     <div class="meta"><i class="bi bi-lightbulb"></i> Transferência tecnológica</div>
                 </div>
@@ -257,7 +257,7 @@ require __DIR__ . '/includes/header.php';
             <div class="timeline-item">
                 <div class="timeline-date"><span>2024</span>AGO</div>
                 <div class="timeline-content">
-                    <h5>Inauguração do Centro de Bioinformática Aplicada</h5>
+                    <h2 class="h5">Inauguração do Centro de Bioinformática Aplicada</h2>
                     <p>Nova infraestrutura dedicada à análise de dados genômicos em larga escala, fruto de investimento de R$ 1,2 milhão.</p>
                     <div class="meta"><i class="bi bi-building"></i> Infraestrutura</div>
                 </div>
@@ -266,7 +266,7 @@ require __DIR__ . '/includes/header.php';
             <div class="timeline-item">
                 <div class="timeline-date"><span>2024</span>ABR</div>
                 <div class="timeline-content">
-                    <h5>Publicação do Atlas Genômico da Diversidade Brasileira</h5>
+                    <h2 class="h5">Publicação do Atlas Genômico da Diversidade Brasileira</h2>
                     <p>Primeiros resultados publicados na Nature Genetics, com dados de mais de 5 mil indivíduos de diferentes regiões do Brasil.</p>
                     <div class="meta"><i class="bi bi-journal-text"></i> Publicação de destaque</div>
                 </div>
@@ -286,7 +286,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="partner-icon">
                             <i class="bi bi-bank"></i>
                         </div>
-                        <h5>FAPESP</h5>
+                        <h2 class="h5">FAPESP</h2>
                         <p>Financiamento de pesquisa</p>
                     </div>
                 </div>
@@ -295,7 +295,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="partner-icon">
                             <i class="bi bi-bank2"></i>
                         </div>
-                        <h5>CNPq</h5>
+                        <h2 class="h5">CNPq</h2>
                         <p>Bolsas e projetos</p>
                     </div>
                 </div>
@@ -304,7 +304,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="partner-icon">
                             <i class="bi bi-building"></i>
                         </div>
-                        <h5>CAPES</h5>
+                        <h2 class="h5">CAPES</h2>
                         <p>Pós-graduação</p>
                     </div>
                 </div>
@@ -313,7 +313,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="partner-icon">
                             <i class="bi bi-globe-americas"></i>
                         </div>
-                        <h5>FINEP</h5>
+                        <h2 class="h5">FINEP</h2>
                         <p>Inovação tecnológica</p>
                     </div>
                 </div>
@@ -322,7 +322,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="partner-icon">
                             <i class="bi bi-seedling"></i>
                         </div>
-                        <h5>Embrapa</h5>
+                        <h2 class="h5">Embrapa</h2>
                         <p>Pesquisa agrícola</p>
                     </div>
                 </div>
@@ -331,7 +331,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="partner-icon">
                             <i class="bi bi-hospital"></i>
                         </div>
-                        <h5>HC-FMRP</h5>
+                        <h2 class="h5">HC-FMRP</h2>
                         <p>Pesquisa clínica</p>
                     </div>
                 </div>
@@ -350,37 +350,4 @@ require __DIR__ . '/includes/header.php';
             </div>
         </div>
     </section>
-
-<style>
-.btn-enviar{
-    display:inline-flex;
-    /*align-items:center;*/
-    gap:10px;
-
-/*    background:linear-gradient(135deg,#0d6efd,#0b5ed7);*/
-    color:rgba(255,255,255,0.7);
-    text-decoration:none;
-
-   /* padding:5px 22px;*/
-    border-radius:12px;
-
-    font-size:0.85rem;;
-    font-weight:400;
-
-    transition:all .3s ease;
-    /*box-shadow:0 4px 14px rgba(13,110,253,.25);*/
-}
-
-.btn-enviar i{
-    font-size:12px;
-}
-
-.btn-enviar:hover{
-    transform:translateY(-2px);
-    /*background:linear-gradient(135deg,#0b5ed7,#084298);*/
-    color:#fff;
-    /*box-shadow:0 6px 18px rgba(13,110,253,.35);*/
-}
-</style>
-
 <?php require __DIR__ . '/includes/footer.php'; ?>

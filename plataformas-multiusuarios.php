@@ -129,7 +129,7 @@ require __DIR__ . '/includes/header.php';
                                     </div>
 
                                     <div class="platform-contact">
-                                        <h6>Contato</h6>
+                                        <h3 class="h6">Contato</h3>
                                         <p><i class="bi bi-envelope"></i> genomica@fmrp.usp.br</p>
                                         <p><i class="bi bi-telephone"></i> (16) 3315-3300 – Ramal [XXXX]</p>
                                     </div>
@@ -178,7 +178,7 @@ require __DIR__ . '/includes/header.php';
                                     </div>
 
                                     <div class="platform-contact">
-                                        <h6>Contato</h6>
+                                        <h3 class="h6">Contato</h3>
                                         <p><i class="bi bi-envelope"></i> zebrafish@fmrp.usp.br</p>
                                         <p><i class="bi bi-telephone"></i> (16) 3315-3300 – Ramal [XXXX]</p>
                                     </div>
@@ -227,7 +227,7 @@ require __DIR__ . '/includes/header.php';
                                     </div>
 
                                     <div class="platform-contact">
-                                        <h6>Contato</h6>
+                                        <h3 class="h6">Contato</h3>
                                         <p><i class="bi bi-envelope"></i> organoides@fmrp.usp.br</p>
                                         <p><i class="bi bi-telephone"></i> (16) 3315-3300 – Ramal [XXXX]</p>
                                     </div>
@@ -254,42 +254,42 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="equipment-card rge-card">
                         <div class="equipment-icon"><i class="bi bi-moisture"></i></div>
-                        <h5>qPCR em Tempo Real</h5>
+                        <h2 class="h5">qPCR em Tempo Real</h2>
                         <p>Quantificação de expressão gênica e genotipagem</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="equipment-card rge-card">
                         <div class="equipment-icon"><i class="bi bi-eye"></i></div>
-                        <h5>Microscopia Confocal</h5>
+                        <h2 class="h5">Microscopia Confocal</h2>
                         <p>Imagem de alta resolução de células e tecidos</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="equipment-card rge-card">
                         <div class="equipment-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Citometria de Fluxo</h5>
+                        <h2 class="h5">Citometria de Fluxo</h2>
                         <p>Análise e separação celular multiparamétrica</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="equipment-card rge-card">
                         <div class="equipment-icon"><i class="bi bi-layers"></i></div>
-                        <h5>Sequenciador Sanger</h5>
+                        <h2 class="h5">Sequenciador Sanger</h2>
                         <p>Sequenciamento de regiões específicas de DNA</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="equipment-card rge-card">
                         <div class="equipment-icon"><i class="bi bi-thermometer-half"></i></div>
-                        <h5>Termocicladores</h5>
+                        <h2 class="h5">Termocicladores</h2>
                         <p>Amplificação de DNA por PCR convencional</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="equipment-card rge-card">
                         <div class="equipment-icon"><i class="bi bi-activity"></i></div>
-                        <h5>Espectrofotômetro</h5>
+                        <h2 class="h5">Espectrofotômetro</h2>
                         <p>Quantificação de ácidos nucleicos e proteínas</p>
                     </div>
                 </div>
@@ -311,28 +311,28 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-3">
                     <div class="step-card rge-card">
                         <div class="step-number">1</div>
-                        <h5>Cadastro</h5>
+                        <h2 class="h5">Cadastro</h2>
                         <p>Realize seu cadastro no sistema de agendamento da plataforma desejada, informando instituição, projeto e necessidades experimentais.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="step-card rge-card">
                         <div class="step-number">2</div>
-                        <h5>Proposta Técnica</h5>
+                        <h2 class="h5">Proposta Técnica</h2>
                         <p>Envie a descrição do experimento, número de amostras e tipo de análise necessária. A equipe técnica avaliará a viabilidade.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="step-card rge-card">
                         <div class="step-number">3</div>
-                        <h5>Orçamento</h5>
+                        <h2 class="h5">Orçamento</h2>
                         <p>Receba o orçamento detalhado com valores de serviços, insumos e horas técnicas. Pesquisadores da USP têm tarifas diferenciadas.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="step-card rge-card">
                         <div class="step-number">4</div>
-                        <h5>Execução</h5>
+                        <h2 class="h5">Execução</h2>
                         <p>Após aprovação, agende a execução do serviço. Acompanhe o andamento pelo sistema e receba os dados com relatório técnico.</p>
                     </div>
                 </div>
@@ -383,37 +383,4 @@ require __DIR__ . '/includes/header.php';
             </div>
         </div>
     </section>
-
-<style>
-.btn-enviar{
-    display:inline-flex;
-    /*align-items:center;*/
-    gap:10px;
-
-/*    background:linear-gradient(135deg,#0d6efd,#0b5ed7);*/
-    color:rgba(255,255,255,0.7);
-    text-decoration:none;
-
-   /* padding:5px 22px;*/
-    border-radius:12px;
-
-    font-size:0.85rem;;
-    font-weight:400;
-
-    transition:all .3s ease;
-    /*box-shadow:0 4px 14px rgba(13,110,253,.25);*/
-}
-
-.btn-enviar i{
-    font-size:12px;
-}
-
-.btn-enviar:hover{
-    transform:translateY(-2px);
-    /*background:linear-gradient(135deg,#0b5ed7,#084298);*/
-    color:#fff;
-    /*box-shadow:0 6px 18px rgba(13,110,253,.35);*/
-}
-</style>
-
 <?php require __DIR__ . '/includes/footer.php'; ?>
