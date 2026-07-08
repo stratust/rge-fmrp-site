@@ -5379,7 +5379,7 @@ iframe.goog-te-banner-frame {
     position: relative;
 }
 
-/* === carousel-wrapper (homepage) — moved from inline <style> === */
+/* === carousel-wrapper (homepage) === */
 .carousel-wrapper {
     overflow: hidden;
 }
@@ -5387,9 +5387,22 @@ iframe.goog-te-banner-frame {
     display: flex;
     gap: 24px;
     transition: transform 0.5s ease;
+    flex-wrap: nowrap;
 }
-.carousel-slide {
+/* Cada card do carousel deve manter largura fixa e nunca encolher */
+.carousel-track > * {
     flex: 0 0 calc(33.333% - 16px);
+    min-width: 0;
+}
+@media (max-width: 768px) {
+    .carousel-track > * {
+        flex: 0 0 calc(50% - 12px);
+    }
+}
+@media (max-width: 576px) {
+    .carousel-track > * {
+        flex: 0 0 85%;
+    }
 }
 
 /* === docente-foto (historia page) — moved from inline <style> === */
@@ -5518,8 +5531,7 @@ iframe.goog-te-banner-frame {
         width: 48px; height: 48px; border-radius: 12px;
     }
 
-    /* News carousel: 1 card visível */
-    .carousel-slide { flex: 0 0 85%; }
+    /* Carousel: touch-friendly arrows */
     .carousel-arrow { width: 44px; height: 44px; }
 
     /* Btn-topo: touch-friendly */
