@@ -320,7 +320,54 @@ require __DIR__ . '/includes/header.php';
         </div>
 
         <!-- Indexação de variantes -->
-        <h3 class="mb-3" style="font-size: 1.3rem; font-weight: 700; color: #222;">Galeria: todas as classes legadas com preview real</h3>
+        <h3 class="mb-3" style="font-size: 1.3rem; font-weight: 700; color: #222;">Mapeamento: Classes legadas → Arquétipos</h3>
+        <div class="rge-card p-4 mb-5">
+            <table class="table table-sm mb-0">
+                <thead>
+                    <tr>
+                        <th>Classe legada</th>
+                        <th>Arquétipo</th>
+                        <th>Onde é usada</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><code>rge-card</code></td><td>Content Card (base)</td><td>Todas as páginas</td><td><span class="badge bg-success">Oficial</span></td></tr>
+                    <tr><td><code>info-card</code></td><td>Icon Card</td><td>ensino, extensão, pos-grad</td><td><span class="badge bg-success">Ícone + texto</span></td></tr>
+                    <tr><td><code>contact-card</code></td><td>Icon Card</td><td>contato</td><td><span class="badge bg-success">Ícone + texto</span></td></tr>
+                    <tr><td><code>equipment-card</code></td><td>Icon Card</td><td>infraestrutura</td><td><span class="badge bg-success">Ícone + texto</span></td></tr>
+                    <tr><td><code>partner-card</code></td><td>Icon Card</td><td>projetos</td><td><span class="badge bg-success">Ícone + texto</span></td></tr>
+                    <tr><td><code>step-card</code></td><td>Icon Card</td><td>infraestrutura (acesso)</td><td><span class="badge bg-success">Ícone + texto</span></td></tr>
+                    <tr><td><code>stat-card</code></td><td>Icon Card (centro)</td><td>infraestrutura</td><td><span class="badge bg-warning text-dark">Centralizado</span></td></tr>
+                    <tr><td><code>news-card</code></td><td>Media Card</td><td>index (carousel)</td><td><span class="badge bg-success">Imagem + texto</span></td></tr>
+                    <tr><td><code>course-card</code></td><td>Media Card</td><td>extensão</td><td><span class="badge bg-success">Imagem + texto</span></td></tr>
+                    <tr><td><code>project-card</code></td><td>Media Card</td><td>projetos</td><td><span class="badge bg-success">Imagem + texto</span></td></tr>
+                    <tr><td><code>program-card</code></td><td>Media Card</td><td>ensino, pos-grad</td><td><span class="badge bg-success">Imagem + texto</span></td></tr>
+                    <tr><td><code>featured-card</code></td><td>Media Card</td><td>index (destaque)</td><td><span class="badge bg-success">Imagem + texto</span></td></tr>
+                    <tr><td><code>docente-card</code></td><td>Profile Card</td><td>docentes</td><td><span class="badge bg-success">Foto + dados</span></td></tr>
+                    <tr><td><code>func-card</code></td><td>Profile Card</td><td>funcionários</td><td><span class="badge bg-success">Avatar + dados</span></td></tr>
+                    <tr><td><code>team-card</code></td><td>Profile Card</td><td>contato (equipe)</td><td><span class="badge bg-success">Avatar + dados</span></td></tr>
+                    <tr><td><code>highlight-box</code></td><td>Highlight Box</td><td>pos-grad, genmed</td><td><span class="badge bg-success">Box de info</span></td></tr>
+                    <tr><td><code>comissao-card</code></td><td>Content Card</td><td>chefia</td><td><span class="badge bg-info text-dark">Especial</span></td></tr>
+                    <tr><td><code>council-card</code></td><td>Content Card</td><td>comissões</td><td><span class="badge bg-info text-dark">Especial</span></td></tr>
+                    <tr><td><code>commission-card</code></td><td>Content Card</td><td>comissões</td><td><span class="badge bg-info text-dark">Especial</span></td></tr>
+                    <tr><td><code>calendar-card</code></td><td>Content Card</td><td>comissões</td><td><span class="badge bg-info text-dark">Especial</span></td></tr>
+                    <tr><td><code>norm-card</code></td><td>Icon Card (flex)</td><td>comissões</td><td><span class="badge bg-info text-dark">Especial</span></td></tr>
+                    <tr><td><code>rotation-card</code></td><td>Content Card (border-left)</td><td>residência</td><td><span class="badge bg-info text-dark">Especial</span></td></tr>
+                    <tr><td><code>pub-card</code></td><td>Content Card</td><td>publicações</td><td><span class="badge bg-info text-dark">Especial</span></td></tr>
+                    <tr><td><code>doc-card</code></td><td>Icon Card (flex)</td><td>residência</td><td><span class="badge bg-info text-dark">Especial</span></td></tr>
+                    <tr><td><code>admission-card</code></td><td>Content Card (bg-light)</td><td>pos-grad</td><td><span class="badge bg-info text-dark">Especial</span></td></tr>
+                    <tr><td><code>infra-card</code></td><td>Media Card</td><td>infraestrutura</td><td><span class="badge bg-success">Imagem + texto</span></td></tr>
+                    <tr><td><code>research-card</code></td><td>Icon Card</td><td>infraestrutura</td><td><span class="badge bg-success">Ícone + texto</span></td></tr>
+                    <tr><td><code>platform-card</code></td><td>Media Card (gradient header)</td><td>infraestrutura</td><td><span class="badge bg-info text-dark">Especial</span></td></tr>
+                    <tr><td><code>funding-card</code></td><td>Icon Card</td><td>projetos</td><td><span class="badge bg-success">Ícone + texto</span></td></tr>
+                    <tr><td><code>partnership-card</code></td><td>Icon Card</td><td>projetos</td><td><span class="badge bg-success">Ícone + texto</span></td></tr>
+                </tbody>
+            </table>
+            <p class="mt-3 mb-0"><strong>Verde:</strong> usa o arquétipo base diretamente. <strong>Azul:</strong> tem customizações específicas (layout institucional), mas visualmente segue o mesmo DNA.</p>
+        </div>
+
+        <h3 class="mb-3" style="font-size: 1.3rem; font-weight: 700; color: #222;">Galeria: previews reais de cada classe</h3>
         <p class="text-muted mb-4">Cada card abaixo usa a classe real indicada no label <code>&lt;code&gt;</code>. Todas seguem o mesmo DNA visual.</p>
 
         <!-- ── Content Cards ── -->
