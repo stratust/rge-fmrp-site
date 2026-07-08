@@ -19,6 +19,23 @@ require __DIR__ . '/includes/header.php';
 ?>
 
 <!-- ===== STYLE GUIDE HEADER ===== -->
+<style>
+/* Style guide only: normalize h4 inside card demos to card-heading size */
+.rge-card h4,
+.comissao-card h4, .council-card h4, .commission-card h4, .calendar-card h4,
+.admission-card h4, .pub-card h4, .rotation-card h4,
+.news-card h4, .course-card h4, .project-card h4, .program-card h4,
+.featured-card h4, .infra-card h4, .platform-card h4,
+.docente-card h4, .func-card h4, .team-card h4,
+.info-card h4, .contact-card h4, .equipment-card h4, .partner-card h4,
+.step-card h4, .stat-card h4, .research-card h4, .funding-card h4,
+.partnership-card h4, .norm-card h4, .doc-card h4 {
+    font-size: var(--card-heading-size);
+    font-weight: var(--card-heading-weight);
+    color: var(--card-heading-color);
+    margin-bottom: 0.5rem;
+}
+</style>
 <section class="page-header" style="background: linear-gradient(135deg, var(--primary-green) 0%, var(--dark-green) 100%); color: white;">
     <div class="container page-header-content">
         <h1 style="color: white;">Design System</h1>
@@ -108,7 +125,7 @@ require __DIR__ . '/includes/header.php';
                         <td><code>small</code></td>
                         <td>Metadados, captions</td>
                         <td><code>0.8rem – 0.9rem</code></td>
-                        <td><span style="font-size: 0.85rem; color: #888;">Small caption text</span></td>
+                        <td><span style="font-size: 0.85rem; color: #767676;">Small caption text</span></td>
                     </tr>
                 </tbody>
             </table>
@@ -126,13 +143,13 @@ require __DIR__ . '/includes/header.php';
             <div class="col-md-3 col-sm-6">
                 <div style="background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 3px 15px rgba(0,0,0,0.06); height: 80px;">
                     <small><strong>card base</strong></small><br>
-                    <small style="color: #888;">0 3px 15px rgba(0,0,0,0.06)</small>
+                    <small style="color: #767676;">0 3px 15px rgba(0,0,0,0.06)</small>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div style="background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 8px 25px rgba(0,0,0,0.1); height: 80px;">
                     <small><strong>card hover</strong></small><br>
-                    <small style="color: #888;">0 8px 25px rgba(0,0,0,0.1)</small>
+                    <small style="color: #767676;">0 8px 25px rgba(0,0,0,0.1)</small>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
@@ -194,7 +211,7 @@ require __DIR__ . '/includes/header.php';
         <div class="row g-4 mb-5">
             <div class="col-md-4">
                 <div class="rge-card p-4" style="height: 100%;">
-                    <h5 class="mb-2" style="font-weight: 600; color: #222;">Título do card</h5>
+                    <h4 class="mb-2" style="font-weight: 600; color: #222;">Título do card</h4>
                     <p style="font-size: 0.9rem; color: #666; line-height: 1.6; margin: 0;">Conteúdo do card base. Use este para informação genérica que não tem imagem nem ícone.</p>
                 </div>
             </div>
@@ -216,7 +233,7 @@ require __DIR__ . '/includes/header.php';
             <div class="col-md-4">
                 <div class="info-card rge-card" style="height: 100%;">
                     <div class="icon-box"><i class="bi bi-info-circle"></i></div>
-                    <h5>Information</h5>
+                    <h4>Information</h4>
                     <p>Este é o padrão de icon card usado em info-card, contact-card, equipment-card, partner-card, step-card.</p>
                     <a href="#">Saiba mais →</a>
                 </div>
@@ -224,7 +241,7 @@ require __DIR__ . '/includes/header.php';
             <div class="col-md-4">
                 <div class="contact-card rge-card" style="height: 100%;">
                     <div class="contact-icon"><i class="bi bi-envelope"></i></div>
-                    <h5>Contato</h5>
+                    <h4>Contato</h4>
                     <p>Email e telefone.</p>
                     <a href="#">contato@rge.fmrp.usp.br</a>
                 </div>
@@ -253,8 +270,8 @@ require __DIR__ . '/includes/header.php';
                         <span style="position: absolute; top: 12px; left: 12px; background: var(--primary-green); color: white; padding: 0.3rem 0.9rem; border-radius: 50px; font-size: 0.7rem; font-weight: 600; text-transform: uppercase;">Badge</span>
                     </div>
                     <div style="padding: 1.5rem; flex-grow: 1; display: flex; flex-direction: column;">
-                        <div style="font-size: 0.8rem; color: #888; margin-bottom: 0.5rem;"><i class="bi bi-calendar" style="color: var(--primary-green);"></i> Data</div>
-                        <h5 style="font-size: 1.05rem; font-weight: 600; color: #222; margin-bottom: 0.5rem;">Media Card Title</h5>
+                        <div style="font-size: 0.8rem; color: #767676; margin-bottom: 0.5rem;"><i class="bi bi-calendar" style="color: var(--primary-green);"></i> Data</div>
+                        <h4 style="font-size: 1.05rem; font-weight: 600; color: #222; margin-bottom: 0.5rem;">Media Card Title</h4>
                         <p style="font-size: 0.85rem; color: #666; line-height: 1.6; flex-grow: 1;">Descrição do conteúdo do media card.</p>
                         <a href="#" class="course-link" style="margin-top: 0.5rem;">Saiba mais <i class="bi bi-arrow-right"></i></a>
                     </div>
@@ -287,7 +304,7 @@ require __DIR__ . '/includes/header.php';
                     <div style="display: flex; gap: 1rem; align-items: flex-start;">
                         <div style="width: 55px; height: 55px; background: rgba(26,92,58,0.08); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--primary-green); font-weight: 600; font-size: 1.3rem; flex-shrink: 0;">JD</div>
                         <div>
-                            <h5 style="font-size: 1rem; font-weight: 600; color: #222; margin-bottom: 0.2rem;">Jane Doe</h5>
+                            <h4 style="font-size: 1rem; font-weight: 600; color: #222; margin-bottom: 0.2rem;">Jane Doe</h4>
                             <div style="font-size: 0.8rem; color: var(--primary-green); font-weight: 500; margin-bottom: 0.4rem;">Pesquisadora</div>
                             <a href="#" style="font-size: 0.8rem; color: var(--primary-green); font-weight: 500;">Lattes →</a>
                         </div>
@@ -376,35 +393,35 @@ require __DIR__ . '/includes/header.php';
             <div class="col-md-6 col-lg-4">
                 <div class="rge-card p-4 h-100">
                     <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.rge-card</code>
-                    <h5>Card base</h5>
+                    <h4>Card base</h4>
                     <p style="font-size: 0.9rem; color: #666;">Content card genérico. Fundo de todos os outros arquétipos.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="comissao-card rge-card h-100">
                     <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.comissao-card</code>
-                    <h5>Comissão</h5>
+                    <h4>Comissão</h4>
                     <p style="font-size: 0.9rem; color: #666;">Usado na página de chefia. Lista de membros.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="council-card rge-card h-100">
                     <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.council-card</code>
-                    <h5>Conselho</h5>
+                    <h4>Conselho</h4>
                     <p style="font-size: 0.9rem; color: #666;">Cards de membros de conselho.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="commission-card rge-card h-100">
                     <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.commission-card</code>
-                    <h5>Comissão</h5>
+                    <h4>Comissão</h4>
                     <p style="font-size: 0.9rem; color: #666;">Cards de comissões de graduação/pesquisa.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="calendar-card rge-card h-100">
                     <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.calendar-card</code>
-                    <h5>Calendário</h5>
+                    <h4>Calendário</h4>
                     <p style="font-size: 0.9rem; color: #666;">Cards de reuniões e eventos.</p>
                 </div>
             </div>
@@ -442,7 +459,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="info-card rge-card h-100">
                     <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.info-card</code>
                     <div class="icon-box"><i class="bi bi-info-circle"></i></div>
-                    <h5>Information</h5>
+                    <h4>Information</h4>
                     <p>Padrão de card com ícone verde no topo.</p>
                     <a href="#">Saiba mais →</a>
                 </div>
@@ -451,7 +468,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="contact-card rge-card h-100">
                     <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.contact-card</code>
                     <div class="contact-icon"><i class="bi bi-envelope"></i></div>
-                    <h5>Contato</h5>
+                    <h4>Contato</h4>
                     <p>Email e telefone.</p>
                     <a href="#">contato@rge.fmrp.usp.br</a>
                 </div>
@@ -460,7 +477,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="equipment-card rge-card h-100 text-center">
                     <code class="d-block mb-2 text-muted text-start" style="font-size: 0.75rem;">.equipment-card</code>
                     <div class="equipment-icon mx-auto"><i class="bi bi-cpu"></i></div>
-                    <h5>Equipamento</h5>
+                    <h4>Equipamento</h4>
                     <p>Ícone centralizado. Usado em infraestrutura.</p>
                 </div>
             </div>
@@ -468,14 +485,14 @@ require __DIR__ . '/includes/header.php';
                 <div class="partner-card rge-card h-100 text-center">
                     <code class="d-block mb-2 text-muted text-start" style="font-size: 0.75rem;">.partner-card</code>
                     <div class="partner-icon mx-auto"><i class="bi bi-handshake"></i></div>
-                    <h5>Parceiro</h5>
+                    <h4>Parceiro</h4>
                     <p>Ícone circular. Usado em projetos.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="step-card rge-card h-100">
                     <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.step-card</code>
-                    <h5>Passo a passo</h5>
+                    <h4>Passo a passo</h4>
                     <p>Card de etapas. Usado em processo de acesso.</p>
                 </div>
             </div>
@@ -489,14 +506,14 @@ require __DIR__ . '/includes/header.php';
             <div class="col-md-6 col-lg-4">
                 <div class="research-card rge-card h-100">
                     <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.research-card</code>
-                    <h5>Pesquisa</h5>
+                    <h4>Pesquisa</h4>
                     <p>Card de linhas de pesquisa.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="funding-card rge-card h-100">
                     <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.funding-card</code>
-                    <h5>Fomento</h5>
+                    <h4>Fomento</h4>
                     <p style="font-size: 0.85rem; color: #666;">FAPESP, CNPq</p>
                     <div class="period" style="font-size: 0.8rem; color: var(--primary-green); font-weight: 500;">2024–2026</div>
                 </div>
@@ -504,7 +521,7 @@ require __DIR__ . '/includes/header.php';
             <div class="col-md-6 col-lg-4">
                 <div class="partnership-card rge-card h-100">
                     <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.partnership-card</code>
-                    <h5>Parceria</h5>
+                    <h4>Parceria</h4>
                     <p style="font-size: 0.85rem; color: #666;">Colaboração institucional</p>
                 </div>
             </div>
@@ -538,7 +555,7 @@ require __DIR__ . '/includes/header.php';
                     <code class="d-block m-2 text-muted" style="font-size: 0.75rem;">.news-card</code>
                     <div style="height: 100px; background: linear-gradient(135deg, var(--primary-green), var(--light-green));"></div>
                     <div style="padding: 1rem;">
-                        <h5 style="font-size: 1rem;">News Card</h5>
+                        <h4 style="font-size: 1rem;">News Card</h4>
                         <p style="font-size: 0.85rem; color: #666;">Carousel de notícias na home.</p>
                     </div>
                 </div>
@@ -550,7 +567,7 @@ require __DIR__ . '/includes/header.php';
                         <span class="course-badge" style="position: static;">Curso</span>
                     </div>
                     <div style="padding: 1rem;">
-                        <h5 style="font-size: 1rem;">Course Card</h5>
+                        <h4 style="font-size: 1rem;">Course Card</h4>
                         <p style="font-size: 0.85rem; color: #666;">Cursos de extensão.</p>
                     </div>
                 </div>
@@ -562,7 +579,7 @@ require __DIR__ . '/includes/header.php';
                         <span class="project-status active" style="position: static;">Ativo</span>
                     </div>
                     <div style="padding: 1rem;">
-                        <h5 style="font-size: 1rem;">Project Card</h5>
+                        <h4 style="font-size: 1rem;">Project Card</h4>
                         <p style="font-size: 0.85rem; color: #666;">Projetos de pesquisa.</p>
                     </div>
                 </div>
@@ -572,7 +589,7 @@ require __DIR__ . '/includes/header.php';
                     <code class="d-block m-2 text-muted" style="font-size: 0.75rem;">.program-card</code>
                     <div class="program-icon mt-2 ms-3"><i class="bi bi-mortarboard"></i></div>
                     <div style="padding: 0 1.5rem 1rem;">
-                        <h5 class="program-name" style="font-size: 1.1rem;">Program Card</h5>
+                        <h4 class="program-name" style="font-size: 1.1rem;">Program Card</h4>
                         <p class="program-desc" style="font-size: 0.9rem;">Mestrado/Doutorado. Sem imagem, só ícone gradiente.</p>
                     </div>
                 </div>
@@ -582,7 +599,7 @@ require __DIR__ . '/includes/header.php';
                     <code class="d-block m-2 text-muted" style="font-size: 0.75rem;">.featured-card</code>
                     <div style="height: 100px; background: linear-gradient(135deg, var(--primary-green), var(--accent-green));"></div>
                     <div style="padding: 1rem;">
-                        <h5 style="font-size: 1rem;">Featured Card</h5>
+                        <h4 style="font-size: 1rem;">Featured Card</h4>
                         <p style="font-size: 0.85rem; color: #666;">Notícia destacada.</p>
                     </div>
                 </div>
@@ -592,7 +609,7 @@ require __DIR__ . '/includes/header.php';
                     <code class="d-block m-2 text-muted" style="font-size: 0.75rem;">.infra-card</code>
                     <div style="height: 100px; background: linear-gradient(135deg, var(--dark-green), var(--light-green));"></div>
                     <div style="padding: 1rem;">
-                        <h5 style="font-size: 1rem;">Infra Card</h5>
+                        <h4 style="font-size: 1rem;">Infra Card</h4>
                         <p style="font-size: 0.85rem; color: #666;">Infraestrutura.</p>
                     </div>
                 </div>
@@ -604,7 +621,7 @@ require __DIR__ . '/includes/header.php';
                         <i class="bi bi-dna" style="font-size: 2.5rem; color: rgba(255,255,255,0.25);"></i>
                     </div>
                     <div style="padding: 1rem;">
-                        <h5 style="font-size: 1rem;">Platform Card</h5>
+                        <h4 style="font-size: 1rem;">Platform Card</h4>
                         <p style="font-size: 0.85rem; color: #666;">Header com gradiente e ícone.</p>
                     </div>
                 </div>
@@ -630,7 +647,7 @@ require __DIR__ . '/includes/header.php';
                     <div style="display: flex; gap: 1rem; align-items: flex-start;">
                         <div style="width: 55px; height: 55px; background: rgba(26,92,58,0.08); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--primary-green); font-weight: 600; font-size: 1.3rem; flex-shrink: 0;">JD</div>
                         <div>
-                            <h5 style="font-size: 1rem; font-weight: 600; color: #222; margin-bottom: 0.2rem;">Jane Doe</h5>
+                            <h4 style="font-size: 1rem; font-weight: 600; color: #222; margin-bottom: 0.2rem;">Jane Doe</h4>
                             <div style="font-size: 0.8rem; color: var(--primary-green); font-weight: 500; margin-bottom: 0.4rem;">Analista</div>
                             <a href="#" style="font-size: 0.8rem; color: var(--primary-green);">Lattes →</a>
                         </div>
@@ -643,9 +660,9 @@ require __DIR__ . '/includes/header.php';
                     <div style="display: flex; gap: 1rem; align-items: flex-start;">
                         <div class="team-avatar">JS</div>
                         <div class="team-info">
-                            <h5 style="font-size: 1rem; font-weight: 600; color: #222; margin-bottom: 0.2rem;">John Smith</h5>
+                            <h4 style="font-size: 1rem; font-weight: 600; color: #222; margin-bottom: 0.2rem;">John Smith</h4>
                             <div class="role" style="font-size: 0.8rem; color: var(--primary-green); font-weight: 500; margin-bottom: 0.4rem;">Técnico</div>
-                            <p style="font-size: 0.8rem; color: #888; margin-bottom: 0.3rem;">Laboratório</p>
+                            <p style="font-size: 0.8rem; color: #767676; margin-bottom: 0.3rem;">Laboratório</p>
                         </div>
                     </div>
                 </div>
@@ -761,28 +778,28 @@ require __DIR__ . '/includes/header.php';
             <div class="col-md-4">
                 <div class="rge-card p-4 text-center">
                     <div class="icon-box mx-auto mb-3"><i class="bi bi-info-circle"></i></div>
-                    <h5>Icon Box <code>.icon-box</code></h5>
+                    <h4>Icon Box <code>.icon-box</code></h4>
                     <p style="font-size: 0.85rem; color: #666;">Quadrado com fundo verde claro, ícone verde. Tamanho 50×50px, radius 10px.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="rge-card p-4 text-center">
                     <div class="program-icon mx-auto mb-3"><i class="bi bi-mortarboard"></i></div>
-                    <h5>Gradient Icon <code>.program-icon</code></h5>
+                    <h4>Gradient Icon <code>.program-icon</code></h4>
                     <p style="font-size: 0.85rem; color: #666;">Quadrado com gradiente verde, ícone branco. Tamanho 56×56px, radius 14px.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="rge-card p-4 text-center">
                     <div class="contact-icon mx-auto mb-3"><i class="bi bi-envelope"></i></div>
-                    <h5>Contact Icon <code>.contact-icon</code></h5>
+                    <h4>Contact Icon <code>.contact-icon</code></h4>
                     <p style="font-size: 0.85rem; color: #666;">Idêntico ao icon-box. Use icon-box preferencialmente.</p>
                 </div>
             </div>
         </div>
 
         <div class="rge-card p-4">
-            <h5 class="mb-3">Ícones Bootstrap disponíveis (biblioteca: Bootstrap Icons)</h5>
+            <h4 class="mb-3">Ícones Bootstrap disponíveis (biblioteca: Bootstrap Icons)</h4>
             <div class="d-flex flex-wrap gap-2" style="font-size: 1.5rem; color: var(--primary-green);">
                 <i class="bi bi-mortarboard"></i>
                 <i class="bi bi-award"></i>
@@ -820,28 +837,28 @@ require __DIR__ . '/includes/header.php';
         <h2 class="mb-5" style="font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222;">Seções de Layout</h2>
 
         <div class="rge-card p-4 mb-4">
-            <h5>Page Header <code>.page-header</code></h5>
+            <h4>Page Header <code>.page-header</code></h4>
             <p style="font-size: 0.9rem; color: #666;">Fundo verde com gradiente, breadcrumb, título h1 e subtítulo. <strong>Toda página tem.</strong></p>
         </div>
 
         <div class="rge-card p-4 mb-4">
-            <h5>Section Label <code>.section-label</code></h5>
+            <h4>Section Label <code>.section-label</code></h4>
             <div class="section-label mb-2">Exemplo de label</div>
             <p style="font-size: 0.9rem; color: #666;">Label pequeno acima do título de cada seção. Texto verde, uppercase, letter-spacing.</p>
         </div>
 
         <div class="rge-card p-4 mb-4">
-            <h5>Alternância de fundo de seção</h5>
+            <h4>Alternância de fundo de seção</h4>
             <p style="font-size: 0.9rem; color: #666;">Seções alternam entre <code>background: white</code> e <code>background: var(--bg-light)</code>. Sempre use <code>padding: 4rem 0</code> (mobile: <code>3rem 0</code>).</p>
         </div>
 
         <div class="rge-card p-4 mb-4">
-            <h5>CTA Section <code>.cta-section</code></h5>
+            <h4>CTA Section <code>.cta-section</code></h4>
             <p style="font-size: 0.9rem; color: #666;">Seção de fundo verde no final de páginas para call-to-action. Contém título, texto e botão branco.</p>
         </div>
 
         <div class="rge-card p-4">
-            <h5>Grid de cards (Bootstrap)</h5>
+            <h4>Grid de cards (Bootstrap)</h4>
             <p style="font-size: 0.9rem; color: #666;">Use <code>.row.g-4</code> com colunas Bootstrap:</p>
             <table class="table table-sm">
                 <thead><tr><th>Contexto</th><th>Classes</th></tr></thead>

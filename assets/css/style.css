@@ -618,7 +618,7 @@ body {
 
 .news-date {
   font-size: 0.75rem;
-  color: #888;
+  color: #767676;
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
@@ -759,7 +759,7 @@ body {
   left: 1rem;
   top: 50%;
   transform: translateY(-50%);
-  color: #888;
+  color: #767676;
 }
 
 /* =========================================================
@@ -2103,7 +2103,7 @@ iframe.goog-te-banner-frame {
 .member-name { font-weight: 500; font-size: 0.95rem; color: #222; }
 
 
-.member-role { font-size: 0.8rem; color: #888; }
+.member-role { font-size: 0.8rem; color: #767676; }
 
 
 /* Calendar Section */
@@ -2153,7 +2153,7 @@ iframe.goog-te-banner-frame {
 
 .event-date .month {
             font-size: 0.75rem; font-weight: 600; text-transform: uppercase;
-            color: #888; letter-spacing: 1px;
+            color: #767676; letter-spacing: 1px;
         }
 
 
@@ -2540,7 +2540,7 @@ iframe.goog-te-banner-frame {
 
 .team-info p {
             font-size: 0.8rem;
-            color: #888;
+            color: #767676;
             margin-bottom: 0.3rem;
             line-height: 1.4;
         }
@@ -3023,7 +3023,7 @@ iframe.goog-te-banner-frame {
 
 .course-date {
             font-size: 0.8rem;
-            color: #888;
+            color: #767676;
             font-weight: 500;
             text-transform: uppercase;
             margin-bottom: 0.5rem;
@@ -3061,7 +3061,7 @@ iframe.goog-te-banner-frame {
             gap: 1rem;
             margin-bottom: 1.2rem;
             font-size: 0.8rem;
-            color: #888;
+            color: #767676;
             border-top: 1px solid #eee;
             padding-top: 1rem;
         }
@@ -3232,7 +3232,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.staff-contact p { font-size: 0.8rem; color: #888; margin-bottom: 0.25rem; }
+.staff-contact p { font-size: 0.8rem; color: #767676; margin-bottom: 0.25rem; }
 
 
 .staff-contact p i { color: var(--primary-green); margin-right: 6px; font-size: 0.85rem; }
@@ -3896,7 +3896,7 @@ iframe.goog-te-banner-frame {
 .pub-card h6 { font-size: 0.95rem; font-weight: 600; color: #222; margin-bottom: 0.5rem; line-height: 1.4; }
 
 
-.pub-meta { font-size: 0.8rem; color: #888; margin-bottom: 0.5rem; }
+.pub-meta { font-size: 0.8rem; color: #767676; margin-bottom: 0.5rem; }
 
 
 .pub-meta span { margin-right: 1rem; }
@@ -4104,7 +4104,7 @@ iframe.goog-te-banner-frame {
             gap: 1rem;
             margin-bottom: 1.2rem;
             font-size: 0.8rem;
-            color: #888;
+            color: #767676;
             border-top: 1px solid #eee;
             padding-top: 1rem;
         }
@@ -4174,7 +4174,7 @@ iframe.goog-te-banner-frame {
 
 .pub-authors {
             font-size: 0.8rem;
-            color: #888;
+            color: #767676;
             margin-bottom: 0.5rem;
         }
 
@@ -4509,7 +4509,7 @@ iframe.goog-te-banner-frame {
 
 .meta-item {
             display: flex; align-items: center; gap: 6px;
-            font-size: 0.8rem; color: #888;
+            font-size: 0.8rem; color: #767676;
         }
 
 
@@ -4524,7 +4524,7 @@ iframe.goog-te-banner-frame {
 
 .platform-contact h6 {
             font-size: 0.8rem; font-weight: 600; text-transform: uppercase;
-            color: #888; letter-spacing: 1px; margin-bottom: 0.75rem;
+            color: #767676; letter-spacing: 1px; margin-bottom: 0.75rem;
         }
 
 
@@ -4909,7 +4909,7 @@ iframe.goog-te-banner-frame {
             gap: 0.5rem;
             margin-bottom: 1.2rem;
             font-size: 0.8rem;
-            color: #888;
+            color: #767676;
             border-top: 1px solid #eee;
             padding-top: 1rem;
         }
@@ -4998,7 +4998,7 @@ iframe.goog-te-banner-frame {
 
 .timeline-content .meta {
             font-size: 0.8rem;
-            color: #888;
+            color: #767676;
         }
 
 
@@ -5064,7 +5064,7 @@ iframe.goog-te-banner-frame {
 
 .partner-card p {
             font-size: 0.8rem;
-            color: #888;
+            color: #767676;
             margin-bottom: 0;
         }
 
@@ -5145,7 +5145,7 @@ iframe.goog-te-banner-frame {
 
 .pub-count {
             font-size: 0.85rem;
-            color: #888;
+            color: #767676;
             font-weight: 500;
         }
 
@@ -5377,7 +5377,7 @@ iframe.goog-te-banner-frame {
 .rotation-card p { font-size: 0.85rem; color: #666; line-height: 1.6; margin-bottom: 0; }
 
 
-.rotation-meta { font-size: 0.8rem; color: #888; margin-bottom: 0.5rem; }
+.rotation-meta { font-size: 0.8rem; color: #767676; margin-bottom: 0.5rem; }
 
 
 .rotation-meta span { margin-right: 1rem; }
