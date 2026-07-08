@@ -48,7 +48,7 @@ require __DIR__ . '/includes/header.php';
             <div class="row g-4">
                 <!-- Graduação -->
                 <div class="col-md-4">
-                    <a href="graduacao.php" class="program-card rge-card">
+                    <a href="graduacao.php" class="program-card">
                         <div class="program-img">
                             <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&h=400&fit=crop" alt="Graduação">
                             <div class="program-img-overlay"></div>
@@ -71,7 +71,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- Pós-graduação -->
                 <div class="col-md-4">
-                    <a href="pos-graduacao.php" class="program-card rge-card">
+                    <a href="pos-graduacao.php" class="program-card">
                         <div class="program-img">
                             <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=600&h=400&fit=crop" alt="Pós-graduação">
                             <div class="program-img-overlay"></div>
@@ -94,7 +94,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- Extensão -->
                 <div class="col-md-4">
-                    <a href="extensao.php" class="program-card rge-card">
+                    <a href="extensao.php" class="program-card">
                         <div class="program-img">
                             <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&h=400&fit=crop" alt="Extensão">
                             <div class="program-img-overlay"></div>

@@ -83,7 +83,7 @@ require __DIR__ . '/includes/header.php';
 
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
-                    <div class="program-card rge-card">
+                    <div class="program-card">
                         <div class="program-icon"><i class="bi bi-mortarboard"></i></div>
                         <h2 class="h5 program-name">Mestrado em Genética</h2>
                         <p class="program-desc">Formação voltada para a preparação de profissionais do ensino superior e pesquisadores. O candidato ao título de Mestre deve integralizar créditos em disciplinas de caráter mais abrangente, desenvolvendo uma dissertação de qualidade.</p>
@@ -98,7 +98,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="program-card rge-card">
+                    <div class="program-card">
                         <div class="program-icon"><i class="bi bi-award"></i></div>
                         <h2 class="h5 program-name">Doutorado em Genética</h2>
                         <p class="program-desc">Formação avançada orientada para a produção de conhecimento original. O candidato ao título de Doutor cumpre disciplinas mais especializadas, tanto dentro da área de concentração como em outras áreas relacionadas ao seu projeto de pesquisa.</p>
@@ -113,7 +113,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="program-card rge-card">
+                    <div class="program-card">
                         <div class="program-icon"><i class="bi bi-lightning-charge"></i></div>
                         <h2 class="h5 program-name">Doutorado Direto em Genética</h2>
                         <p class="program-desc">Modalidade acelerada para candidatos com excelente desempenho acadêmico e potencial de pesquisa comprovado. Permite a obtenção do título de Doutor sem a necessidade prévia do título de Mestre, com projeto de pesquisa contínuo.</p>
