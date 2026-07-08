@@ -14,7 +14,7 @@
   <!-- Legenda com duas linhas -->
   <div>
     <div class="fw-bold">FMRP • USP</div>
-    <div class="text-muted small" style="margin-top: -4px;"><h6>Departamento de Genética</h6></div>
+    <div class="text-muted small" style="margin-top: -4px;"><h2 class="h6">Departamento de Genética</h2></div>
   </div>
 </div>
                     <p class="footer-desc mt-3">Compromisso com a formação de excelência e a produção de conhecimento científico.</p>
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-lg-2 offset-lg-1">
-                    <h6>Links Rápidos</h6>
+                    <h2 class="h6">Links Rápidos</h2>
                     <ul class="footer-links">
                         <li><a href="ensino.php">Ensino</a></li>
                         <li><a href="linhas-pesquisa.php">Pesquisa</a></li>
@@ -38,7 +38,7 @@
                     </ul>
                 </div>
                 <div class="col-6 col-lg-2">
-                    <h6>Informações</h6>
+                    <h2 class="h6">Informações</h2>
                     <ul class="footer-links">
                         <li><a href="ensino.php">Ensino</a></li>
 <!--                        <li><a href="#">Biblioteca</a></li> -->
@@ -47,7 +47,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-3">
-                    <h6>Contato</h6>
+                    <h2 class="h6">Contato</h2>
                     <div class="footer-contact-item">
                         <i class="bi bi-geo-alt"></i>
                         <span>Departamento de Genética – FMRP/USP<br>Av. Bandeirantes, 3900<br>Ribeirão Preto – SP, 14049-900</span>

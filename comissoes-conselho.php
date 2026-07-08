@@ -42,11 +42,11 @@ require __DIR__ . '/includes/header.php';
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-10 mb-3 mb-lg-0">
-                    <a href="comissoes-conselho.php#conselho"><span role="button" type="button" class="filter-btn" data-area="">Conselho</span></a>
-                    <a href="comissoes-conselho.php#comgrad"><span role="button" type="button" class="filter-btn" data-area="Genética Humana">Comissão de Graduação</span></a>
-                    <a href="comissoes-conselho.php#compos"><span role="button" type="button" class="filter-btn" data-area="Genética Molecular">Comissão de Pós-Graduação</span></a>
-                    <a href="comissoes-conselho.php#compesq"><span role="button" type="button" class="filter-btn" data-area="Bioinformática">Comissão de Pesquisa</span></a>
-                    <a href="comissoes-conselho.php#cominfo"><span role="button" type="button" class="filter-btn" data-area="Bioinformática">Comissão de Informática</span></a>
+                    <a class="filter-btn" href="comissoes-conselho.php#conselho">Conselho</a>
+                    <a class="filter-btn" href="comissoes-conselho.php#comgrad">Comissão de Graduação</a>
+                    <a class="filter-btn" href="comissoes-conselho.php#compos">Comissão de Pós-Graduação</a>
+                    <a class="filter-btn" href="comissoes-conselho.php#compesq">Comissão de Pesquisa</a>
+                    <a class="filter-btn" href="comissoes-conselho.php#cominfo">Comissão de Informática</a>
                 </div>
             </div>
         </div>

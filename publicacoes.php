@@ -353,5 +353,5 @@ require __DIR__ . '/includes/header.php';
             <p class="mx-auto">Conheça os grupos de pesquisa por trás dessas publicações e descubra oportunidades de colaboração e formação.</p>
             <a href="linhas-pesquisa.php" class="btn-green">LINHAS DE PESQUISA <i class="bi bi-arrow-right"></i></a>
         </div>
-    </s
+    </section>
 <?php require __DIR__ . '/includes/footer.php'; ?>
