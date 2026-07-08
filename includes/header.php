@@ -21,7 +21,7 @@ if (!isset($pageTitle)) $pageTitle = 'Departamento de Genética - FMRP/USP';
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/style.css?v=14">
+    <link rel="stylesheet" href="assets/css/style.css?v=15">
     <link rel="stylesheet" href="assets/css/rgetradutor.css">
     <style>
 .navbar .dropdown-toggle::after {
@@ -56,7 +56,20 @@ if (!isset($pageTitle)) $pageTitle = 'Departamento de Genética - FMRP/USP';
 .menu-titulo:hover{
     text-decoration: none;
 }
-    </style>
+    
+/* Dropdown toggle button — reset to look like nav-link */
+.nav-link.dropdown-toggle.menu-titulo {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    color: inherit;
+    padding: inherit;
+    display: inline-flex;
+    align-items: center;
+}
+
+</style>
 </head>
 <body>
 
@@ -368,7 +381,7 @@ function checkActiveLang() {
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item dropdown">
  <!--                       <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Departamento</a>  -->
- <span class="nav-link dropdown-toggle menu-titulo" data-bs-toggle="dropdown" role="button" aria-expanded="false">Departamento</span>
+ <button class="nav-link dropdown-toggle menu-titulo" data-bs-toggle="dropdown" role="button" aria-expanded="false">Departamento</button>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="historia.php">Sobre o Departamento</a></li>
                             <li><a class="dropdown-item" href="chefia.php">Chefias</a></li>
@@ -378,7 +391,7 @@ function checkActiveLang() {
                     </li>
 
                     <li class="nav-item dropdown">
- <span class="nav-link dropdown-toggle menu-titulo" data-bs-toggle="dropdown" role="button" aria-expanded="false">Ensino</span>
+ <button class="nav-link dropdown-toggle menu-titulo" data-bs-toggle="dropdown" role="button" aria-expanded="false">Ensino</button>
     <ul class="dropdown-menu">
 		<li><a class="dropdown-item" href="ensino.php">Ensino</a>
         <li><a class="dropdown-item" href="graduacao.php">Graduação</a></li>
@@ -388,7 +401,7 @@ function checkActiveLang() {
 </li>
   
   <li class="nav-item dropdown">
- <span class="nav-link dropdown-toggle menu-titulo" data-bs-toggle="dropdown" role="button" aria-expanded="false">Pesquisa</span>
+ <button class="nav-link dropdown-toggle menu-titulo" data-bs-toggle="dropdown" role="button" aria-expanded="false">Pesquisa</button>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="linhas-pesquisa.php">Linhas de Pesquisa</a></li>
                             <li><a class="dropdown-item" href="projetos.php">Projetos</a></li>
@@ -397,7 +410,7 @@ function checkActiveLang() {
                     </li>
 
 <li class="nav-item dropdown">
- <span class="nav-link dropdown-toggle menu-titulo" data-bs-toggle="dropdown" role="button" aria-expanded="false">Extensão</span>
+ <button class="nav-link dropdown-toggle menu-titulo" data-bs-toggle="dropdown" role="button" aria-expanded="false">Extensão</button>
     <ul class="dropdown-menu">
   		  <li><a class="dropdown-item" href="cursos_extensao.php">Extensão</a></li>
         <li>
@@ -415,7 +428,7 @@ function checkActiveLang() {
 </li>
 
 <li class="nav-item dropdown">
- <span class="nav-link dropdown-toggle menu-titulo" data-bs-toggle="dropdown" role="button" aria-expanded="false">Equipe</span>
+ <button class="nav-link dropdown-toggle menu-titulo" data-bs-toggle="dropdown" role="button" aria-expanded="false">Equipe</button>
 
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="docentes.php">Docentes</a></li>
@@ -429,7 +442,7 @@ function checkActiveLang() {
                     </li> -->
 
 <li class="nav-item dropdown">
- <span class="nav-link dropdown-toggle menu-titulo" data-bs-toggle="dropdown" role="button" aria-expanded="false">Laboratórios</span>
+ <button class="nav-link dropdown-toggle menu-titulo" data-bs-toggle="dropdown" role="button" aria-expanded="false">Laboratórios</button>
 
     <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="laboratorios.php">Laboratórios</a></li>
@@ -451,27 +464,25 @@ function checkActiveLang() {
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-
-    // Seleciona TODOS os menus dropdown
-    const dropdownMenus = document.querySelectorAll('.nav-item.dropdown');
-
-    dropdownMenus.forEach(function(menu) {
-
-        const submenu = menu.querySelector('.dropdown-menu');
-
-        // Abre ao passar o mouse
-        menu.addEventListener('mouseenter', function () {
-            menu.classList.add('show');
-            submenu.classList.add('show');
+    // Hover dropdowns apenas em dispositivos com mouse (desktop)
+    // Em touch/mobile, o Bootstrap data-bs-toggle cuida do clique único
+    if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+        document.querySelectorAll('.nav-item.dropdown').forEach(function(menu) {
+            const submenu = menu.querySelector('.dropdown-menu');
+            if (!submenu) return;
+            menu.addEventListener('mouseenter', function () {
+                menu.classList.add('show');
+                submenu.classList.add('show');
+                const toggle = menu.querySelector('[data-bs-toggle="dropdown"]');
+                if (toggle) toggle.setAttribute('aria-expanded', 'true');
+            });
+            menu.addEventListener('mouseleave', function () {
+                menu.classList.remove('show');
+                submenu.classList.remove('show');
+                const toggle = menu.querySelector('[data-bs-toggle="dropdown"]');
+                if (toggle) toggle.setAttribute('aria-expanded', 'false');
+            });
         });
-
-        // Fecha ao retirar o mouse
-        menu.addEventListener('mouseleave', function () {
-            menu.classList.remove('show');
-            submenu.classList.remove('show');
-        });
-
-    });
-
+    }
 });
 </script>
