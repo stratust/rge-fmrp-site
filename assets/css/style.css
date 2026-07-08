@@ -29,6 +29,9 @@
     transition: var(--card-transition);
 }
 
+h2.h5, h3.h5, h4.h5 { font-size: 1.25rem; }
+h2.h6, h3.h6, h4.h6 { font-size: 1rem; }
+
 /* Hover padrão para todos os cards .rge-card */
 .rge-card:hover {
     transform: translateY(var(--card-hover-lift));
@@ -5695,3 +5698,16 @@ iframe.goog-te-banner-frame {
     .chefia-card { padding: 16px 12px; }
     .feature-card { padding: 1rem 0.75rem; }
 }
+
+/* ============================================
+   BOOTSTRAP UTILITY CLASS PROTECTION (must be last)
+   h2.h5, h3.h6 etc. must ALWAYS respect the .h5/.h6 size,
+   not inherit section-level h2/h3 clamp() sizes.
+   Placed at end so it wins by source order on specificity ties.
+   ============================================ */
+h2.h1, h3.h1, h4.h1 { font-size: 2.5rem; }
+h2.h2, h3.h2, h4.h2 { font-size: 2rem; }
+h2.h3, h3.h3, h4.h3 { font-size: 1.75rem; }
+h2.h4, h3.h4, h4.h4 { font-size: 1.5rem; }
+h2.h5, h3.h5, h4.h5 { font-size: 1.25rem; }
+h2.h6, h3.h6, h4.h6 { font-size: 1rem; }
