@@ -3768,7 +3768,6 @@ iframe.goog-te-banner-frame {
 
 
 .featured-lab-body h3 {
-            font-size: clamp(0.9375rem, 3vw, 1.3rem);
             font-weight: 700;
             color: #222;
             margin-bottom: 0.5rem;
@@ -4310,7 +4309,6 @@ iframe.goog-te-banner-frame {
 
 
 .featured-title {
-            font-size: clamp(0.9375rem, 3vw, 1.3rem);
             font-weight: 700;
             color: #222;
             margin-bottom: 1rem;
@@ -4369,7 +4367,6 @@ iframe.goog-te-banner-frame {
 
 
 .newsletter-section h3 {
-            font-size: clamp(0.9375rem, 3vw, 1.3rem);
             font-weight: 500;
             margin-bottom: 0.5rem;
         }

@@ -152,11 +152,11 @@ require __DIR__ . '/includes/header.php';
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
         <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
       
-                                      <h3 style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
+                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
                             ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
-                      </h3>
+                      </p>
                         
                         
                      <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
@@ -314,11 +314,11 @@ require __DIR__ . '/includes/header.php';
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
         <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
       
-                                      <h3 style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
+                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
                             ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
-                      </h3>
+                      </p>
                         
                         
                      <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
@@ -499,11 +499,11 @@ require __DIR__ . '/includes/header.php';
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
         <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
       
-                                      <h3 style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
+                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
                             ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
-                      </h3>
+                      </p>
                         
                         
                      <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
@@ -684,11 +684,11 @@ require __DIR__ . '/includes/header.php';
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
         <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
       
-                                      <h3 style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
+                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
                             ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
-                      </h3>
+                      </p>
                         
                         
                      <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
@@ -857,11 +857,11 @@ require __DIR__ . '/includes/header.php';
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
         <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
       
-                                      <h3 style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
+                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
                             ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
-                      </h3>
+                      </p>
                         
                         
                      <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
@@ -1018,11 +1018,11 @@ require __DIR__ . '/includes/header.php';
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
         <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
       
-                                      <h3 style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
+                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
                             ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
-                      </h3>
+                      </p>
                         
                         
                      <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
@@ -1179,11 +1179,11 @@ require __DIR__ . '/includes/header.php';
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
         <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
       
-                                      <h3 style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
+                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
                             ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
-                      </h3>
+                      </p>
                         
                         
                      <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
@@ -1405,11 +1405,11 @@ require __DIR__ . '/includes/header.php';
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
         <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
       
-                                      <h3 style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
+                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
                             ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
-                      </h3>
+                      </p>
                         
                         
                      <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
@@ -1542,11 +1542,11 @@ require __DIR__ . '/includes/header.php';
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
         <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
       
-                                      <h3 style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
+                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
                             ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
-                      </h3>
+                      </p>
                         
                         
                      <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
@@ -1768,11 +1768,11 @@ require __DIR__ . '/includes/header.php';
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
         <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
       
-                                      <h3 style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
+                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
                             ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
-                      </h3>
+                      </p>
                         
                         
                      <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
@@ -2033,11 +2033,11 @@ require __DIR__ . '/includes/header.php';
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
         <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
       
-                                      <h3 style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
+                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
                             ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
-                      </h3>
+                      </p>
                         
                         
                      <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
@@ -2128,8 +2128,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
             
         
-                            <h3 class="mb-3 mt-4"
-                    style="font-size:1.5rem; font-weight:700; color:#222;">
+                            <h3 class="mb-3 mt-4">
                     Docentes Colaboradores Seniores                </h3>
             
                             <div class="row g-4 mb-4">
@@ -2346,8 +2345,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
             
         
-                            <h3 class="mb-3 mt-4"
-                    style="font-size:1.5rem; font-weight:700; color:#222;">
+                            <h3 class="mb-3 mt-4">
                     Docentes com dupla vinculação                </h3>
             
                             <div class="row g-4 mb-4">
@@ -2410,11 +2408,11 @@ require __DIR__ . '/includes/header.php';
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
         <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
       
-                                      <h3 style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
+                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
                             ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
-                      </h3>
+                      </p>
                         
                         
                      <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
