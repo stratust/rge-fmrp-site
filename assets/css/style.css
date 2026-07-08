@@ -137,7 +137,7 @@ body {
 }
 
 .page-header h1 {
-  font-size: 2.8rem;
+  font-size: clamp(1.625rem, 5.5vw, 2.8rem);
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
@@ -209,7 +209,7 @@ body {
 }
 
 .stat-number {
-  font-size: 2rem;
+  font-size: clamp(1.25rem, 4.5vw, 2rem);
   font-weight: 700;
   color: var(--primary-green);
   display: block;
@@ -295,14 +295,14 @@ body {
 }
 
 .hero-content h1 {
-  font-size: 3rem;
+  font-size: clamp(1.75rem, 6vw, 3rem);
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 0.5rem;
 }
 
 .hero-content .subtitle {
-  font-size: 1.5rem;
+  font-size: clamp(1rem, 3.5vw, 1.5rem);
   font-weight: 300;
   margin-bottom: 1rem;
 }
@@ -435,7 +435,7 @@ body {
 
 .about-section h2,
 .intro-section h2 {
-  font-size: 2.2rem;
+  font-size: clamp(1.375rem, 5vw, 2.2rem);
   font-weight: 700;
   color: var(--text-dark);
   margin-bottom: 1.5rem;
@@ -479,7 +479,7 @@ body {
 
 .news-section h2,
 .research-section h2 {
-  font-size: 2rem;
+  font-size: clamp(1.25rem, 4.5vw, 2rem);
   font-weight: 700;
   color: var(--text-dark);
   margin-bottom: 2.5rem;
@@ -848,7 +848,7 @@ body {
 }
 
 .setor-title {
-  font-size: 1.4rem;
+  font-size: clamp(0.9375rem, 3vw, 1.4rem);
   font-weight: 700;
   color: var(--text-dark);
   margin: 0;
@@ -885,7 +885,7 @@ body {
   align-items: center;
   justify-content: center;
   color: var(--primary-green);
-  font-size: 1.4rem;
+  font-size: clamp(0.9375rem, 3vw, 1.4rem);
   font-weight: 600;
 }
 
@@ -1075,7 +1075,7 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 2rem;
+  font-size: clamp(1.25rem, 4.5vw, 2rem);
   margin-bottom: 1rem;
 }
 
@@ -1105,7 +1105,7 @@ body {
 }
 
 .number-value {
-  font-size: 2.5rem;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
   font-weight: 700;
   color: var(--primary-green);
   display: block;
@@ -1164,8 +1164,8 @@ body {
   letter-spacing: .5px;
 }
 
-.chefia-card h2 { font-size: 28px; }
-.chefia-card h3 { font-size: 25px; }
+.chefia-card h2 { font-size: clamp(1.125rem, 4vw, 1.75rem); }
+.chefia-card h3 { font-size: clamp(1rem, 3.5vw, 1.5625rem); }
 
 .chefia-card .linha {
   width: 38px;
@@ -1578,7 +1578,7 @@ iframe.goog-te-banner-frame {
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 2.5rem;
+            font-size: clamp(1.5rem, 5vw, 2.5rem);
             color: var(--primary-green);
             overflow: hidden;
         }
@@ -1883,7 +1883,7 @@ iframe.goog-te-banner-frame {
         .commissions-section { padding: 4rem 0; background: white; }
 
 
-.commissions-section h2 { font-size: 2.2rem; font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
+.commissions-section h2 { font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .commissions-section p { color: #555; line-height: 1.8; margin-bottom: 1rem; }
@@ -1953,7 +1953,7 @@ iframe.goog-te-banner-frame {
         .council-section { padding: 4rem 0; background: var(--bg-light); }
 
 
-.council-section h2 { font-size: 2.2rem; font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
+.council-section h2 { font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .council-section p { color: #555; line-height: 1.8; margin-bottom: 1rem; }
@@ -2005,7 +2005,7 @@ iframe.goog-te-banner-frame {
         .calendar-section { padding: 4rem 0; background: white; }
 
 
-.calendar-section h2 { font-size: 2.2rem; font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
+.calendar-section h2 { font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .calendar-section p { color: #555; line-height: 1.8; margin-bottom: 1rem; }
@@ -2042,7 +2042,7 @@ iframe.goog-te-banner-frame {
 
 
 .event-date .day {
-            font-size: 1.8rem; font-weight: 700; color: var(--primary-green); line-height: 1;
+            font-size: clamp(1.125rem, 4vw, 1.8rem); font-weight: 700; color: var(--primary-green); line-height: 1;
         }
 
 
@@ -2084,7 +2084,7 @@ iframe.goog-te-banner-frame {
         .norms-section { padding: 4rem 0; background: var(--bg-light); }
 
 
-.norms-section h2 { font-size: 2.2rem; font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
+.norms-section h2 { font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .norm-card {
@@ -2161,7 +2161,7 @@ iframe.goog-te-banner-frame {
 
 
 .contact-info-section h2 {
-            font-size: 2.2rem;
+            font-size: clamp(1.375rem, 5vw, 2.2rem);
             font-weight: 700;
             color: #222;
             margin-bottom: 1.5rem;
@@ -2204,7 +2204,7 @@ iframe.goog-te-banner-frame {
             justify-content: center;
             margin-bottom: 1.2rem;
             color: var(--primary-green);
-            font-size: 1.4rem;
+            font-size: clamp(0.9375rem, 3vw, 1.4rem);
         }
 
 
@@ -2244,7 +2244,7 @@ iframe.goog-te-banner-frame {
 
 
 .form-section h2 {
-            font-size: 2rem;
+            font-size: clamp(1.25rem, 4.5vw, 2rem);
             font-weight: 700;
             color: #222;
             margin-bottom: 1.5rem;
@@ -2375,7 +2375,7 @@ iframe.goog-te-banner-frame {
 
 
 .team-section h2 {
-            font-size: 2rem;
+            font-size: clamp(1.25rem, 4.5vw, 2rem);
             font-weight: 700;
             color: #222;
             margin-bottom: 2.5rem;
@@ -2463,7 +2463,7 @@ iframe.goog-te-banner-frame {
 
 
 .social-cta h3 {
-            font-size: 1.5rem;
+            font-size: clamp(1rem, 3.5vw, 1.5rem);
             font-weight: 600;
             margin-bottom: 0.5rem;
         }
@@ -2631,7 +2631,7 @@ iframe.goog-te-banner-frame {
             justify-content: center;
             margin-bottom: 1.2rem;
             color: white;
-            font-size: 1.5rem;
+            font-size: clamp(1rem, 3.5vw, 1.5rem);
         }
 
 
@@ -2695,7 +2695,7 @@ iframe.goog-te-banner-frame {
 
 
 .info-section h2 {
-            font-size: 2rem;
+            font-size: clamp(1.25rem, 4.5vw, 2rem);
             font-weight: 700;
             color: #222;
             margin-bottom: 2.5rem;
@@ -2771,7 +2771,7 @@ iframe.goog-te-banner-frame {
 
 
 .cta-section h2 {
-            font-size: 2rem;
+            font-size: clamp(1.25rem, 4.5vw, 2rem);
             font-weight: 700;
             margin-bottom: 1rem;
         }
@@ -3003,7 +3003,7 @@ iframe.goog-te-banner-frame {
         .services-section { padding: 4rem 0; background: white; }
 
 
-.services-section h2 { font-size: 2.2rem; font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
+.services-section h2 { font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .services-section p { color: #555; line-height: 1.8; }
@@ -3083,7 +3083,7 @@ iframe.goog-te-banner-frame {
         .staff-section { padding: 4rem 0; background: white; }
 
 
-.staff-section h2 { font-size: 2rem; font-weight: 700; color: #222; margin-bottom: 1.5rem; }
+.staff-section h2 { font-size: clamp(1.25rem, 4.5vw, 2rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; }
 
 
 .staff-section p { color: #555; line-height: 1.8; margin-bottom: 1rem; }
@@ -3149,7 +3149,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.contact-banner h2 { font-size: 2rem; font-weight: 700; margin-bottom: 1rem; }
+.contact-banner h2 { font-size: clamp(1.25rem, 4.5vw, 2rem); font-weight: 700; margin-bottom: 1rem; }
 
 
 .contact-banner p { font-size: 1rem; opacity: 0.9; max-width: 500px; margin-bottom: 1.5rem; }
@@ -3177,7 +3177,7 @@ iframe.goog-te-banner-frame {
             align-items: center;
             justify-content: center;
             color: white;
-            font-size: 1.5rem;
+            font-size: clamp(1rem, 3.5vw, 1.5rem);
             margin-bottom: 1.2rem;
         }
 
@@ -3302,7 +3302,7 @@ iframe.goog-te-banner-frame {
 
 
 .highlight-box h3 {
-            font-size: 1.4rem;
+            font-size: clamp(0.9375rem, 3vw, 1.4rem);
             font-weight: 700;
             margin-bottom: 1rem;
         }
@@ -3358,7 +3358,7 @@ iframe.goog-te-banner-frame {
             align-items: center;
             justify-content: center;
             color: white;
-            font-size: 2.5rem;
+            font-size: clamp(1.5rem, 5vw, 2.5rem);
         }
 
 
@@ -3662,7 +3662,7 @@ iframe.goog-te-banner-frame {
 
 
 .featured-lab-body h3 {
-            font-size: 1.5rem;
+            font-size: clamp(1rem, 3.5vw, 1.5rem);
             font-weight: 700;
             color: #222;
             margin-bottom: 0.5rem;
@@ -3690,7 +3690,7 @@ iframe.goog-te-banner-frame {
 .about-section { padding: 4rem 0; background: var(--bg-light); }
 
 
-.about-section h2 { font-size: 2.2rem; font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
+.about-section h2 { font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .about-section p { color: #555; line-height: 1.8; margin-bottom: 1rem; }
@@ -3776,7 +3776,7 @@ iframe.goog-te-banner-frame {
 .pub-section { padding: 4rem 0; background: var(--bg-light); }
 
 
-.pub-section h2 { font-size: 2.2rem; font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
+.pub-section h2 { font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .pub-card {
@@ -3813,7 +3813,7 @@ iframe.goog-te-banner-frame {
 .funding-section { padding: 4rem 0; background: white; }
 
 
-.funding-section h2 { font-size: 2.2rem; font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
+.funding-section h2 { font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .funding-card {
@@ -3848,7 +3848,7 @@ iframe.goog-te-banner-frame {
 .partnerships-section { padding: 4rem 0; background: var(--bg-light); }
 
 
-.partnerships-section h2 { font-size: 2.2rem; font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
+.partnerships-section h2 { font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .partnership-card {
@@ -3881,7 +3881,7 @@ iframe.goog-te-banner-frame {
 .infra-section { padding: 4rem 0; background: white; }
 
 
-.infra-section h2 { font-size: 2.2rem; font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
+.infra-section h2 { font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .infra-card {
@@ -3897,7 +3897,7 @@ iframe.goog-te-banner-frame {
 .infra-img { height: 160px; overflow: hidden; background: var(--bg-light); display: flex; align-items: center; justify-content: center; }
 
 
-.infra-img i { font-size: 3rem; color: var(--primary-green); opacity: 0.6; }
+.infra-img i { font-size: clamp(1.75rem, 6vw, 3rem); color: var(--primary-green); opacity: 0.6; }
 
 
 .infra-body { padding: 1.2rem; }
@@ -3912,7 +3912,7 @@ iframe.goog-te-banner-frame {
 .gallery-section { padding: 4rem 0; background: var(--bg-light); }
 
 
-.gallery-section h2 { font-size: 2.2rem; font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
+.gallery-section h2 { font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .gallery-img {
@@ -3925,7 +3925,7 @@ iframe.goog-te-banner-frame {
 .gallery-img:hover { transform: translateY(-3px); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
 
 
-.gallery-img i { font-size: 3rem; color: #aaa; }
+.gallery-img i { font-size: clamp(1.75rem, 6vw, 3rem); color: #aaa; }
 
 
 /* ============================================
@@ -4118,7 +4118,7 @@ iframe.goog-te-banner-frame {
 
 
 .news-section h2 {
-            font-size: 2rem;
+            font-size: clamp(1.25rem, 4.5vw, 2rem);
             font-weight: 700;
             color: #222;
         }
@@ -4206,7 +4206,7 @@ iframe.goog-te-banner-frame {
 
 
 .featured-title {
-            font-size: 1.5rem;
+            font-size: clamp(1rem, 3.5vw, 1.5rem);
             font-weight: 700;
             color: #222;
             margin-bottom: 1rem;
@@ -4265,7 +4265,7 @@ iframe.goog-te-banner-frame {
 
 
 .newsletter-section h3 {
-            font-size: 1.5rem;
+            font-size: clamp(1rem, 3.5vw, 1.5rem);
             font-weight: 600;
             margin-bottom: 0.5rem;
         }
@@ -4329,7 +4329,7 @@ iframe.goog-te-banner-frame {
         .platforms-section { padding: 4rem 0; background: var(--bg-light); }
 
 
-.platforms-section h2 { font-size: 2.2rem; font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
+.platforms-section h2 { font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .platform-card {
@@ -4378,7 +4378,7 @@ iframe.goog-te-banner-frame {
 
 
 .platform-body h3 {
-            font-size: 1.4rem; font-weight: 700; color: #222;
+            font-size: clamp(0.9375rem, 3vw, 1.4rem); font-weight: 700; color: #222;
             margin-bottom: 0.75rem;
         }
 
@@ -4457,7 +4457,7 @@ iframe.goog-te-banner-frame {
         .equipment-section { padding: 4rem 0; background: white; }
 
 
-.equipment-section h2 { font-size: 2.2rem; font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
+.equipment-section h2 { font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .equipment-card {
@@ -4477,7 +4477,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.equipment-icon i { font-size: 1.5rem; color: var(--primary-green); }
+.equipment-icon i { font-size: clamp(1rem, 3.5vw, 1.5rem); color: var(--primary-green); }
 
 
 .equipment-card h5 { font-size: 0.95rem; font-weight: 600; color: #222; margin-bottom: 0.5rem; }
@@ -4490,7 +4490,7 @@ iframe.goog-te-banner-frame {
         .access-section { padding: 4rem 0; background: var(--bg-light); }
 
 
-.access-section h2 { font-size: 2.2rem; font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
+.access-section h2 { font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .access-section p { color: #555; line-height: 1.8; margin-bottom: 1rem; }
@@ -4681,7 +4681,7 @@ iframe.goog-te-banner-frame {
 
 
 .projects-section h2 {
-            font-size: 2rem;
+            font-size: clamp(1.25rem, 4.5vw, 2rem);
             font-weight: 700;
             color: #222;
         }
@@ -4843,7 +4843,7 @@ iframe.goog-te-banner-frame {
 
 
 .timeline-section h2 {
-            font-size: 2rem;
+            font-size: clamp(1.25rem, 4.5vw, 2rem);
             font-weight: 700;
             color: #222;
             margin-bottom: 2.5rem;
@@ -4911,7 +4911,7 @@ iframe.goog-te-banner-frame {
 
 
 .partners-section h2 {
-            font-size: 2rem;
+            font-size: clamp(1.25rem, 4.5vw, 2rem);
             font-weight: 700;
             color: #222;
             margin-bottom: 2.5rem;
@@ -4946,7 +4946,7 @@ iframe.goog-te-banner-frame {
             justify-content: center;
             margin: 0 auto 1rem;
             color: var(--primary-green);
-            font-size: 1.5rem;
+            font-size: clamp(1rem, 3.5vw, 1.5rem);
         }
 
 
@@ -5146,7 +5146,7 @@ iframe.goog-te-banner-frame {
 
 
 .featured-pub h3 {
-            font-size: 1.4rem;
+            font-size: clamp(0.9375rem, 3vw, 1.4rem);
             font-weight: 700;
             margin-bottom: 0.75rem;
             line-height: 1.4;
@@ -5237,7 +5237,7 @@ iframe.goog-te-banner-frame {
         .program-section { padding: 4rem 0; background: var(--bg-light); }
 
 
-.program-section h2 { font-size: 2.2rem; font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
+.program-section h2 { font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .program-section p { color: #555; line-height: 1.8; margin-bottom: 1rem; }
@@ -5253,7 +5253,7 @@ iframe.goog-te-banner-frame {
         .rotations-section { padding: 4rem 0; background: white; }
 
 
-.rotations-section h2 { font-size: 2.2rem; font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
+.rotations-section h2 { font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .rotation-card {
@@ -5282,7 +5282,7 @@ iframe.goog-te-banner-frame {
 .rotation-meta i { color: var(--primary-green); margin-right: 4px; }
 
 
-.admission-section h2 { font-size: 2.2rem; font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
+.admission-section h2 { font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .admission-section p { color: #555; line-height: 1.8; margin-bottom: 1rem; }
@@ -5313,7 +5313,7 @@ iframe.goog-te-banner-frame {
         .documents-section { padding: 4rem 0; background: var(--bg-light); }
 
 
-.documents-section h2 { font-size: 2.2rem; font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
+.documents-section h2 { font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .doc-card {
@@ -5474,10 +5474,7 @@ iframe.goog-te-banner-frame {
     .carousel-control-prev-custom { left: 0; }
     .carousel-control-next-custom { right: 0; }
 
-    /* Section headings: escalar levemente */
-    .about-section h2,
-    .intro-section h2,
-    .commissions-section h2 { font-size: 1.6rem; }
+    /* Section headings: fluid via clamp() in base CSS */
 }
 
 /* ===== PHONE (max-width: 576px) ===== */
@@ -5577,9 +5574,8 @@ iframe.goog-te-banner-frame {
 
 /* ===== SMALL PHONE (max-width: 375px) ===== */
 @media (max-width: 375px) {
-    .hero-content h1,
-    .page-header h1 { font-size: 1.5rem; }
     .hero-section { height: 360px; }
+    /* h1 scales via clamp() in base CSS */
     .chefia-card { padding: 16px 12px; }
     .feature-card { padding: 1rem 0.75rem; }
 }
