@@ -1479,7 +1479,7 @@ footer .logo-genetica {
 
 
 .notranslate {
-    translate: no !important;
+    /* Google Translate reconhece esta classe por convenção e não traduz o conteúdo */
 }
 
 
@@ -1860,7 +1860,7 @@ iframe.goog-te-banner-frame {
             /*background: white;*/
             border-radius: 14px;
             padding: 1.5rem;
-            box-shadow: 0;
+            box-shadow: none;
             border: 0;
         }
 
