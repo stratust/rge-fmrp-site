@@ -1281,7 +1281,7 @@ body {
 }
 
 .chefia-card h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); }
-.chefia-card h3 { font-size: clamp(1rem, 3.5vw, 1.5625rem); }
+.chefia-card h3 { } /* inherits semantic h3 */
 
 .chefia-card .linha {
   width: 38px;
@@ -2749,7 +2749,6 @@ iframe.goog-te-banner-frame {
 
 
 .program-card h3 {
-            font-size: 1.3rem;
             font-weight: 700;
             color: #222;
             margin-bottom: 0.75rem;
@@ -3141,7 +3140,7 @@ iframe.goog-te-banner-frame {
 .service-icon svg { width: 28px; height: 28px; }
 
 
-.service-card h5 { color: var(--primary-green); font-weight: 500; font-size: 1.05rem; margin-bottom: 0.75rem; }
+.service-card h5 { color: var(--primary-green); font-weight: 500; margin-bottom: 0.75rem; }
 
 
 .service-card p { font-size: 0.9rem; color: #666; margin-bottom: 1rem; line-height: 1.6; }
@@ -3412,7 +3411,6 @@ iframe.goog-te-banner-frame {
 
 
 .highlight-box h3 {
-            font-size: clamp(0.9375rem, 3vw, 1.3rem);
             font-weight: 700;
             margin-bottom: 1rem;
         }
@@ -3830,7 +3828,7 @@ iframe.goog-te-banner-frame {
 .research-card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
 
 
-.research-card h5 { color: var(--primary-green); font-weight: 500; font-size: 1.05rem; margin-bottom: 0.75rem; }
+.research-card h5 { color: var(--primary-green); font-weight: 500; margin-bottom: 0.75rem; }
 
 
 .research-card p { font-size: 0.9rem; color: #666; line-height: 1.6; margin-bottom: 0; }
@@ -5349,7 +5347,7 @@ iframe.goog-te-banner-frame {
 .program-icon svg { width: 24px; height: 24px; }
 
 
-.program-card h5 { color: var(--primary-green); font-weight: 500; font-size: 1.05rem; margin-bottom: 0.75rem; }
+.program-card h5 { color: var(--primary-green); font-weight: 500; margin-bottom: 0.75rem; }
 
 
 /* Rotations Section */
