@@ -426,16 +426,16 @@ require __DIR__ . '/includes/header.php';
         <h2 class="mb-5" style="font-size: clamp(1.375rem, 5vw, 2.2rem); font-weight: 700; color: #222;">Badges & Tags</h2>
         <div class="rge-card p-4">
             <div class="d-flex flex-wrap gap-3 mb-4 align-items-center">
-                <span class="program-badge">Program Badge</span>
-                <span class="course-badge">Course Badge</span>
-                <span class="course-badge online">Online</span>
-                <span class="course-badge hybrid">Híbrido</span>
-                <span class="project-status active">Ativo</span>
-                <span class="project-status completed">Concluído</span>
-                <span class="project-status new">Novo</span>
+                <span class="program-badge" style="position: static;">Program Badge</span>
+                <span class="course-badge" style="position: static;">Course Badge</span>
+                <span class="course-badge online" style="position: static;">Online</span>
+                <span class="course-badge hybrid" style="position: static;">Híbrido</span>
+                <span class="project-status active" style="position: static;">Ativo</span>
+                <span class="project-status completed" style="position: static;">Concluído</span>
+                <span class="project-status new" style="position: static;">Novo</span>
                 <span class="discipline-tag">Optativa</span>
                 <span class="project-tag">Genética</span>
-                <span class="badge-highlight">Destaque</span>
+                <span class="badge-highlight" style="position: static;">Destaque</span>
             </div>
             <table class="table table-sm">
                 <thead><tr><th>Classe</th><th>Tipo</th><th>Uso</th></tr></thead>
