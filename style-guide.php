@@ -320,51 +320,303 @@ require __DIR__ . '/includes/header.php';
         </div>
 
         <!-- Indexação de variantes -->
-        <h3 class="mb-3" style="font-size: 1.3rem; font-weight: 700; color: #222;">Mapeamento: Classes legadas → Arquétipos</h3>
-        <div class="rge-card p-4">
-            <table class="table table-sm">
-                <thead>
-                    <tr>
-                        <th>Classe legada</th>
-                        <th>Arquétipo</th>
-                        <th>Onde é usada</th>
-                        <th>Status</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><code>rge-card</code></td><td>Content Card (base)</td><td>Todas as páginas</td><td><span class="badge bg-success">Oficial</span></td></tr>
-                    <tr><td><code>info-card</code></td><td>Icon Card</td><td>ensino, extensão, pos-grad</td><td><span class="badge bg-success">Ícone + texto</span></td></tr>
-                    <tr><td><code>contact-card</code></td><td>Icon Card</td><td>contato</td><td><span class="badge bg-success">Ícone + texto</span></td></tr>
-                    <tr><td><code>equipment-card</code></td><td>Icon Card</td><td>infraestrutura</td><td><span class="badge bg-success">Ícone + texto</span></td></tr>
-                    <tr><td><code>partner-card</code></td><td>Icon Card</td><td>projetos</td><td><span class="badge bg-success">Ícone + texto</span></td></tr>
-                    <tr><td><code>step-card</code></td><td>Icon Card</td><td>infraestrutura (acesso)</td><td><span class="badge bg-success">Ícone + texto</span></td></tr>
-                    <tr><td><code>stat-card</code></td><td>Icon Card (centro)</td><td>infraestrutura</td><td><span class="badge bg-warning text-dark">Centralizado</span></td></tr>
-                    <tr><td><code>news-card</code></td><td>Media Card</td><td>index (carousel)</td><td><span class="badge bg-success">Imagem + texto</span></td></tr>
-                    <tr><td><code>course-card</code></td><td>Media Card</td><td>extensão</td><td><span class="badge bg-success">Imagem + texto</span></td></tr>
-                    <tr><td><code>project-card</code></td><td>Media Card</td><td>projetos</td><td><span class="badge bg-success">Imagem + texto</span></td></tr>
-                    <tr><td><code>program-card</code></td><td>Media Card</td><td>ensino, pos-grad</td><td><span class="badge bg-success">Imagem + texto</span></td></tr>
-                    <tr><td><code>featured-card</code></td><td>Media Card</td><td>index (destaque)</td><td><span class="badge bg-success">Imagem + texto</span></td></tr>
-                    <tr><td><code>docente-card</code></td><td>Profile Card</td><td>docentes</td><td><span class="badge bg-success">Foto + dados</span></td></tr>
-                    <tr><td><code>func-card</code></td><td>Profile Card</td><td>funcionários</td><td><span class="badge bg-success">Avatar + dados</span></td></tr>
-                    <tr><td><code>team-card</code></td><td>Profile Card</td><td>contato (equipe)</td><td><span class="badge bg-success">Avatar + dados</span></td></tr>
-                    <tr><td><code>highlight-box</code></td><td>Highlight Box</td><td>pos-grad, genmed</td><td><span class="badge bg-success">Box de info</span></td></tr>
-                    <tr><td><code>comissao-card</code></td><td>Content Card</td><td>chefia</td><td><span class="badge bg-info text-dark">Especial</span></td></tr>
-                    <tr><td><code>council-card</code></td><td>Content Card</td><td>comissões</td><td><span class="badge bg-info text-dark">Especial</span></td></tr>
-                    <tr><td><code>commission-card</code></td><td>Content Card</td><td>comissões</td><td><span class="badge bg-info text-dark">Especial</span></td></tr>
-                    <tr><td><code>calendar-card</code></td><td>Content Card</td><td>comissões</td><td><span class="badge bg-info text-dark">Especial</span></td></tr>
-                    <tr><td><code>norm-card</code></td><td>Icon Card (flex)</td><td>comissões</td><td><span class="badge bg-info text-dark">Especial</span></td></tr>
-                    <tr><td><code>rotation-card</code></td><td>Content Card (border-left)</td><td>residência</td><td><span class="badge bg-info text-dark">Especial</span></td></tr>
-                    <tr><td><code>pub-card</code></td><td>Content Card</td><td>publicações</td><td><span class="badge bg-info text-dark">Especial</span></td></tr>
-                    <tr><td><code>doc-card</code></td><td>Icon Card (flex)</td><td>residência</td><td><span class="badge bg-info text-dark">Especial</span></td></tr>
-                    <tr><td><code>admission-card</code></td><td>Content Card (bg-light)</td><td>pos-grad</td><td><span class="badge bg-info text-dark">Especial</span></td></tr>
-                    <tr><td><code>infra-card</code></td><td>Media Card</td><td>infraestrutura</td><td><span class="badge bg-success">Imagem + texto</span></td></tr>
-                    <tr><td><code>research-card</code></td><td>Icon Card</td><td>infraestrutura</td><td><span class="badge bg-success">Ícone + texto</span></td></tr>
-                    <tr><td><code>platform-card</code></td><td>Media Card (gradient header)</td><td>infraestrutura</td><td><span class="badge bg-info text-dark">Especial</span></td></tr>
-                    <tr><td><code>funding-card</code></td><td>Icon Card</td><td>projetos</td><td><span class="badge bg-success">Ícone + texto</span></td></tr>
-                    <tr><td><code>partnership-card</code></td><td>Icon Card</td><td>projetos</td><td><span class="badge bg-success">Ícone + texto</span></td></tr>
-                </tbody>
-            </table>
-            <p class="mt-3"><strong>Verde:</strong> usa o arquétipo base diretamente. <strong>Azul:</strong> tem customizações específicas (layout institucional), mas visualmente segue o mesmo DNA.</p>
+        <h3 class="mb-3" style="font-size: 1.3rem; font-weight: 700; color: #222;">Galeria: todas as classes legadas com preview real</h3>
+        <p class="text-muted mb-4">Cada card abaixo usa a classe real indicada no label <code>&lt;code&gt;</code>. Todas seguem o mesmo DNA visual.</p>
+
+        <!-- ── Content Cards ── -->
+        <h4 class="mb-3" style="font-size: 1.1rem; font-weight: 600; color: var(--primary-green);">Content Cards</h4>
+        <div class="row g-4 mb-5">
+            <div class="col-md-6 col-lg-4">
+                <div class="rge-card p-4 h-100">
+                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.rge-card</code>
+                    <h5>Card base</h5>
+                    <p style="font-size: 0.9rem; color: #666;">Content card genérico. Fundo de todos os outros arquétipos.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="comissao-card rge-card h-100">
+                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.comissao-card</code>
+                    <h5>Comissão</h5>
+                    <p style="font-size: 0.9rem; color: #666;">Usado na página de chefia. Lista de membros.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="council-card rge-card h-100">
+                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.council-card</code>
+                    <h5>Conselho</h5>
+                    <p style="font-size: 0.9rem; color: #666;">Cards de membros de conselho.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="commission-card rge-card h-100">
+                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.commission-card</code>
+                    <h5>Comissão</h5>
+                    <p style="font-size: 0.9rem; color: #666;">Cards de comissões de graduação/pesquisa.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="calendar-card rge-card h-100">
+                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.calendar-card</code>
+                    <h5>Calendário</h5>
+                    <p style="font-size: 0.9rem; color: #666;">Cards de reuniões e eventos.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="admission-card h-100">
+                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.admission-card</code>
+                    <div class="admission-icon"><i class="bi bi-pencil-square"></i></div>
+                    <div class="admission-title">Inscrições</div>
+                    <div class="admission-desc">Card com fundo cinza claro. Usado em pos-graduação.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="pub-card rge-card h-100">
+                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.pub-card</code>
+                    <div class="pub-year-badge" style="display: inline-flex; margin-bottom: 0.5rem;">2024<span>PUB</span></div>
+                    <div class="pub-content">
+                        <h6 style="font-size: 0.95rem; font-weight: 600; color: #222;">Título da publicação</h6>
+                        <p style="font-size: 0.85rem; color: #666;">Autores et al. — Journal</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="rotation-card h-100">
+                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.rotation-card</code>
+                    <h6 style="font-weight: 600; font-size: 1rem; color: #222;">Rotação Especial</h6>
+                    <p style="font-size: 0.85rem; color: #666;">Card com borda verde esquerda. Usado em residência.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── Icon Cards ── -->
+        <h4 class="mb-3" style="font-size: 1.1rem; font-weight: 600; color: var(--primary-green);">Icon Cards</h4>
+        <div class="row g-4 mb-5">
+            <div class="col-md-6 col-lg-4">
+                <div class="info-card rge-card h-100">
+                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.info-card</code>
+                    <div class="icon-box"><i class="bi bi-info-circle"></i></div>
+                    <h5>Information</h5>
+                    <p>Padrão de card com ícone verde no topo.</p>
+                    <a href="#">Saiba mais →</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="contact-card rge-card h-100">
+                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.contact-card</code>
+                    <div class="contact-icon"><i class="bi bi-envelope"></i></div>
+                    <h5>Contato</h5>
+                    <p>Email e telefone.</p>
+                    <a href="#">contato@rge.fmrp.usp.br</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="equipment-card rge-card h-100 text-center">
+                    <code class="d-block mb-2 text-muted text-start" style="font-size: 0.75rem;">.equipment-card</code>
+                    <div class="equipment-icon mx-auto"><i class="bi bi-cpu"></i></div>
+                    <h5>Equipamento</h5>
+                    <p>Ícone centralizado. Usado em infraestrutura.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="partner-card rge-card h-100 text-center">
+                    <code class="d-block mb-2 text-muted text-start" style="font-size: 0.75rem;">.partner-card</code>
+                    <div class="partner-icon mx-auto"><i class="bi bi-handshake"></i></div>
+                    <h5>Parceiro</h5>
+                    <p>Ícone circular. Usado em projetos.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="step-card rge-card h-100">
+                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.step-card</code>
+                    <h5>Passo a passo</h5>
+                    <p>Card de etapas. Usado em processo de acesso.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="stat-card rge-card h-100 text-center">
+                    <code class="d-block mb-2 text-muted text-start" style="font-size: 0.75rem;">.stat-card</code>
+                    <div style="font-size: 2rem; font-weight: 700; color: var(--primary-green);">42</div>
+                    <p style="font-size: 0.85rem; color: #666;">Stats centralizado</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="research-card rge-card h-100">
+                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.research-card</code>
+                    <h5>Pesquisa</h5>
+                    <p>Card de linhas de pesquisa.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="funding-card rge-card h-100">
+                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.funding-card</code>
+                    <h5>Fomento</h5>
+                    <p style="font-size: 0.85rem; color: #666;">FAPESP, CNPq</p>
+                    <div class="period" style="font-size: 0.8rem; color: var(--primary-green); font-weight: 500;">2024–2026</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="partnership-card rge-card h-100">
+                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.partnership-card</code>
+                    <h5>Parceria</h5>
+                    <p style="font-size: 0.85rem; color: #666;">Colaboração institucional</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="norm-card rge-card h-100">
+                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.norm-card</code>
+                    <div class="doc-icon"><i class="bi bi-file-earmark-text"></i></div>
+                    <div class="doc-content">
+                        <h6 style="font-weight: 600; font-size: 0.95rem; color: #222;">Norma/Documento</h6>
+                        <p style="font-size: 0.85rem; color: #666;">Card flex com ícone lateral</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="doc-card rge-card h-100">
+                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.doc-card</code>
+                    <div class="doc-icon"><i class="bi bi-file-earmark-pdf"></i></div>
+                    <div class="doc-content">
+                        <h6 style="font-weight: 600; font-size: 0.95rem; color: #222;">Documento PDF</h6>
+                        <p style="font-size: 0.85rem; color: #666;">Card de download</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── Media Cards ── -->
+        <h4 class="mb-3" style="font-size: 1.1rem; font-weight: 600; color: var(--primary-green);">Media Cards</h4>
+        <div class="row g-4 mb-5">
+            <div class="col-md-6 col-lg-4">
+                <div class="news-card rge-card h-100 overflow-hidden">
+                    <code class="d-block m-2 text-muted" style="font-size: 0.75rem;">.news-card</code>
+                    <div style="height: 100px; background: linear-gradient(135deg, var(--primary-green), var(--light-green));"></div>
+                    <div style="padding: 1rem;">
+                        <h5 style="font-size: 1rem;">News Card</h5>
+                        <p style="font-size: 0.85rem; color: #666;">Carousel de notícias na home.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="course-card rge-card h-100 overflow-hidden">
+                    <code class="d-block m-2 text-muted" style="font-size: 0.75rem;">.course-card</code>
+                    <div style="height: 100px; background: linear-gradient(135deg, var(--dark-green), var(--primary-green)); position: relative;">
+                        <span class="course-badge" style="position: static;">Curso</span>
+                    </div>
+                    <div style="padding: 1rem;">
+                        <h5 style="font-size: 1rem;">Course Card</h5>
+                        <p style="font-size: 0.85rem; color: #666;">Cursos de extensão.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="project-card rge-card h-100 overflow-hidden">
+                    <code class="d-block m-2 text-muted" style="font-size: 0.75rem;">.project-card</code>
+                    <div style="height: 100px; background: linear-gradient(135deg, var(--light-green), var(--accent-green)); position: relative;">
+                        <span class="project-status active" style="position: static;">Ativo</span>
+                    </div>
+                    <div style="padding: 1rem;">
+                        <h5 style="font-size: 1rem;">Project Card</h5>
+                        <p style="font-size: 0.85rem; color: #666;">Projetos de pesquisa.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="program-card h-100 overflow-hidden">
+                    <code class="d-block m-2 text-muted" style="font-size: 0.75rem;">.program-card</code>
+                    <div class="program-icon mt-2 ms-3"><i class="bi bi-mortarboard"></i></div>
+                    <div style="padding: 0 1.5rem 1rem;">
+                        <h5 class="program-name" style="font-size: 1.1rem;">Program Card</h5>
+                        <p class="program-desc" style="font-size: 0.9rem;">Mestrado/Doutorado. Sem imagem, só ícone gradiente.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="featured-card rge-card h-100 overflow-hidden">
+                    <code class="d-block m-2 text-muted" style="font-size: 0.75rem;">.featured-card</code>
+                    <div style="height: 100px; background: linear-gradient(135deg, var(--primary-green), var(--accent-green));"></div>
+                    <div style="padding: 1rem;">
+                        <h5 style="font-size: 1rem;">Featured Card</h5>
+                        <p style="font-size: 0.85rem; color: #666;">Notícia destacada.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="infra-card rge-card h-100 overflow-hidden">
+                    <code class="d-block m-2 text-muted" style="font-size: 0.75rem;">.infra-card</code>
+                    <div style="height: 100px; background: linear-gradient(135deg, var(--dark-green), var(--light-green));"></div>
+                    <div style="padding: 1rem;">
+                        <h5 style="font-size: 1rem;">Infra Card</h5>
+                        <p style="font-size: 0.85rem; color: #666;">Infraestrutura.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="platform-card rge-card h-100 overflow-hidden">
+                    <code class="d-block m-2 text-muted" style="font-size: 0.75rem;">.platform-card</code>
+                    <div style="height: 100px; background: linear-gradient(135deg, #1a5c3a 0%, #2d7a52 50%, #4ade80 100%); display: flex; align-items: center; justify-content: center;">
+                        <i class="bi bi-dna" style="font-size: 2.5rem; color: rgba(255,255,255,0.25);"></i>
+                    </div>
+                    <div style="padding: 1rem;">
+                        <h5 style="font-size: 1rem;">Platform Card</h5>
+                        <p style="font-size: 0.85rem; color: #666;">Header com gradiente e ícone.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── Profile Cards ── -->
+        <h4 class="mb-3" style="font-size: 1.1rem; font-weight: 600; color: var(--primary-green);">Profile Cards</h4>
+        <div class="row g-4 mb-5">
+            <div class="col-md-6 col-lg-4">
+                <div class="docente-card rge-card h-100 overflow-hidden">
+                    <code class="d-block m-2 text-muted" style="font-size: 0.75rem;">.docente-card</code>
+                    <div style="padding: 0 1rem 1rem;">
+                        <div class="docente-name" style="font-size: 1.1rem; font-weight: 700; color: #222;">Prof. Dr. Exemplo</div>
+                        <div class="docente-role" style="font-size: 0.8rem; color: var(--primary-green); font-weight: 600; text-transform: uppercase; margin-bottom: 0.5rem;">Professor Titular</div>
+                        <a href="#" style="font-size: 0.85rem; color: var(--primary-green);">Currículo Lattes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="func-card rge-card h-100">
+                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.func-card</code>
+                    <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                        <div style="width: 55px; height: 55px; background: rgba(26,92,58,0.08); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--primary-green); font-weight: 600; font-size: 1.3rem; flex-shrink: 0;">JD</div>
+                        <div>
+                            <h5 style="font-size: 1rem; font-weight: 600; color: #222; margin-bottom: 0.2rem;">Jane Doe</h5>
+                            <div style="font-size: 0.8rem; color: var(--primary-green); font-weight: 500; margin-bottom: 0.4rem;">Analista</div>
+                            <a href="#" style="font-size: 0.8rem; color: var(--primary-green);">Lattes →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="team-card rge-card h-100">
+                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.team-card</code>
+                    <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                        <div class="team-avatar">JS</div>
+                        <div class="team-info">
+                            <h5 style="font-size: 1rem; font-weight: 600; color: #222; margin-bottom: 0.2rem;">John Smith</h5>
+                            <div class="role" style="font-size: 0.8rem; color: var(--primary-green); font-weight: 500; margin-bottom: 0.4rem;">Técnico</div>
+                            <p style="font-size: 0.8rem; color: #888; margin-bottom: 0.3rem;">Laboratório</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── Highlight Box ── -->
+        <h4 class="mb-3" style="font-size: 1.1rem; font-weight: 600; color: var(--primary-green);">Highlight Box</h4>
+        <div class="row g-4 mb-3">
+            <div class="col-12">
+                <div style="position: relative;">
+                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.highlight-box</code>
+                    <div class="highlight-box">
+                        <h3><i class="bi bi-info-circle me-2"></i>Highlight Box</h3>
+                        <p>Box de destaque para informações importantes. Fundo gradiente verde. Não é clicável.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
