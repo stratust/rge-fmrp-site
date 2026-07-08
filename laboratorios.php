@@ -105,7 +105,7 @@ require __DIR__ . '/includes/header.php';
                                 <span class="lab-tag">Genética Animal</span>
                                 <span class="lab-tag">Biologia de Desenvolvimento</span>
                             </div>
-                            <h2 class="h5 lab-name">Biologia e Genética de Desenvolvimento de Abelhas</h2>
+                            <h3 class="lab-name">Biologia e Genética de Desenvolvimento de Abelhas</h3>
                             <div class="lab-leader"><i class="bi bi-person-circle"></i> Klaus Hartmann Hartfelder</div>
                             <p class="lab-desc">Estudo da biologia molecular e celular de abelhas sociais, com foco em mecanismos de diferenciação de castas, desenvolvimento ovariano, expressão gênica diferencial e plasticidade fenotípica em Apis mellifera e meliponídeos.</p>
                             <div class="lab-meta">
@@ -132,7 +132,7 @@ require __DIR__ . '/includes/header.php';
                                 <span class="lab-tag">Hematologia</span>
                                 <span class="lab-tag">Genética Médica</span>
                             </div>
-                            <h2 class="h5 lab-name">Laboratório de Hematologia Molecular</h2>
+                            <h3 class="lab-name">Laboratório de Hematologia Molecular</h3>
                             <div class="lab-leader"><i class="bi bi-person-circle"></i> Marco Antonio Zago</div>
                             <p class="lab-desc">Pesquisas em terapia gênica, engenharia celular, doenças genéticas hematológicas e biologia molecular de células-tronco hematopoéticas. Desenvolvimento de vetores virais e estratégias de correção gênica.</p>
                             <div class="lab-meta">
@@ -159,7 +159,7 @@ require __DIR__ . '/includes/header.php';
                                 <span class="lab-tag">Imunogenética</span>
                                 <span class="lab-tag">Genética Molecular</span>
                             </div>
-                            <h2 class="h5 lab-name">Laboratório de Imunogenética Molecular</h2>
+                            <h3 class="lab-name">Laboratório de Imunogenética Molecular</h3>
                             <div class="lab-leader"><i class="bi bi-person-circle"></i> Wilson Araújo da Silva Júnior</div>
                             <p class="lab-desc">Investigação da diversidade genética de populações, marcadores do DNA nuclear e mitocondrial, microRNAs em neoplasias hematológicas e bases genéticas da resposta imune em diferentes populações brasileiras.</p>
                             <div class="lab-meta">
@@ -186,7 +186,7 @@ require __DIR__ . '/includes/header.php';
                                 <span class="lab-tag">Genética de Plantas</span>
                                 <span class="lab-tag">Reprodução</span>
                             </div>
-                            <h2 class="h5 lab-name">Sinalização Celular na Reprodução</h2>
+                            <h3 class="lab-name">Sinalização Celular na Reprodução</h3>
                             <div class="lab-leader"><i class="bi bi-person-circle"></i> Equipe de Pesquisa</div>
                             <p class="lab-desc">Estudo dos processos de sinalização celular envolvidos na reprodução de plantas, incluindo interações pólen-pistilo, desenvolvimento de órgãos reprodutivos e regulação gênica durante a gametogênese.</p>
                             <div class="lab-meta">
@@ -213,7 +213,7 @@ require __DIR__ . '/includes/header.php';
                                 <span class="lab-tag">Bioinformática</span>
                                 <span class="lab-tag">Genômica</span>
                             </div>
-                            <h2 class="h5 lab-name">Processamento de Informação Biológica</h2>
+                            <h3 class="lab-name">Processamento de Informação Biológica</h3>
                             <div class="lab-leader"><i class="bi bi-person-circle"></i> Ricardo Z. N. Vêncio / Tie Koide</div>
                             <p class="lab-desc">Desenvolvimento de ferramentas computacionais para análise de dados ômicos, modelagem de redes regulatórias, transcriptômica e aprendizado de máquina aplicado à biologia. Infraestrutura de alto desempenho para bioinformática.</p>
                             <div class="lab-meta">
@@ -240,7 +240,7 @@ require __DIR__ . '/includes/header.php';
                                 <span class="lab-tag">Micologia</span>
                                 <span class="lab-tag">Genética Molecular</span>
                             </div>
-                            <h2 class="h5 lab-name">Genética e Biologia Molecular de Fungos</h2>
+                            <h3 class="lab-name">Genética e Biologia Molecular de Fungos</h3>
                             <div class="lab-leader"><i class="bi bi-person-circle"></i> Francis de Assis Nóbrega / Iran Malavazi</div>
                             <p class="lab-desc">Estudo da biologia molecular de fungos patogênicos, com ênfase em Paracoccidioides brasiliensis e Aspergillus fumigatus. Investigação de mecanismos de patogenicidade, resistência a antifúngicos e transcriptoma fúngico.</p>
                             <div class="lab-meta">
@@ -267,7 +267,7 @@ require __DIR__ . '/includes/header.php';
                                 <span class="lab-tag">Oncologia</span>
                                 <span class="lab-tag">Pesquisa Experimental</span>
                             </div>
-                            <h2 class="h5 lab-name">Oncologia Experimental – LABOEX</h2>
+                            <h3 class="lab-name">Oncologia Experimental – LABOEX</h3>
                             <div class="lab-leader"><i class="bi bi-person-circle"></i> Equipe Multidisciplinar</div>
                             <p class="lab-desc">Pesquisas experimentais em oncologia, incluindo estudos de carcinogênese, terapia gênica tumoral, modelos animais de câncer e avaliação de novos compostos com potencial antitumoral.</p>
                             <div class="lab-meta">
@@ -294,7 +294,7 @@ require __DIR__ . '/includes/header.php';
                                 <span class="lab-tag">Oncopatologia</span>
                                 <span class="lab-tag">Diagnóstico</span>
                             </div>
-                            <h2 class="h5 lab-name">Laboratório de Oncopatologia</h2>
+                            <h3 class="lab-name">Laboratório de Oncopatologia</h3>
                             <div class="lab-leader"><i class="bi bi-person-circle"></i> Equipe de Pesquisa</div>
                             <p class="lab-desc">Estudo da patologia molecular de tumores, correlação entre alterações genéticas e perfis histopatológicos, desenvolvimento de testes diagnósticos moleculares para neoplasias.</p>
                             <div class="lab-meta">
@@ -321,7 +321,7 @@ require __DIR__ . '/includes/header.php';
                                 <span class="lab-tag">Parasitologia</span>
                                 <span class="lab-tag">Genética Molecular</span>
                             </div>
-                            <h2 class="h5 lab-name">Laboratório de Parasitologia Molecular</h2>
+                            <h3 class="lab-name">Laboratório de Parasitologia Molecular</h3>
                             <div class="lab-leader"><i class="bi bi-person-circle"></i> Equipe de Pesquisa</div>
                             <p class="lab-desc">Investigação da biologia molecular de parasitos, identificação de alvos terapêuticos, estudos de resistência a drogas e desenvolvimento de métodos diagnósticos moleculares para doenças parasitárias.</p>
                             <div class="lab-meta">
@@ -348,7 +348,7 @@ require __DIR__ . '/includes/header.php';
                                 <span class="lab-tag">Genética Humana</span>
                                 <span class="lab-tag">Farmacogenética</span>
                             </div>
-                            <h2 class="h5 lab-name">Laboratório de Genética Humana e Populações</h2>
+                            <h3 class="lab-name">Laboratório de Genética Humana e Populações</h3>
                             <div class="lab-leader"><i class="bi bi-person-circle"></i> Sergio Danilo Junho Pena</div>
                             <p class="lab-desc">Pesquisas em farmacogenética, genética forense, DNA de populações brasileiras, genômica personalizada e medicina de precisão. Desenvolvimento de painéis de SNPs para aplicações médicas e forenses.</p>
                             <div class="lab-meta">
@@ -375,7 +375,7 @@ require __DIR__ . '/includes/header.php';
                                 <span class="lab-tag">Genética Vegetal</span>
                                 <span class="lab-tag">Melhoramento</span>
                             </div>
-                            <h2 class="h5 lab-name">Laboratório de Genética de Plantas</h2>
+                            <h3 class="lab-name">Laboratório de Genética de Plantas</h3>
                             <div class="lab-leader"><i class="bi bi-person-circle"></i> Equipe de Pesquisa</div>
                             <p class="lab-desc">Melhoramento genético de espécies vegetais, resistência a estresses bióticos e abióticos, engenharia genética de plantas e estudos de expressão gênica em resposta a estresses ambientais.</p>
                             <div class="lab-meta">
@@ -402,7 +402,7 @@ require __DIR__ . '/includes/header.php';
                                 <span class="lab-tag">Genética Animal</span>
                                 <span class="lab-tag">Melhoramento</span>
                             </div>
-                            <h2 class="h5 lab-name">Laboratório de Genética Animal</h2>
+                            <h3 class="lab-name">Laboratório de Genética Animal</h3>
                             <div class="lab-leader"><i class="bi bi-person-circle"></i> Ester Silveira Ramos / Raysildo B. Lôbo</div>
                             <p class="lab-desc">Melhoramento genético aplicado a bovinos de corte, reprodução assistida, precocidade sexual e crescimento, epigenética e genética quantitativa em populações animais.</p>
                             <div class="lab-meta">
@@ -431,7 +431,7 @@ require __DIR__ . '/includes/header.php';
                             <span class="lab-badge lab-badge-teaching">Ensino</span>
                         </div>
                         <div class="lab-body">
-                            <h2 class="h5 lab-name">Laboratório de Práticas em Genética</h2>
+                            <h3 class="lab-name">Laboratório de Práticas em Genética</h3>
                             <p class="lab-desc">Espaço destinado às aulas práticas de graduação em Genética, Citogenética e Biologia Molecular. Equipado com microscópios, material para preparação de lâminas e kits didáticos de biologia molecular.</p>
                             <div class="lab-meta">
                                 <div class="lab-meta-item"><i class="bi bi-people"></i> Capacidade: 30 alunos</div>
@@ -448,7 +448,7 @@ require __DIR__ . '/includes/header.php';
                             <span class="lab-badge lab-badge-teaching">Ensino</span>
                         </div>
                         <div class="lab-body">
-                            <h2 class="h5 lab-name">Laboratório de Informática em Genética</h2>
+                            <h3 class="lab-name">Laboratório de Informática em Genética</h3>
                             <p class="lab-desc">Sala equipada com estações de trabalho para aulas de bioinformática, análise de dados genéticos, simulações computacionais e acesso a bancos de dados genômicos.</p>
                             <div class="lab-meta">
                                 <div class="lab-meta-item"><i class="bi bi-people"></i> Capacidade: 25 alunos</div>
@@ -465,7 +465,7 @@ require __DIR__ . '/includes/header.php';
                             <span class="lab-badge lab-badge-teaching">Ensino</span>
                         </div>
                         <div class="lab-body">
-                            <h2 class="h5 lab-name">Laboratório de Microscopia</h2>
+                            <h3 class="lab-name">Laboratório de Microscopia</h3>
                             <p class="lab-desc">Infraestrutura para ensino de técnicas de microscopia óptica e eletrônica, preparação de amostras biológicas e análise morfológica de células e tecidos.</p>
                             <div class="lab-meta">
                                 <div class="lab-meta-item"><i class="bi bi-people"></i> Capacidade: 20 alunos</div>

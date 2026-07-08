@@ -200,7 +200,7 @@ require __DIR__ . '/includes/header.php';
 				<a href="comissoes-conselho.php#conselho" class="feature-link">
                     <div class="comissao-card rge-card">
                         <div class="comissao-icon"><i class="bi bi-journal-check"></i></div>
-                        <h2 class="h5 comissao-title">Conselho</h2>
+                        <h3 class="comissao-title">Conselho</h3>
                         <p class="comissao-desc">Conselho do departamento.</p>
                         <div class="comissao-members">
                             <strong>Chefe:</strong> A definir<br>
@@ -213,7 +213,7 @@ require __DIR__ . '/includes/header.php';
 				<a href="comissoes-conselho.php#comgrad" class="feature-link">
                     <div class="comissao-card rge-card">
                         <div class="comissao-icon"><i class="bi bi-journal-check"></i></div>
-                        <h2 class="h5 comissao-title">Comissão de Graduação</h2>
+                        <h3 class="comissao-title">Comissão de Graduação</h3>
                         <p class="comissao-desc">Responsável pela organização e supervisão das atividades de ensino de graduação do departamento.</p>
                         <div class="comissao-members">
                             <strong>Coordenador:</strong> A definir<br>
@@ -226,7 +226,7 @@ require __DIR__ . '/includes/header.php';
 								<a href="comissoes-conselho.php#compos" class="feature-link">
                     <div class="comissao-card rge-card">
                         <div class="comissao-icon"><i class="bi bi-mortarboard"></i></div>
-                        <h2 class="h5 comissao-title">Comissão de Pós-Graduação</h2>
+                        <h3 class="comissao-title">Comissão de Pós-Graduação</h3>
                         <p class="comissao-desc">Coordenação do Programa de Pós-Graduação em Genética, incluindo seleção e acompanhamento de alunos.</p>
                         <div class="comissao-members">
                             <strong>Coordenador:</strong> A definir<br>
@@ -239,7 +239,7 @@ require __DIR__ . '/includes/header.php';
 								<a href="comissoes-conselho.php#compesq" class="feature-link">
                     <div class="comissao-card rge-card">
                         <div class="comissao-icon"><i class="bi bi-clipboard-data"></i></div>
-                        <h2 class="h5 comissao-title">Comissão de Pesquisa</h2>
+                        <h3 class="comissao-title">Comissão de Pesquisa</h3>
                         <p class="comissao-desc">Fomento e supervisão das atividades de pesquisa, incluindo projetos, bolsas e parcerias institucionais.</p>
                         <div class="comissao-members">
                             <strong>Coordenador:</strong> A definir<br>
@@ -252,7 +252,7 @@ require __DIR__ . '/includes/header.php';
 								<a href="comissoes-conselho.php#cominfo" class="feature-link">
                     <div class="comissao-card rge-card">
                         <div class="comissao-icon"><i class="bi bi-shield-check"></i></div>
-                        <h2 class="h5 comissao-title">Comissão de Informática</h2>
+                        <h3 class="comissao-title">Comissão de Informática</h3>
                         <p class="comissao-desc">Coordena as atividades de informática do departamento.</p>
                         <div class="comissao-members">
                             <strong>Coordenador:</strong> A definir<br>

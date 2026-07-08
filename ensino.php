@@ -130,7 +130,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="icon-box">
                             <i class="bi bi-calendar-check"></i>
                         </div>
-                        <h2 class="h5">Calendário Acadêmico</h2>
+                        <h3>Calendário Acadêmico</h3>
                         <p>Acompanhe as datas importantes do ano letivo, incluindo matrículas, avaliações e recessos.</p>
                         <a href="ensino.php#">Ver calendário <i class="bi bi-arrow-right"></i></a>
                     </div>
@@ -140,7 +140,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="icon-box">
                             <i class="bi bi-file-earmark-text"></i>
                         </div>
-                        <h2 class="h5">Horários e Ementas</h2>
+                        <h3>Horários e Ementas</h3>
                         <p>Consulte os horários das disciplinas, ementas detalhadas e planos de ensino dos cursos.</p>
                         <a href="ensino.php#">Consultar <i class="bi bi-arrow-right"></i></a>
                     </div>
@@ -150,7 +150,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="icon-box">
                             <i class="bi bi-journal-medical"></i>
                         </div>
-                        <h2 class="h5">Trabalhos de Conclusão</h2>
+                        <h3>Trabalhos de Conclusão</h3>
                         <p>Acesse orientações, prazos e a biblioteca digital de TCCs, dissertações e teses defendidas.</p>
                         <a href="ensino.php#">Acessar <i class="bi bi-arrow-right"></i></a>
                     </div>
@@ -160,7 +160,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="icon-box">
                             <i class="bi bi-question-circle"></i>
                         </div>
-                        <h2 class="h5">Secretaria Acadêmica</h2>
+                        <h3>Secretaria Acadêmica</h3>
                         <p>Tire dúvidas sobre matrículas, históricos, declarações e outros serviços acadêmicos.</p>
                         <a href="ensino.php#">Fale conosco <i class="bi bi-arrow-right"></i></a>
                     </div>

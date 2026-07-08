@@ -46,7 +46,7 @@ require __DIR__ . '/includes/header.php';
                                 <circle cx="25" cy="25" r="3" fill="#1a5c3a"/>
                             </svg>
                         </div>
-                        <h2 class="h5">ENSINO</h2>
+                        <h3>ENSINO</h3>
                         <p>Graduação e Pós-graduação com excelência acadêmica.</p>
                         →
                     </div>
@@ -71,7 +71,7 @@ require __DIR__ . '/includes/header.php';
                                 <line x1="54" y1="52" x2="61" y2="59" stroke="#1a5c3a" stroke-width="3" stroke-linecap="round"/>
                             </svg>
                         </div>
-                        <h2 class="h5">PESQUISA</h2>
+                        <h3>PESQUISA</h3>
                         <p>Produzindo conhecimento e promovendo inovação.</p>
                         →
                     </div>
@@ -91,7 +91,7 @@ require __DIR__ . '/includes/header.php';
                                 <line x1="10" y1="45" x2="40" y2="45" stroke="#1a5c3a" stroke-width="2"/>
                             </svg>
                         </div>
-                        <h2 class="h5">LABORATÓRIOS</h2>
+                        <h3>LABORATÓRIOS</h3>
                         <p>Infraestrutura moderna e tecnologia de ponta.</p>
                         →
                     </div>
@@ -107,7 +107,7 @@ require __DIR__ . '/includes/header.php';
                                 <path d="M12 30 Q25 25 38 30 Q38 42 25 45 Q12 42 12 30" stroke="#1a5c3a" stroke-width="2" fill="none"/>
                             </svg>
                         </div>
-                        <h2 class="h5">CORPO DOCENTE</h2>
+                        <h3>CORPO DOCENTE</h3>
                         <p>Professores e pesquisadores altamente qualificados.</p>
                         →
                     </div>
@@ -158,7 +158,7 @@ require __DIR__ . '/includes/header.php';
                             </div>
                             <div class="news-body">
                                 <div class="news-date">15 JUN 2026 - 14:00</div>
-                                <h2 class="h5 news-title">Jéssica Oliveira de Santis - Doutorado</h2>
+                                <h3 class="news-title">Jéssica Oliveira de Santis - Doutorado</h3>
                                 <p class="news-excerpt">Caracterização Molecular e Abordagens Funcionais para Identificação de Vulnerabilidades Terapêuticas no Meduloblastoma Pediátrico</p>
                                 <i class="bi bi-arrow-right"></i>
                             </div>
@@ -174,7 +174,7 @@ require __DIR__ . '/includes/header.php';
                             </div>
                             <div class="news-body">
                                 <div class="news-date">15 MAI 2025</div>
-                                <h2 class="h5 news-title">Departamento promove simpósio sobre edição genômica</h2>
+                                <h3 class="news-title">Departamento promove simpósio sobre edição genômica</h3>
                                 <p class="news-excerpt">Evento reuniu pesquisadores nacionais e internacionais para discutir os avanços em CRISPR e suas aplicações.</p>
                                 <i class="bi bi-arrow-right"></i>
                             </div>
@@ -190,7 +190,7 @@ require __DIR__ . '/includes/header.php';
                             </div>
                             <div class="news-body">
                                 <div class="news-date">05 MAI 2025</div>
-                                <h2 class="h5 news-title">Novo artigo publicado em revista internacional</h2>
+                                <h3 class="news-title">Novo artigo publicado em revista internacional</h3>
                                 <p class="news-excerpt">Trabalho da equipe de genética molecular é destaque na revista Genetics & Development.</p>
                                 <i class="bi bi-arrow-right"></i>
                             </div>
@@ -206,7 +206,7 @@ require __DIR__ . '/includes/header.php';
                             </div>
                             <div class="news-body">
                                 <div class="news-date">28 ABR 2025</div>
-                                <h2 class="h5 news-title">Abertas as inscrições para pós-graduação 2026</h2>
+                                <h3 class="news-title">Abertas as inscrições para pós-graduação 2026</h3>
                                 <p class="news-excerpt">Processo seletivo para Mestrado e Doutorado. Inscrições até 30/06.</p>
                                 <i class="bi bi-arrow-right"></i>
                             </div>
@@ -222,7 +222,7 @@ require __DIR__ . '/includes/header.php';
                             </div>
                             <div class="news-body">
                                 <div class="news-date">05 MAI 2025</div>
-                                <h2 class="h5 news-title">Novo artigo publicado em revista internacional</h2>
+                                <h3 class="news-title">Novo artigo publicado em revista internacional</h3>
                                 <p class="news-excerpt">Trabalho da equipe de genética molecular é destaque na revista Genetics & Development.</p>
                                 <i class="bi bi-arrow-right"></i>
                             </div>
@@ -238,7 +238,7 @@ require __DIR__ . '/includes/header.php';
                             </div>
                             <div class="news-body">
                                 <div class="news-date">28 ABR 2025</div>
-                                <h2 class="h5 news-title">Abertas as inscrições para pós-graduação 2026</h2>
+                                <h3 class="news-title">Abertas as inscrições para pós-graduação 2026</h3>
                                 <p class="news-excerpt">Processo seletivo para Mestrado e Doutorado. Inscrições até 30/06.</p>
                                 <i class="bi bi-arrow-right"></i>
                             </div>
@@ -284,7 +284,7 @@ require __DIR__ . '/includes/header.php';
                                                 <circle cx="17.5" cy="18" r="2" fill="#1a5c3a"/>
                                             </svg>
                                         </div>
-                                        <h2 class="h5">Genética Molecular</h2>
+                                        <h3>Genética Molecular</h3>
                                         <p>Estudo dos mecanismos moleculares dos genes e suas funções.</p>
                                     </div>
                                 </div>
@@ -298,7 +298,7 @@ require __DIR__ . '/includes/header.php';
                                                 <line x1="10" y1="22" x2="25" y2="22" stroke="#1a5c3a" stroke-width="1.5"/>
                                             </svg>
                                         </div>
-                                        <h2 class="h5">Genômica e Bioinformática</h2>
+                                        <h3>Genômica e Bioinformática</h3>
                                         <p>Análise de dados genômicos e desenvolvimento de ferramentas computacionais.</p>
                                     </div>
                                 </div>
@@ -311,7 +311,7 @@ require __DIR__ . '/includes/header.php';
                                                 <circle cx="17.5" cy="24" r="6" stroke="#1a5c3a" stroke-width="2" fill="none"/>
                                             </svg>
                                         </div>
-                                        <h2 class="h5">Biologia Celular</h2>
+                                        <h3>Biologia Celular</h3>
                                         <p>Investigação dos processos celulares em condições fisiológicas e patológicas.</p>
                                     </div>
                                 </div>
@@ -325,7 +325,7 @@ require __DIR__ . '/includes/header.php';
                                                 <ellipse cx="17.5" cy="30" rx="8" ry="3" stroke="#1a5c3a" stroke-width="1.5" fill="none"/>
                                             </svg>
                                         </div>
-                                        <h2 class="h5">Genética de Plantas</h2>
+                                        <h3>Genética de Plantas</h3>
                                         <p>Melhoramento genético e resistência a estresses bióticos e abióticos.</p>
                                     </div>
                                 </div>
@@ -338,7 +338,7 @@ require __DIR__ . '/includes/header.php';
                                                 <path d="M7 20 Q17.5 15 28 20 Q28 30 17.5 32 Q7 30 7 20" stroke="#1a5c3a" stroke-width="2" fill="none"/>
                                             </svg>
                                         </div>
-                                        <h2 class="h5">Genética de Populações e Evolução</h2>
+                                        <h3>Genética de Populações e Evolução</h3>
                                         <p>Estudos sobre diversidade genética, evolução e conservação.</p>
                                     </div>
                                 </div>

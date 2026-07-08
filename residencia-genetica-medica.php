@@ -106,7 +106,7 @@ require __DIR__ . '/includes/header.php';
                                 <path d="M12 6v6l4 2" stroke="#1a5c3a" stroke-width="2" stroke-linecap="round"/>
                             </svg>
                         </div>
-                        <h2 class="h5">1º Ano – R1</h2>
+                        <h3>1º Ano – R1</h3>
                         <p>Introdução à prática clínica em genética médica. Rotinas de ambulatório, aconselhamento genético básico, interpretação de exames laboratoriais e integração com outras especialidades médicas.</p>
                     </div>
                 </div>
@@ -119,7 +119,7 @@ require __DIR__ . '/includes/header.php';
                                 <path d="M2 12l10 5 10-5" stroke="#1a5c3a" stroke-width="2"/>
                             </svg>
                         </div>
-                        <h2 class="h5">2º Ano – R2</h2>
+                        <h3>2º Ano – R2</h3>
                         <p>Aprofundamento em diagnóstico molecular e citogenética. Atuação em genética oncológica e reprodutiva. Início da participação em projetos de pesquisa e atividades de ensino para graduação.</p>
                     </div>
                 </div>
@@ -131,7 +131,7 @@ require __DIR__ . '/includes/header.php';
                                 <path d="M22 4L12 14.01l-3-3" stroke="#1a5c3a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </div>
-                        <h2 class="h5">3º Ano – R3</h2>
+                        <h3>3º Ano – R3</h3>
                         <p>Consolidação da autonomia clínica. Gestão de casos complexos, liderança em aconselhamento genético, condução de projetos de pesquisa e preparação para a prova de título de especialista.</p>
                     </div>
                 </div>
@@ -152,7 +152,7 @@ require __DIR__ . '/includes/header.php';
             <div class="row">
                 <div class="col-lg-6">
                     <div class="rotation-card rge-card">
-                        <h3 class="h6">Aconselhamento Genético</h3>
+                        <h4>Aconselhamento Genético</h4>
                         <div class="rotation-meta">
                             <span><i class="bi bi-clock"></i>Duração: [X] meses</span>
                             <span><i class="bi bi-geo-alt"></i>Ambulatório de Genética Médica</span>
@@ -162,7 +162,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="col-lg-6">
                     <div class="rotation-card rge-card">
-                        <h3 class="h6">Diagnóstico Laboratorial</h3>
+                        <h4>Diagnóstico Laboratorial</h4>
                         <div class="rotation-meta">
                             <span><i class="bi bi-clock"></i>Duração: [X] meses</span>
                             <span><i class="bi bi-geo-alt"></i>Laboratório de Genética</span>
@@ -172,7 +172,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="col-lg-6">
                     <div class="rotation-card rge-card">
-                        <h3 class="h6">Genética Oncológica</h3>
+                        <h4>Genética Oncológica</h4>
                         <div class="rotation-meta">
                             <span><i class="bi bi-clock"></i>Duração: [X] meses</span>
                             <span><i class="bi bi-geo-alt"></i>Centro de Oncologia – HC</span>
@@ -182,7 +182,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="col-lg-6">
                     <div class="rotation-card rge-card">
-                        <h3 class="h6">Genética Reprodutiva e Medicina Fetal</h3>
+                        <h4>Genética Reprodutiva e Medicina Fetal</h4>
                         <div class="rotation-meta">
                             <span><i class="bi bi-clock"></i>Duração: [X] meses</span>
                             <span><i class="bi bi-geo-alt"></i>Disciplina de Ginecologia – HC</span>
@@ -192,7 +192,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="col-lg-6">
                     <div class="rotation-card rge-card">
-                        <h3 class="h6">Genética Pediátrica</h3>
+                        <h4>Genética Pediátrica</h4>
                         <div class="rotation-meta">
                             <span><i class="bi bi-clock"></i>Duração: [X] meses</span>
                             <span><i class="bi bi-geo-alt"></i>Pediatria – HC</span>
@@ -202,7 +202,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="col-lg-6">
                     <div class="rotation-card rge-card">
-                        <h3 class="h6">Pesquisa e Ensino</h3>
+                        <h4>Pesquisa e Ensino</h4>
                         <div class="rotation-meta">
                             <span><i class="bi bi-clock"></i>Duração: [X] meses</span>
                             <span><i class="bi bi-geo-alt"></i>Departamento de Genética</span>
@@ -229,28 +229,28 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-3">
                     <div class="step-card rge-card">
                         <div class="step-number">1</div>
-                        <h2 class="h5">Inscrição</h2>
+                        <h3>Inscrição</h3>
                         <p>Acompanhe o edital de abertura do processo seletivo no site da FMRP/USP e realize a inscrição dentro do prazo estabelecido.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="step-card rge-card">
                         <div class="step-number">2</div>
-                        <h2 class="h5">Prova Teórica</h2>
+                        <h3>Prova Teórica</h3>
                         <p>Prova objetiva e/ou discursiva abordando conhecimentos em medicina geral e genética médica.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="step-card rge-card">
                         <div class="step-number">3</div>
-                        <h2 class="h5">Análise Curricular</h2>
+                        <h3>Análise Curricular</h3>
                         <p>Avaliação da titulação, experiência profissional, produção científica e atividades de pesquisa.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="step-card rge-card">
                         <div class="step-number">4</div>
-                        <h2 class="h5">Entrevista</h2>
+                        <h3>Entrevista</h3>
                         <p>Entrevista com a comissão de residência médica para avaliação de perfil e motivação.</p>
                     </div>
                 </div>
@@ -259,7 +259,7 @@ require __DIR__ . '/includes/header.php';
             <div class="row">
                 <div class="col-lg-8">
                     <div class="info-card rge-card">
-                        <h2 class="h5"><i class="bi bi-clipboard-check"></i> Requisitos para Inscrição</h2>
+                        <h3><i class="bi bi-clipboard-check"></i> Requisitos para Inscrição</h3>
                         <ul class="requirement-list">
                             <li><i class="bi bi-check-circle-fill"></i> Diploma de graduação em Medicina reconhecido pelo MEC</li>
                             <li><i class="bi bi-check-circle-fill"></i> Inscrição no CRM ativa e regular</li>
@@ -272,7 +272,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="col-lg-4">
                     <div class="info-card rge-card">
-                        <h2 class="h5"><i class="bi bi-calendar-event"></i> Calendário [2026]</h2>
+                        <h3><i class="bi bi-calendar-event"></i> Calendário [2026]</h3>
                         <ul style="padding-left: 1.2rem; margin-bottom: 0;">
                             <li style="font-size: 0.9rem; color: #555; margin-bottom: 0.5rem; line-height: 1.7;"><strong>Publicação do edital:</strong> [Data]</li>
                             <li style="font-size: 0.9rem; color: #555; margin-bottom: 0.5rem; line-height: 1.7;"><strong>Inscrições:</strong> [Data] a [Data]</li>
@@ -300,7 +300,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="team-body">
-                            <h2 class="h5">Prof. Dr. [Nome Completo]</h2>
+                            <h3>Prof. Dr. [Nome Completo]</h3>
                             <div class="role">Coordenador da Residência</div>
                             <p>Médico geneticista, doutor em Genética Médica. Preceptor em aconselhamento genético e genética oncológica.</p>
                         </div>
@@ -312,7 +312,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="team-body">
-                            <h2 class="h5">Profa. Dra. [Nome Completo]</h2>
+                            <h3>Profa. Dra. [Nome Completo]</h3>
                             <div class="role">Preceptora – Genética Reprodutiva</div>
                             <p>Especialista em genética reprodutiva e medicina fetal. Coordena a rotatória de pré-natal genético.</p>
                         </div>
@@ -324,7 +324,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="team-body">
-                            <h2 class="h5">Prof. Dr. [Nome Completo]</h2>
+                            <h3>Prof. Dr. [Nome Completo]</h3>
                             <div class="role">Preceptor – Diagnóstico Molecular</div>
                             <p>Responsável pela supervisão das atividades laboratoriais e interpretação de exames genéticos.</p>
                         </div>
@@ -336,7 +336,7 @@ require __DIR__ . '/includes/header.php';
                             <i class="bi bi-person"></i>
                         </div>
                         <div class="team-body">
-                            <h2 class="h5">Profa. Dra. [Nome Completo]</h2>
+                            <h3>Profa. Dra. [Nome Completo]</h3>
                             <div class="role">Preceptora – Genética Pediátrica</div>
                             <p>Especialista em síndromes de malformação e doenças metabólicas hereditárias em crianças.</p>
                         </div>
@@ -361,7 +361,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="doc-card rge-card">
                         <div class="doc-icon"><i class="bi bi-file-earmark-text"></i></div>
                         <div class="doc-content">
-                            <h3 class="h6">Regimento da Residência Médica</h3>
+                            <h4>Regimento da Residência Médica</h4>
                             <p>Normas internas do programa, direitos e deveres dos residentes, e estrutura curricular oficial.</p>
                             <a href="residencia-genetica-medica.php#" class="doc-link">Baixar PDF <i class="bi bi-download ms-1"></i></a>
                         </div>
@@ -371,7 +371,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="doc-card rge-card">
                         <div class="doc-icon"><i class="bi bi-file-earmark-text"></i></div>
                         <div class="doc-content">
-                            <h3 class="h6">Edital de Seleção [Ano]</h3>
+                            <h4>Edital de Seleção [Ano]</h4>
                             <p>Edital vigente do processo seletivo com cronograma, vagas, critérios de classificação e documentação.</p>
                             <a href="residencia-genetica-medica.php#" class="doc-link">Baixar PDF <i class="bi bi-download ms-1"></i></a>
                         </div>
@@ -381,7 +381,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="doc-card rge-card">
                         <div class="doc-icon"><i class="bi bi-file-earmark-text"></i></div>
                         <div class="doc-content">
-                            <h3 class="h6">Programa de Atividades – R1</h3>
+                            <h4>Programa de Atividades – R1</h4>
                             <p>Descrição detalhada das competências e atividades do primeiro ano de residência.</p>
                             <a href="residencia-genetica-medica.php#" class="doc-link">Baixar PDF <i class="bi bi-download ms-1"></i></a>
                         </div>
@@ -391,7 +391,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="doc-card rge-card">
                         <div class="doc-icon"><i class="bi bi-file-earmark-text"></i></div>
                         <div class="doc-content">
-                            <h3 class="h6">Programa de Atividades – R2</h3>
+                            <h4>Programa de Atividades – R2</h4>
                             <p>Descrição detalhada das competências e atividades do segundo ano de residência.</p>
                             <a href="residencia-genetica-medica.php#" class="doc-link">Baixar PDF <i class="bi bi-download ms-1"></i></a>
                         </div>
@@ -401,7 +401,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="doc-card rge-card">
                         <div class="doc-icon"><i class="bi bi-file-earmark-text"></i></div>
                         <div class="doc-content">
-                            <h3 class="h6">Programa de Atividades – R3</h3>
+                            <h4>Programa de Atividades – R3</h4>
                             <p>Descrição detalhada das competências e atividades do terceiro ano de residência.</p>
                             <a href="residencia-genetica-medica.php#" class="doc-link">Baixar PDF <i class="bi bi-download ms-1"></i></a>
                         </div>
@@ -411,7 +411,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="doc-card rge-card">
                         <div class="doc-icon"><i class="bi bi-link-45deg"></i></div>
                         <div class="doc-content">
-                            <h3 class="h6">CNRM / MEC</h3>
+                            <h4>CNRM / MEC</h4>
                             <p>Normas e diretrizes da Comissão Nacional de Residência Médica do Ministério da Educação.</p>
                             <a href="residencia-genetica-medica.php#" class="doc-link">Acessar site <i class="bi bi-box-arrow-up-right ms-1"></i></a>
                         </div>

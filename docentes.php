@@ -132,8 +132,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h2 class="h5 docente-name">
-                                Wilson Araújo da Silva Junior                            </h2>
+                            <h3 class="docente-name">
+                                Wilson Araújo da Silva Junior                            </h3>
 
      
                             <!--  Area/Setor  -->
@@ -294,8 +294,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h2 class="h5 docente-name">
-                                Ester Silveira Ramos                            </h2>
+                            <h3 class="docente-name">
+                                Ester Silveira Ramos                            </h3>
 
      
                             <!--  Area/Setor  -->
@@ -479,8 +479,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h2 class="h5 docente-name">
-                                Alexandro Guterres da Silva                            </h2>
+                            <h3 class="docente-name">
+                                Alexandro Guterres da Silva                            </h3>
 
      
                             <!--  Area/Setor  -->
@@ -664,8 +664,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h2 class="h5 docente-name">
-                                Aparecida Maria Fontes                            </h2>
+                            <h3 class="docente-name">
+                                Aparecida Maria Fontes                            </h3>
 
      
                             <!--  Area/Setor  -->
@@ -837,8 +837,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h2 class="h5 docente-name">
-                                David de Jong                            </h2>
+                            <h3 class="docente-name">
+                                David de Jong                            </h3>
 
      
                             <!--  Area/Setor  -->
@@ -998,8 +998,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h2 class="h5 docente-name">
-                                Israel Gomy                            </h2>
+                            <h3 class="docente-name">
+                                Israel Gomy                            </h3>
 
      
                             <!--  Area/Setor  -->
@@ -1159,8 +1159,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h2 class="h5 docente-name">
-                                Jeremy Andrew Squire                            </h2>
+                            <h3 class="docente-name">
+                                Jeremy Andrew Squire                            </h3>
 
      
                             <!--  Area/Setor  -->
@@ -1281,8 +1281,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h2 class="h5 docente-name">
-                                Maria Cristina da Silva Pranchevicius                            </h2>
+                            <h3 class="docente-name">
+                                Maria Cristina da Silva Pranchevicius                            </h3>
 
      
                             <!--  Area/Setor  -->
@@ -1385,8 +1385,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h2 class="h5 docente-name">
-                                Marina Candido Visontai Cormedi                            </h2>
+                            <h3 class="docente-name">
+                                Marina Candido Visontai Cormedi                            </h3>
 
      
                             <!--  Area/Setor  -->
@@ -1522,8 +1522,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h2 class="h5 docente-name">
-                                Nilce Maria Martinez Rossi                            </h2>
+                            <h3 class="docente-name">
+                                Nilce Maria Martinez Rossi                            </h3>
 
      
                             <!--  Area/Setor  -->
@@ -1644,8 +1644,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h2 class="h5 docente-name">
-                                Reinaldo Otávio Alvarenga Alves de Brito                            </h2>
+                            <h3 class="docente-name">
+                                Reinaldo Otávio Alvarenga Alves de Brito                            </h3>
 
      
                             <!--  Area/Setor  -->
@@ -1748,8 +1748,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h2 class="h5 docente-name">
-                                Silvana Giuliatti                            </h2>
+                            <h3 class="docente-name">
+                                Silvana Giuliatti                            </h3>
 
      
                             <!--  Area/Setor  -->
@@ -1909,8 +1909,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h2 class="h5 docente-name">
-                                Thiago Yukio Kikuchi Oliveira                            </h2>
+                            <h3 class="docente-name">
+                                Thiago Yukio Kikuchi Oliveira                            </h3>
 
      
                             <!--  Area/Setor  -->
@@ -2013,8 +2013,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h2 class="h5 docente-name">
-                                Victor Evangelista de Faria Ferraz                            </h2>
+                            <h3 class="docente-name">
+                                Victor Evangelista de Faria Ferraz                            </h3>
 
      
                             <!--  Area/Setor  -->
@@ -2172,8 +2172,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h2 class="h5 docente-name">
-                                Aguinaldo Luiz Simões                            </h2>
+                            <h3 class="docente-name">
+                                Aguinaldo Luiz Simões                            </h3>
 
      
                             <!--  Area/Setor  -->
@@ -2276,8 +2276,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h2 class="h5 docente-name">
-                                Antonio Rossi Filho                            </h2>
+                            <h3 class="docente-name">
+                                Antonio Rossi Filho                            </h3>
 
      
                             <!--  Area/Setor  -->
@@ -2390,8 +2390,8 @@ require __DIR__ . '/includes/header.php';
 
                         <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
                              <!--  Nome Docente -->   
-                            <h2 class="h5 docente-name">
-                                Klaus Hartmann Hartfelder                            </h2>
+                            <h3 class="docente-name">
+                                Klaus Hartmann Hartfelder                            </h3>
 
      
                             <!--  Area/Setor  -->

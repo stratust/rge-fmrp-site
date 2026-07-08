@@ -62,7 +62,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <div class="course-body">
                             <div class="course-date"><i class="bi bi-calendar3"></i> 15–19 JUN 2025</div>
-                            <h2 class="h5 course-title">Workshop de Técnicas em Biologia Molecular</h2>
+                            <h3 class="course-title">Workshop de Técnicas em Biologia Molecular</h3>
                             <p class="course-excerpt">Curso prático com ênfase em PCR, eletroforese, extração de DNA e técnicas de clonagem. Voltado a estudantes e profissionais da área.</p>
                             <div class="course-meta">
                                 <span><i class="bi bi-clock"></i> 40h</span>
@@ -83,7 +83,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <div class="course-body">
                             <div class="course-date"><i class="bi bi-calendar3"></i> 01–30 JUL 2025</div>
-                            <h2 class="h5 course-title">Introdução à Bioinformática Aplicada à Genética</h2>
+                            <h3 class="course-title">Introdução à Bioinformática Aplicada à Genética</h3>
                             <p class="course-excerpt">Curso introdutório sobre ferramentas computacionais para análise de sequências, alinhamento e bancos de dados genômicos.</p>
                             <div class="course-meta">
                                 <span><i class="bi bi-clock"></i> 30h</span>
@@ -104,7 +104,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <div class="course-body">
                             <div class="course-date"><i class="bi bi-calendar3"></i> 10–14 AGO 2025</div>
-                            <h2 class="h5 course-title">Genética Forense: Teoria e Prática</h2>
+                            <h3 class="course-title">Genética Forense: Teoria e Prática</h3>
                             <p class="course-excerpt">Aborda fundamentos da genética forense, tipagem STR, análise de DNA em vestígios criminais e interpretação de resultados.</p>
                             <div class="course-meta">
                                 <span><i class="bi bi-clock"></i> 35h</span>
@@ -125,7 +125,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <div class="course-body">
                             <div class="course-date"><i class="bi bi-calendar3"></i> 05–09 OUT 2025</div>
-                            <h2 class="h5 course-title">Cultivo de Células e Técnicas de Citogenética</h2>
+                            <h3 class="course-title">Cultivo de Células e Técnicas de Citogenética</h3>
                             <p class="course-excerpt">Treinamento prático em cultivo de células mamárias, preparação de lâminas, bandeamento cromossômico e análise de cariótipo.</p>
                             <div class="course-meta">
                                 <span><i class="bi bi-clock"></i> 40h</span>
@@ -146,7 +146,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <div class="course-body">
                             <div class="course-date"><i class="bi bi-calendar3"></i> SET–OUT 2025</div>
-                            <h2 class="h5 course-title">Estatística Aplicada à Genética e Genômica</h2>
+                            <h3 class="course-title">Estatística Aplicada à Genética e Genômica</h3>
                             <p class="course-excerpt">Fundamentos de estatística para análise de dados genéticos, uso do R e interpretação de resultados em estudos de associação.</p>
                             <div class="course-meta">
                                 <span><i class="bi bi-clock"></i> 20h</span>
@@ -167,7 +167,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <div class="course-body">
                             <div class="course-date"><i class="bi bi-calendar3"></i> 17–21 NOV 2025</div>
-                            <h2 class="h5 course-title">Edição de Genomas com CRISPR-Cas9</h2>
+                            <h3 class="course-title">Edição de Genomas com CRISPR-Cas9</h3>
                             <p class="course-excerpt">Do projeto de sgRNAs à validação de clones editados. Curso avançado para pesquisadores que desejam implementar a técnica em seus laboratórios.</p>
                             <div class="course-meta">
                                 <span><i class="bi bi-clock"></i> 40h</span>
@@ -194,7 +194,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="icon-box">
                             <i class="bi bi-person-check"></i>
                         </div>
-                        <h2 class="h5">Quem pode participar?</h2>
+                        <h3>Quem pode participar?</h3>
                         <p>Cursos abertos a estudantes de graduação, pós-graduação, profissionais da saúde, educadores e interessados em genética. Consulte pré-requisitos no edital de cada curso.</p>
                     </div>
                 </div>
@@ -203,7 +203,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="icon-box">
                             <i class="bi bi-file-earmark-medical"></i>
                         </div>
-                        <h2 class="h5">Certificado de conclusão</h2>
+                        <h3>Certificado de conclusão</h3>
                         <p>Todos os cursos emit certificado de extensão universitária da USP, válido para horas complementares e progressão funcional, conforme carga horária.</p>
                     </div>
                 </div>
@@ -212,7 +212,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="icon-box">
                             <i class="bi bi-credit-card rge-card"></i>
                         </div>
-                        <h2 class="h5">Investimento e bolsas</h2>
+                        <h3>Investimento e bolsas</h3>
                         <p>Taxas de inscrição variam conforme o curso. Bolsas parciais e integrais disponíveis para estudantes e profissionais da rede pública de saúde.</p>
                     </div>
                 </div>
@@ -221,7 +221,7 @@ require __DIR__ . '/includes/header.php';
                         <div class="icon-box">
                             <i class="bi bi-envelope-open"></i>
                         </div>
-                        <h2 class="h5">Como se inscrever</h2>
+                        <h3>Como se inscrever</h3>
                         <p>Inscrições realizadas exclusivamente pelo sistema Apolo da USP. Acesse o edital do curso desejado e siga as instruções de matrícula.</p>
                     </div>
                 </div>

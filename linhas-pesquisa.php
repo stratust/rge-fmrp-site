@@ -88,7 +88,7 @@ require __DIR__ . '/includes/header.php';
                             <div class="research-icon">
                                 <i class="bi bi-hexagon-fill"></i>
                             </div>
-                            <h2 class="h5 research-title">Genética Molecular</h2>
+                            <h3 class="research-title">Genética Molecular</h3>
                             <p class="research-excerpt">Estudo dos mecanismos moleculares dos genes, expressão gênica, regulação transcricional, epigenética e biologia de sistemas em modelos eucarióticos e procarióticos.</p>
                             <div class="research-meta">
                                 <span><i class="bi bi-people"></i> 5 grupos</span>
@@ -110,7 +110,7 @@ require __DIR__ . '/includes/header.php';
                             <div class="research-icon">
                                 <i class="bi bi-cpu-fill"></i>
                             </div>
-                            <h2 class="h5 research-title">Genômica e Bioinformática</h2>
+                            <h3 class="research-title">Genômica e Bioinformática</h3>
                             <p class="research-excerpt">Análise de dados genômicos de alta performance, desenvolvimento de pipelines computacionais, genômica estrutural e funcional, e integração de dados multi-ômicos.</p>
                             <div class="research-meta">
                                 <span><i class="bi bi-people"></i> 3 grupos</span>
@@ -132,7 +132,7 @@ require __DIR__ . '/includes/header.php';
                             <div class="research-icon">
                                 <i class="bi bi-circle-fill"></i>
                             </div>
-                            <h2 class="h5 research-title">Biologia Celular</h2>
+                            <h3 class="research-title">Biologia Celular</h3>
                             <p class="research-excerpt">Investigação de processos celulares em condições fisiológicas e patológicas, incluindo ciclo celular, apoptose, sinalização, organelas e interação célula-microambiente.</p>
                             <div class="research-meta">
                                 <span><i class="bi bi-people"></i> 4 grupos</span>
@@ -154,7 +154,7 @@ require __DIR__ . '/includes/header.php';
                             <div class="research-icon">
                                 <i class="bi bi-tree-fill"></i>
                             </div>
-                            <h2 class="h5 research-title">Genética de Plantas</h2>
+                            <h3 class="research-title">Genética de Plantas</h3>
                             <p class="research-excerpt">Melhoramento genético, resistência a estresses bióticos e abióticos, fisiologia molecular de culturas agrícolas e biotecnologia vegetal aplicada à sustentabilidade.</p>
                             <div class="research-meta">
                                 <span><i class="bi bi-people"></i> 3 grupos</span>
@@ -176,7 +176,7 @@ require __DIR__ . '/includes/header.php';
                             <div class="research-icon">
                                 <i class="bi bi-diagram-3-fill"></i>
                             </div>
-                            <h2 class="h5 research-title">Genética de Populações e Evolução</h2>
+                            <h3 class="research-title">Genética de Populações e Evolução</h3>
                             <p class="research-excerpt">Estudos sobre diversidade genética, estrutura populacional, filogeografia, evolução molecular e conservação de recursos genéticos de espécies nativas.</p>
                             <div class="research-meta">
                                 <span><i class="bi bi-people"></i> 4 grupos</span>
@@ -198,7 +198,7 @@ require __DIR__ . '/includes/header.php';
                             <div class="research-icon">
                                 <i class="bi bi-heart-pulse-fill"></i>
                             </div>
-                            <h2 class="h5 research-title">Genética Médica e Doenças Raras</h2>
+                            <h3 class="research-title">Genética Médica e Doenças Raras</h3>
                             <p class="research-excerpt">Identificação de genes e variantes causadoras de doenças hereditárias, desenvolvimento de testes diagnósticos moleculares e pesquisa translacional em genética humana.</p>
                             <div class="research-meta">
                                 <span><i class="bi bi-people"></i> 6 grupos</span>
@@ -222,7 +222,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="pub-card rge-card">
                         <span class="pub-tag">Genética Molecular</span>
-                        <h2 class="h5 pub-title">Novel regulatory mechanisms in gene expression control during cellular stress response</h2>
+                        <h3 class="pub-title">Novel regulatory mechanisms in gene expression control during cellular stress response</h3>
                         <p class="pub-authors">Silva et al., 2025</p>
                         <p class="pub-journal">Nature Genetics & Development</p>
                     </div>
@@ -230,7 +230,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="pub-card rge-card">
                         <span class="pub-tag">Genômica</span>
-                        <h2 class="h5 pub-title">Comparative genomics reveals adaptive evolution in tropical plant species under climate change</h2>
+                        <h3 class="pub-title">Comparative genomics reveals adaptive evolution in tropical plant species under climate change</h3>
                         <p class="pub-authors">Oliveira et al., 2025</p>
                         <p class="pub-journal">Molecular Ecology</p>
                     </div>
@@ -238,7 +238,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="pub-card rge-card">
                         <span class="pub-tag">Genética Médica</span>
-                        <h2 class="h5 pub-title">Whole-exome sequencing identifies new candidate genes for hereditary neurological disorders</h2>
+                        <h3 class="pub-title">Whole-exome sequencing identifies new candidate genes for hereditary neurological disorders</h3>
                         <p class="pub-authors">Santos et al., 2025</p>
                         <p class="pub-journal">American Journal of Human Genetics</p>
                     </div>
@@ -246,7 +246,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="pub-card rge-card">
                         <span class="pub-tag">Biologia Celular</span>
-                        <h2 class="h5 pub-title">Mitochondrial dynamics and autophagy interplay in neurodegenerative disease models</h2>
+                        <h3 class="pub-title">Mitochondrial dynamics and autophagy interplay in neurodegenerative disease models</h3>
                         <p class="pub-authors">Ferreira et al., 2025</p>
                         <p class="pub-journal">Cell Reports</p>
                     </div>
@@ -254,7 +254,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="pub-card rge-card">
                         <span class="pub-tag">Bioinformática</span>
-                        <h2 class="h5 pub-title">Machine learning approaches for predicting pathogenic variants in non-coding regions</h2>
+                        <h3 class="pub-title">Machine learning approaches for predicting pathogenic variants in non-coding regions</h3>
                         <p class="pub-authors">Costa et al., 2025</p>
                         <p class="pub-journal">Bioinformatics</p>
                     </div>
@@ -262,7 +262,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="pub-card rge-card">
                         <span class="pub-tag">Genética de Plantas</span>
-                        <h2 class="h5 pub-title">CRISPR-mediated resistance to viral pathogens in staple crop species</h2>
+                        <h3 class="pub-title">CRISPR-mediated resistance to viral pathogens in staple crop species</h3>
                         <p class="pub-authors">Lima et al., 2025</p>
                         <p class="pub-journal">Plant Biotechnology Journal</p>
                     </div>

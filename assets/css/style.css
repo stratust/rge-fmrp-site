@@ -29,8 +29,16 @@
     transition: var(--card-transition);
 }
 
-h2.h5, h3.h5, h4.h5 { font-size: 1.25rem; }
-h2.h6, h3.h6, h4.h6 { font-size: 1rem; }
+/* ============================================
+   ESCALA TIPOGRÁFICA SEMÂNTICA
+   Heading level define tamanho — não classes
+   h1: hero 40px / page-header 36px (per-section)
+   h2: 30px section title
+   h3: 20px card title / section sub-heading
+   h4: 16px sub-card title / highlight subtitle
+   ============================================ */
+h3 { font-size: clamp(1rem, 3vw, 1.25rem); font-weight: 700; color: #222; line-height: 1.3; }
+h4 { font-size: 1rem; font-weight: 600; color: #222; line-height: 1.4; }
 
 /* Hover padrão para todos os cards .rge-card */
 .rge-card:hover {
@@ -630,7 +638,6 @@ body {
 }
 
 .news-title {
-  font-size: 0.95rem;
   font-weight: 600;
   color: var(--text-dark);
   margin-bottom: 0.5rem;
@@ -849,7 +856,6 @@ body {
 .docente-name,
 .func-name,
 .founder-name {
-  font-size: 1.1rem;
   font-weight: 700;
   color: var(--text-dark);
   margin-bottom: 0.3rem;
@@ -1867,7 +1873,6 @@ iframe.goog-te-banner-frame {
 
 
 .comissao-title {
-            font-size: 1rem;
             font-weight: 700;
             color: #222;
             margin-bottom: 0.5rem;
@@ -2615,7 +2620,6 @@ iframe.goog-te-banner-frame {
 
 
 .docente-name {
-            font-size: 1.1rem;
             font-weight: 700;
             color: #222;
             margin-bottom: 0.3rem;
@@ -3044,7 +3048,6 @@ iframe.goog-te-banner-frame {
 
 
 .course-title {
-            font-size: 1.05rem;
             font-weight: 500;
             color: #222;
             margin-bottom: 0.75rem;
@@ -3292,7 +3295,6 @@ iframe.goog-te-banner-frame {
 
 
 .course-name {
-            font-size: 1.1rem;
             font-weight: 700;
             color: #222;
             margin-bottom: 0.5rem;
@@ -3358,7 +3360,6 @@ iframe.goog-te-banner-frame {
 
 
 .discipline-name {
-            font-size: 1rem;
             font-weight: 700;
             color: #222;
             margin-bottom: 0.5rem;
@@ -3477,7 +3478,6 @@ iframe.goog-te-banner-frame {
 
 
 .lab-teach-name {
-            font-size: 1rem;
             font-weight: 700;
             color: #222;
             margin-bottom: 0.5rem;
@@ -3619,7 +3619,6 @@ iframe.goog-te-banner-frame {
 
 
 .lab-name {
-            font-size: 1.1rem;
             font-weight: 700;
             color: #222;
             margin-bottom: 0.5rem;
@@ -4087,7 +4086,6 @@ iframe.goog-te-banner-frame {
 
 
 .research-title {
-            font-size: 1.1rem;
             font-weight: 500;
             color: #222;
             margin-bottom: 0.75rem;
@@ -4169,7 +4167,6 @@ iframe.goog-te-banner-frame {
 
 
 .pub-title {
-            font-size: 0.9rem;
             font-weight: 500;
             color: #222;
             margin-bottom: 0.5rem;
@@ -4627,7 +4624,6 @@ iframe.goog-te-banner-frame {
 
 
 .program-name {
-            font-size: 1.2rem;
             font-weight: 700;
             color: #222;
             margin-bottom: 0.5rem;
@@ -4701,7 +4697,6 @@ iframe.goog-te-banner-frame {
 
 
 .admission-title {
-            font-size: 1.1rem;
             font-weight: 700;
             color: #222;
             margin-bottom: 0.5rem;
@@ -4891,7 +4886,6 @@ iframe.goog-te-banner-frame {
 
 
 .project-title {
-            font-size: 1.05rem;
             font-weight: 500;
             color: #222;
             margin-bottom: 0.75rem;
@@ -5707,12 +5701,7 @@ iframe.goog-te-banner-frame {
    not inherit section-level h2/h3 clamp() sizes.
    Placed at end so it wins by source order on specificity ties.
    ============================================ */
-h2.h1, h3.h1, h4.h1 { font-size: 2.5rem; }
-h2.h2, h3.h2, h4.h2 { font-size: 2rem; }
-h2.h3, h3.h3, h4.h3 { font-size: 1.75rem; }
-h2.h4, h3.h4, h4.h4 { font-size: 1.5rem; }
-h2.h5, h3.h5, h4.h5 { font-size: 1.25rem; }
-h2.h6, h3.h6, h4.h6 { font-size: 1rem; }
+/* Legacy heading utility classes removed — now using semantic h3/h4 */
 
 /* ============================================
    SECTION HEADING DEFAULT

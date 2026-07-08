@@ -87,7 +87,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="pub-content">
                     <span class="pub-tag">Genética Molecular</span>
-                    <h2 class="h5 pub-title">Transcriptional reprogramming in response to DNA double-strand breaks: a systems biology approach</h2>
+                    <h3 class="pub-title">Transcriptional reprogramming in response to DNA double-strand breaks: a systems biology approach</h3>
                     <p class="pub-authors"><strong>Oliveira, C. D.</strong>; Ferreira, M. N.; Almeida, P. Q.; et al.</p>
                     <p class="pub-journal">Nucleic Acids Research, 2025</p>
                     <div class="pub-meta">
@@ -111,7 +111,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="pub-content">
                     <span class="pub-tag">Genômica e Bioinformática</span>
-                    <h2 class="h5 pub-title">Comparative genomics reveals adaptive evolution in tropical plant species under climate change scenarios</h2>
+                    <h3 class="pub-title">Comparative genomics reveals adaptive evolution in tropical plant species under climate change scenarios</h3>
                     <p class="pub-authors"><strong>Santos, E. F.</strong>; Lima, I. J.; Costa, G. H.; et al.</p>
                     <p class="pub-journal">Molecular Ecology, 2025</p>
                     <div class="pub-meta">
@@ -135,7 +135,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="pub-content">
                     <span class="pub-tag">Genética Médica</span>
-                    <h2 class="h5 pub-title">Whole-exome sequencing identifies new candidate genes for hereditary neurological disorders in Brazilian families</h2>
+                    <h3 class="pub-title">Whole-exome sequencing identifies new candidate genes for hereditary neurological disorders in Brazilian families</h3>
                     <p class="pub-authors"><strong>Costa, G. H.</strong>; Silva, A. B.; Ferreira, M. N.; et al.</p>
                     <p class="pub-journal">American Journal of Human Genetics, 2025</p>
                     <div class="pub-meta">
@@ -159,7 +159,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="pub-content">
                     <span class="pub-tag">Biologia Celular</span>
-                    <h2 class="h5 pub-title">Mitochondrial dynamics and autophagy interplay in neurodegenerative disease models: implications for therapeutic targeting</h2>
+                    <h3 class="pub-title">Mitochondrial dynamics and autophagy interplay in neurodegenerative disease models: implications for therapeutic targeting</h3>
                     <p class="pub-authors"><strong>Ferreira, M. N.</strong>; Almeida, P. Q.; Lima, I. J.; et al.</p>
                     <p class="pub-journal">Cell Reports, 2025</p>
                     <div class="pub-meta">
@@ -183,7 +183,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="pub-content">
                     <span class="pub-tag">Genômica e Bioinformática</span>
-                    <h2 class="h5 pub-title">Machine learning approaches for predicting pathogenic variants in non-coding regions of the human genome</h2>
+                    <h3 class="pub-title">Machine learning approaches for predicting pathogenic variants in non-coding regions of the human genome</h3>
                     <p class="pub-authors"><strong>Lima, I. J.</strong>; Costa, G. H.; Silva, A. B.; et al.</p>
                     <p class="pub-journal">Bioinformatics, 2025</p>
                     <div class="pub-meta">
@@ -207,7 +207,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="pub-content">
                     <span class="pub-tag">Genética de Plantas</span>
-                    <h2 class="h5 pub-title">CRISPR-mediated resistance to viral pathogens in staple crop species: field trial validation</h2>
+                    <h3 class="pub-title">CRISPR-mediated resistance to viral pathogens in staple crop species: field trial validation</h3>
                     <p class="pub-authors"><strong>Almeida, P. Q.</strong>; Santos, E. F.; Oliveira, C. D.; et al.</p>
                     <p class="pub-journal">Plant Biotechnology Journal, 2025</p>
                     <div class="pub-meta">
@@ -231,7 +231,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="pub-content">
                     <span class="pub-tag">Genética de Populações</span>
-                    <h2 class="h5 pub-title">Phylogeographic structure and conservation genetics of endemic amphibians in the Atlantic Forest hotspot</h2>
+                    <h3 class="pub-title">Phylogeographic structure and conservation genetics of endemic amphibians in the Atlantic Forest hotspot</h3>
                     <p class="pub-authors"><strong>Silva, A. B.</strong>; Ferreira, M. N.; Lima, I. J.; et al.</p>
                     <p class="pub-journal">Conservation Genetics, 2025</p>
                     <div class="pub-meta">
@@ -255,7 +255,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="pub-content">
                     <span class="pub-tag">Genética Molecular</span>
-                    <h2 class="h5 pub-title">Epigenetic regulation of stem cell differentiation: role of histone modifications and non-coding RNAs</h2>
+                    <h3 class="pub-title">Epigenetic regulation of stem cell differentiation: role of histone modifications and non-coding RNAs</h3>
                     <p class="pub-authors"><strong>Oliveira, C. D.</strong>; Costa, G. H.; Almeida, P. Q.; et al.</p>
                     <p class="pub-journal">Stem Cell Reports, 2025</p>
                     <div class="pub-meta">
@@ -279,7 +279,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="pub-content">
                     <span class="pub-tag">Genética Médica</span>
-                    <h2 class="h5 pub-title">Population-based screening for carrier status of recessive disorders in the Brazilian Midwest</h2>
+                    <h3 class="pub-title">Population-based screening for carrier status of recessive disorders in the Brazilian Midwest</h3>
                     <p class="pub-authors"><strong>Santos, E. F.</strong>; Lima, I. J.; Silva, A. B.; et al.</p>
                     <p class="pub-journal">Genetics in Medicine, 2024</p>
                     <div class="pub-meta">
@@ -303,7 +303,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="pub-content">
                     <span class="pub-tag">Biologia Celular</span>
-                    <h2 class="h5 pub-title">Oxidative stress-induced senescence in fibroblasts: protective role of autophagy modulation</h2>
+                    <h3 class="pub-title">Oxidative stress-induced senescence in fibroblasts: protective role of autophagy modulation</h3>
                     <p class="pub-authors"><strong>Ferreira, M. N.</strong>; Almeida, P. Q.; Oliveira, C. D.; et al.</p>
                     <p class="pub-journal">Aging Cell, 2024</p>
                     <div class="pub-meta">

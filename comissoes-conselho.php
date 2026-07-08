@@ -68,7 +68,7 @@ require __DIR__ . '/includes/header.php';
                 <!-- Membros Titulares -->
                 <div class="col-lg-6">
                     <div class="council-card rge-card">
-                        <h2 class="h5"><i class="bi bi-people-fill"></i> Membros Titulares</h2>
+                        <h3><i class="bi bi-people-fill"></i> Membros Titulares</h3>
                         <div class="member-row">
                             <div class="member-info">
                                 <div class="member-avatar">PJ</div>
@@ -125,7 +125,7 @@ require __DIR__ . '/includes/header.php';
                 <!-- Membros Suplentes -->
                 <div class="col-lg-6">
                     <div class="council-card rge-card">
-                        <h2 class="h5"><i class="bi bi-person-plus"></i> Membros Suplentes</h2>
+                        <h3><i class="bi bi-person-plus"></i> Membros Suplentes</h3>
                         <div class="member-row">
                             <div class="member-info">
                                 <div class="member-avatar">FS</div>
@@ -195,7 +195,7 @@ require __DIR__ . '/includes/header.php';
 
             <!-- Comissão de Graduação -->
             <div class="commission-card rge-card" id="comgrad">
-                <h2 class="h5"><i class="bi bi-mortarboard"></i> Comissão de Graduação</h2>
+                <h3><i class="bi bi-mortarboard"></i> Comissão de Graduação</h3>
                 <p class="text-muted mb-3" style="font-size: 0.9rem;">Responsável pela organização, supervisão e avaliação das atividades de ensino de graduação vinculadas ao departamento.</p>
                 <div class="table-responsive">
                     <table class="custom-table">
@@ -234,7 +234,7 @@ require __DIR__ . '/includes/header.php';
 
             <!-- Comissão de Pós-Graduação -->
             <div class="commission-card rge-card" id="compos">
-                <h2 class="h5"><i class="bi bi-journal-bookmark"></i> Comissão de Pós-Graduação</h2>
+                <h3><i class="bi bi-journal-bookmark"></i> Comissão de Pós-Graduação</h3>
                 <p class="text-muted mb-3" style="font-size: 0.9rem;">Atua na coordenação dos programas de mestrado e doutorado, seleção de alunos, avaliação de dissertações e teses.</p>
                 <div class="table-responsive">
                     <table class="custom-table">
@@ -273,7 +273,7 @@ require __DIR__ . '/includes/header.php';
 
             <!-- Comissão de Pesquisa -->
             <div class="commission-card rge-card" id="compesq">
-                <h2 class="h5"><i class="bi bi-flask"></i> Comissão de Pesquisa</h2>
+                <h3><i class="bi bi-flask"></i> Comissão de Pesquisa</h3>
                 <p class="text-muted mb-3" style="font-size: 0.9rem;">Fomenta e acompanha as atividades de pesquisa do departamento, incluindo editais, bolsas e parcerias institucionais.</p>
                 <div class="table-responsive">
                     <table class="custom-table">
@@ -307,7 +307,7 @@ require __DIR__ . '/includes/header.php';
 
             <!-- Comissão de Extensão -->
             <div class="commission-card rge-card" id="cominfo">
-                <h2 class="h5"><i class="bi bi-globe-americas"></i> Comissão de Informática</h2>
+                <h3><i class="bi bi-globe-americas"></i> Comissão de Informática</h3>
                 <p class="text-muted mb-3" style="font-size: 0.9rem;">Coordena as atividades de informática do departamento.</p>
                 <div class="table-responsive">
                     <table class="custom-table">
@@ -356,7 +356,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-lg-6">
                     <div class="calendar-card rge-card">
                         <span class="semester-badge">1º Semestre / 2026</span>
-                        <h2 class="h5"><i class="bi bi-calendar-event"></i> Reuniões Ordinárias</h2>
+                        <h3><i class="bi bi-calendar-event"></i> Reuniões Ordinárias</h3>
 
                         <div class="event-item">
                             <div class="event-date">
@@ -364,7 +364,7 @@ require __DIR__ . '/includes/header.php';
                                 <div class="month">FEV</div>
                             </div>
                             <div class="event-details">
-                                <h3 class="h6">Conselho do Departamento de Genética</h3>
+                                <h4>Conselho do Departamento de Genética</h4>
                                 <p>Das 10:00 às 12:00 – Sala de Reuniões do Departamento</p>
                                 <span class="event-tag tag-conselho">Conselho</span>
                             </div>
@@ -376,7 +376,7 @@ require __DIR__ . '/includes/header.php';
                                 <div class="month">FEV</div>
                             </div>
                             <div class="event-details">
-                                <h3 class="h6">Comissão Técnico-Administrativa (CTA)</h3>
+                                <h4>Comissão Técnico-Administrativa (CTA)</h4>
                                 <p>Das 10:30 às 11:30 – Sala de Reuniões do Departamento</p>
                                 <span class="event-tag tag-cta">CTA</span>
                             </div>
@@ -388,7 +388,7 @@ require __DIR__ . '/includes/header.php';
                                 <div class="month">FEV</div>
                             </div>
                             <div class="event-details">
-                                <h3 class="h6">Congregação FMRP/USP</h3>
+                                <h4>Congregação FMRP/USP</h4>
                                 <p>Das 14:00 às 16:00 – Anfiteatro da Faculdade</p>
                                 <span class="event-tag tag-congregacao">Congregação</span>
                             </div>
@@ -400,7 +400,7 @@ require __DIR__ . '/includes/header.php';
                                 <div class="month">MAR</div>
                             </div>
                             <div class="event-details">
-                                <h3 class="h6">Conselho do Departamento de Genética</h3>
+                                <h4>Conselho do Departamento de Genética</h4>
                                 <p>Das 10:00 às 12:00 – Sala de Reuniões do Departamento</p>
                                 <span class="event-tag tag-conselho">Conselho</span>
                             </div>
@@ -412,7 +412,7 @@ require __DIR__ . '/includes/header.php';
                                 <div class="month">MAR</div>
                             </div>
                             <div class="event-details">
-                                <h3 class="h6">Congregação FMRP/USP</h3>
+                                <h4>Congregação FMRP/USP</h4>
                                 <p>Das 14:00 às 16:00 – Anfiteatro da Faculdade</p>
                                 <span class="event-tag tag-congregacao">Congregação</span>
                             </div>
@@ -424,7 +424,7 @@ require __DIR__ . '/includes/header.php';
                                 <div class="month">ABR</div>
                             </div>
                             <div class="event-details">
-                                <h3 class="h6">Conselho do Departamento de Genética</h3>
+                                <h4>Conselho do Departamento de Genética</h4>
                                 <p>Das 10:00 às 12:00 – Sala de Reuniões do Departamento</p>
                                 <span class="event-tag tag-conselho">Conselho</span>
                             </div>
@@ -436,7 +436,7 @@ require __DIR__ . '/includes/header.php';
                                 <div class="month">ABR</div>
                             </div>
                             <div class="event-details">
-                                <h3 class="h6">Congregação FMRP/USP</h3>
+                                <h4>Congregação FMRP/USP</h4>
                                 <p>Das 14:00 às 16:00 – Anfiteatro da Faculdade</p>
                                 <span class="event-tag tag-congregacao">Congregação</span>
                             </div>
@@ -448,7 +448,7 @@ require __DIR__ . '/includes/header.php';
                                 <div class="month">MAI</div>
                             </div>
                             <div class="event-details">
-                                <h3 class="h6">Conselho do Departamento de Genética</h3>
+                                <h4>Conselho do Departamento de Genética</h4>
                                 <p>Das 10:00 às 12:00 – Sala de Reuniões do Departamento</p>
                                 <span class="event-tag tag-conselho">Conselho</span>
                             </div>
@@ -460,7 +460,7 @@ require __DIR__ . '/includes/header.php';
                                 <div class="month">MAI</div>
                             </div>
                             <div class="event-details">
-                                <h3 class="h6">Congregação FMRP/USP</h3>
+                                <h4>Congregação FMRP/USP</h4>
                                 <p>Das 14:00 às 16:00 – Anfiteatro da Faculdade</p>
                                 <span class="event-tag tag-congregacao">Congregação</span>
                             </div>
@@ -472,7 +472,7 @@ require __DIR__ . '/includes/header.php';
                                 <div class="month">JUN</div>
                             </div>
                             <div class="event-details">
-                                <h3 class="h6">Conselho do Departamento de Genética</h3>
+                                <h4>Conselho do Departamento de Genética</h4>
                                 <p>Das 10:00 às 12:00 – Sala de Reuniões do Departamento</p>
                                 <span class="event-tag tag-conselho">Conselho</span>
                             </div>
@@ -484,7 +484,7 @@ require __DIR__ . '/includes/header.php';
                                 <div class="month">JUN</div>
                             </div>
                             <div class="event-details">
-                                <h3 class="h6">Congregação FMRP/USP</h3>
+                                <h4>Congregação FMRP/USP</h4>
                                 <p>Das 14:00 às 16:00 – Anfiteatro da Faculdade</p>
                                 <span class="event-tag tag-congregacao">Congregação</span>
                             </div>
@@ -495,7 +495,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-lg-6">
                     <div class="calendar-card rge-card">
                         <span class="semester-badge">2º Semestre / 2026</span>
-                        <h2 class="h5"><i class="bi bi-calendar-event"></i> Reuniões Ordinárias</h2>
+                        <h3><i class="bi bi-calendar-event"></i> Reuniões Ordinárias</h3>
 
                         <div class="event-item">
                             <div class="event-date">
@@ -503,7 +503,7 @@ require __DIR__ . '/includes/header.php';
                                 <div class="month">AGO</div>
                             </div>
                             <div class="event-details">
-                                <h3 class="h6">Conselho do Departamento de Genética</h3>
+                                <h4>Conselho do Departamento de Genética</h4>
                                 <p>Das 10:00 às 12:00 – Sala de Reuniões do Departamento</p>
                                 <span class="event-tag tag-conselho">Conselho</span>
                             </div>
@@ -515,7 +515,7 @@ require __DIR__ . '/includes/header.php';
                                 <div class="month">AGO</div>
                             </div>
                             <div class="event-details">
-                                <h3 class="h6">Congregação FMRP/USP</h3>
+                                <h4>Congregação FMRP/USP</h4>
                                 <p>Das 14:00 às 16:00 – Anfiteatro da Faculdade</p>
                                 <span class="event-tag tag-congregacao">Congregação</span>
                             </div>
@@ -527,7 +527,7 @@ require __DIR__ . '/includes/header.php';
                                 <div class="month">SET</div>
                             </div>
                             <div class="event-details">
-                                <h3 class="h6">Conselho do Departamento de Genética</h3>
+                                <h4>Conselho do Departamento de Genética</h4>
                                 <p>Das 10:00 às 12:00 – Sala de Reuniões do Departamento</p>
                                 <span class="event-tag tag-conselho">Conselho</span>
                             </div>
@@ -539,7 +539,7 @@ require __DIR__ . '/includes/header.php';
                                 <div class="month">SET</div>
                             </div>
                             <div class="event-details">
-                                <h3 class="h6">Congregação FMRP/USP</h3>
+                                <h4>Congregação FMRP/USP</h4>
                                 <p>Das 14:00 às 16:00 – Anfiteatro da Faculdade</p>
                                 <span class="event-tag tag-congregacao">Congregação</span>
                             </div>
@@ -551,7 +551,7 @@ require __DIR__ . '/includes/header.php';
                                 <div class="month">OUT</div>
                             </div>
                             <div class="event-details">
-                                <h3 class="h6">Conselho do Departamento de Genética</h3>
+                                <h4>Conselho do Departamento de Genética</h4>
                                 <p>Das 10:00 às 12:00 – Sala de Reuniões do Departamento</p>
                                 <span class="event-tag tag-conselho">Conselho</span>
                             </div>
@@ -563,7 +563,7 @@ require __DIR__ . '/includes/header.php';
                                 <div class="month">OUT</div>
                             </div>
                             <div class="event-details">
-                                <h3 class="h6">Congregação FMRP/USP</h3>
+                                <h4>Congregação FMRP/USP</h4>
                                 <p>Das 14:00 às 16:00 – Anfiteatro da Faculdade</p>
                                 <span class="event-tag tag-congregacao">Congregação</span>
                             </div>
@@ -575,7 +575,7 @@ require __DIR__ . '/includes/header.php';
                                 <div class="month">NOV</div>
                             </div>
                             <div class="event-details">
-                                <h3 class="h6">Conselho do Departamento de Genética</h3>
+                                <h4>Conselho do Departamento de Genética</h4>
                                 <p>Das 10:00 às 12:00 – Sala de Reuniões do Departamento</p>
                                 <span class="event-tag tag-conselho">Conselho</span>
                             </div>
@@ -587,7 +587,7 @@ require __DIR__ . '/includes/header.php';
                                 <div class="month">NOV</div>
                             </div>
                             <div class="event-details">
-                                <h3 class="h6">Congregação FMRP/USP</h3>
+                                <h4>Congregação FMRP/USP</h4>
                                 <p>Das 14:00 às 16:00 – Anfiteatro da Faculdade</p>
                                 <span class="event-tag tag-congregacao">Congregação</span>
                             </div>
@@ -599,7 +599,7 @@ require __DIR__ . '/includes/header.php';
                                 <div class="month">DEZ</div>
                             </div>
                             <div class="event-details">
-                                <h3 class="h6">Conselho do Departamento de Genética</h3>
+                                <h4>Conselho do Departamento de Genética</h4>
                                 <p>Das 10:00 às 12:00 – Sala de Reuniões do Departamento</p>
                                 <span class="event-tag tag-conselho">Conselho</span>
                             </div>
@@ -611,7 +611,7 @@ require __DIR__ . '/includes/header.php';
                                 <div class="month">DEZ</div>
                             </div>
                             <div class="event-details">
-                                <h3 class="h6">Congregação FMRP/USP</h3>
+                                <h4>Congregação FMRP/USP</h4>
                                 <p>Das 14:00 às 16:00 – Anfiteatro da Faculdade</p>
                                 <span class="event-tag tag-congregacao">Congregação</span>
                             </div>
