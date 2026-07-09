@@ -114,6 +114,18 @@ h4 { font-size: 1rem; font-weight: 600; color: #222; line-height: 1.4; }
     line-height: 1.6;
 }
 
+/* ---- Meta items (unified: 0.75rem = 12px) ---- */
+.program-meta-item,
+.rotation-meta,
+.project-meta,
+.course-meta,
+.discipline-info,
+.course-meta-item,
+.news-date {
+    font-size: 0.75rem !important;
+    color: #767676;
+}
+
 
 
 
@@ -630,10 +642,9 @@ body {
 }
 
 .news-date {
-  font-size: 0.75rem;
-  color: #767676;
   font-weight: 500;
   text-transform: uppercase;
+  color: #767676;
   margin-bottom: 0.5rem;
 }
 
@@ -3067,7 +3078,6 @@ iframe.goog-te-banner-frame {
             display: flex;
             gap: 1rem;
             margin-bottom: 1.2rem;
-            font-size: 0.8rem;
             color: #767676;
             border-top: 1px solid #eee;
             padding-top: 1rem;
@@ -3367,7 +3377,6 @@ iframe.goog-te-banner-frame {
 
 
 .discipline-info {
-            font-size: 0.8rem;
             color: #666;
             margin-bottom: 0.8rem;
         }
@@ -5371,7 +5380,7 @@ iframe.goog-te-banner-frame {
 .rotation-card p { font-size: 0.85rem; color: #666; line-height: 1.6; margin-bottom: 0; }
 
 
-.rotation-meta { font-size: 0.8rem; color: #767676; margin-bottom: 0.5rem; }
+.rotation-meta { color: #767676; margin-bottom: 0.5rem; }
 
 
 .rotation-meta span { margin-right: 1rem; }

@@ -82,7 +82,7 @@ require __DIR__ . '/includes/header.php';
                     <h2>Formulário de contato</h2>
                     <p>Preencha os campos ao lado com suas informações e a natureza do seu contato. Campos marcados com * são obrigatórios.</p>
                     <div class="mt-4">
-                        <h4 style="font-size: 0.9rem; font-weight: 600; color: #444; margin-bottom: 1rem;">Para assuntos específicos:</h4>
+                        <h4>Para assuntos específicos:</h4>
                         <ul style="list-style: none; padding: 0; margin: 0;">
                             <li style="margin-bottom: 0.6rem; font-size: 0.9rem; color: #666;">
                                 <i class="bi bi-mortarboard me-2" style="color: var(--primary-green);"></i>
