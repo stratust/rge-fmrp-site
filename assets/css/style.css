@@ -16,7 +16,7 @@
 
    REGRAS:
    - Sempre use .rge-card como base
-   - Hover padrão: translateY(-3px) + sombra hover
+   - Hover padrão: translateY(var(--card-hover-lift)) + sombra hover
    - NUNCA crie um novo tipo de card sem adicionar ao style-guide.php
    ============================================ */
 
@@ -39,6 +39,37 @@
    ============================================ */
 h3 { font-size: clamp(1rem, 3vw, 1.25rem); font-weight: 700; color: #222; line-height: 1.3; }
 h4 { font-size: 1rem; font-weight: 600; color: #222; line-height: 1.4; }
+
+/* ============================================
+   FOCUS VISIBLE — keyboard navigation rings
+   ============================================ */
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible,
+.btn:focus-visible,
+.feature-link:focus-visible,
+.filter-btn:focus-visible,
+.dropdown-item:focus-visible {
+    outline: 3px solid var(--primary-green);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+/* ============================================
+   CURSOR POINTER — on interactive elements
+   ============================================ */
+.btn,
+button,
+.filter-btn,
+.feature-link,
+.see-all-link,
+.lab-link,
+.project-link,
+.course-link,
+.card-link,
+[onclick] {
+    cursor: pointer;
+}
 
 /* Hover padrão para todos os cards .rge-card */
 .rge-card:hover {
@@ -283,7 +314,7 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.breadcrumb-custom a {
+.breadcrumb-custom a { cursor: pointer;
   color: rgba(255,255,255,0.7);
   text-decoration: none;
   font-size: 0.85rem;
@@ -496,7 +527,7 @@ body {
 .news-card:hover,
 .founder-card:hover,
 .number-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(var(--card-hover-lift));
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
@@ -883,7 +914,7 @@ body {
   margin-bottom: 0.8rem;
 }
 
-.docente-area {
+.docente-area { cursor: pointer;
   font-size: 0.85rem;
   color: #555;
   line-height: 1.5;
@@ -1038,7 +1069,7 @@ body {
   font-size: 0.85rem;
 }
 
-.func-detail a {
+.func-detail a { cursor: pointer;
   color: #666;
   text-decoration: none;
   transition: color 0.2s;
@@ -1278,7 +1309,7 @@ body {
   color: var(--primary-green);
 }
 
-.chefia-card:hover .linha {
+.chefia-card:hover .linha { cursor: pointer;
   background: var(--primary-green);
   width: 60px;
 }
@@ -1294,7 +1325,7 @@ body {
 .chefia-card h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); }
 .chefia-card h3 { } /* inherits semantic h3 */
 
-.chefia-card .linha {
+.chefia-card .linha { cursor: pointer;
   width: 38px;
   height: 2px;
   background: #e4e7ec;
@@ -1394,7 +1425,7 @@ body {
   margin-bottom: 0.6rem;
 }
 
-.footer-links a {
+.footer-links a { cursor: pointer;
   color: rgba(255,255,255,0.7);
   text-decoration: none;
   font-size: 0.85rem;
@@ -1425,7 +1456,7 @@ body {
   margin-top: 1.5rem;
 }
 
-.social-links a {
+.social-links a { cursor: pointer;
   width: 32px;
   height: 32px;
   border: 1px solid rgba(255,255,255,0.3);
@@ -1462,7 +1493,7 @@ body {
   margin: 0;
 }
 
-.footer-bottom-links a {
+.footer-bottom-links a { cursor: pointer;
   color: rgba(255,255,255,0.5);
   text-decoration: none;
   font-size: 0.8rem;
@@ -1475,7 +1506,7 @@ body {
 
 /**  INCLUIDO EM 20260612   **/
 nav .logo-genetica,
-footer .logo-genetica {
+footer .logo-genetica { cursor: pointer;
     width: 60px;
     height: auto;
     object-fit: contain;
@@ -1526,7 +1557,7 @@ footer .logo-genetica {
 .btn-topo:hover {
             background: rgba(27,53,86,0.85);
             color: white;
-            transform: translateY(-3px);
+            transform: translateY(var(--card-hover-lift));
         }
 
 
@@ -1757,7 +1788,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.chefia-area {
+.chefia-area { cursor: pointer;
             font-size: 0.85rem;
             color: #555;
             line-height: 1.6;
@@ -1787,7 +1818,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.chefia-contact-item a {
+.chefia-contact-item a { cursor: pointer;
             color: #777;
             text-decoration: none;
             transition: color 0.2s;
@@ -1865,7 +1896,7 @@ iframe.goog-te-banner-frame {
 
 .comissao-card:hover {
             box-shadow: 0 5px 20px rgba(0,0,0,0.06);
-            transform: translateY(-3px);
+            transform: translateY(var(--card-hover-lift));
         }
 
 
@@ -1955,7 +1986,7 @@ iframe.goog-te-banner-frame {
 
 
 /**  ATUALIZADO EM 20260609   **/
-        .ultima-etapa {
+        .ultima-etapa { cursor: pointer;
             position: relative;
         }
 
@@ -1982,7 +2013,7 @@ iframe.goog-te-banner-frame {
 
 
 /* Força o card final ficar do lado esquerdo */
-        .ultima-etapa .timeline-content-esquerda {
+        .ultima-etapa .timeline-content-esquerda { cursor: pointer;
             position: relative;
             left: auto !important;
             right: auto !important;
@@ -2193,7 +2224,7 @@ iframe.goog-te-banner-frame {
 .tag-conselho { background: rgba(26, 92, 58, 0.1); color: var(--primary-green); }
 
 
-.tag-cta { background: rgba(59, 130, 246, 0.1); color: #3b82f6; }
+.tag-cta { cursor: pointer; background: rgba(59, 130, 246, 0.1); color: #3b82f6; }
 
 
 .tag-congregacao { background: rgba(168, 85, 247, 0.1); color: #a855f7; }
@@ -2220,7 +2251,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.norm-card:hover { transform: translateY(-3px); box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
+.norm-card:hover { transform: translateY(var(--card-hover-lift)); box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
 
 
 .norm-icon {
@@ -2262,7 +2293,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.page-header .breadcrumb-nav a {
+.page-header .breadcrumb-nav a { cursor: pointer;
             color: rgba(255,255,255,0.7);
             text-decoration: none;
             transition: color 0.3s;
@@ -2315,7 +2346,7 @@ iframe.goog-te-banner-frame {
 
 
 .contact-card:hover {
-            transform: translateY(-5px);
+            transform: translateY(var(--card-hover-lift));
             box-shadow: 0 8px 25px rgba(0,0,0,0.1);
         }
 
@@ -2350,7 +2381,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.contact-card a {
+.contact-card a { cursor: pointer;
             color: var(--primary-green);
             text-decoration: none;
             font-weight: 500;
@@ -2523,7 +2554,7 @@ iframe.goog-te-banner-frame {
 
 
 .team-card:hover {
-            transform: translateY(-3px);
+            transform: translateY(var(--card-hover-lift));
             box-shadow: 0 8px 25px rgba(0,0,0,0.1);
         }
 
@@ -2567,7 +2598,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.team-info a {
+.team-info a { cursor: pointer;
             color: var(--primary-green);
             text-decoration: none;
             font-size: 0.8rem;
@@ -2581,7 +2612,7 @@ iframe.goog-te-banner-frame {
 
 
 /* Social CTA */
-        .social-cta {
+        .social-cta { cursor: pointer;
             background: var(--primary-green);
             padding: 3rem 0;
             color: white;
@@ -2621,7 +2652,7 @@ iframe.goog-te-banner-frame {
 .social-btn:hover {
             background: white;
             color: var(--primary-green);
-            transform: translateY(-3px);
+            transform: translateY(var(--card-hover-lift));
         }
 
 
@@ -2684,7 +2715,7 @@ iframe.goog-te-banner-frame {
 
 
 .program-card:hover {
-            transform: translateY(-5px);
+            transform: translateY(var(--card-hover-lift));
             box-shadow: 0 10px 30px rgba(0,0,0,0.08);
             background: white;
             border-color: rgba(26, 92, 58, 0.1);
@@ -2775,7 +2806,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.program-meta {
+.program-meta { cursor: pointer;
             font-size: 0.85rem;
             color: #666;
         }
@@ -2837,7 +2868,7 @@ iframe.goog-te-banner-frame {
 
 
 .info-card:hover {
-            transform: translateY(-5px);
+            transform: translateY(var(--card-hover-lift));
             box-shadow: 0 8px 25px rgba(0,0,0,0.1);
         }
 
@@ -2872,7 +2903,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.info-card a {
+.info-card a { cursor: pointer;
             color: var(--primary-green);
             text-decoration: none;
             font-weight: 500;
@@ -2981,7 +3012,7 @@ iframe.goog-te-banner-frame {
 
 
 .course-card:hover {
-            transform: translateY(-5px);
+            transform: translateY(var(--card-hover-lift));
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
 
@@ -3074,7 +3105,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.course-meta {
+.course-meta { cursor: pointer;
             display: flex;
             gap: 1rem;
             margin-bottom: 1.2rem;
@@ -3137,7 +3168,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.service-card:hover { transform: translateY(-5px); box-shadow: 0 10px 35px rgba(0,0,0,0.12); }
+.service-card:hover { transform: translateY(var(--card-hover-lift)); box-shadow: 0 10px 35px rgba(0,0,0,0.12); }
 
 
 .service-icon {
@@ -3217,7 +3248,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.staff-card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
+.staff-card:hover { transform: translateY(var(--card-hover-lift)); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
 
 
 .staff-img {
@@ -3352,7 +3383,7 @@ iframe.goog-te-banner-frame {
 
 
 .discipline-card:hover {
-            transform: translateY(-3px);
+            transform: translateY(var(--card-hover-lift));
             box-shadow: 0 8px 25px rgba(0,0,0,0.08);
             border-color: rgba(26, 92, 58, 0.12);
         }
@@ -3463,7 +3494,7 @@ iframe.goog-te-banner-frame {
 
 
 .lab-teach-card:hover {
-            transform: translateY(-5px);
+            transform: translateY(var(--card-hover-lift));
             box-shadow: 0 10px 30px rgba(0,0,0,0.08);
         }
 
@@ -3499,7 +3530,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.lab-teach-meta {
+.lab-teach-meta { cursor: pointer;
             font-size: 0.8rem;
             color: #777;
         }
@@ -3527,7 +3558,7 @@ iframe.goog-te-banner-frame {
 
 
 .founder-card:hover {
-            transform: translateY(-5px);
+            transform: translateY(var(--card-hover-lift));
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
 
@@ -3658,7 +3689,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.lab-meta {
+.lab-meta { cursor: pointer;
             font-size: 0.8rem;
             color: #777;
             margin-bottom: 1rem;
@@ -3833,7 +3864,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.research-card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
+.research-card:hover { transform: translateY(var(--card-hover-lift)); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
 
 
 .research-card h5 { color: var(--primary-green); font-weight: 500; margin-bottom: 0.75rem; }
@@ -3877,7 +3908,7 @@ iframe.goog-te-banner-frame {
 .team-social { display: flex; gap: 8px; margin-top: 1rem; }
 
 
-.team-social a {
+.team-social a { cursor: pointer;
             width: 28px; height: 28px; border: 1px solid #ddd; border-radius: 50%;
             display: flex; align-items: center; justify-content: center;
             color: #666; text-decoration: none; font-size: 0.8rem; transition: all 0.3s;
@@ -3906,7 +3937,7 @@ iframe.goog-te-banner-frame {
 .pub-card h6 { font-size: 0.9rem; font-weight: 500; color: #222; margin-bottom: 0.5rem; line-height: 1.4; }
 
 
-.pub-meta { font-size: 0.8rem; color: #767676; margin-bottom: 0.5rem; }
+.pub-meta { cursor: pointer; font-size: 0.8rem; color: #767676; margin-bottom: 0.5rem; }
 
 
 .pub-meta span { margin-right: 1rem; }
@@ -3937,7 +3968,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.funding-card:hover { transform: translateY(-3px); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
+.funding-card:hover { transform: translateY(var(--card-hover-lift)); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
 
 
 .funding-icon {
@@ -3973,7 +4004,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.partnership-card:hover { transform: translateY(-3px); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
+.partnership-card:hover { transform: translateY(var(--card-hover-lift)); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
 
 
 .partnership-flag {
@@ -4005,7 +4036,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.infra-card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
+.infra-card:hover { transform: translateY(var(--card-hover-lift)); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
 
 
 .infra-img { height: 160px; overflow: hidden; background: var(--bg-light); display: flex; align-items: center; justify-content: center; }
@@ -4036,7 +4067,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.gallery-img:hover { transform: translateY(-3px); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
+.gallery-img:hover { transform: translateY(var(--card-hover-lift)); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
 
 
 .gallery-img i { font-size: clamp(1.75rem, 5vw, 2.5rem); color: #aaa; }
@@ -4108,7 +4139,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.research-meta {
+.research-meta { cursor: pointer;
             display: flex;
             gap: 1rem;
             margin-bottom: 1.2rem;
@@ -4237,7 +4268,7 @@ iframe.goog-te-banner-frame {
 
 
 .news-card:hover {
-            transform: translateY(-5px);
+            transform: translateY(var(--card-hover-lift));
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
 
@@ -4274,7 +4305,7 @@ iframe.goog-te-banner-frame {
 
 
 .featured-card:hover {
-            transform: translateY(-5px);
+            transform: translateY(var(--card-hover-lift));
             box-shadow: 0 10px 35px rgba(0,0,0,0.12);
         }
 
@@ -4432,7 +4463,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.stat-card:hover { transform: translateY(-3px); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
+.stat-card:hover { transform: translateY(var(--card-hover-lift)); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
 
 
 /* Platform Cards */
@@ -4449,7 +4480,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.platform-card:hover { transform: translateY(-5px); box-shadow: 0 10px 35px rgba(0,0,0,0.12); }
+.platform-card:hover { transform: translateY(var(--card-hover-lift)); box-shadow: 0 10px 35px rgba(0,0,0,0.12); }
 
 
 .platform-header {
@@ -4508,7 +4539,7 @@ iframe.goog-te-banner-frame {
 .service-list li i { color: var(--primary-green); font-size: 0.9rem; }
 
 
-.platform-meta {
+.platform-meta { cursor: pointer;
             display: flex; gap: 1.5rem; margin-bottom: 1.5rem; flex-wrap: wrap;
         }
 
@@ -4577,7 +4608,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.equipment-card:hover { transform: translateY(-3px); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
+.equipment-card:hover { transform: translateY(var(--card-hover-lift)); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
 
 
 .equipment-icon {
@@ -4613,7 +4644,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.step-card:hover { transform: translateY(-3px); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
+.step-card:hover { transform: translateY(var(--card-hover-lift)); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
 
 
 .step-card h5 { font-size: 1rem; font-weight: 500; color: #222; margin: 0.5rem 0 0.75rem; }
@@ -4682,7 +4713,7 @@ iframe.goog-te-banner-frame {
 
 .admission-card:hover {
             box-shadow: 0 5px 20px rgba(0,0,0,0.06);
-            transform: translateY(-3px);
+            transform: translateY(var(--card-hover-lift));
         }
 
 
@@ -4725,7 +4756,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.highlight-box a {
+.highlight-box a { cursor: pointer;
             color: var(--accent-green);
             font-weight: 500;
             text-decoration: none;
@@ -4755,7 +4786,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.contact-item a {
+.contact-item a { cursor: pointer;
             color: var(--primary-green);
             text-decoration: none;
             font-weight: 500;
@@ -4809,7 +4840,7 @@ iframe.goog-te-banner-frame {
 
 
 .project-card:hover {
-            transform: translateY(-5px);
+            transform: translateY(var(--card-hover-lift));
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
 
@@ -4906,7 +4937,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.project-meta {
+.project-meta { cursor: pointer;
             display: flex;
             flex-direction: column;
             gap: 0.5rem;
@@ -4999,7 +5030,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.timeline-content .meta {
+.timeline-content .meta { cursor: pointer;
             font-size: 0.8rem;
             color: #767676;
         }
@@ -5038,7 +5069,7 @@ iframe.goog-te-banner-frame {
 
 
 .partner-card:hover {
-            transform: translateY(-5px);
+            transform: translateY(var(--card-hover-lift));
             box-shadow: 0 8px 25px rgba(0,0,0,0.1);
         }
 
@@ -5380,7 +5411,7 @@ iframe.goog-te-banner-frame {
 .rotation-card p { font-size: 0.85rem; color: #666; line-height: 1.6; margin-bottom: 0; }
 
 
-.rotation-meta { color: #767676; margin-bottom: 0.5rem; }
+.rotation-meta { cursor: pointer; color: #767676; margin-bottom: 0.5rem; }
 
 
 .rotation-meta span { margin-right: 1rem; }
@@ -5430,7 +5461,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.doc-card:hover { transform: translateY(-3px); box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
+.doc-card:hover { transform: translateY(var(--card-hover-lift)); box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
 
 
 .doc-icon {
@@ -5520,7 +5551,7 @@ iframe.goog-te-banner-frame {
     display: block;
     box-shadow: 0 10px 26px rgba(0,0,0,.16);
 }
-.docente-foto-borda {
+.docente-foto-borda { cursor: pointer;
     width: 100px;
     height: 100px;
     border-radius: 25%;
@@ -5565,7 +5596,7 @@ iframe.goog-te-banner-frame {
         margin-right: 0 !important;
     }
     .timeline-dot { left: 20px; }
-    .ultima-etapa .timeline-content-esquerda {
+    .ultima-etapa .timeline-content-esquerda { cursor: pointer;
         margin-left: 50px !important;
         margin-right: 0 !important;
         width: calc(100% - 60px) !important;
@@ -5684,7 +5715,7 @@ iframe.goog-te-banner-frame {
         gap: 0.5rem;
         margin-top: 2rem;
     }
-    .footer-bottom-links a { margin: 0 0.5rem; }
+    .footer-bottom-links a { cursor: pointer; margin: 0 0.5rem; }
 
     /* Feature cards: texto full-width */
     .feature-card p,
