@@ -15,7 +15,7 @@ require __DIR__ . '/includes/header.php';
             <h1>Plataformas Multiusuários</h1>
             <p>Infraestrutura científica de alta performance disponível para pesquisadores internos e externos, promovendo colaboração e excelência em pesquisa.</p>
                     <div class="d-flex flex-wrap gap-3">
-                        <a href="plataformas-multiusuarios.php#plataformas" class="btn-green">CONHEÇA AS PLATAFORMAS <i class="bi bi-arrow-right ms-1"></i></a>
+                        <a href="plataformas-multiusuarios.php#plataformas" class="btn-green">Conheça as Plataformas <i class="bi bi-arrow-right ms-1"></i></a>
                         <a href="plataformas-multiusuarios.php#acesso" class="btn-outline-light-custom">COMO ACESSAR <i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
         </div>
@@ -30,7 +30,7 @@ require __DIR__ . '/includes/header.php';
                     <h1>Plataformas<br>Multiusuários</h1>
                     <p>Infraestrutura científica de alta performance disponível para pesquisadores internos e externos, promovendo colaboração e excelência em pesquisa.</p>
                     <div class="d-flex flex-wrap gap-3">
-                        <a href="#plataformas" class="btn-green">CONHEÇA AS PLATAFORMAS <i class="bi bi-arrow-right ms-1"></i></a>
+                        <a href="#plataformas" class="btn-green">Conheça as Plataformas <i class="bi bi-arrow-right ms-1"></i></a>
                         <a href="#acesso" class="btn-outline-light-custom">COMO ACESSAR <i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
                 </div>
@@ -338,7 +338,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
             </div>
             <div class="text-center mt-5">
-                <a href="plataformas-multiusuarios.php#" class="btn-green">ACESSAR SISTEMA DE AGENDAMENTO <i class="bi bi-arrow-right ms-1"></i></a>
+                <a href="plataformas-multiusuarios.php#" class="btn-green">Acessar Sistema de Agendamento <i class="bi bi-arrow-right ms-1"></i></a>
             </div>
         </div>
     </section>

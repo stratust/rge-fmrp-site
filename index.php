@@ -18,8 +18,8 @@ require __DIR__ . '/includes/header.php';
                     <p class="subtitle">FMRP – USP</p>
                     <p>Excelência em ensino, pesquisa<br>e inovação em genética.</p>
                     <div class="d-flex flex-wrap gap-3">
-                        <a href="historia.php" class="btn btn-green">CONHEÇA O DEPARTAMENTO <i class="bi bi-arrow-right ms-1"></i></a>
-<!--                        <a href="linhas-pesquisa.php" class="btn btn-outline-light-custom">LINHAS DE PESQUISA <i class="bi bi-arrow-right ms-1"></i></a> -->
+                        <a href="historia.php" class="btn btn-green">Conheça o Departamento <i class="bi bi-arrow-right ms-1"></i></a>
+<!--                        <a href="linhas-pesquisa.php" class="btn btn-outline-light-custom">Linhas de Pesquisa <i class="bi bi-arrow-right ms-1"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -46,7 +46,7 @@ require __DIR__ . '/includes/header.php';
                                 <circle cx="25" cy="25" r="3" fill="#1a5c3a"/>
                             </svg>
                         </div>
-                        <h3>ENSINO</h3>
+                        <h3>Ensino</h3>
                         <p>Graduação e Pós-graduação com excelência acadêmica.</p>
                         →
                     </div>
@@ -71,7 +71,7 @@ require __DIR__ . '/includes/header.php';
                                 <line x1="54" y1="52" x2="61" y2="59" stroke="#1a5c3a" stroke-width="3" stroke-linecap="round"/>
                             </svg>
                         </div>
-                        <h3>PESQUISA</h3>
+                        <h3>Pesquisa</h3>
                         <p>Produzindo conhecimento e promovendo inovação.</p>
                         →
                     </div>
@@ -91,7 +91,7 @@ require __DIR__ . '/includes/header.php';
                                 <line x1="10" y1="45" x2="40" y2="45" stroke="#1a5c3a" stroke-width="2"/>
                             </svg>
                         </div>
-                        <h3>LABORATÓRIOS</h3>
+                        <h3>Laboratórios</h3>
                         <p>Infraestrutura moderna e tecnologia de ponta.</p>
                         →
                     </div>
@@ -107,7 +107,7 @@ require __DIR__ . '/includes/header.php';
                                 <path d="M12 30 Q25 25 38 30 Q38 42 25 45 Q12 42 12 30" stroke="#1a5c3a" stroke-width="2" fill="none"/>
                             </svg>
                         </div>
-                        <h3>CORPO DOCENTE</h3>
+                        <h3>Corpo Docente</h3>
                         <p>Professores e pesquisadores altamente qualificados.</p>
                         →
                     </div>
@@ -126,7 +126,7 @@ require __DIR__ . '/includes/header.php';
                     <h2>Excelência que<br>transforma ciência</h2>
                     <p>O Departamento de Genética da FMRP/USP tem uma longa trajetória dedicada à formação de profissionais, à produção de conhecimento e à contribuição para o avanço da genética e áreas correlatas.</p>
                     <p>Unimos tradição e inovação para gerar impacto na ciência e na sociedade.</p>
-                    <a href="historia.php" class="btn btn-green mt-3">SAIBA MAIS SOBRE O DEPARTAMENTO</a>
+                    <a href="historia.php" class="btn btn-green mt-3">Saiba Mais Sobre o Departamento</a>
                 </div>
                 <div class="col-lg-6">
                     <div class="about-img">
@@ -143,7 +143,7 @@ require __DIR__ . '/includes/header.php';
         <div class="section-label">Notícias e Destaques</div>
         <div class="section-header">
             <h2>Fique por dentro</h2>
-            <a href="noticias.php" class="see-all-link">VER TODAS AS NOTÍCIAS <i class="bi bi-arrow-right"></i></a>
+            <a href="noticias.php" class="see-all-link">Ver Todas as Notícias <i class="bi bi-arrow-right"></i></a>
         </div>
 
         <!-- Carrossel -->

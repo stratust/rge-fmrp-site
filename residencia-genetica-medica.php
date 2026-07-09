@@ -16,7 +16,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="subtitle">Programa de Especialização – FMRP/USP</p>
                     <p>Formação de especialistas em Genética Médica com excelência acadêmica, prática clínica integrada e pesquisa científica de ponta no maior centro médico do interior paulista.</p>
                     <div class="d-flex flex-wrap gap-3">
-                        <a href="residencia-genetica-medica.php#sobre" class="btn-green">CONHEÇA O PROGRAMA <i class="bi bi-arrow-right ms-1"></i></a>
+                        <a href="residencia-genetica-medica.php#sobre" class="btn-green">Conheça o Programa <i class="bi bi-arrow-right ms-1"></i></a>
                         <a href="residencia-genetica-medica.php#admissao" class="btn-outline-light-custom">PROCESSO SELETIVO <i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
         </div>
@@ -33,7 +33,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="subtitle">Programa de Especialização – FMRP/USP</p>
                     <p>Formação de especialistas em Genética Médica com excelência acadêmica, prática clínica integrada e pesquisa científica de ponta no maior centro médico do interior paulista.</p>
                     <div class="d-flex flex-wrap gap-3">
-                        <a href="#sobre" class="btn-green">CONHEÇA O PROGRAMA <i class="bi bi-arrow-right ms-1"></i></a>
+                        <a href="#sobre" class="btn-green">Conheça o Programa <i class="bi bi-arrow-right ms-1"></i></a>
                         <a href="#admissao" class="btn-outline-light-custom">PROCESSO SELETIVO <i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
                 </div>

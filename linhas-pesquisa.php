@@ -277,8 +277,8 @@ require __DIR__ . '/includes/header.php';
             <h2>Interessado em colaborar?</h2>
             <p class="mx-auto">Nossos grupos de pesquisa recebem estudantes de iniciação científica, mestrado, doutorado e pesquisadores visitantes. Entre em contato para discutir oportunidades de colaboração.</p>
             <div class="d-flex flex-wrap justify-content-center gap-3">
-                <a href="docentes.php" class="btn-green">CONHEÇA OS PESQUISADORES <i class="bi bi-arrow-right"></i></a>
-                <a href="index.php#contato" class="btn-outline-green">ENTRE EM CONTATO <i class="bi bi-arrow-right"></i></a>
+                <a href="docentes.php" class="btn-green">Conheça os Pesquisadores <i class="bi bi-arrow-right"></i></a>
+                <a href="index.php#contato" class="btn-outline-green">Entre em Contato <i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
     </section>

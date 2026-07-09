@@ -69,7 +69,7 @@ require __DIR__ . '/includes/header.php';
                                 <span><i class="bi bi-people"></i> 20 vagas</span>
                                 <span><i class="bi bi-geo-alt"></i> Lab. 3</span>
                             </div>
-                            <a href="cursos_extensao.php#" class="course-link">INSCREVA-SE <i class="bi bi-arrow-right"></i></a>
+                            <a href="cursos_extensao.php#" class="course-link">Inscreva-se <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@ require __DIR__ . '/includes/header.php';
                                 <span><i class="bi bi-people"></i> 50 vagas</span>
                                 <span><i class="bi bi-laptop"></i> Online</span>
                             </div>
-                            <a href="cursos_extensao.php#" class="course-link">INSCREVA-SE <i class="bi bi-arrow-right"></i></a>
+                            <a href="cursos_extensao.php#" class="course-link">Inscreva-se <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@ require __DIR__ . '/includes/header.php';
                                 <span><i class="bi bi-people"></i> 25 vagas</span>
                                 <span><i class="bi bi-laptop"></i> Híbrido</span>
                             </div>
-                            <a href="cursos_extensao.php#" class="course-link">INSCREVA-SE <i class="bi bi-arrow-right"></i></a>
+                            <a href="cursos_extensao.php#" class="course-link">Inscreva-se <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -132,7 +132,7 @@ require __DIR__ . '/includes/header.php';
                                 <span><i class="bi bi-people"></i> 15 vagas</span>
                                 <span><i class="bi bi-geo-alt"></i> Lab. 5</span>
                             </div>
-                            <a href="cursos_extensao.php#" class="course-link">INSCREVA-SE <i class="bi bi-arrow-right"></i></a>
+                            <a href="cursos_extensao.php#" class="course-link">Inscreva-se <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -153,7 +153,7 @@ require __DIR__ . '/includes/header.php';
                                 <span><i class="bi bi-people"></i> 40 vagas</span>
                                 <span><i class="bi bi-laptop"></i> Online</span>
                             </div>
-                            <a href="cursos_extensao.php#" class="course-link">INSCREVA-SE <i class="bi bi-arrow-right"></i></a>
+                            <a href="cursos_extensao.php#" class="course-link">Inscreva-se <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -174,7 +174,7 @@ require __DIR__ . '/includes/header.php';
                                 <span><i class="bi bi-people"></i> 12 vagas</span>
                                 <span><i class="bi bi-geo-alt"></i> Lab. 2</span>
                             </div>
-                            <a href="cursos_extensao.php#" class="course-link">INSCREVA-SE <i class="bi bi-arrow-right"></i></a>
+                            <a href="cursos_extensao.php#" class="course-link">Inscreva-se <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -235,8 +235,8 @@ require __DIR__ . '/includes/header.php';
             <h2>Fique atento às novas turmas</h2>
             <p class="mx-auto">Acompanhe nosso site e redes sociais para saber primeiro sobre novos cursos, programas de verão e eventos de extensão.</p>
             <div class="d-flex flex-wrap justify-content-center gap-3">
-                <a href="noticias.php" class="btn-white">VER NOTÍCIAS <i class="bi bi-arrow-right"></i></a>
-                <a href="index.php#contato" class="btn-white" style="background: transparent; color: white; border-color: rgba(255,255,255,0.5);">FALE CONOSCO <i class="bi bi-arrow-right"></i></a>
+                <a href="noticias.php" class="btn-white">Ver Notícias <i class="bi bi-arrow-right"></i></a>
+                <a href="index.php#contato" class="btn-white" style="background: transparent; color: white; border-color: rgba(255,255,255,0.5);">Fale Conosco <i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
     </section>

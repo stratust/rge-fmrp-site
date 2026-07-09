@@ -108,7 +108,7 @@ require __DIR__ . '/includes/header.php';
                                 <span><i class="bi bi-cash-stack"></i> FAPESP (Processo 2023/12345-6)</span>
                                 <span><i class="bi bi-people"></i> Coord.: Prof. Dr. A. B. Silva</span>
                             </div>
-                            <a href="projetos.php#" class="project-link">SAIBA MAIS <i class="bi bi-arrow-right"></i></a>
+                            <a href="projetos.php#" class="project-link">Saiba Mais <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -129,7 +129,7 @@ require __DIR__ . '/includes/header.php';
                                 <span><i class="bi bi-cash-stack"></i> CNPq / Embrapa</span>
                                 <span><i class="bi bi-people"></i> Coord.: Profa. Dra. C. D. Oliveira</span>
                             </div>
-                            <a href="projetos.php#" class="project-link">SAIBA MAIS <i class="bi bi-arrow-right"></i></a>
+                            <a href="projetos.php#" class="project-link">Saiba Mais <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -150,7 +150,7 @@ require __DIR__ . '/includes/header.php';
                                 <span><i class="bi bi-cash-stack"></i> FAPESP / MCTI</span>
                                 <span><i class="bi bi-people"></i> Coord.: Prof. Dr. E. F. Santos</span>
                             </div>
-                            <a href="projetos.php#" class="project-link">SAIBA MAIS <i class="bi bi-arrow-right"></i></a>
+                            <a href="projetos.php#" class="project-link">Saiba Mais <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -171,7 +171,7 @@ require __DIR__ . '/includes/header.php';
                                 <span><i class="bi bi-cash-stack"></i> CNPq Universal</span>
                                 <span><i class="bi bi-people"></i> Coord.: Prof. Dr. M. N. Ferreira</span>
                             </div>
-                            <a href="projetos.php#" class="project-link">SAIBA MAIS <i class="bi bi-arrow-right"></i></a>
+                            <a href="projetos.php#" class="project-link">Saiba Mais <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -192,7 +192,7 @@ require __DIR__ . '/includes/header.php';
                                 <span><i class="bi bi-cash-stack"></i> FAPESP / ICMBio</span>
                                 <span><i class="bi bi-people"></i> Coord.: Profa. Dra. I. J. Lima</span>
                             </div>
-                            <a href="projetos.php#" class="project-link">SAIBA MAIS <i class="bi bi-arrow-right"></i></a>
+                            <a href="projetos.php#" class="project-link">Saiba Mais <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -213,7 +213,7 @@ require __DIR__ . '/includes/header.php';
                                 <span><i class="bi bi-cash-stack"></i> FINEP / PIPE</span>
                                 <span><i class="bi bi-people"></i> Coord.: Prof. Dr. G. H. Costa</span>
                             </div>
-                            <a href="projetos.php#" class="project-link">VER RESULTADOS <i class="bi bi-arrow-right"></i></a>
+                            <a href="projetos.php#" class="project-link">Ver Resultados <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -345,8 +345,8 @@ require __DIR__ . '/includes/header.php';
             <h2>Quer propor uma colaboração?</h2>
             <p class="mx-auto">O Departamento de Genética está aberto a parcerias acadêmicas, institucionais e com o setor privado. Entre em contato para discutir oportunidades de cooperação.</p>
             <div class="d-flex flex-wrap justify-content-center gap-3">
-                <a href="index.php#contato" class="btn-white">ENTRE EM CONTATO <i class="bi bi-arrow-right"></i></a>
-                <a href="linhas-pesquisa.php" class="btn-outline-white">LINHAS DE PESQUISA <i class="bi bi-arrow-right"></i></a>
+                <a href="index.php#contato" class="btn-white">Entre em Contato <i class="bi bi-arrow-right"></i></a>
+                <a href="linhas-pesquisa.php" class="btn-outline-white">Linhas de Pesquisa <i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
     </section>

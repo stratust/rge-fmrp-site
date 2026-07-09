@@ -15,7 +15,7 @@ require __DIR__ . '/includes/header.php';
             <h1>Conselho e Comiss&otilde;es</h1>
             <p>Transparência e organização na gestão do Departamento de Genética. Acompanhe a composição das comissões, membros do conselho e calendário de reuniões.</p>
                     <div class="d-flex flex-wrap gap-3">
-                        <a href="comissoes-conselho.php#calendario" class="btn btn-green">Calendário de reuni&otilde;es <i class="bi bi-arrow-right ms-1"></i></a>
+                        <a href="comissoes-conselho.php#calendario" class="btn btn-green">Calendário de Reuniões <i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
         </div>
     </section>
@@ -31,7 +31,7 @@ require __DIR__ . '/includes/header.php';
                     <p>Transparência e organização na gestão do Departamento de Genética. Acompanhe a composição das comissões, membros do conselho e calendário de reuniões.</p>
                 </div>
                     <div class="d-flex flex-wrap gap-3">
-                        <a href="#calendario" class="btn btn-green">Calendário de reuni&otilde;es <i class="bi bi-arrow-right ms-1"></i></a>
+                        <a href="#calendario" class="btn btn-green">Calendário de Reuniões <i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
 				
             </div>

@@ -14,7 +14,7 @@ require __DIR__ . '/includes/header.php';
 			<p class="subtitle">Líder: Prof. Dr. Silvana Giuliatti</p>
             <p>Desenvolvimento de aplicativos para análise de dados obtidos de projetos genoma.</p>
                     <div class="d-flex flex-wrap gap-3">
-                        <a href="#pesquisa" class="btn-green">LINHAS DE PESQUISA <i class="bi bi-arrow-right ms-1"></i></a>
+                        <a href="#pesquisa" class="btn-green">Linhas de Pesquisa <i class="bi bi-arrow-right ms-1"></i></a>
                         <a href="#equipe" class="btn-outline-light-custom">CONHEÇA A EQUIPE <i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
         </div>
@@ -438,7 +438,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
             </div>
             <div class="text-center mt-4">
-                <a href="#" class="btn-green">VER TODAS AS PUBLICACOES <i class="bi bi-arrow-right ms-1"></i></a>
+                <a href="#" class="btn-green">Ver Todas as Publicações <i class="bi bi-arrow-right ms-1"></i></a>
             </div>
         </div>
     </section>

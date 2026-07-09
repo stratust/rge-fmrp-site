@@ -25,7 +25,7 @@ require __DIR__ . '/includes/header.php';
                     <p>O Departamento de Genética da FMRP/USP oferece uma formação completa e atualizada, desde a graduação até a pós-graduação stricto sensu, além de cursos e atividades de extensão que conectam a universidade à sociedade.</p>
                     <p>Nossos programas combinam sólida base teórica com intensa prática em laboratórios de ponta, preparando profissionais capacitados para atuar em pesquisa, ensino, saúde, biotecnologia e diversas áreas correlatas.</p>
                     <a href="ensino.php#programas" class="btn-green" style="background-color: var(--primary-green); color: white; border: 2px solid var(--primary-green); padding: 0.75rem 1.5rem; border-radius: 50px; font-weight: 500; font-size: 0.9rem; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; transition: all 0.3s;">
-                        CONHEÇA NOSSOS PROGRAMAS <i class="bi bi-arrow-down"></i>
+                        Conheça Nossos Programas <i class="bi bi-arrow-down"></i>
                     </a>
                 </div>
                 <div class="col-lg-6">
@@ -64,7 +64,7 @@ require __DIR__ . '/includes/header.php';
                                 <span><i class="bi bi-clock"></i> 4 anos</span>
                                 <span><i class="bi bi-award"></i> Bacharelado</span>
                             </div>
-                            <span class="program-link">SAIBA MAIS <i class="bi bi-arrow-right"></i></span>
+                            <span class="program-link">Saiba Mais <i class="bi bi-arrow-right"></i></span>
                         </div>
                     </a>
                 </div>
@@ -87,7 +87,7 @@ require __DIR__ . '/includes/header.php';
                                 <span><i class="bi bi-clock"></i> 2–4 anos</span>
                                 <span><i class="bi bi-award"></i> M/D</span>
                             </div>
-                            <span class="program-link">SAIBA MAIS <i class="bi bi-arrow-right"></i></span>
+                            <span class="program-link">Saiba Mais <i class="bi bi-arrow-right"></i></span>
                         </div>
                     </a>
                 </div>
@@ -110,7 +110,7 @@ require __DIR__ . '/includes/header.php';
                                 <span><i class="bi bi-clock"></i> Variável</span>
                                 <span><i class="bi bi-award"></i> Certificado</span>
                             </div>
-                            <span class="program-link">SAIBA MAIS <i class="bi bi-arrow-right"></i></span>
+                            <span class="program-link">Saiba Mais <i class="bi bi-arrow-right"></i></span>
                         </div>
                     </a>
                 </div>
@@ -175,8 +175,8 @@ require __DIR__ . '/includes/header.php';
             <h2>Pronto para começar sua jornada?</h2>
             <p class="mx-auto">Explore nossos programas de formação e descubra como o Departamento de Genética da FMRP/USP pode impulsionar sua carreira acadêmica e profissional.</p>
             <div class="d-flex flex-wrap justify-content-center gap-3">
-                <a href="graduacao.php" class="btn-white">GRADUAÇÃO <i class="bi bi-arrow-right"></i></a>
-                <a href="pos-graduacao.php" class="btn-outline-white">PÓS-GRADUAÇÃO <i class="bi bi-arrow-right"></i></a>
+                <a href="graduacao.php" class="btn-white">Graduação <i class="bi bi-arrow-right"></i></a>
+                <a href="pos-graduacao.php" class="btn-outline-white">Pós-Graduação <i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
     </section>

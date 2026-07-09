@@ -15,7 +15,7 @@ require __DIR__ . '/includes/header.php';
             <h1>Serviços de Genética Médica</h1>
                     <p>Atendimento especializado em diagnóstico, aconselhamento e acompanhamento genético para pacientes e famílias.</p>
                     <div class="d-flex flex-wrap gap-3">
-                        <a href="servicos-genetica-medica.php#servicos" class="btn-green">CONHEÇA OS SERVIÇOS <i class="bi bi-arrow-right ms-1"></i></a>
+                        <a href="servicos-genetica-medica.php#servicos" class="btn-green">Conheça os Serviços <i class="bi bi-arrow-right ms-1"></i></a>
                         <a href="servicos-genetica-medica.php#equipe" class="btn-outline-light-custom">CONHEÇA A EQUIPE <i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
         </div>
@@ -31,7 +31,7 @@ require __DIR__ . '/includes/header.php';
                     <h1>Serviços de<br>Genética Médica</h1>
                     <p>Atendimento especializado em diagnóstico, aconselhamento e acompanhamento genético para pacientes e famílias.</p>
                     <div class="d-flex flex-wrap gap-3">
-                        <a href="#servicos" class="btn-green">CONHEÇA OS SERVIÇOS <i class="bi bi-arrow-right ms-1"></i></a>
+                        <a href="#servicos" class="btn-green">Conheça os Serviços <i class="bi bi-arrow-right ms-1"></i></a>
                         <a href="#equipe" class="btn-outline-light-custom">CONHEÇA A EQUIPE <i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
                 </div>
