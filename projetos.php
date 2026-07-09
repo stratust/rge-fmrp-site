@@ -94,7 +94,7 @@ require __DIR__ . '/includes/header.php';
             <div class="row g-4">
                 <!-- Projeto 1 -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="project-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="project-img">
                             <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=600&h=400&fit=crop" alt="Projeto 1">
                             <span class="project-status active">Em andamento</span>
@@ -115,7 +115,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- Projeto 2 -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="project-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="project-img">
                             <img src="https://images.unsplash.com/photo-1628595351029-c2bf17511435?w=600&h=400&fit=crop" alt="Projeto 2">
                             <span class="project-status new">Novo</span>
@@ -136,7 +136,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- Projeto 3 -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="project-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="project-img">
                             <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Projeto 3">
                             <span class="project-status active">Em andamento</span>
@@ -157,7 +157,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- Projeto 4 -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="project-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="project-img">
                             <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?w=600&h=400&fit=crop" alt="Projeto 4">
                             <span class="project-status active">Em andamento</span>
@@ -178,7 +178,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- Projeto 5 -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="project-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="project-img">
                             <img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=600&h=400&fit=crop" alt="Projeto 5">
                             <span class="project-status active">Em andamento</span>
@@ -199,7 +199,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- Projeto 6 -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="project-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="project-img">
                             <img src="https://images.unsplash.com/photo-1576670159805-381a9de1cdec?w=600&h=400&fit=crop" alt="Projeto 6">
                             <span class="project-status completed">Concluído</span>
@@ -282,7 +282,7 @@ require __DIR__ . '/includes/header.php';
 
             <div class="row g-4">
                 <div class="col-6 col-md-4 col-lg-2">
-                    <div class="partner-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="partner-icon">
                             <i class="bi bi-bank"></i>
                         </div>
@@ -291,7 +291,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-2">
-                    <div class="partner-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="partner-icon">
                             <i class="bi bi-bank2"></i>
                         </div>
@@ -300,7 +300,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-2">
-                    <div class="partner-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="partner-icon">
                             <i class="bi bi-building"></i>
                         </div>
@@ -309,7 +309,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-2">
-                    <div class="partner-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="partner-icon">
                             <i class="bi bi-globe-americas"></i>
                         </div>
@@ -318,7 +318,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-2">
-                    <div class="partner-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="partner-icon">
                             <i class="bi bi-seedling"></i>
                         </div>
@@ -327,7 +327,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-2">
-                    <div class="partner-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="partner-icon">
                             <i class="bi bi-hospital"></i>
                         </div>

@@ -100,7 +100,7 @@ require __DIR__ . '/includes/header.php';
                                  
                     
                     
-                    <div class="docente-card h-100 rge-card">
+                    <div class="profile-card h-100 rge-card">
 
                         <div class="docente-photo-wrap  background:#F8F9FA !important">
 
@@ -253,7 +253,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <!--  Final -  <div class="docente-body">  -->
                     </div>
-                    <!--  Final - <div class="docente-card rge-card">  -->
+                    <!--  Final - <div class="profile-card rge-card">  -->
                                                 </div>
                                             <div class="col-md-6 col-lg-4 col-xl-3 docente-item"  
                           data-nome="ESTER SILVEIRA RAMOS"
@@ -262,7 +262,7 @@ require __DIR__ . '/includes/header.php';
                                  
                     
                     
-                    <div class="docente-card h-100 rge-card">
+                    <div class="profile-card h-100 rge-card">
 
                         <div class="docente-photo-wrap  background:#F8F9FA !important">
 
@@ -439,7 +439,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <!--  Final -  <div class="docente-body">  -->
                     </div>
-                    <!--  Final - <div class="docente-card rge-card">  -->
+                    <!--  Final - <div class="profile-card rge-card">  -->
                                                 </div>
                                             <div class="col-md-6 col-lg-4 col-xl-3 docente-item"  
                           data-nome="ALEXANDRO GUTERRES DA SILVA"
@@ -448,7 +448,7 @@ require __DIR__ . '/includes/header.php';
                                  
                     
                     
-                    <div class="docente-card h-100 rge-card">
+                    <div class="profile-card h-100 rge-card">
 
                         <div class="docente-photo-wrap  background:#F8F9FA !important">
 
@@ -624,7 +624,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <!--  Final -  <div class="docente-body">  -->
                     </div>
-                    <!--  Final - <div class="docente-card rge-card">  -->
+                    <!--  Final - <div class="profile-card rge-card">  -->
                                                 </div>
                                             <div class="col-md-6 col-lg-4 col-xl-3 docente-item"  
                           data-nome="APARECIDA MARIA FONTES"
@@ -633,7 +633,7 @@ require __DIR__ . '/includes/header.php';
                                  
                     
                     
-                    <div class="docente-card h-100 rge-card">
+                    <div class="profile-card h-100 rge-card">
 
                         <div class="docente-photo-wrap  background:#F8F9FA !important">
 
@@ -797,7 +797,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <!--  Final -  <div class="docente-body">  -->
                     </div>
-                    <!--  Final - <div class="docente-card rge-card">  -->
+                    <!--  Final - <div class="profile-card rge-card">  -->
                                                 </div>
                                             <div class="col-md-6 col-lg-4 col-xl-3 docente-item"  
                           data-nome="DAVID DE JONG"
@@ -806,7 +806,7 @@ require __DIR__ . '/includes/header.php';
                                  
                     
                     
-                    <div class="docente-card h-100 rge-card">
+                    <div class="profile-card h-100 rge-card">
 
                         <div class="docente-photo-wrap  background:#F8F9FA !important">
 
@@ -958,7 +958,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <!--  Final -  <div class="docente-body">  -->
                     </div>
-                    <!--  Final - <div class="docente-card rge-card">  -->
+                    <!--  Final - <div class="profile-card rge-card">  -->
                                                 </div>
                                             <div class="col-md-6 col-lg-4 col-xl-3 docente-item"  
                           data-nome="ISRAEL GOMY"
@@ -967,7 +967,7 @@ require __DIR__ . '/includes/header.php';
                                  
                     
                     
-                    <div class="docente-card h-100 rge-card">
+                    <div class="profile-card h-100 rge-card">
 
                         <div class="docente-photo-wrap  background:#F8F9FA !important">
 
@@ -1119,7 +1119,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <!--  Final -  <div class="docente-body">  -->
                     </div>
-                    <!--  Final - <div class="docente-card rge-card">  -->
+                    <!--  Final - <div class="profile-card rge-card">  -->
                                                 </div>
                                             <div class="col-md-6 col-lg-4 col-xl-3 docente-item"  
                           data-nome="JEREMY ANDREW SQUIRE"
@@ -1128,7 +1128,7 @@ require __DIR__ . '/includes/header.php';
                                  
                     
                     
-                    <div class="docente-card h-100 rge-card">
+                    <div class="profile-card h-100 rge-card">
 
                         <div class="docente-photo-wrap  background:#F8F9FA !important">
 
@@ -1256,7 +1256,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <!--  Final -  <div class="docente-body">  -->
                     </div>
-                    <!--  Final - <div class="docente-card rge-card">  -->
+                    <!--  Final - <div class="profile-card rge-card">  -->
                                                 </div>
                                             <div class="col-md-6 col-lg-4 col-xl-3 docente-item"  
                           data-nome="MARIA CRISTINA DA SILVA PRANCHEVICIUS"
@@ -1265,7 +1265,7 @@ require __DIR__ . '/includes/header.php';
                                  
                     
                     
-                    <div class="docente-card h-100 rge-card">
+                    <div class="profile-card h-100 rge-card">
 
                         <div class="docente-photo-wrap  background:#F8F9FA !important">
 
@@ -1345,7 +1345,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <!--  Final -  <div class="docente-body">  -->
                     </div>
-                    <!--  Final - <div class="docente-card rge-card">  -->
+                    <!--  Final - <div class="profile-card rge-card">  -->
                                                 </div>
                                             <div class="col-md-6 col-lg-4 col-xl-3 docente-item"  
                           data-nome="MARINA CANDIDO VISONTAI CORMEDI"
@@ -1354,7 +1354,7 @@ require __DIR__ . '/includes/header.php';
                                  
                     
                     
-                    <div class="docente-card h-100 rge-card">
+                    <div class="profile-card h-100 rge-card">
 
                         <div class="docente-photo-wrap  background:#F8F9FA !important">
 
@@ -1482,7 +1482,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <!--  Final -  <div class="docente-body">  -->
                     </div>
-                    <!--  Final - <div class="docente-card rge-card">  -->
+                    <!--  Final - <div class="profile-card rge-card">  -->
                                                 </div>
                                             <div class="col-md-6 col-lg-4 col-xl-3 docente-item"  
                           data-nome="NILCE MARIA MARTINEZ ROSSI"
@@ -1491,7 +1491,7 @@ require __DIR__ . '/includes/header.php';
                                  
                     
                     
-                    <div class="docente-card h-100 rge-card">
+                    <div class="profile-card h-100 rge-card">
 
                         <div class="docente-photo-wrap  background:#F8F9FA !important">
 
@@ -1619,7 +1619,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <!--  Final -  <div class="docente-body">  -->
                     </div>
-                    <!--  Final - <div class="docente-card rge-card">  -->
+                    <!--  Final - <div class="profile-card rge-card">  -->
                                                 </div>
                                             <div class="col-md-6 col-lg-4 col-xl-3 docente-item"  
                           data-nome="REINALDO OTÁVIO ALVARENGA ALVES DE BRITO"
@@ -1628,7 +1628,7 @@ require __DIR__ . '/includes/header.php';
                                  
                     
                     
-                    <div class="docente-card h-100 rge-card">
+                    <div class="profile-card h-100 rge-card">
 
                         <div class="docente-photo-wrap  background:#F8F9FA !important">
 
@@ -1708,7 +1708,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <!--  Final -  <div class="docente-body">  -->
                     </div>
-                    <!--  Final - <div class="docente-card rge-card">  -->
+                    <!--  Final - <div class="profile-card rge-card">  -->
                                                 </div>
                                             <div class="col-md-6 col-lg-4 col-xl-3 docente-item"  
                           data-nome="SILVANA GIULIATTI"
@@ -1717,7 +1717,7 @@ require __DIR__ . '/includes/header.php';
                                  
                     
                     
-                    <div class="docente-card h-100 rge-card">
+                    <div class="profile-card h-100 rge-card">
 
                         <div class="docente-photo-wrap  background:#F8F9FA !important">
 
@@ -1869,7 +1869,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <!--  Final -  <div class="docente-body">  -->
                     </div>
-                    <!--  Final - <div class="docente-card rge-card">  -->
+                    <!--  Final - <div class="profile-card rge-card">  -->
                                                 </div>
                                             <div class="col-md-6 col-lg-4 col-xl-3 docente-item"  
                           data-nome="THIAGO YUKIO KIKUCHI OLIVEIRA"
@@ -1878,7 +1878,7 @@ require __DIR__ . '/includes/header.php';
                                  
                     
                     
-                    <div class="docente-card h-100 rge-card">
+                    <div class="profile-card h-100 rge-card">
 
                         <div class="docente-photo-wrap  background:#F8F9FA !important">
 
@@ -1973,7 +1973,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <!--  Final -  <div class="docente-body">  -->
                     </div>
-                    <!--  Final - <div class="docente-card rge-card">  -->
+                    <!--  Final - <div class="profile-card rge-card">  -->
                                                 </div>
                                             <div class="col-md-6 col-lg-4 col-xl-3 docente-item"  
                           data-nome="VICTOR EVANGELISTA DE FARIA FERRAZ"
@@ -1982,7 +1982,7 @@ require __DIR__ . '/includes/header.php';
                                  
                     
                     
-                    <div class="docente-card h-100 rge-card">
+                    <div class="profile-card h-100 rge-card">
 
                         <div class="docente-photo-wrap  background:#F8F9FA !important">
 
@@ -2122,7 +2122,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <!--  Final -  <div class="docente-body">  -->
                     </div>
-                    <!--  Final - <div class="docente-card rge-card">  -->
+                    <!--  Final - <div class="profile-card rge-card">  -->
                                                 </div>
                     
                 </div>
@@ -2140,7 +2140,7 @@ require __DIR__ . '/includes/header.php';
                                  
                     
                     
-                    <div class="docente-card h-100 rge-card">
+                    <div class="profile-card h-100 rge-card">
 
                         <div class="docente-photo-wrap  background:#F8F9FA !important">
 
@@ -2235,7 +2235,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <!--  Final -  <div class="docente-body">  -->
                     </div>
-                    <!--  Final - <div class="docente-card rge-card">  -->
+                    <!--  Final - <div class="profile-card rge-card">  -->
                                                 </div>
                                             <div class="col-md-6 col-lg-4 col-xl-3 docente-item"  
                           data-nome="ANTONIO ROSSI FILHO"
@@ -2244,7 +2244,7 @@ require __DIR__ . '/includes/header.php';
                                  
                     
                     
-                    <div class="docente-card h-100 rge-card">
+                    <div class="profile-card h-100 rge-card">
 
                         <div class="docente-photo-wrap  background:#F8F9FA !important">
 
@@ -2339,7 +2339,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <!--  Final -  <div class="docente-body">  -->
                     </div>
-                    <!--  Final - <div class="docente-card rge-card">  -->
+                    <!--  Final - <div class="profile-card rge-card">  -->
                                                 </div>
                     
                 </div>
@@ -2357,7 +2357,7 @@ require __DIR__ . '/includes/header.php';
                                  
                     
                     
-                    <div class="docente-card h-100 rge-card">
+                    <div class="profile-card h-100 rge-card">
 
                         <div class="docente-photo-wrap  background:#F8F9FA !important">
 
@@ -2473,7 +2473,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <!--  Final -  <div class="docente-body">  -->
                     </div>
-                    <!--  Final - <div class="docente-card rge-card">  -->
+                    <!--  Final - <div class="profile-card rge-card">  -->
                                                 </div>
                     
                 </div>

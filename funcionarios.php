@@ -71,7 +71,7 @@ require __DIR__ . '/includes/header.php';
 
             
                 <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             A                        </div>
 
@@ -102,7 +102,7 @@ require __DIR__ . '/includes/header.php';
 
             
                 <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             M                        </div>
 
@@ -133,7 +133,7 @@ require __DIR__ . '/includes/header.php';
 
             
                 <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             S                        </div>
 
@@ -164,7 +164,7 @@ require __DIR__ . '/includes/header.php';
 
             
                 <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             S                        </div>
 
@@ -217,7 +217,7 @@ require __DIR__ . '/includes/header.php';
             <div class="row g-3">
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             C                        </div>
 
@@ -246,7 +246,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             D                        </div>
 
@@ -275,7 +275,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             E                        </div>
 
@@ -304,7 +304,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             G                        </div>
 
@@ -333,7 +333,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             J                        </div>
 
@@ -362,7 +362,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             L                        </div>
 
@@ -391,7 +391,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             L                        </div>
 
@@ -420,7 +420,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             L                        </div>
 
@@ -449,7 +449,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             M                        </div>
 
@@ -478,7 +478,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             M                        </div>
 
@@ -507,7 +507,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             M                        </div>
 
@@ -536,7 +536,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             M                        </div>
 
@@ -565,7 +565,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             P                        </div>
 
@@ -594,7 +594,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             R                        </div>
 
@@ -623,7 +623,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             R                        </div>
 
@@ -652,7 +652,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             S                        </div>
 
@@ -676,7 +676,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             V                        </div>
 
@@ -705,7 +705,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             V                        </div>
 
@@ -756,7 +756,7 @@ require __DIR__ . '/includes/header.php';
             <div class="row g-3">
             
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             M                        </div>
 
@@ -786,7 +786,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             P                        </div>
 
@@ -816,7 +816,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             P                        </div>
 
@@ -846,7 +846,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             S                        </div>
 
@@ -900,7 +900,7 @@ require __DIR__ . '/includes/header.php';
             <div class="row g-3">
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             R                        </div>
 
@@ -929,7 +929,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                             <div class="col-md-6 col-lg-4">
-                    <div class="func-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="func-avatar">
                             R                        </div>
 

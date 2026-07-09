@@ -77,6 +77,26 @@ button,
     box-shadow: var(--card-shadow-hover);
 }
 
+/* Card System — 5 Archetypes with legacy aliases
+   ============================================
+   Use these in HTML: .rge-card.icon-card, .rge-card.media-card, etc.
+   Legacy class names below are kept as aliases so old HTML still works.
+   ============================================ */
+
+/* Override: legacy cards that already have .rge-card get the same shadow/radius */
+.info-card, .contact-card, .equipment-card, .partner-card, .step-card, .stat-card,
+.norm-card, .doc-card, .service-card, .platform-card, .partnership-card,
+.news-card, .course-card, .project-card, .program-card, .featured-card, .infra-card,
+.docente-card, .func-card, .team-card, .staff-card,
+.comissao-card, .council-card, .commission-card, .calendar-card,
+.rotation-card, .pub-card, .admission-card, .chefia-card,
+.research-card, .funding-card {
+    border-radius: var(--card-radius);
+    box-shadow: var(--card-shadow);
+    transition: var(--card-transition);
+    height: 100%;
+}
+
 /* ---- Icon Box (padrão compartilhado) ---- */
 /* Usado por: info-card, equipment-card, step-card, partner-card */
 /* Substitui definições duplicadas de .icon-box, .contact-icon, .equipment-icon, etc. */

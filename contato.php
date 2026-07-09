@@ -28,7 +28,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-lg-7">
                     <div class="row g-4">
                         <div class="col-md-6">
-                            <div class="contact-card rge-card">
+                            <div class="icon-card rge-card">
                                 <div class="contact-icon">
                                     <i class="bi bi-geo-alt"></i>
                                 </div>
@@ -38,7 +38,7 @@ require __DIR__ . '/includes/header.php';
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="contact-card rge-card">
+                            <div class="icon-card rge-card">
                                 <div class="contact-icon">
                                     <i class="bi bi-telephone"></i>
                                 </div>
@@ -48,7 +48,7 @@ require __DIR__ . '/includes/header.php';
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="contact-card rge-card">
+                            <div class="icon-card rge-card">
                                 <div class="contact-icon">
                                     <i class="bi bi-envelope"></i>
                                 </div>
@@ -58,7 +58,7 @@ require __DIR__ . '/includes/header.php';
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="contact-card rge-card">
+                            <div class="icon-card rge-card">
                                 <div class="contact-icon">
                                     <i class="bi bi-clock"></i>
                                 </div>
@@ -173,7 +173,7 @@ require __DIR__ . '/includes/header.php';
 
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
-                    <div class="team-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="team-avatar">MS</div>
                         <div class="team-info">
                             <h3>Susie Nalon</h3>
@@ -184,7 +184,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="team-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="team-avatar">JO</div>
                         <div class="team-info">
                             <h3>Silvia</h3>
@@ -195,7 +195,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="team-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="team-avatar">AS</div>
                         <div class="team-info">
                             <h3>Ana Santos</h3>
@@ -206,7 +206,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="team-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="team-avatar">PC</div>
                         <div class="team-info">
                             <h3>Pedro Costa</h3>
@@ -217,7 +217,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="team-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="team-avatar">CL</div>
                         <div class="team-info">
                             <h3>Carla Lima</h3>
@@ -228,7 +228,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="team-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="team-avatar">RF</div>
                         <div class="team-info">
                             <h3>Roberto Ferreira</h3>

@@ -53,25 +53,25 @@ require __DIR__ . '/includes/header.php';
                     <p>O programa é credenciado pela Comissão Nacional de Residência Médica (CNRM/MEC) e oferece [X] vagas anuais para médicos graduados.</p>
                     <div class="row g-3 mt-3">
                         <div class="col-6 col-md-3">
-                            <div class="stat-card rge-card">
+                            <div class="icon-card rge-card">
                                 <div class="stat-number">[X]</div>
                                 <div class="stat-label">Vagas/Ano</div>
                             </div>
                         </div>
                         <div class="col-6 col-md-3">
-                            <div class="stat-card rge-card">
+                            <div class="icon-card rge-card">
                                 <div class="stat-number">3</div>
                                 <div class="stat-label">Anos de Duração</div>
                             </div>
                         </div>
                         <div class="col-6 col-md-3">
-                            <div class="stat-card rge-card">
+                            <div class="icon-card rge-card">
                                 <div class="stat-number">[X]</div>
                                 <div class="stat-label">Residentes Formados</div>
                             </div>
                         </div>
                         <div class="col-6 col-md-3">
-                            <div class="stat-card rge-card">
+                            <div class="icon-card rge-card">
                                 <div class="stat-number">CNRM</div>
                                 <div class="stat-label">Credenciamento MEC</div>
                             </div>
@@ -99,7 +99,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
-                    <div class="program-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="program-icon">
                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="12" cy="12" r="10" stroke="#1a5c3a" stroke-width="2"/>
@@ -111,7 +111,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="program-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="program-icon">
                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="#1a5c3a" stroke-width="2"/>
@@ -124,7 +124,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="program-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="program-icon">
                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" stroke="#1a5c3a" stroke-width="2"/>
@@ -151,7 +151,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="rotation-card rge-card">
+                    <div class="content-card rge-card">
                         <h4>Aconselhamento Genético</h4>
                         <div class="rotation-meta">
                             <span><i class="bi bi-clock"></i>Duração: [X] meses</span>
@@ -161,7 +161,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="rotation-card rge-card">
+                    <div class="content-card rge-card">
                         <h4>Diagnóstico Laboratorial</h4>
                         <div class="rotation-meta">
                             <span><i class="bi bi-clock"></i>Duração: [X] meses</span>
@@ -171,7 +171,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="rotation-card rge-card">
+                    <div class="content-card rge-card">
                         <h4>Genética Oncológica</h4>
                         <div class="rotation-meta">
                             <span><i class="bi bi-clock"></i>Duração: [X] meses</span>
@@ -181,7 +181,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="rotation-card rge-card">
+                    <div class="content-card rge-card">
                         <h4>Genética Reprodutiva e Medicina Fetal</h4>
                         <div class="rotation-meta">
                             <span><i class="bi bi-clock"></i>Duração: [X] meses</span>
@@ -191,7 +191,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="rotation-card rge-card">
+                    <div class="content-card rge-card">
                         <h4>Genética Pediátrica</h4>
                         <div class="rotation-meta">
                             <span><i class="bi bi-clock"></i>Duração: [X] meses</span>
@@ -201,7 +201,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="rotation-card rge-card">
+                    <div class="content-card rge-card">
                         <h4>Pesquisa e Ensino</h4>
                         <div class="rotation-meta">
                             <span><i class="bi bi-clock"></i>Duração: [X] meses</span>
@@ -227,28 +227,28 @@ require __DIR__ . '/includes/header.php';
 
             <div class="row g-4 mb-5">
                 <div class="col-md-6 col-lg-3">
-                    <div class="step-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="step-number">1</div>
                         <h3>Inscrição</h3>
                         <p>Acompanhe o edital de abertura do processo seletivo no site da FMRP/USP e realize a inscrição dentro do prazo estabelecido.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="step-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="step-number">2</div>
                         <h3>Prova Teórica</h3>
                         <p>Prova objetiva e/ou discursiva abordando conhecimentos em medicina geral e genética médica.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="step-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="step-number">3</div>
                         <h3>Análise Curricular</h3>
                         <p>Avaliação da titulação, experiência profissional, produção científica e atividades de pesquisa.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="step-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="step-number">4</div>
                         <h3>Entrevista</h3>
                         <p>Entrevista com a comissão de residência médica para avaliação de perfil e motivação.</p>
@@ -258,7 +258,7 @@ require __DIR__ . '/includes/header.php';
 
             <div class="row">
                 <div class="col-lg-8">
-                    <div class="info-card rge-card">
+                    <div class="icon-card rge-card">
                         <h3><i class="bi bi-clipboard-check"></i> Requisitos para Inscrição</h3>
                         <ul class="requirement-list">
                             <li><i class="bi bi-check-circle-fill"></i> Diploma de graduação em Medicina reconhecido pelo MEC</li>
@@ -271,7 +271,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="info-card rge-card">
+                    <div class="icon-card rge-card">
                         <h3><i class="bi bi-calendar-event"></i> Calendário [2026]</h3>
                         <ul style="padding-left: 1.2rem; margin-bottom: 0;">
                             <li style="font-size: 0.9rem; color: #555; margin-bottom: 0.5rem; line-height: 1.7;"><strong>Publicação do edital:</strong> [Data]</li>
@@ -295,7 +295,7 @@ require __DIR__ . '/includes/header.php';
             <p class="mb-5">A residência é conduzida por preceptores experientes em Genética Médica, com atuação clínica, laboratorial e científica reconhecida nacional e internacionalmente.</p>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3">
-                    <div class="team-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="team-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -307,7 +307,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="team-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="team-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -319,7 +319,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="team-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="team-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -331,7 +331,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="team-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="team-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -358,7 +358,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
-                    <div class="doc-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="doc-icon"><i class="bi bi-file-earmark-text"></i></div>
                         <div class="doc-content">
                             <h4>Regimento da Residência Médica</h4>
@@ -368,7 +368,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="doc-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="doc-icon"><i class="bi bi-file-earmark-text"></i></div>
                         <div class="doc-content">
                             <h4>Edital de Seleção [Ano]</h4>
@@ -378,7 +378,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="doc-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="doc-icon"><i class="bi bi-file-earmark-text"></i></div>
                         <div class="doc-content">
                             <h4>Programa de Atividades – R1</h4>
@@ -388,7 +388,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="doc-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="doc-icon"><i class="bi bi-file-earmark-text"></i></div>
                         <div class="doc-content">
                             <h4>Programa de Atividades – R2</h4>
@@ -398,7 +398,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="doc-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="doc-icon"><i class="bi bi-file-earmark-text"></i></div>
                         <div class="doc-content">
                             <h4>Programa de Atividades – R3</h4>
@@ -408,7 +408,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="doc-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="doc-icon"><i class="bi bi-link-45deg"></i></div>
                         <div class="doc-content">
                             <h4>CNRM / MEC</h4>

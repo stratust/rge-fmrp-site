@@ -55,7 +55,7 @@ require __DIR__ . '/includes/header.php';
             <div class="row g-4">
                 <!-- Curso 1 -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="course-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="course-img">
                             <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=600&h=400&fit=crop" alt="Curso 1">
                             <span class="course-badge">Presencial</span>
@@ -76,7 +76,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- Curso 2 -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="course-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="course-img">
                             <img src="https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?w=600&h=400&fit=crop" alt="Curso 2">
                             <span class="course-badge online">Online</span>
@@ -97,7 +97,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- Curso 3 -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="course-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="course-img">
                             <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?w=600&h=400&fit=crop" alt="Curso 3">
                             <span class="course-badge hybrid">Híbrido</span>
@@ -118,7 +118,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- Curso 4 -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="course-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="course-img">
                             <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&h=400&fit=crop" alt="Curso 4">
                             <span class="course-badge">Presencial</span>
@@ -139,7 +139,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- Curso 5 -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="course-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="course-img">
                             <img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=600&h=400&fit=crop" alt="Curso 5">
                             <span class="course-badge online">Online</span>
@@ -160,7 +160,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- Curso 6 -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="course-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="course-img">
                             <img src="https://images.unsplash.com/photo-1576670159805-381a9de1cdec?w=600&h=400&fit=crop" alt="Curso 6">
                             <span class="course-badge">Presencial</span>
@@ -190,7 +190,7 @@ require __DIR__ . '/includes/header.php';
 
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3">
-                    <div class="info-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="icon-box">
                             <i class="bi bi-person-check"></i>
                         </div>
@@ -199,7 +199,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="info-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="icon-box">
                             <i class="bi bi-file-earmark-medical"></i>
                         </div>
@@ -208,7 +208,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="info-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="icon-box">
                             <i class="bi bi-credit-card rge-card"></i>
                         </div>
@@ -217,7 +217,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="info-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="icon-box">
                             <i class="bi bi-envelope-open"></i>
                         </div>

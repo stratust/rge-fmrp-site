@@ -51,25 +51,25 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-lg-5">
                     <div class="row g-3">
                         <div class="col-6">
-                            <div class="stat-card rge-card">
+                            <div class="icon-card rge-card">
                                 <div class="stat-number">3</div>
                                 <div class="stat-label">Plataformas Ativas</div>
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="stat-card rge-card">
+                            <div class="icon-card rge-card">
                                 <div class="stat-number">50+</div>
                                 <div class="stat-label">Projetos Atendidos/Ano</div>
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="stat-card rge-card">
+                            <div class="icon-card rge-card">
                                 <div class="stat-number">200+</div>
                                 <div class="stat-label">Pesquisadores Atendidos</div>
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="stat-card rge-card">
+                            <div class="icon-card rge-card">
                                 <div class="stat-number">15+</div>
                                 <div class="stat-label">Instituições Parceiras</div>
                             </div>
@@ -94,7 +94,7 @@ require __DIR__ . '/includes/header.php';
             <!-- Facility de Genômica -->
             <div class="row mb-5">
                 <div class="col-12">
-                    <div class="platform-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="row g-0">
                             <div class="col-lg-4">
                                 <div class="platform-header genomics h-100">
@@ -143,7 +143,7 @@ require __DIR__ . '/includes/header.php';
             <!-- ZebraFish -->
             <div class="row mb-5">
                 <div class="col-12">
-                    <div class="platform-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="row g-0">
                             <div class="col-lg-4">
                                 <div class="platform-header zebrafish h-100">
@@ -192,7 +192,7 @@ require __DIR__ . '/includes/header.php';
             <!-- Biobanco de Organoides -->
             <div class="row">
                 <div class="col-12">
-                    <div class="platform-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="row g-0">
                             <div class="col-lg-4">
                                 <div class="platform-header biobank h-100">
@@ -252,42 +252,42 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="row g-4">
                 <div class="col-6 col-md-4 col-lg-2">
-                    <div class="equipment-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="equipment-icon"><i class="bi bi-moisture"></i></div>
                         <h3>qPCR em Tempo Real</h3>
                         <p>Quantificação de expressão gênica e genotipagem</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-2">
-                    <div class="equipment-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="equipment-icon"><i class="bi bi-eye"></i></div>
                         <h3>Microscopia Confocal</h3>
                         <p>Imagem de alta resolução de células e tecidos</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-2">
-                    <div class="equipment-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="equipment-icon"><i class="bi bi-droplet"></i></div>
                         <h3>Citometria de Fluxo</h3>
                         <p>Análise e separação celular multiparamétrica</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-2">
-                    <div class="equipment-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="equipment-icon"><i class="bi bi-layers"></i></div>
                         <h3>Sequenciador Sanger</h3>
                         <p>Sequenciamento de regiões específicas de DNA</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-2">
-                    <div class="equipment-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="equipment-icon"><i class="bi bi-thermometer-half"></i></div>
                         <h3>Termocicladores</h3>
                         <p>Amplificação de DNA por PCR convencional</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-2">
-                    <div class="equipment-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="equipment-icon"><i class="bi bi-activity"></i></div>
                         <h3>Espectrofotômetro</h3>
                         <p>Quantificação de ácidos nucleicos e proteínas</p>
@@ -309,28 +309,28 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3">
-                    <div class="step-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="step-number">1</div>
                         <h3>Cadastro</h3>
                         <p>Realize seu cadastro no sistema de agendamento da plataforma desejada, informando instituição, projeto e necessidades experimentais.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="step-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="step-number">2</div>
                         <h3>Proposta Técnica</h3>
                         <p>Envie a descrição do experimento, número de amostras e tipo de análise necessária. A equipe técnica avaliará a viabilidade.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="step-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="step-number">3</div>
                         <h3>Orçamento</h3>
                         <p>Receba o orçamento detalhado com valores de serviços, insumos e horas técnicas. Pesquisadores da USP têm tarifas diferenciadas.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="step-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="step-number">4</div>
                         <h3>Execução</h3>
                         <p>Após aprovação, agende a execução do serviço. Acompanhe o andamento pelo sistema e receba os dados com relatório técnico.</p>

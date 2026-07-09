@@ -67,7 +67,7 @@ require __DIR__ . '/includes/header.php';
             <div class="row g-4">
                 <!-- Membros Titulares -->
                 <div class="col-lg-6">
-                    <div class="council-card rge-card">
+                    <div class="content-card rge-card">
                         <h3><i class="bi bi-people-fill"></i> Membros Titulares</h3>
                         <div class="member-row">
                             <div class="member-info">
@@ -124,7 +124,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- Membros Suplentes -->
                 <div class="col-lg-6">
-                    <div class="council-card rge-card">
+                    <div class="content-card rge-card">
                         <h3><i class="bi bi-person-plus"></i> Membros Suplentes</h3>
                         <div class="member-row">
                             <div class="member-info">
@@ -194,7 +194,7 @@ require __DIR__ . '/includes/header.php';
             </div>
 
             <!-- Comissão de Graduação -->
-            <div class="commission-card rge-card" id="comgrad">
+            <div class="content-card rge-card" id="comgrad">
                 <h3><i class="bi bi-mortarboard"></i> Comissão de Graduação</h3>
                 <p class="text-muted mb-3" style="font-size: 0.9rem;">Responsável pela organização, supervisão e avaliação das atividades de ensino de graduação vinculadas ao departamento.</p>
                 <div class="table-responsive">
@@ -233,7 +233,7 @@ require __DIR__ . '/includes/header.php';
             </div>
 
             <!-- Comissão de Pós-Graduação -->
-            <div class="commission-card rge-card" id="compos">
+            <div class="content-card rge-card" id="compos">
                 <h3><i class="bi bi-journal-bookmark"></i> Comissão de Pós-Graduação</h3>
                 <p class="text-muted mb-3" style="font-size: 0.9rem;">Atua na coordenação dos programas de mestrado e doutorado, seleção de alunos, avaliação de dissertações e teses.</p>
                 <div class="table-responsive">
@@ -272,7 +272,7 @@ require __DIR__ . '/includes/header.php';
             </div>
 
             <!-- Comissão de Pesquisa -->
-            <div class="commission-card rge-card" id="compesq">
+            <div class="content-card rge-card" id="compesq">
                 <h3><i class="bi bi-flask"></i> Comissão de Pesquisa</h3>
                 <p class="text-muted mb-3" style="font-size: 0.9rem;">Fomenta e acompanha as atividades de pesquisa do departamento, incluindo editais, bolsas e parcerias institucionais.</p>
                 <div class="table-responsive">
@@ -306,7 +306,7 @@ require __DIR__ . '/includes/header.php';
             </div>
 
             <!-- Comissão de Extensão -->
-            <div class="commission-card rge-card" id="cominfo">
+            <div class="content-card rge-card" id="cominfo">
                 <h3><i class="bi bi-globe-americas"></i> Comissão de Informática</h3>
                 <p class="text-muted mb-3" style="font-size: 0.9rem;">Coordena as atividades de informática do departamento.</p>
                 <div class="table-responsive">
@@ -354,7 +354,7 @@ require __DIR__ . '/includes/header.php';
 
             <div class="row g-4">
                 <div class="col-lg-6">
-                    <div class="calendar-card rge-card">
+                    <div class="content-card rge-card">
                         <span class="semester-badge">1º Semestre / 2026</span>
                         <h3><i class="bi bi-calendar-event"></i> Reuniões Ordinárias</h3>
 
@@ -493,7 +493,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                 <div class="col-lg-6">
-                    <div class="calendar-card rge-card">
+                    <div class="content-card rge-card">
                         <span class="semester-badge">2º Semestre / 2026</span>
                         <h3><i class="bi bi-calendar-event"></i> Reuniões Ordinárias</h3>
 

@@ -79,7 +79,7 @@ require __DIR__ . '/includes/header.php';
             <div class="row g-4">
                 <!-- Genética Molecular -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="research-card rge-card">
+                    <div class="content-card rge-card">
                         <div class="research-img">
                             <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=600&h=400&fit=crop" alt="Genética Molecular">
                             <span class="research-badge">Ativa</span>
@@ -101,7 +101,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- Genômica e Bioinformática -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="research-card rge-card">
+                    <div class="content-card rge-card">
                         <div class="research-img">
                             <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Genômica e Bioinformática">
                             <span class="research-badge">Ativa</span>
@@ -123,7 +123,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- Biologia Celular -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="research-card rge-card">
+                    <div class="content-card rge-card">
                         <div class="research-img">
                             <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?w=600&h=400&fit=crop" alt="Biologia Celular">
                             <span class="research-badge">Ativa</span>
@@ -145,7 +145,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- Genética de Plantas -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="research-card rge-card">
+                    <div class="content-card rge-card">
                         <div class="research-img">
                             <img src="https://images.unsplash.com/photo-1628595351029-c2bf17511435?w=600&h=400&fit=crop" alt="Genética de Plantas">
                             <span class="research-badge">Ativa</span>
@@ -167,7 +167,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- Genética de Populações e Evolução -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="research-card rge-card">
+                    <div class="content-card rge-card">
                         <div class="research-img">
                             <img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=600&h=400&fit=crop" alt="Genética de Populações e Evolução">
                             <span class="research-badge">Ativa</span>
@@ -189,7 +189,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- Genética Médica -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="research-card rge-card">
+                    <div class="content-card rge-card">
                         <div class="research-img">
                             <img src="https://images.unsplash.com/photo-1576670159805-381a9de1cdec?w=600&h=400&fit=crop" alt="Genética Médica">
                             <span class="research-badge">Ativa</span>
@@ -220,7 +220,7 @@ require __DIR__ . '/includes/header.php';
 
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
-                    <div class="pub-card rge-card">
+                    <div class="content-card rge-card">
                         <span class="pub-tag">Genética Molecular</span>
                         <h3 class="pub-title">Novel regulatory mechanisms in gene expression control during cellular stress response</h3>
                         <p class="pub-authors">Silva et al., 2025</p>
@@ -228,7 +228,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="pub-card rge-card">
+                    <div class="content-card rge-card">
                         <span class="pub-tag">Genômica</span>
                         <h3 class="pub-title">Comparative genomics reveals adaptive evolution in tropical plant species under climate change</h3>
                         <p class="pub-authors">Oliveira et al., 2025</p>
@@ -236,7 +236,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="pub-card rge-card">
+                    <div class="content-card rge-card">
                         <span class="pub-tag">Genética Médica</span>
                         <h3 class="pub-title">Whole-exome sequencing identifies new candidate genes for hereditary neurological disorders</h3>
                         <p class="pub-authors">Santos et al., 2025</p>
@@ -244,7 +244,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="pub-card rge-card">
+                    <div class="content-card rge-card">
                         <span class="pub-tag">Biologia Celular</span>
                         <h3 class="pub-title">Mitochondrial dynamics and autophagy interplay in neurodegenerative disease models</h3>
                         <p class="pub-authors">Ferreira et al., 2025</p>
@@ -252,7 +252,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="pub-card rge-card">
+                    <div class="content-card rge-card">
                         <span class="pub-tag">Bioinformática</span>
                         <h3 class="pub-title">Machine learning approaches for predicting pathogenic variants in non-coding regions</h3>
                         <p class="pub-authors">Costa et al., 2025</p>
@@ -260,7 +260,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="pub-card rge-card">
+                    <div class="content-card rge-card">
                         <span class="pub-tag">Genética de Plantas</span>
                         <h3 class="pub-title">CRISPR-mediated resistance to viral pathogens in staple crop species</h3>
                         <p class="pub-authors">Lima et al., 2025</p>

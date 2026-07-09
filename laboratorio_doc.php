@@ -60,7 +60,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="row g-4">
                                                     <div class="col-md-6 col-lg-4">
-                    <div class="research-card">
+                    <div class="content-card">
                         <div class="research-icon">
                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="12" cy="12" r="10" stroke="#1a5c3a" stroke-width="2"/>
@@ -75,7 +75,7 @@ require __DIR__ . '/includes/header.php';
 				  				
 
 <!--                <div class="col-md-6 col-lg-4">
-                    <div class="research-card">
+                    <div class="content-card">
                         <div class="research-icon">
                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect x="3" y="3" width="18" height="18" rx="2" stroke="#1a5c3a" stroke-width="2"/>
@@ -87,7 +87,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="research-card">
+                    <div class="content-card">
                         <div class="research-icon">
                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="12" cy="12" r="3" stroke="#1a5c3a" stroke-width="2"/>
@@ -117,7 +117,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="row g-4 mb-5">
                 <div class="col-md-6 col-lg-4">
-                    <div class="team-card">
+                    <div class="profile-card">
                         <div class="team-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -135,7 +135,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="team-card">
+                    <div class="profile-card">
                         <div class="team-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -164,7 +164,7 @@ require __DIR__ . '/includes/header.php';
 			
             <div class="row g-4 mb-5">
                 <div class="col-md-6 col-lg-3">
-                    <div class="team-card">
+                    <div class="profile-card">
                         <div class="team-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -180,7 +180,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="team-card">
+                    <div class="profile-card">
                         <div class="team-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -205,7 +205,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="row g-4 mb-5">
                 <div class="col-md-6 col-lg-3">
-                    <div class="team-card">
+                    <div class="profile-card">
                         <div class="team-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -222,7 +222,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                 <div class="col-md-6 col-lg-3">
-                    <div class="team-card">
+                    <div class="profile-card">
                         <div class="team-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -239,7 +239,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                 <div class="col-md-6 col-lg-3">
-                    <div class="team-card">
+                    <div class="profile-card">
                         <div class="team-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -256,7 +256,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                 <div class="col-md-6 col-lg-3">
-                    <div class="team-card">
+                    <div class="profile-card">
                         <div class="team-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -291,7 +291,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="row g-4 mb-5">
                 <div class="col-md-6 col-lg-3">
-                    <div class="team-card">
+                    <div class="profile-card">
                         <div class="team-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -307,7 +307,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="team-card">
+                    <div class="profile-card">
                         <div class="team-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -332,7 +332,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3">
-                    <div class="team-card">
+                    <div class="profile-card">
                         <div class="team-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -347,7 +347,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="team-card">
+                    <div class="profile-card">
                         <div class="team-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -363,7 +363,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="team-card">
+                    <div class="profile-card">
                         <div class="team-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -393,7 +393,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="row">
                 <div class="col-lg-10">
-                    <div class="pub-card">
+                    <div class="content-card">
                         <h4>[Titulo completo do artigo cientifico publicado em revista internacional de alto impacto]</h4>
                         <div class="pub-meta">
                             <span><i class="bi bi-journal-text"></i>[Nome da Revista]</span>
@@ -404,7 +404,7 @@ require __DIR__ . '/includes/header.php';
                         <p>[Resumo breve dos principais achados e contribuicoes do trabalho para a area de genetica e biologia molecular.]</p>
                         <a href="#" class="pub-link">Ver publicacao <i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
-                    <div class="pub-card">
+                    <div class="content-card">
                         <h4>[Titulo de outro artigo relevante do laboratorio]</h4>
                         <div class="pub-meta">
                             <span><i class="bi bi-journal-text"></i>[Nome da Revista]</span>
@@ -415,7 +415,7 @@ require __DIR__ . '/includes/header.php';
                         <p>[Descricao dos resultados e impacto cientifico desta publicacao na compreensao do tema pesquisado.]</p>
                         <a href="#" class="pub-link">Ver publicacao <i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
-                    <div class="pub-card">
+                    <div class="content-card">
                         <h4>[Titulo de artigo em revista de acesso aberto ou preprint]</h4>
                         <div class="pub-meta">
                             <span><i class="bi bi-journal-text"></i>[Nome da Revista / BioRxiv]</span>
@@ -425,7 +425,7 @@ require __DIR__ . '/includes/header.php';
                         <p>[Descricao do trabalho e seu estagio na pipeline de publicacao.]</p>
                         <a href="#" class="pub-link">Ver publicacao <i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
-                    <div class="pub-card">
+                    <div class="content-card">
                         <h4>[Titulo de capitulo de livro ou review convidado]</h4>
                         <div class="pub-meta">
                             <span><i class="bi bi-book"></i>[Titulo do Livro / Editora]</span>
@@ -455,7 +455,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
-                    <div class="funding-card">
+                    <div class="content-card">
                         <div class="funding-icon"><i class="bi bi-cash-stack"></i></div>
                         <h3>[Titulo do Projeto / Edital]</h3>
                         <p>Agencia: [FAPESP / CNPq / CAPES / Outra]</p>
@@ -463,7 +463,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="funding-card">
+                    <div class="content-card">
                         <div class="funding-icon"><i class="bi bi-cash-stack"></i></div>
                         <h3>[Titulo do Projeto / Edital]</h3>
                         <p>Agencia: [FAPESP / CNPq / CAPES / Outra]</p>
@@ -471,7 +471,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="funding-card">
+                    <div class="content-card">
                         <div class="funding-icon"><i class="bi bi-cash-stack"></i></div>
                         <h3>[Titulo do Projeto / Edital]</h3>
                         <p>Agencia: [FAPESP / CNPq / CAPES / Outra]</p>
@@ -479,7 +479,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="funding-card">
+                    <div class="content-card">
                         <div class="funding-icon"><i class="bi bi-cash-stack"></i></div>
                         <h3>[Titulo do Projeto / Edital]</h3>
                         <p>Agencia: [NIH / ERC / NSF / Outra Internacional]</p>
@@ -487,7 +487,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="funding-card">
+                    <div class="content-card">
                         <div class="funding-icon"><i class="bi bi-cash-stack"></i></div>
                         <h3>[Titulo do Projeto / Edital]</h3>
                         <p>Agencia: [Industria / Parceria Publico-Privada]</p>
@@ -510,7 +510,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
-                    <div class="partnership-card">
+                    <div class="icon-card">
                         <div class="partnership-flag">BR</div>
                         <div class="partnership-content">
                             <h4>[Nome da Instituicao]</h4>
@@ -521,7 +521,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="partnership-card">
+                    <div class="icon-card">
                         <div class="partnership-flag">BR</div>
                         <div class="partnership-content">
                             <h4>[Nome da Instituicao]</h4>
@@ -532,7 +532,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="partnership-card">
+                    <div class="icon-card">
                         <div class="partnership-flag">US</div>
                         <div class="partnership-content">
                             <h4>[Nome da Instituicao]</h4>
@@ -543,7 +543,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="partnership-card">
+                    <div class="icon-card">
                         <div class="partnership-flag">UK</div>
                         <div class="partnership-content">
                             <h4>[Nome da Instituicao]</h4>
@@ -554,7 +554,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="partnership-card">
+                    <div class="icon-card">
                         <div class="partnership-flag">DE</div>
                         <div class="partnership-content">
                             <h4>[Nome da Instituicao]</h4>
@@ -565,7 +565,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="partnership-card">
+                    <div class="icon-card">
                         <div class="partnership-flag">FR</div>
                         <div class="partnership-content">
                             <h4>[Nome da Instituicao]</h4>
@@ -591,7 +591,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3">
-                    <div class="infra-card">
+                    <div class="media-card">
                         <div class="infra-img">
                             <i class="bi bi-cpu"></i>
                         </div>
@@ -602,7 +602,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="infra-card">
+                    <div class="media-card">
                         <div class="infra-img">
                             <i class="bi bi-microscope"></i>
                         </div>
@@ -613,7 +613,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="infra-card">
+                    <div class="media-card">
                         <div class="infra-img">
                             <i class="bi bi-pc-display"></i>
                         </div>
@@ -624,7 +624,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="infra-card">
+                    <div class="media-card">
                         <div class="infra-img">
                             <i class="bi bi-box-seam"></i>
                         </div>

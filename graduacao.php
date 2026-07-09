@@ -77,7 +77,7 @@ require __DIR__ . '/includes/header.php';
 
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
-                    <div class="course-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="course-icon"><i class="bi bi-heart-pulse"></i></div>
                         <h3 class="course-name">Medicina</h3>
                         <p class="course-desc">Disciplinas de Genética Médica, Citogenética e Biologia Molecular aplicadas à formação médica, com ênfase em diagnóstico genético, conselho genético e bases moleculares das doenças.</p>
@@ -88,7 +88,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="course-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="course-icon"><i class="bi bi-bug"></i></div>
                         <h3 class="course-name">Ciências Biológicas – Bacharelado</h3>
                         <p class="course-desc">Formação aprofundada em Genética Clássica, Molecular, Populacional e Evolutiva, preparando o aluno para atuação em pesquisa e desenvolvimento nas diversas áreas da Genética.</p>
@@ -99,7 +99,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="course-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="course-icon"><i class="bi bi-mortarboard"></i></div>
                         <h3 class="course-name">Ciências Biológicas – Licenciatura</h3>
                         <p class="course-desc">Disciplinas de Genética e Biologia Molecular voltadas para a formação de professores do ensino básico e médio, com foco em didática e metodologias de ensino das ciências.</p>
@@ -110,7 +110,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="course-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="course-icon"><i class="bi bi-laptop"></i></div>
                         <h3 class="course-name">Informática Biomédica</h3>
                         <p class="course-desc">Disciplinas de Bioinformática, Genômica e Análise de Dados Genéticos, integrando conhecimentos de biologia e computação para formação de profissionais da área de saúde digital.</p>
@@ -121,7 +121,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="course-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="course-icon"><i class="bi bi-capsule"></i></div>
                         <h3 class="course-name">Farmácia</h3>
                         <p class="course-desc">Disciplinas de Genética e Biologia Molecular com aplicações em farmacogenética, biotecnologia farmacêutica e desenvolvimento de medicamentos baseados em terapia gênica.</p>
@@ -132,7 +132,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="course-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="course-icon"><i class="bi bi-ear"></i></div>
                         <h3 class="course-name">Fonoaudiologia e Terapia Ocupacional</h3>
                         <p class="course-desc">Disciplinas de Genética Humana e Bases Moleculares das Doenças, com foco nas síndromes genéticas relacionadas às áreas de atuação desses profissionais.</p>

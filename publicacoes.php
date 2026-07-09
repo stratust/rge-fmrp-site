@@ -80,7 +80,7 @@ require __DIR__ . '/includes/header.php';
             </div>
 
             <!-- Publication 1 -->
-            <div class="pub-card rge-card">
+            <div class="content-card rge-card">
                 <div class="pub-year-badge">
                     2025
                     <span>MAI</span>
@@ -104,7 +104,7 @@ require __DIR__ . '/includes/header.php';
             </div>
 
             <!-- Publication 2 -->
-            <div class="pub-card rge-card">
+            <div class="content-card rge-card">
                 <div class="pub-year-badge">
                     2025
                     <span>ABR</span>
@@ -128,7 +128,7 @@ require __DIR__ . '/includes/header.php';
             </div>
 
             <!-- Publication 3 -->
-            <div class="pub-card rge-card">
+            <div class="content-card rge-card">
                 <div class="pub-year-badge">
                     2025
                     <span>ABR</span>
@@ -152,7 +152,7 @@ require __DIR__ . '/includes/header.php';
             </div>
 
             <!-- Publication 4 -->
-            <div class="pub-card rge-card">
+            <div class="content-card rge-card">
                 <div class="pub-year-badge">
                     2025
                     <span>MAR</span>
@@ -176,7 +176,7 @@ require __DIR__ . '/includes/header.php';
             </div>
 
             <!-- Publication 5 -->
-            <div class="pub-card rge-card">
+            <div class="content-card rge-card">
                 <div class="pub-year-badge">
                     2025
                     <span>MAR</span>
@@ -200,7 +200,7 @@ require __DIR__ . '/includes/header.php';
             </div>
 
             <!-- Publication 6 -->
-            <div class="pub-card rge-card">
+            <div class="content-card rge-card">
                 <div class="pub-year-badge">
                     2025
                     <span>FEV</span>
@@ -224,7 +224,7 @@ require __DIR__ . '/includes/header.php';
             </div>
 
             <!-- Publication 7 -->
-            <div class="pub-card rge-card">
+            <div class="content-card rge-card">
                 <div class="pub-year-badge">
                     2025
                     <span>FEV</span>
@@ -248,7 +248,7 @@ require __DIR__ . '/includes/header.php';
             </div>
 
             <!-- Publication 8 -->
-            <div class="pub-card rge-card">
+            <div class="content-card rge-card">
                 <div class="pub-year-badge">
                     2025
                     <span>JAN</span>
@@ -272,7 +272,7 @@ require __DIR__ . '/includes/header.php';
             </div>
 
             <!-- Publication 9 -->
-            <div class="pub-card rge-card">
+            <div class="content-card rge-card">
                 <div class="pub-year-badge">
                     2024
                     <span>DEZ</span>
@@ -296,7 +296,7 @@ require __DIR__ . '/includes/header.php';
             </div>
 
             <!-- Publication 10 -->
-            <div class="pub-card rge-card">
+            <div class="content-card rge-card">
                 <div class="pub-year-badge">
                     2024
                     <span>NOV</span>

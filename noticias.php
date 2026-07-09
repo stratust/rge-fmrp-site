@@ -22,7 +22,7 @@ require __DIR__ . '/includes/header.php';
             <div class="section-label">Destaque</div>
             <div class="row g-4">
                 <div class="col-lg-8">
-                    <div class="featured-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="featured-img">
                             <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=900&h=450&fit=crop" alt="Notícia em destaque">
                         </div>
@@ -37,7 +37,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="col-lg-4">
                     <div class="d-flex flex-column gap-4">
-                        <div class="news-card rge-card">
+                        <div class="media-card rge-card">
                             <div class="news-img" style="height: 160px;">
                                 <img src="https://images.unsplash.com/photo-1544531586-fde5298cdd40?w=400&h=250&fit=crop" alt="Evento">
                             </div>
@@ -48,7 +48,7 @@ require __DIR__ . '/includes/header.php';
                                 <a href="noticias.php#" class="news-link">LEIA MAIS <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
-                        <div class="news-card rge-card">
+                        <div class="media-card rge-card">
                             <div class="news-img" style="height: 160px;">
                                 <img src="https://images.unsplash.com/photo-1628595351029-c2bf17511435?w=400&h=250&fit=crop" alt="Pós-graduação">
                             </div>
@@ -89,7 +89,7 @@ require __DIR__ . '/includes/header.php';
             <div class="row g-4">
                 <!-- News Item 1 -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="news-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="news-img">
                             <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=250&fit=crop" alt="Notícia 1">
                         </div>
@@ -105,7 +105,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- News Item 2 -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="news-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="news-img">
                             <img src="https://images.unsplash.com/photo-1544531586-fde5298cdd40?w=400&h=250&fit=crop" alt="Notícia 2">
                         </div>
@@ -121,7 +121,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- News Item 3 -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="news-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="news-img">
                             <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=250&fit=crop" alt="Notícia 3">
                         </div>
@@ -137,7 +137,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- News Item 4 -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="news-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="news-img">
                             <img src="https://images.unsplash.com/photo-1628595351029-c2bf17511435?w=400&h=250&fit=crop" alt="Notícia 4">
                         </div>
@@ -153,7 +153,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- News Item 5 -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="news-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="news-img">
                             <img src="https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?w=400&h=250&fit=crop" alt="Notícia 5">
                         </div>
@@ -169,7 +169,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- News Item 6 -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="news-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="news-img">
                             <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?w=400&h=250&fit=crop" alt="Notícia 6">
                         </div>
@@ -185,7 +185,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- News Item 7 -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="news-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="news-img">
                             <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=400&h=250&fit=crop" alt="Notícia 7">
                         </div>
@@ -201,7 +201,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- News Item 8 -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="news-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="news-img">
                             <img src="https://images.unsplash.com/photo-1576670159805-381a9de1cdec?w=400&h=250&fit=crop" alt="Notícia 8">
                         </div>
@@ -217,7 +217,7 @@ require __DIR__ . '/includes/header.php';
 
                 <!-- News Item 9 -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="news-card rge-card">
+                    <div class="media-card rge-card">
                         <div class="news-img">
                             <img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=400&h=250&fit=crop" alt="Notícia 9">
                         </div>

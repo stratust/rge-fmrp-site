@@ -51,7 +51,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
-                    <div class="service-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="service-icon">
                             <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M14 3 C8 3, 3 8, 3 14 C3 20, 8 25, 14 25 C20 25, 25 20, 25 14 C25 8, 20 3, 14 3" stroke="#1a5c3a" stroke-width="2" fill="none"/>
@@ -70,7 +70,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="service-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="service-icon">
                             <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect x="5" y="12" width="18" height="12" rx="2" stroke="#1a5c3a" stroke-width="2" fill="none"/>
@@ -90,7 +90,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="service-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="service-icon">
                             <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="14" cy="14" r="10" stroke="#1a5c3a" stroke-width="2" fill="none"/>
@@ -111,7 +111,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="service-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="service-icon">
                             <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M14 4 L14 10 M14 18 L14 24 M4 14 L10 14 M18 14 L24 14" stroke="#1a5c3a" stroke-width="2" stroke-linecap="round"/>
@@ -130,7 +130,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="service-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="service-icon">
                             <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 24 C8 14 12 8 14 6 C16 8 20 14 20 24" stroke="#1a5c3a" stroke-width="2" fill="none" stroke-linecap="round"/>
@@ -149,7 +149,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="service-card rge-card">
+                    <div class="icon-card rge-card">
                         <div class="service-icon">
                             <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect x="6" y="4" width="16" height="20" rx="2" stroke="#1a5c3a" stroke-width="2" fill="none"/>
@@ -182,7 +182,7 @@ require __DIR__ . '/includes/header.php';
                     <h2>Fluxo de atendimento</h2>
                     <p>Nosso serviço funciona por meio de encaminhamento médico. Após o agendamento, o paciente passa por uma avaliação inicial com equipe multidisciplinar.</p>
 
-                    <div class="info-card mt-4 rge-card">
+                    <div class="icon-card mt-4 rge-card">
                         <div class="step-item">
                             <span class="step-number">1</span>
                             <div class="step-content">
@@ -227,7 +227,7 @@ require __DIR__ . '/includes/header.php';
 
                     <div class="row g-4 mt-2">
                         <div class="col-md-6">
-                            <div class="info-card rge-card">
+                            <div class="icon-card rge-card">
                                 <h3><i class="bi bi-clock"></i> Horário de Funcionamento</h3>
                                 <ul>
                                     <li><strong>Segunda a sexta:</strong> 8h às 17h</li>
@@ -237,7 +237,7 @@ require __DIR__ . '/includes/header.php';
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="info-card rge-card">
+                            <div class="icon-card rge-card">
                                 <h3><i class="bi bi-geo-alt"></i> Localização</h3>
                                 <ul>
                                     <li>Ambulatório de Genética Médica</li>
@@ -248,7 +248,7 @@ require __DIR__ . '/includes/header.php';
                             </div>
                         </div>
                         <div class="col-12">
-                            <div class="info-card rge-card">
+                            <div class="icon-card rge-card">
                                 <h3><i class="bi bi-telephone"></i> Contato para Agendamento</h3>
                                 <div class="row">
                                     <div class="col-md-6">
@@ -283,7 +283,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="row g-4 mb-5">
                 <div class="col-md-6 col-lg-4">
-                    <div class="staff-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="staff-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -299,7 +299,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="staff-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="staff-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -315,7 +315,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="staff-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="staff-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -340,7 +340,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="row g-4 mb-5">
                 <div class="col-md-6 col-lg-3">
-                    <div class="staff-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="staff-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -355,7 +355,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="staff-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="staff-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -370,7 +370,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="staff-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="staff-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -385,7 +385,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="staff-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="staff-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -409,7 +409,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="row g-4 mb-5">
                 <div class="col-md-6 col-lg-3">
-                    <div class="staff-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="staff-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -424,7 +424,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="staff-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="staff-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -439,7 +439,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="staff-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="staff-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -454,7 +454,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="staff-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="staff-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -478,7 +478,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3">
-                    <div class="staff-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="staff-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -493,7 +493,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="staff-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="staff-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -508,7 +508,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="staff-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="staff-img">
                             <i class="bi bi-person"></i>
                         </div>
@@ -523,7 +523,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="staff-card rge-card">
+                    <div class="profile-card rge-card">
                         <div class="staff-img">
                             <i class="bi bi-person"></i>
                         </div>

@@ -63,8 +63,8 @@ require __DIR__ . '/includes/header.php';
                  <!-- Adicionado h-100 na coluna para ela esticar por igual se houver diferença de texto -->
                 <div class="col-md-6 col-lg-5 d-flex">
                    <!-- Adicionado d-flex flex-column h-100 para o card ocupar toda a altura e aceitar o comportamento flex -->
-                    <div class="chefia-card d-flex flex-column h-100 rge-card" style="width: 100%;">
-                        <div class="chefia-card-header">
+                    <div class="content-card d-flex flex-column h-100 rge-card" style="width: 100%;">
+                        <div class="content-card-header">
                             <span class="chefia-badge">Chefe</span>
                             <div class="chefia-avatar">
                                  <!-- A FOTO ENTRA AQUI SUBSTITUINDO O �?CONE - CHEFE -->
@@ -73,7 +73,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <!-- Modificado: Adicionado d-flex flex-column e flex-grow-1 para preencher o espaço interno -->
                         <!-- ALTERAÇÃO AQUI: Adicionado padding-bottom: 0px !important; -->
-                       <div class="chefia-card-body d-flex flex-column flex-grow-1"  style="padding-bottom: 0px !important;"  >
+                       <div class="content-card-body d-flex flex-column flex-grow-1"  style="padding-bottom: 0px !important;"  >
                             <h3 class="chefia-name">Wilson Araújo da Silva Junior</h3>
                             <div class="chefia-role">Chefe do Departamento</div>
                             <p class="chefia-area">
@@ -126,8 +126,8 @@ require __DIR__ . '/includes/header.php';
                  <!-- Adicionado h-100 na coluna para ela esticar por igual se houver diferença de texto -->
                   <div class="col-md-6 col-lg-5 d-flex">
                      <!-- Adicionado d-flex flex-column h-100 para o card ocupar toda a altura e aceitar o comportamento flex -->
-                      <div class="chefia-card d-flex flex-column h-100 rge-card" style="width: 100%;"  >
-                        <div class="chefia-card-header chefia-card-header-vice"  >
+                      <div class="content-card d-flex flex-column h-100 rge-card" style="width: 100%;"  >
+                        <div class="chefia-card-header content-card-header-vice"  >
                             <span class="chefia-badge">Vice-Chefe</span>
                             <div class="chefia-avatar">
                                  <!-- A FOTO ENTRA AQUI SUBSTITUINDO O �?CONE - VICE -->
@@ -136,7 +136,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <!-- Modificado: Adicionado d-flex flex-column e flex-grow-1 para preencher o espaço interno -->
                         <!-- ALTERAÇÃO AQUI: Adicionado padding-bottom: 0px !important; -->
-                       <div class="chefia-card-body d-flex flex-column flex-grow-1"  style="padding-bottom: 0px !important;"  >
+                       <div class="content-card-body d-flex flex-column flex-grow-1"  style="padding-bottom: 0px !important;"  >
                             <h3 class="chefia-name">Ester Silveira Ramos</h3>
                             <div class="chefia-role">Vice-Chefe do Departamento</div>
                             <p class="chefia-area">
@@ -198,7 +198,7 @@ require __DIR__ . '/includes/header.php';
             <div class="row g-5">
                 <div class="col-md-6 col-lg">
 				<a href="comissoes-conselho.php#conselho" class="feature-link">
-                    <div class="comissao-card rge-card">
+                    <div class="content-card rge-card">
                         <div class="comissao-icon"><i class="bi bi-journal-check"></i></div>
                         <h3 class="comissao-title">Conselho</h3>
                         <p class="comissao-desc">Conselho do departamento.</p>
@@ -211,7 +211,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="col-md-6 col-lg">
 				<a href="comissoes-conselho.php#comgrad" class="feature-link">
-                    <div class="comissao-card rge-card">
+                    <div class="content-card rge-card">
                         <div class="comissao-icon"><i class="bi bi-journal-check"></i></div>
                         <h3 class="comissao-title">Comissão de Graduação</h3>
                         <p class="comissao-desc">Responsável pela organização e supervisão das atividades de ensino de graduação do departamento.</p>
@@ -224,7 +224,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="col-md-6 col-lg">
 								<a href="comissoes-conselho.php#compos" class="feature-link">
-                    <div class="comissao-card rge-card">
+                    <div class="content-card rge-card">
                         <div class="comissao-icon"><i class="bi bi-mortarboard"></i></div>
                         <h3 class="comissao-title">Comissão de Pós-Graduação</h3>
                         <p class="comissao-desc">Coordenação do Programa de Pós-Graduação em Genética, incluindo seleção e acompanhamento de alunos.</p>
@@ -237,7 +237,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="col-md-6 col-lg">
 								<a href="comissoes-conselho.php#compesq" class="feature-link">
-                    <div class="comissao-card rge-card">
+                    <div class="content-card rge-card">
                         <div class="comissao-icon"><i class="bi bi-clipboard-data"></i></div>
                         <h3 class="comissao-title">Comissão de Pesquisa</h3>
                         <p class="comissao-desc">Fomento e supervisão das atividades de pesquisa, incluindo projetos, bolsas e parcerias institucionais.</p>
@@ -250,7 +250,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="col-md-6 col-lg">
 								<a href="comissoes-conselho.php#cominfo" class="feature-link">
-                    <div class="comissao-card rge-card">
+                    <div class="content-card rge-card">
                         <div class="comissao-icon"><i class="bi bi-shield-check"></i></div>
                         <h3 class="comissao-title">Comissão de Informática</h3>
                         <p class="comissao-desc">Coordena as atividades de informática do departamento.</p>
