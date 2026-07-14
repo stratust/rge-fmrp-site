@@ -539,6 +539,7 @@ body {
 }
 
 .hero-content p {
+  color: #555;
   font-size: 1.1rem;
   font-weight: 300;
   max-width: 400px;
@@ -1964,7 +1965,7 @@ iframe.goog-te-banner-frame {
 
 
 .chefia-link-primary {
-            background: var(--primary-green);
+            background-color: var(--primary-green);
             color: white;
             border-color: var(--primary-green);
         }
@@ -2737,7 +2738,7 @@ iframe.goog-te-banner-frame {
 .social-btn {
             width: 45px;
             height: 45px;
-            background-color: rgba(255,255,255,0.2);
+            background-color: rgba(255,255,255,0.25);
             border: 1px solid rgba(255,255,255,0.3);
             border-radius: 50%;
             display: flex;
@@ -3045,6 +3046,8 @@ iframe.goog-te-banner-frame {
 
 
 .btn-white {
+  background-color: white;
+  color: var(--primary-green);
             background: white;
             color: var(--primary-green);
             border: 2px solid white;
@@ -3865,7 +3868,7 @@ iframe.goog-te-banner-frame {
 
 
 .lab-link-primary {
-            background: var(--primary-green);
+            background-color: var(--primary-green);
             color: white;
             border-color: var(--primary-green);
         }
@@ -5011,6 +5014,7 @@ iframe.goog-te-banner-frame {
 
 
 .project-status.new {
+  background-color: #1d4ed8 !important;
   background-color: #1d4ed8;
             background: #3b82f6;
             color: white;
@@ -5482,7 +5486,7 @@ iframe.goog-te-banner-frame {
 
 
 .btn-featured-outline:hover {
-            background-color: rgba(255,255,255,0.2);
+            background-color: rgba(255,255,255,0.25);
             border-color: white;
         }
 
@@ -6123,7 +6127,7 @@ section.page-header p,
 }
 
 .alert-info-custom {
-    background: rgba(26,92,58,0.05);
+    background-color: rgb(243, 247, 245);
     border: 1px solid rgba(26,92,58,0.1);
     border-radius: 12px;
     padding: 1.2rem 1.5rem;
