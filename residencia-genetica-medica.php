@@ -152,7 +152,7 @@ require __DIR__ . '/includes/header.php';
             <div class="row">
                 <div class="col-lg-6">
                     <div class="content-card rge-card">
-                        <h4>Aconselhamento Genético</h4>
+                        <h3>Aconselhamento Genético</h4>
                         <div class="rotation-meta">
                             <span><i class="bi bi-clock"></i>Duração: [X] meses</span>
                             <span><i class="bi bi-geo-alt"></i>Ambulatório de Genética Médica</span>
@@ -162,7 +162,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="col-lg-6">
                     <div class="content-card rge-card">
-                        <h4>Diagnóstico Laboratorial</h4>
+                        <h3>Diagnóstico Laboratorial</h4>
                         <div class="rotation-meta">
                             <span><i class="bi bi-clock"></i>Duração: [X] meses</span>
                             <span><i class="bi bi-geo-alt"></i>Laboratório de Genética</span>
@@ -172,7 +172,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="col-lg-6">
                     <div class="content-card rge-card">
-                        <h4>Genética Oncológica</h4>
+                        <h3>Genética Oncológica</h4>
                         <div class="rotation-meta">
                             <span><i class="bi bi-clock"></i>Duração: [X] meses</span>
                             <span><i class="bi bi-geo-alt"></i>Centro de Oncologia – HC</span>
@@ -182,7 +182,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="col-lg-6">
                     <div class="content-card rge-card">
-                        <h4>Genética Reprodutiva e Medicina Fetal</h4>
+                        <h3>Genética Reprodutiva e Medicina Fetal</h4>
                         <div class="rotation-meta">
                             <span><i class="bi bi-clock"></i>Duração: [X] meses</span>
                             <span><i class="bi bi-geo-alt"></i>Disciplina de Ginecologia – HC</span>
@@ -192,7 +192,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="col-lg-6">
                     <div class="content-card rge-card">
-                        <h4>Genética Pediátrica</h4>
+                        <h3>Genética Pediátrica</h4>
                         <div class="rotation-meta">
                             <span><i class="bi bi-clock"></i>Duração: [X] meses</span>
                             <span><i class="bi bi-geo-alt"></i>Pediatria – HC</span>
@@ -202,7 +202,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="col-lg-6">
                     <div class="content-card rge-card">
-                        <h4>Pesquisa e Ensino</h4>
+                        <h3>Pesquisa e Ensino</h4>
                         <div class="rotation-meta">
                             <span><i class="bi bi-clock"></i>Duração: [X] meses</span>
                             <span><i class="bi bi-geo-alt"></i>Departamento de Genética</span>
@@ -361,7 +361,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="icon-card rge-card">
                         <div class="doc-icon"><i class="bi bi-file-earmark-text"></i></div>
                         <div class="doc-content">
-                            <h4>Regimento da Residência Médica</h4>
+                            <h3>Regimento da Residência Médica</h4>
                             <p>Normas internas do programa, direitos e deveres dos residentes, e estrutura curricular oficial.</p>
                             <a href="residencia-genetica-medica.php#" class="doc-link">Baixar PDF <i class="bi bi-download ms-1"></i></a>
                         </div>
@@ -371,7 +371,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="icon-card rge-card">
                         <div class="doc-icon"><i class="bi bi-file-earmark-text"></i></div>
                         <div class="doc-content">
-                            <h4>Edital de Seleção [Ano]</h4>
+                            <h3>Edital de Seleção [Ano]</h4>
                             <p>Edital vigente do processo seletivo com cronograma, vagas, critérios de classificação e documentação.</p>
                             <a href="residencia-genetica-medica.php#" class="doc-link">Baixar PDF <i class="bi bi-download ms-1"></i></a>
                         </div>
@@ -381,7 +381,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="icon-card rge-card">
                         <div class="doc-icon"><i class="bi bi-file-earmark-text"></i></div>
                         <div class="doc-content">
-                            <h4>Programa de Atividades – R1</h4>
+                            <h3>Programa de Atividades – R1</h4>
                             <p>Descrição detalhada das competências e atividades do primeiro ano de residência.</p>
                             <a href="residencia-genetica-medica.php#" class="doc-link">Baixar PDF <i class="bi bi-download ms-1"></i></a>
                         </div>
@@ -391,7 +391,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="icon-card rge-card">
                         <div class="doc-icon"><i class="bi bi-file-earmark-text"></i></div>
                         <div class="doc-content">
-                            <h4>Programa de Atividades – R2</h4>
+                            <h3>Programa de Atividades – R2</h4>
                             <p>Descrição detalhada das competências e atividades do segundo ano de residência.</p>
                             <a href="residencia-genetica-medica.php#" class="doc-link">Baixar PDF <i class="bi bi-download ms-1"></i></a>
                         </div>
@@ -401,7 +401,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="icon-card rge-card">
                         <div class="doc-icon"><i class="bi bi-file-earmark-text"></i></div>
                         <div class="doc-content">
-                            <h4>Programa de Atividades – R3</h4>
+                            <h3>Programa de Atividades – R3</h4>
                             <p>Descrição detalhada das competências e atividades do terceiro ano de residência.</p>
                             <a href="residencia-genetica-medica.php#" class="doc-link">Baixar PDF <i class="bi bi-download ms-1"></i></a>
                         </div>
@@ -411,7 +411,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="icon-card rge-card">
                         <div class="doc-icon"><i class="bi bi-link-45deg"></i></div>
                         <div class="doc-content">
-                            <h4>CNRM / MEC</h4>
+                            <h3>CNRM / MEC</h4>
                             <p>Normas e diretrizes da Comissão Nacional de Residência Médica do Ministério da Educação.</p>
                             <a href="residencia-genetica-medica.php#" class="doc-link">Acessar site <i class="bi bi-box-arrow-up-right ms-1"></i></a>
                         </div>

@@ -71,13 +71,12 @@ iframe.goog-te-banner-frame {
 .idiomas {
     position: absolute;
     /**  top: 15px;  */
-    top: 2px;
-    /** right: 20px;  */
-    right: 2px;
+    top: 4px;
+    right: 8px;
     z-index: 9999;
 
     display: flex;
-    gap: 8px;
+    gap: 4px;
     
 }
 
@@ -118,8 +117,8 @@ iframe.goog-te-banner-frame {
     border: 1px solid #ddd;
     border-radius: 4px;
     
-    /* Espaçamento interno */
-    padding: 4px 8px;
+    /* Touch target 44px minimum */
+    padding: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
     
@@ -151,3 +150,17 @@ iframe.goog-te-banner-frame {
 
 }
 
+
+
+/* Hide Google Translate injected images without alt */
+.goog-te-gadget img,
+.goog-logo-link img,
+.skiptranslate img {
+    display: none !important;
+}
+
+/* Ensure flag buttons have proper sizing */
+.btn-tradutor img {
+    width: 20px;
+    height: auto;
+}

@@ -186,35 +186,35 @@ require __DIR__ . '/includes/header.php';
                         <div class="step-item">
                             <span class="step-number">1</span>
                             <div class="step-content">
-                                <h4>Encaminhamento</h4>
+                                <h3>Encaminhamento</h4>
                                 <p>Solicitação médica com justificativa clínica e histórico familiar.</p>
                             </div>
                         </div>
                         <div class="step-item">
                             <span class="step-number">2</span>
                             <div class="step-content">
-                                <h4>Agendamento</h4>
+                                <h3>Agendamento</h4>
                                 <p>Entrada em contato via telefone ou e-mail para marcação da consulta.</p>
                             </div>
                         </div>
                         <div class="step-item">
                             <span class="step-number">3</span>
                             <div class="step-content">
-                                <h4>Avaliação Inicial</h4>
+                                <h3>Avaliação Inicial</h4>
                                 <p>Consulta com médico geneticista para anamnese detalhada e exame físico.</p>
                             </div>
                         </div>
                         <div class="step-item">
                             <span class="step-number">4</span>
                             <div class="step-content">
-                                <h4>Exames e Diagnóstico</h4>
+                                <h3>Exames e Diagnóstico</h4>
                                 <p>Coleta de amostras e realização dos exames genéticos indicados.</p>
                             </div>
                         </div>
                         <div class="step-item">
                             <span class="step-number">5</span>
                             <div class="step-content">
-                                <h4>Devolutiva e Acompanhamento</h4>
+                                <h3>Devolutiva e Acompanhamento</h4>
                                 <p>Entrega de resultados com aconselhamento e encaminhamentos necessários.</p>
                             </div>
                         </div>

@@ -394,7 +394,7 @@ require __DIR__ . '/includes/header.php';
             <div class="row">
                 <div class="col-lg-10">
                     <div class="content-card">
-                        <h4>[Titulo completo do artigo cientifico publicado em revista internacional de alto impacto]</h4>
+                        <h3>[Titulo completo do artigo cientifico publicado em revista internacional de alto impacto]</h4>
                         <div class="pub-meta">
                             <span><i class="bi bi-journal-text"></i>[Nome da Revista]</span>
                             <span><i class="bi bi-calendar"></i>2025</span>
@@ -405,7 +405,7 @@ require __DIR__ . '/includes/header.php';
                         <a href="#" class="pub-link">Ver publicacao <i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
                     <div class="content-card">
-                        <h4>[Titulo de outro artigo relevante do laboratorio]</h4>
+                        <h3>[Titulo de outro artigo relevante do laboratorio]</h4>
                         <div class="pub-meta">
                             <span><i class="bi bi-journal-text"></i>[Nome da Revista]</span>
                             <span><i class="bi bi-calendar"></i>2024</span>
@@ -416,7 +416,7 @@ require __DIR__ . '/includes/header.php';
                         <a href="#" class="pub-link">Ver publicacao <i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
                     <div class="content-card">
-                        <h4>[Titulo de artigo em revista de acesso aberto ou preprint]</h4>
+                        <h3>[Titulo de artigo em revista de acesso aberto ou preprint]</h4>
                         <div class="pub-meta">
                             <span><i class="bi bi-journal-text"></i>[Nome da Revista / BioRxiv]</span>
                             <span><i class="bi bi-calendar"></i>2024</span>
@@ -426,7 +426,7 @@ require __DIR__ . '/includes/header.php';
                         <a href="#" class="pub-link">Ver publicacao <i class="bi bi-arrow-right ms-1"></i></a>
                     </div>
                     <div class="content-card">
-                        <h4>[Titulo de capitulo de livro ou review convidado]</h4>
+                        <h3>[Titulo de capitulo de livro ou review convidado]</h4>
                         <div class="pub-meta">
                             <span><i class="bi bi-book"></i>[Titulo do Livro / Editora]</span>
                             <span><i class="bi bi-calendar"></i>2024</span>
@@ -513,7 +513,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="icon-card">
                         <div class="partnership-flag">BR</div>
                         <div class="partnership-content">
-                            <h4>[Nome da Instituicao]</h4>
+                            <h3>[Nome da Instituicao]</h4>
                             <p>[Cidade, Estado]</p>
                             <p class="type">Colaboracao Nacional</p>
                             <p class="text-meta">[Breve descricao da parceria e projetos conjuntos]</p>
@@ -524,7 +524,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="icon-card">
                         <div class="partnership-flag">BR</div>
                         <div class="partnership-content">
-                            <h4>[Nome da Instituicao]</h4>
+                            <h3>[Nome da Instituicao]</h4>
                             <p>[Cidade, Estado]</p>
                             <p class="type">Colaboracao Nacional</p>
                             <p class="text-meta">[Breve descricao da parceria e projetos conjuntos]</p>
@@ -535,7 +535,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="icon-card">
                         <div class="partnership-flag">US</div>
                         <div class="partnership-content">
-                            <h4>[Nome da Instituicao]</h4>
+                            <h3>[Nome da Instituicao]</h4>
                             <p>[Cidade, Pais]</p>
                             <p class="type">Colaboracao Internacional</p>
                             <p class="text-meta">[Breve descricao da parceria e projetos conjuntos]</p>
@@ -546,7 +546,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="icon-card">
                         <div class="partnership-flag">UK</div>
                         <div class="partnership-content">
-                            <h4>[Nome da Instituicao]</h4>
+                            <h3>[Nome da Instituicao]</h4>
                             <p>[Cidade, Pais]</p>
                             <p class="type">Colaboracao Internacional</p>
                             <p class="text-meta">[Breve descricao da parceria e projetos conjuntos]</p>
@@ -557,7 +557,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="icon-card">
                         <div class="partnership-flag">DE</div>
                         <div class="partnership-content">
-                            <h4>[Nome da Instituicao]</h4>
+                            <h3>[Nome da Instituicao]</h4>
                             <p>[Cidade, Pais]</p>
                             <p class="type">Colaboracao Internacional</p>
                             <p class="text-meta">[Breve descricao da parceria e projetos conjuntos]</p>
@@ -568,7 +568,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="icon-card">
                         <div class="partnership-flag">FR</div>
                         <div class="partnership-content">
-                            <h4>[Nome da Instituicao]</h4>
+                            <h3>[Nome da Instituicao]</h4>
                             <p>[Cidade, Pais]</p>
                             <p class="type">Colaboracao Internacional</p>
                             <p class="text-meta">[Breve descricao da parceria e projetos conjuntos]</p>

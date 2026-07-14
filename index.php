@@ -46,7 +46,7 @@ require __DIR__ . '/includes/header.php';
                                 <circle cx="25" cy="25" r="3" fill="#1a5c3a"/>
                             </svg>
                         </div>
-                        <h3>Ensino</h3>
+                        <h2 class="feature-title">Ensino</h2>
                         <p>Graduação e Pós-graduação com excelência acadêmica.</p>
                         →
                     </div>
@@ -71,7 +71,7 @@ require __DIR__ . '/includes/header.php';
                                 <line x1="54" y1="52" x2="61" y2="59" stroke="#1a5c3a" stroke-width="3" stroke-linecap="round"/>
                             </svg>
                         </div>
-                        <h3>Pesquisa</h3>
+                        <h2 class="feature-title">Pesquisa</h2>
                         <p>Produzindo conhecimento e promovendo inovação.</p>
                         →
                     </div>
@@ -91,7 +91,7 @@ require __DIR__ . '/includes/header.php';
                                 <line x1="10" y1="45" x2="40" y2="45" stroke="#1a5c3a" stroke-width="2"/>
                             </svg>
                         </div>
-                        <h3>Laboratórios</h3>
+                        <h2 class="feature-title">Laboratórios</h2>
                         <p>Infraestrutura moderna e tecnologia de ponta.</p>
                         →
                     </div>
@@ -107,7 +107,7 @@ require __DIR__ . '/includes/header.php';
                                 <path d="M12 30 Q25 25 38 30 Q38 42 25 45 Q12 42 12 30" stroke="#1a5c3a" stroke-width="2" fill="none"/>
                             </svg>
                         </div>
-                        <h3>Corpo Docente</h3>
+                        <h2 class="feature-title">Corpo Docente</h2>
                         <p>Professores e pesquisadores altamente qualificados.</p>
                         →
                     </div>
@@ -253,10 +253,10 @@ require __DIR__ . '/includes/header.php';
         <div class="carousel-controls">
             <div class="carousel-dots" id="newsDots"></div>
             <div class="d-flex gap-2">
-                <button class="carousel-arrow" id="newsPrev" aria-label="Anterior" disabled>
+                <button class="carousel-arrow" aria-label="Navegar" data-class="carousel-arrow" id="newsPrev" aria-label="Anterior" disabled>
                     <i class="bi bi-arrow-left"></i>
                 </button>
-                <button class="carousel-arrow" id="newsNext" aria-label="Próximo">
+                <button class="carousel-arrow" aria-label="Navegar" data-class="carousel-arrow" id="newsNext" aria-label="Próximo">
                     <i class="bi bi-arrow-right"></i>
                 </button>
             </div>
@@ -346,10 +346,10 @@ require __DIR__ . '/includes/header.php';
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev-custom" type="button" data-bs-target="#researchCarousel" data-bs-slide="prev">
+                <button class="carousel-control-prev-custom" aria-label="Anterior" type="button" data-bs-target="#researchCarousel" data-bs-slide="prev">
                     <i class="bi bi-chevron-left"></i>
                 </button>
-                <button class="carousel-control-next-custom" type="button" data-bs-target="#researchCarousel" data-bs-slide="next">
+                <button class="carousel-control-next-custom" aria-label="Próximo" type="button" data-bs-target="#researchCarousel" data-bs-slide="next">
                     <i class="bi bi-chevron-right"></i>
                 </button>
             </div>
