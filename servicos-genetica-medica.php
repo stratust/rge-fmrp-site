@@ -182,7 +182,7 @@ require __DIR__ . '/includes/header.php';
                     <h2>Fluxo de atendimento</h2>
                     <p>Nosso serviço funciona por meio de encaminhamento médico. Após o agendamento, o paciente passa por uma avaliação inicial com equipe multidisciplinar.</p>
 
-                    <div class="icon-card mt-4 rge-card">
+                    <div class="steps-wrapper mt-4">
                         <div class="step-item">
                             <span class="step-number">1</span>
                             <div class="step-content">
