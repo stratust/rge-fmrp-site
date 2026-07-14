@@ -99,7 +99,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
-                    <div class="media-card rge-card">
+                    <div class="rge-card">
                         <div class="program-icon">
                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="12" cy="12" r="10" stroke="#1a5c3a" stroke-width="2"/>
@@ -111,7 +111,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="media-card rge-card">
+                    <div class="rge-card">
                         <div class="program-icon">
                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="#1a5c3a" stroke-width="2"/>
@@ -124,7 +124,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="media-card rge-card">
+                    <div class="rge-card">
                         <div class="program-icon">
                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" stroke="#1a5c3a" stroke-width="2"/>
