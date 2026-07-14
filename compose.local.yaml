@@ -1,0 +1,11 @@
+services:
+  rge-fmrp:
+    build: .
+    container_name: rge-fmrp-local
+    ports:
+      - "8080:80"
+    volumes:
+      - ./assets/css:/var/www/html/nrge/assets/css
+      - ./includes:/var/www/html/nrge/includes
+      - ./*.php:/var/www/html/nrge/
+    restart: unless-stopped

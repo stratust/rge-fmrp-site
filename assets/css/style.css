@@ -2327,7 +2327,7 @@ iframe.goog-te-banner-frame {
 .tag-cta { background-color: rgb(219, 234, 254); color: #1d4ed8; }
 
 
-.tag-congregacao { background-color: rgb(243, 232, 255); color: #a855f7; }
+.tag-congregacao { background-color: rgb(243, 232, 255); color: #6d28d9; }
 
 
 .semester-badge {
@@ -3165,7 +3165,7 @@ iframe.goog-te-banner-frame {
 
 
 .course-badge.hybrid {
-            background-color: #7c3aed;
+            background-color: #6d28d9;
         }
 
 /* Ensure consistent badge sizing */
@@ -6591,7 +6591,7 @@ footer .h6 {
 
 /* Badge text colors for AA contrast */
 .badge.bg-primary-subtle { color: #1d4ed8 !important; }
-.badge.bg-purple-subtle, .badge[style*="168, 85, 247"] { color: #7c3aed !important; }
+.badge.bg-purple-subtle, .badge[style*="168, 85, 247"] { color: #6d28d9 !important; }
 
 /* .btn-white inside dark sections — inherit dark bg, not white */
 .cta-section .btn-white,
