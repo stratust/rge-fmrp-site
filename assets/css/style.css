@@ -472,9 +472,9 @@ body {
 }
 
 .btn-outline-light-custom {
-  background-color: rgba(255,255,255,0.15);
   color: white;
   border: 1px solid rgba(255,255,255,0.4);
+  background: transparent;
   padding: 0.75rem 1.5rem;
   border-radius: 50px;
   font-weight: 500;
@@ -6581,3 +6581,15 @@ footer .h6 {
 .btn-filter {
     min-height: 44px;
 }
+
+/* Links inside dark sections — force white */
+.cta-section .feature-link,
+.cta-section a,
+.contact-banner .feature-link,
+.contact-banner a:not(.btn-outline-light-custom):not(.btn-white):not(.btn-platform) {
+    color: white !important;
+}
+
+/* Badge text colors for AA contrast */
+.badge.bg-primary-subtle { color: #1d4ed8 !important; }
+.badge.bg-purple-subtle, .badge[style*="168, 85, 247"] { color: #7c3aed !important; }
