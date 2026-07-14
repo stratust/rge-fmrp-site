@@ -765,8 +765,38 @@ body {
 }
 
 
-.research-carousel {
+.research-carousel-wrapper {
   position: relative;
+}
+
+.research-scroll {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding: 1rem 0;
+  scrollbar-width: none; /* Firefox */
+}
+.research-scroll::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+.research-card-col {
+  flex: 0 0 auto;
+  width: calc(50% - 0.75rem);     /* 2 cards no mobile */
+  scroll-snap-align: start;
+}
+@media (min-width: 768px) {
+  .research-card-col {
+    width: calc(33.333% - 1rem);  /* 3 no tablet */
+  }
+}
+@media (min-width: 992px) {
+  .research-card-col {
+    width: calc(20% - 1.2rem);    /* 5 no desktop */
+  }
 }
 
 .research-item {
@@ -800,7 +830,8 @@ body {
 
 
 .carousel-control-prev-custom,
-.carousel-control-next-custom {
+.carousel-control-next-custom,
+.research-arrow {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -818,7 +849,8 @@ body {
 }
 
 .carousel-control-prev-custom:hover,
-.carousel-control-next-custom:hover {
+.carousel-control-next-custom:hover,
+.research-arrow:hover {
   background: var(--primary-green);
   border-color: var(--primary-green);
   color: white;
@@ -826,6 +858,8 @@ body {
 
 .carousel-control-prev-custom { left: -20px; }
 .carousel-control-next-custom { right: -20px; }
+.research-arrow-prev { left: -20px; }
+.research-arrow-next { right: -20px; }
 
 /* =========================================================
    FILTROS / BUSCA

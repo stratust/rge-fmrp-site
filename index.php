@@ -270,86 +270,80 @@ require __DIR__ . '/includes/header.php';
             <div class="section-label">Nossas Linhas de Pesquisa</div>
             <h2>Conhecimento que gera impacto</h2>
 
-            <div class="research-carousel position-relative">
-                <div id="researchCarousel" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col-6 col-md-4 col-lg-2">
-                                    <div class="research-item">
-                                        <div class="research-icon">
-                                            <svg viewBox="0 0 35 35" fill="none">
-                                                <path d="M17.5 5 C10 5, 5 12, 5 18 C5 26, 12 30, 17.5 30 C23 30, 30 26, 30 18 C30 12, 25 5, 17.5 5" stroke="#1a5c3a" stroke-width="2" fill="none"/>
-                                                <path d="M12 15 Q17.5 10 23 15 Q23 22 17.5 25 Q12 22 12 15" stroke="#1a5c3a" stroke-width="1.5" fill="none"/>
-                                                <circle cx="17.5" cy="18" r="2" fill="#1a5c3a"/>
-                                            </svg>
-                                        </div>
-                                        <h3>Genética Molecular</h3>
-                                        <p>Estudo dos mecanismos moleculares dos genes e suas funções.</p>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-md-4 col-lg-2">
-                                    <div class="research-item">
-                                        <div class="research-icon">
-                                            <svg viewBox="0 0 35 35" fill="none">
-                                                <path d="M8 28 Q8 5 17.5 5 Q27 5 27 28" stroke="#1a5c3a" stroke-width="2" fill="none"/>
-                                                <line x1="17.5" y1="5" x2="17.5" y2="28" stroke="#1a5c3a" stroke-width="1.5"/>
-                                                <line x1="12" y1="15" x2="23" y2="15" stroke="#1a5c3a" stroke-width="1.5"/>
-                                                <line x1="10" y1="22" x2="25" y2="22" stroke="#1a5c3a" stroke-width="1.5"/>
-                                            </svg>
-                                        </div>
-                                        <h3>Genômica e Bioinformática</h3>
-                                        <p>Análise de dados genômicos e desenvolvimento de ferramentas computacionais.</p>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-md-4 col-lg-2">
-                                    <div class="research-item">
-                                        <div class="research-icon">
-                                            <svg viewBox="0 0 35 35" fill="none">
-                                                <circle cx="12" cy="12" r="6" stroke="#1a5c3a" stroke-width="2" fill="none"/>
-                                                <circle cx="23" cy="12" r="6" stroke="#1a5c3a" stroke-width="2" fill="none"/>
-                                                <circle cx="17.5" cy="24" r="6" stroke="#1a5c3a" stroke-width="2" fill="none"/>
-                                            </svg>
-                                        </div>
-                                        <h3>Biologia Celular</h3>
-                                        <p>Investigação dos processos celulares em condições fisiológicas e patológicas.</p>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-md-4 col-lg-2">
-                                    <div class="research-item">
-                                        <div class="research-icon">
-                                            <svg viewBox="0 0 35 35" fill="none">
-                                                <path d="M17.5 30 L17.5 20 M17.5 20 Q12 15 12 8 Q12 3 17.5 3 Q23 3 23 8 Q23 15 17.5 20" stroke="#1a5c3a" stroke-width="2" fill="none"/>
-                                                <path d="M10 25 Q8 20 10 15" stroke="#1a5c3a" stroke-width="1.5" fill="none"/>
-                                                <path d="M25 25 Q27 20 25 15" stroke="#1a5c3a" stroke-width="1.5" fill="none"/>
-                                                <ellipse cx="17.5" cy="30" rx="8" ry="3" stroke="#1a5c3a" stroke-width="1.5" fill="none"/>
-                                            </svg>
-                                        </div>
-                                        <h3>Genética de Plantas</h3>
-                                        <p>Melhoramento genético e resistência a estresses bióticos e abióticos.</p>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-md-4 col-lg-2">
-                                    <div class="research-item">
-                                        <div class="research-icon">
-                                            <svg viewBox="0 0 35 35" fill="none">
-                                                <circle cx="10" cy="12" r="5" stroke="#1a5c3a" stroke-width="2" fill="none"/>
-                                                <circle cx="25" cy="12" r="5" stroke="#1a5c3a" stroke-width="2" fill="none"/>
-                                                <path d="M7 20 Q17.5 15 28 20 Q28 30 17.5 32 Q7 30 7 20" stroke="#1a5c3a" stroke-width="2" fill="none"/>
-                                            </svg>
-                                        </div>
-                                        <h3>Genética de Populações e Evolução</h3>
-                                        <p>Estudos sobre diversidade genética, evolução e conservação.</p>
-                                    </div>
-                                </div>
+            <div class="research-carousel-wrapper">
+                <div class="research-scroll" id="researchScroll">
+                    <div class="research-card-col">
+                        <div class="research-item">
+                            <div class="research-icon">
+                                <svg viewBox="0 0 35 35" fill="none">
+                                    <path d="M17.5 5 C10 5, 5 12, 5 18 C5 26, 12 30, 17.5 30 C23 30, 30 26, 30 18 C30 12, 25 5, 17.5 5" stroke="#1a5c3a" stroke-width="2" fill="none"/>
+                                    <path d="M12 15 Q17.5 10 23 15 Q23 22 17.5 25 Q12 22 12 15" stroke="#1a5c3a" stroke-width="1.5" fill="none"/>
+                                    <circle cx="17.5" cy="18" r="2" fill="#1a5c3a"/>
+                                </svg>
                             </div>
+                            <h3>Genética Molecular</h3>
+                            <p>Estudo dos mecanismos moleculares dos genes e suas funções.</p>
+                        </div>
+                    </div>
+                    <div class="research-card-col">
+                        <div class="research-item">
+                            <div class="research-icon">
+                                <svg viewBox="0 0 35 35" fill="none">
+                                    <path d="M8 28 Q8 5 17.5 5 Q27 5 27 28" stroke="#1a5c3a" stroke-width="2" fill="none"/>
+                                    <line x1="17.5" y1="5" x2="17.5" y2="28" stroke="#1a5c3a" stroke-width="1.5"/>
+                                    <line x1="12" y1="15" x2="23" y2="15" stroke="#1a5c3a" stroke-width="1.5"/>
+                                    <line x1="10" y1="22" x2="25" y2="22" stroke="#1a5c3a" stroke-width="1.5"/>
+                                </svg>
+                            </div>
+                            <h3>Genômica e Bioinformática</h3>
+                            <p>Análise de dados genômicos e desenvolvimento de ferramentas computacionais.</p>
+                        </div>
+                    </div>
+                    <div class="research-card-col">
+                        <div class="research-item">
+                            <div class="research-icon">
+                                <svg viewBox="0 0 35 35" fill="none">
+                                    <circle cx="12" cy="12" r="6" stroke="#1a5c3a" stroke-width="2" fill="none"/>
+                                    <circle cx="23" cy="12" r="6" stroke="#1a5c3a" stroke-width="2" fill="none"/>
+                                    <circle cx="17.5" cy="24" r="6" stroke="#1a5c3a" stroke-width="2" fill="none"/>
+                                </svg>
+                            </div>
+                            <h3>Biologia Celular</h3>
+                            <p>Investigação dos processos celulares em condições fisiológicas e patológicas.</p>
+                        </div>
+                    </div>
+                    <div class="research-card-col">
+                        <div class="research-item">
+                            <div class="research-icon">
+                                <svg viewBox="0 0 35 35" fill="none">
+                                    <path d="M17.5 30 L17.5 20 M17.5 20 Q12 15 12 8 Q12 3 17.5 3 Q23 3 23 8 Q23 15 17.5 20" stroke="#1a5c3a" stroke-width="2" fill="none"/>
+                                    <path d="M10 25 Q8 20 10 15" stroke="#1a5c3a" stroke-width="1.5" fill="none"/>
+                                    <path d="M25 25 Q27 20 25 15" stroke="#1a5c3a" stroke-width="1.5" fill="none"/>
+                                    <ellipse cx="17.5" cy="30" rx="8" ry="3" stroke="#1a5c3a" stroke-width="1.5" fill="none"/>
+                                </svg>
+                            </div>
+                            <h3>Genética de Plantas</h3>
+                            <p>Melhoramento genético e resistência a estresses bióticos e abióticos.</p>
+                        </div>
+                    </div>
+                    <div class="research-card-col">
+                        <div class="research-item">
+                            <div class="research-icon">
+                                <svg viewBox="0 0 35 35" fill="none">
+                                    <circle cx="10" cy="12" r="5" stroke="#1a5c3a" stroke-width="2" fill="none"/>
+                                    <circle cx="25" cy="12" r="5" stroke="#1a5c3a" stroke-width="2" fill="none"/>
+                                    <path d="M7 20 Q17.5 15 28 20 Q28 30 17.5 32 Q7 30 7 20" stroke="#1a5c3a" stroke-width="2" fill="none"/>
+                                </svg>
+                            </div>
+                            <h3>Genética de Populações e Evolução</h3>
+                            <p>Estudos sobre diversidade genética, evolução e conservação.</p>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev-custom" aria-label="Anterior" type="button" data-bs-target="#researchCarousel" data-bs-slide="prev">
+                <button class="research-arrow research-arrow-prev" aria-label="Anterior" id="researchPrev">
                     <i class="bi bi-chevron-left"></i>
                 </button>
-                <button class="carousel-control-next-custom" aria-label="Próximo" type="button" data-bs-target="#researchCarousel" data-bs-slide="next">
+                <button class="research-arrow research-arrow-next" aria-label="Próximo" id="researchNext">
                     <i class="bi bi-chevron-right"></i>
                 </button>
             </div>
@@ -421,6 +415,29 @@ require __DIR__ . '/includes/header.php';
     buildDots();
     update();
 
+})();
+
+/* Research carousel — scroll by one card */
+(function () {
+    const scroll = document.getElementById('researchScroll');
+    const prev = document.getElementById('researchPrev');
+    const next = document.getElementById('researchNext');
+    if (!scroll || !prev || !next) return;
+
+    function cardW() {
+        const card = scroll.querySelector('.research-card-col');
+        return card ? card.offsetWidth + 24 : 200;
+    }
+    prev.addEventListener('click', () => scroll.scrollBy({ left: -cardW(), behavior: 'smooth' }));
+    next.addEventListener('click', () => scroll.scrollBy({ left: cardW(), behavior: 'smooth' }));
+
+    function updateArrows() {
+        prev.style.opacity = scroll.scrollLeft <= 2 ? '0.3' : '1';
+        next.style.opacity = scroll.scrollLeft + scroll.clientWidth >= scroll.scrollWidth - 2 ? '0.3' : '1';
+    }
+    scroll.addEventListener('scroll', updateArrows, { passive: true });
+    window.addEventListener('resize', updateArrows);
+    updateArrows();
 })();
 </script>
 <?php require __DIR__ . '/includes/footer.php'; ?>
