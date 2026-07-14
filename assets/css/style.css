@@ -22,7 +22,7 @@
 
 /* Base card — todos os cards herdam destes tokens */
 .rge-card {
-    background: var(--card-bg);
+    background-color: var(--card-bg);
     border: var(--card-border);
     border-radius: var(--card-radius);
     box-shadow: var(--card-shadow);
@@ -147,7 +147,7 @@ button,
 .rge-card .icon-box {
     width: var(--icon-box-size);
     height: var(--icon-box-size);
-    background: var(--icon-box-bg);
+    background-color: var(--icon-box-bg);
     border-radius: var(--icon-box-radius);
     display: flex;
     align-items: center;
@@ -161,7 +161,7 @@ button,
 .rge-card .profile-avatar {
     width: 55px;
     height: 55px;
-    background: var(--icon-box-bg);
+    background-color: var(--icon-box-bg);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -425,11 +425,11 @@ body {
   display: inline-block;
   width: 25px;
   height: 2px;
-  background: var(--primary-green);
+  background-color: var(--primary-green);
 }
 
 .stats-bar {
-  background: white;
+  background-color: white;
   padding: 2rem 0;
   border-bottom: 1px solid #eee;
 }
@@ -560,13 +560,13 @@ body {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: rgba(255,255,255,0.4);
+  background-color: rgba(255,255,255,0.4);
   cursor: pointer;
   transition: all 0.3s;
 }
 
 .hero-indicators span.active {
-  background: var(--accent-green);
+  background-color: var(--accent-green);
   width: 25px;
   border-radius: 5px;
 }
@@ -584,7 +584,7 @@ body {
 .timeline-content,
 .docente-card,
 .func-card {
-  background: white;
+  background-color: white;
   box-shadow: var(--shadow-sm);
   border: 1px solid var(--border-soft);
   transition: all 0.3s ease;
@@ -664,7 +664,7 @@ body {
 .intro-section,
 .founders-section {
   padding: 4rem 0;
-  background: var(--bg-light);
+  background-color: var(--bg-light);
 }
 
 .about-section h2,
@@ -701,7 +701,7 @@ body {
 .timeline-section,
 .numbers-section {
   padding: 4rem 0;
-  background: white;
+  background-color: white;
 }
 
 .news-section .section-header {
@@ -786,7 +786,7 @@ body {
   width: 70px;
   height: 70px;
   margin: 0 auto 1rem;
-  background: white;
+  background-color: white;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -814,7 +814,7 @@ body {
   transform: translateY(-50%);
   width: 44px;
   height: 44px;
-  background: white;
+  background-color: white;
   border: 1px solid #ddd;
   border-radius: 50%;
   display: flex;
@@ -827,7 +827,7 @@ body {
 
 .carousel-control-prev-custom:hover,
 .carousel-control-next-custom:hover {
-  background: var(--primary-green);
+  background-color: var(--primary-green);
   border-color: var(--primary-green);
   color: white;
 }
@@ -840,7 +840,7 @@ body {
    ========================================================= */
 .filters-section {
   padding: 2rem 0;
-  background: white;
+  background-color: white;
   border-bottom: 1px solid #eee;
 }
 
@@ -848,7 +848,7 @@ body {
   padding: 0.5rem 1.2rem;
   border-radius: 50px;
   border: 1px solid #ddd;
-  background: white;
+  background-color: white;
   color: #555;
   font-size: 0.875rem;
   font-weight: 500;
@@ -858,7 +858,7 @@ body {
 
 .filter-btn:hover,
 .filter-btn.active {
-  background: var(--primary-green);
+  background-color: var(--primary-green);
   color: white;
   border-color: var(--primary-green);
 }
@@ -894,7 +894,7 @@ body {
    ========================================================= */
 .docentes-section {
   padding: 3rem 0 5rem;
-  background: var(--bg-light);
+  background-color: var(--bg-light);
 }
 
 .docente-card {
@@ -947,7 +947,7 @@ body {
   position: absolute;
   top: 15px;
   right: 15px;
-  background: var(--accent-green);
+  background-color: var(--accent-green);
   color: var(--dark-green);
   font-size: 0.75rem;
   font-weight: 700;
@@ -958,7 +958,7 @@ body {
 }
 
 .docente-badge-chefe {
-  background: #fff;
+  background-color: #fff;
   color: var(--primary-green);
 }
 
@@ -1058,7 +1058,7 @@ body {
 }
 
 .docente-link-primary {
-  background: var(--primary-green);
+  background-color: var(--primary-green);
   color: white;
   border-color: var(--primary-green);
 }
@@ -1070,19 +1070,19 @@ body {
 }
 
 .docente-link-primary:hover {
-  background: var(--dark-green);
+  background-color: var(--dark-green);
   border-color: var(--dark-green);
   color: white;
 }
 
 .docente-link-outline {
-  background: transparent;
+  background-color: transparent;
   color: var(--primary-green);
   border-color: var(--primary-green);
 }
 
 .docente-link-outline:hover {
-  background: var(--primary-green);
+  background-color: var(--primary-green);
   color: white;
 }
 
@@ -1093,8 +1093,8 @@ body {
   padding: 3rem 0;
 }
 
-.setor-section:nth-child(even) { background: var(--bg-light); }
-.setor-section:nth-child(odd) { background: white; }
+.setor-section:nth-child(even) { background-color: var(--bg-light); }
+.setor-section:nth-child(odd) { background-color: white; }
 
 .setor-header {
   display: flex;
@@ -1265,7 +1265,7 @@ body {
 .timeline-content {
   position: relative;
   width: calc(50% - 40px);
-  background: var(--bg-light);
+  background-color: var(--bg-light);
   border-radius: 16px;
   padding: 1.8rem;
   transition: none !important;
@@ -1282,7 +1282,7 @@ body {
   transform: translateX(-50%);
   width: 20px;
   height: 20px;
-  background: var(--primary-green);
+  background-color: var(--primary-green);
   border: 4px solid white;
   border-radius: 50%;
   box-shadow: 0 0 0 3px var(--primary-green);
@@ -1290,7 +1290,7 @@ body {
 }
 
 .timeline-item.highlight .timeline-dot {
-  background: var(--accent-green);
+  background-color: var(--accent-green);
   box-shadow: 0 0 0 4px var(--accent-green);
   width: 24px;
   height: 24px;
@@ -1320,7 +1320,7 @@ body {
 
 .timeline-badge {
   display: inline-block;
-  background: var(--accent-green);
+  background-color: var(--accent-green);
   color: var(--dark-green);
   font-size: 0.75rem;
   font-weight: 700;
@@ -1359,14 +1359,14 @@ body {
 .number-card {
   text-align: center;
   padding: 2rem;
-  background: var(--bg-light);
+  background-color: var(--bg-light);
   border-radius: 16px;
   border: 1px solid var(--border-soft);
   transition: all 0.3s ease;
 }
 
 .number-card:hover {
-  background: var(--primary-green);
+  background-color: var(--primary-green);
   color: white;
 }
 
@@ -1393,7 +1393,7 @@ body {
    CHEFIA
    ========================================================= */
 .chefia-section {
-  background: #f4f4f4;
+  background-color: #f4f4f4;
   padding: 48px 16px;
 }
 
@@ -1403,7 +1403,7 @@ body {
 }
 
 .chefia-card {
-  background: #fff;
+  background-color: #fff;
   border-radius: 24px;
   padding: 28px 24px;
   text-align: center;
@@ -1423,7 +1423,7 @@ body {
 }
 
 .chefia-card:hover .linha { cursor: pointer;
-  background: var(--primary-green);
+  background-color: var(--primary-green);
   width: 60px;
 }
 
@@ -1441,7 +1441,7 @@ body {
 .chefia-card .linha { cursor: pointer;
   width: 38px;
   height: 2px;
-  background: #e4e7ec;
+  background-color: #e4e7ec;
   margin: 14px auto;
   transition: all 0.3s ease;
 }
@@ -1481,7 +1481,7 @@ body {
   margin-bottom: 14px;
   padding: 6px 12px;
   border-radius: 999px;
-  background: #eaf5fb;
+  background-color: #eaf5fb;
   color: #0b3d5c;
   font-size: 13px;
   font-weight: 700;
@@ -1499,7 +1499,7 @@ body {
    ========================================================= */
 .footer {
   background-color: var(--dark-green);
-  background: var(--dark-green);
+  background-color: var(--dark-green);
   color: rgba(255,255,255,0.8);
   padding: 4rem 0 1.5rem;
 }
@@ -1585,7 +1585,7 @@ body {
 }
 
 .social-links a:hover {
-  background: white;
+  background-color: white;
   color: var(--dark-green);
   border-color: white;
 }
@@ -1649,7 +1649,7 @@ footer .logo-genetica { cursor: pointer;
             align-items: center;
             justify-content: center;
 
-            background: rgba(255,255,255,0.65);
+            background-color: rgba(255,255,255,0.65);
 
             backdrop-filter: blur(4px);
 
@@ -1669,7 +1669,7 @@ footer .logo-genetica { cursor: pointer;
 
 
 .btn-topo:hover {
-            background: rgba(27,53,86,0.85);
+            background-color: rgba(27,53,86,0.85);
             color: white;
             transform: translateY(var(--card-hover-lift));
         }
@@ -1753,7 +1753,7 @@ iframe.goog-te-banner-frame {
 
 
 .idiomas button {
-    background: rgba(255,255,255,0.9);
+    background-color: rgba(255,255,255,0.9);
     border: none;
     /* padding: 6px 12px;  */
       padding: 3px 6px;
@@ -1768,7 +1768,7 @@ iframe.goog-te-banner-frame {
 
 
 .idiomas button:hover {
-    background: #2E7D32;
+    background-color: #2E7D32;
     color: white;
 }
 
@@ -1787,7 +1787,7 @@ iframe.goog-te-banner-frame {
     letter-spacing: 0.5px;
 
     /* Remove bordas brutas e fundos padrão */
-    background: transparent;
+    background-color: transparent;
     border: 1px solid #ddd;
     border-radius: 4px;
 
@@ -1845,7 +1845,7 @@ iframe.goog-te-banner-frame {
             width: 100px;
             height: 100px;
             border-radius: 50%;
-            background: white;
+            background-color: white;
             border: 4px solid white;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
             display: flex;
@@ -1868,7 +1868,7 @@ iframe.goog-te-banner-frame {
             position: absolute;
             top: 15px;
             right: 15px;
-            background: var(--accent-green);
+            background-color: var(--accent-green);
             color: var(--dark-green);
             font-size: 0.75rem;
             font-weight: 700;
@@ -1972,21 +1972,21 @@ iframe.goog-te-banner-frame {
 
 
 .chefia-link-primary:hover {
-            background: var(--dark-green);
+            background-color: var(--dark-green);
             border-color: var(--dark-green);
             color: white;
         }
 
 
 .chefia-link-outline {
-            background: transparent;
+            background-color: transparent;
             color: var(--primary-green);
             border-color: var(--primary-green);
         }
 
 
 .chefia-link-outline:hover {
-            background: var(--primary-green);
+            background-color: var(--primary-green);
             color: white;
         }
 
@@ -1994,12 +1994,12 @@ iframe.goog-te-banner-frame {
 /* Comissões Section */
         .comissoes-section {
             padding: 4rem 0;
-            background: white;
+            background-color: white;
         }
 
 
 .comissao-card {
-            background: var(--bg-light);
+            background-color: var(--bg-light);
             border-radius: 14px;
             padding: 1.0rem;
             border: 1px solid rgba(0,0,0,0.04);
@@ -2059,14 +2059,14 @@ iframe.goog-te-banner-frame {
 /* Timeline */
         .historico-section {
             padding: 4rem 0;
-            background: var(--bg-light);
+            background-color: var(--bg-light);
         }
 
 
 .timeline-final {
             position: relative;
             width: 0px;
-            /*background: white;*/
+            /*background-color: white;*/
             border-radius: 14px;
             padding: 1.5rem;
             box-shadow: none;
@@ -2080,7 +2080,7 @@ iframe.goog-te-banner-frame {
 
 
 .timeline-item.current .timeline-dot {
-            background: var(--accent-green);
+            background-color: var(--accent-green);
             box-shadow: 0 0 0 3px var(--accent-green);
             width: 22px;
             height: 22px;
@@ -2153,7 +2153,7 @@ iframe.goog-te-banner-frame {
 
 
 /* Commissions Section */
-        .commissions-section { padding: 4rem 0; background: white; }
+        .commissions-section { padding: 4rem 0; background-color: white; }
 
 
 .commissions-section h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
@@ -2168,7 +2168,7 @@ iframe.goog-te-banner-frame {
 .commission-card,
 .council-card,
 .calendar-card {
-    background: white; border-radius: 12px; padding: 2rem;
+    background-color: white; border-radius: 12px; padding: 2rem;
     box-shadow: 0 3px 15px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);
     margin-bottom: 1.5rem; transition: all 0.3s ease;
 }
@@ -2193,7 +2193,7 @@ iframe.goog-te-banner-frame {
 
 
 .custom-table thead th {
-            background: var(--primary-green); color: white; font-weight: 600;
+            background-color: var(--primary-green); color: white; font-weight: 600;
             font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.5px;
             padding: 0.9rem 1rem; text-align: left;
         }
@@ -2217,7 +2217,7 @@ iframe.goog-te-banner-frame {
 .custom-table tbody tr:last-child td:last-child { border-radius: 0 0 8px 0; }
 
 
-.custom-table tbody tr:hover td { background: rgba(26, 92, 58, 0.03); }
+.custom-table tbody tr:hover td { background-color: rgba(26, 92, 58, 0.03); }
 
 
 .custom-table tbody tr:last-child td { border-bottom: none; }
@@ -2238,7 +2238,7 @@ iframe.goog-te-banner-frame {
 
 
 /* Council Section */
-.council-section { padding: 4rem 0; background: var(--bg-light); }
+.council-section { padding: 4rem 0; background-color: var(--bg-light); }
 
 
 .council-section h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
@@ -2275,7 +2275,7 @@ iframe.goog-te-banner-frame {
 
 
 /* Calendar Section */
-        .calendar-section { padding: 4rem 0; background: white; }
+        .calendar-section { padding: 4rem 0; background-color: white; }
 
 
 .calendar-section h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
@@ -2331,21 +2331,21 @@ iframe.goog-te-banner-frame {
 
 
 .semester-badge {
-            display: inline-block; background: var(--primary-green); color: white;
+            display: inline-block; background-color: var(--primary-green); color: white;
             font-size: 0.75rem; font-weight: 600; padding: 0.4rem 1rem;
             border-radius: 50px; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 1px;
         }
 
 
 /* Norms Section */
-        .norms-section { padding: 4rem 0; background: var(--bg-light); }
+        .norms-section { padding: 4rem 0; background-color: var(--bg-light); }
 
 
 .norms-section h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .norm-card {
-            background: white; border-radius: 12px; padding: 1.5rem;
+            background-color: white; border-radius: 12px; padding: 1.5rem;
             box-shadow: 0 3px 15px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);
             height: 100%; transition: all 0.3s ease; display: flex; align-items: flex-start; gap: 15px;
         }
@@ -2413,7 +2413,7 @@ iframe.goog-te-banner-frame {
 /* Contact Info Section */
         .contact-info-section {
             padding: 4rem 0;
-            background: var(--bg-light);
+            background-color: var(--bg-light);
         }
 
 
@@ -2435,7 +2435,7 @@ iframe.goog-te-banner-frame {
 
 
 .contact-card {
-            background: white;
+            background-color: white;
             border-radius: 12px;
             padding: 2rem;
             box-shadow: 0 3px 15px rgba(0,0,0,0.06);
@@ -2553,7 +2553,7 @@ iframe.goog-te-banner-frame {
 
 
 .btn-submit {
-            background: var(--primary-green);
+            background-color: var(--primary-green);
             color: white;
             border: none;
             padding: 0.9rem 2.5rem;
@@ -2568,7 +2568,7 @@ iframe.goog-te-banner-frame {
 
 
 .btn-submit:hover {
-            background: var(--dark-green);
+            background-color: var(--dark-green);
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(26, 92, 58, 0.3);
         }
@@ -2585,7 +2585,7 @@ iframe.goog-te-banner-frame {
             overflow: hidden;
             box-shadow: 0 5px 25px rgba(0,0,0,0.08);
             height: 400px;
-            background: #e8e8e8;
+            background-color: #e8e8e8;
             position: relative;
         }
 
@@ -2601,7 +2601,7 @@ iframe.goog-te-banner-frame {
             position: absolute;
             bottom: 20px;
             left: 20px;
-            background: white;
+            background-color: white;
             padding: 1rem 1.5rem;
             border-radius: 10px;
             box-shadow: 0 3px 15px rgba(0,0,0,0.1);
@@ -2627,7 +2627,7 @@ iframe.goog-te-banner-frame {
 /* Team Section */
         .team-section {
             padding: 4rem 0;
-            background: var(--bg-light);
+            background-color: var(--bg-light);
         }
 
 
@@ -2640,7 +2640,7 @@ iframe.goog-te-banner-frame {
 
 
 .team-card {
-            background: white;
+            background-color: white;
             border-radius: 12px;
             padding: 1.5rem;
             box-shadow: 0 3px 15px rgba(0,0,0,0.06);
@@ -2714,7 +2714,7 @@ iframe.goog-te-banner-frame {
 /* Social CTA */
         .social-cta {
             background-color: var(--primary-green);
-            background: var(--primary-green);
+            background-color: var(--primary-green);
             padding: 3rem 0;
             color: white;
         }
@@ -2752,7 +2752,7 @@ iframe.goog-te-banner-frame {
 
 
 .social-btn:hover {
-            background: white;
+            background-color: white;
             color: var(--primary-green);
             transform: translateY(var(--card-hover-lift));
         }
@@ -2788,7 +2788,7 @@ iframe.goog-te-banner-frame {
 /* Intro Section */
         .intro-section {
             padding: 4rem 0;
-            background: var(--bg-light);
+            background-color: var(--bg-light);
         }
 
 
@@ -2802,7 +2802,7 @@ iframe.goog-te-banner-frame {
 
 
 .program-card {
-            background: white;
+            background-color: white;
             border-radius: 12px;
             overflow: hidden;
             box-shadow: 0 5px 25px rgba(0,0,0,0.08);
@@ -2819,7 +2819,7 @@ iframe.goog-te-banner-frame {
 .program-card:hover {
             transform: translateY(var(--card-hover-lift));
             box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-            background: white;
+            background-color: white;
             border-color: rgba(26, 92, 58, 0.1);
         }
 
@@ -2858,7 +2858,7 @@ iframe.goog-te-banner-frame {
             position: absolute;
             top: 20px;
             left: 20px;
-            background: var(--primary-green);
+            background-color: var(--primary-green);
             color: white;
             padding: 0.4rem 1rem;
             border-radius: 50px;
@@ -2947,7 +2947,7 @@ iframe.goog-te-banner-frame {
 /* Info Section */
         .info-section {
             padding: 4rem 0;
-            background: var(--bg-light);
+            background-color: var(--bg-light);
         }
 
 
@@ -2960,7 +2960,7 @@ iframe.goog-te-banner-frame {
 
 
 .info-card {
-            background: white;
+            background-color: white;
             border-radius: 12px;
             padding: 2rem;
             box-shadow: 0 3px 15px rgba(0,0,0,0.06);
@@ -3022,7 +3022,7 @@ iframe.goog-te-banner-frame {
 /* CTA Section */
         .cta-section {
             background-color: var(--primary-green);
-            background: var(--primary-green);
+            background-color: var(--primary-green);
             padding: 4rem 0;
             color: white;
         }
@@ -3048,7 +3048,7 @@ iframe.goog-te-banner-frame {
 .btn-white {
   background-color: white;
   color: var(--primary-green);
-            background: white;
+            background-color: white;
             color: var(--primary-green);
             border: 2px solid white;
             padding: 0.875rem 2rem;
@@ -3064,14 +3064,14 @@ iframe.goog-te-banner-frame {
 
 
 .btn-white:hover {
-            background: transparent;
+            background-color: transparent;
             color: white;
             transform: translateY(-2px);
         }
 
 
 .btn-outline-white {
-            background: transparent;
+            background-color: transparent;
             color: white;
             border: 2px solid rgba(255,255,255,0.5);
             padding: 0.875rem 2rem;
@@ -3087,7 +3087,7 @@ iframe.goog-te-banner-frame {
 
 
 .btn-outline-white:hover {
-            background: white;
+            background-color: white;
             color: var(--primary-green);
             border-color: white;
             transform: translateY(-2px);
@@ -3106,7 +3106,7 @@ iframe.goog-te-banner-frame {
 
 
 .course-card {
-            background: white;
+            background-color: white;
             border-radius: 12px;
             overflow: hidden;
             box-shadow: 0 3px 15px rgba(0,0,0,0.06);
@@ -3148,7 +3148,7 @@ iframe.goog-te-banner-frame {
             position: absolute;
             top: 15px;
             left: 15px;
-            background: var(--primary-green);
+            background-color: var(--primary-green);
             color: white;
             padding: 0.3rem 0.9rem;
             border-radius: 50px;
@@ -3161,12 +3161,12 @@ iframe.goog-te-banner-frame {
 
 
 .course-badge.online {
-            background: #2563eb;
+            background-color: #2563eb;
         }
 
 
 .course-badge.hybrid {
-            background: #7c3aed;
+            background-color: #7c3aed;
         }
 
 /* Ensure consistent badge sizing */
@@ -3267,7 +3267,7 @@ iframe.goog-te-banner-frame {
 
 
 /* Services Section */
-        .services-section { padding: 4rem 0; background: white; }
+        .services-section { padding: 4rem 0; background-color: white; }
 
 
 .services-section h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
@@ -3277,7 +3277,7 @@ iframe.goog-te-banner-frame {
 
 
 .service-card {
-            background: white; border-radius: 12px; padding: 2rem 1.5rem;
+            background-color: white; border-radius: 12px; padding: 2rem 1.5rem;
             box-shadow: 0 5px 25px rgba(0,0,0,0.08); height: 100%; transition: all 0.3s ease;
             border: 1px solid rgba(0,0,0,0.04);
         }
@@ -3327,7 +3327,7 @@ iframe.goog-te-banner-frame {
 
 
 .step-number {
-            width: 36px; height: 36px; background: var(--primary-green);
+            width: 36px; height: 36px; background-color: var(--primary-green);
             color: white; border-radius: 50%; display: inline-flex;
             align-items: center; justify-content: center;
             font-weight: 700; font-size: 0.9rem; margin-right: 0.75rem; flex-shrink: 0;
@@ -3347,7 +3347,7 @@ iframe.goog-te-banner-frame {
 
 
 /* Staff Section */
-        .staff-section { padding: 4rem 0; background: white; }
+        .staff-section { padding: 4rem 0; background-color: white; }
 
 
 .staff-section h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; }
@@ -3357,7 +3357,7 @@ iframe.goog-te-banner-frame {
 
 
 .staff-card {
-            background: white; border-radius: 12px; overflow: hidden;
+            background-color: white; border-radius: 12px; overflow: hidden;
             box-shadow: 0 3px 15px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);
             height: 100%; transition: all 0.3s ease;
         }
@@ -3402,7 +3402,7 @@ iframe.goog-te-banner-frame {
 
 
 .staff-category {
-            display: inline-block; background: var(--primary-green); color: white;
+            display: inline-block; background-color: var(--primary-green); color: white;
             font-size: 0.75rem; font-weight: 500; padding: 0.3rem 0.8rem;
             border-radius: 50px; text-transform: uppercase; letter-spacing: 1px;
             margin-bottom: 1.5rem;
@@ -3484,12 +3484,12 @@ iframe.goog-te-banner-frame {
 /* Disciplines Section */
         .disciplines-section {
             padding: 4rem 0;
-            background: var(--bg-light);
+            background-color: var(--bg-light);
         }
 
 
 .discipline-card {
-            background: white;
+            background-color: white;
             border-radius: 14px;
             padding: 1.5rem;
             box-shadow: 0 2px 12px rgba(0,0,0,0.05);
@@ -3597,12 +3597,12 @@ iframe.goog-te-banner-frame {
 /* Labs Teaching Section */
         .labs-teaching-section {
             padding: 4rem 0;
-            background: white;
+            background-color: white;
         }
 
 
 .lab-teach-card {
-            background: var(--bg-light);
+            background-color: var(--bg-light);
             border-radius: 14px;
             overflow: hidden;
             border: 1px solid rgba(0,0,0,0.04);
@@ -3668,7 +3668,7 @@ iframe.goog-te-banner-frame {
 /* Timeline */
         .timeline-section {
             padding: 4rem 0;
-            background: white;
+            background-color: white;
         }
 
 
@@ -3705,12 +3705,12 @@ iframe.goog-te-banner-frame {
 /* Lab Cards */
         .labs-section {
             padding: 3rem 0 5rem;
-            background: var(--bg-light);
+            background-color: var(--bg-light);
         }
 
 
 .lab-card {
-            background: white;
+            background-color: white;
             border-radius: 16px;
             overflow: hidden;
             box-shadow: 0 3px 15px rgba(0,0,0,0.06);
@@ -3750,7 +3750,7 @@ iframe.goog-te-banner-frame {
             position: absolute;
             top: 15px;
             right: 15px;
-            background: var(--accent-green);
+            background-color: var(--accent-green);
             color: var(--dark-green);
             font-size: 0.75rem;
             font-weight: 700;
@@ -3762,7 +3762,7 @@ iframe.goog-te-banner-frame {
 
 
 .lab-badge-teaching {
-            background: #fff;
+            background-color: #fff;
             color: var(--primary-green);
         }
 
@@ -3875,28 +3875,28 @@ iframe.goog-te-banner-frame {
 
 
 .lab-link-primary:hover {
-            background: var(--dark-green);
+            background-color: var(--dark-green);
             border-color: var(--dark-green);
             color: white;
         }
 
 
 .lab-link-outline {
-            background: transparent;
+            background-color: transparent;
             color: var(--primary-green);
             border-color: var(--primary-green);
         }
 
 
 .lab-link-outline:hover {
-            background: var(--primary-green);
+            background-color: var(--primary-green);
             color: white;
         }
 
 
 /* Featured Lab */
         .featured-lab {
-            background: white;
+            background-color: white;
             border-radius: 16px;
             overflow: hidden;
             box-shadow: 0 5px 25px rgba(0,0,0,0.08);
@@ -3951,7 +3951,7 @@ iframe.goog-te-banner-frame {
    ============================================ */
 
 
-.about-section { padding: 4rem 0; background: var(--bg-light); }
+.about-section { padding: 4rem 0; background-color: var(--bg-light); }
 
 
 .about-section h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
@@ -3973,11 +3973,11 @@ iframe.goog-te-banner-frame {
         }
 
 
-.research-section { padding: 4rem 0; background: var(--bg-light); }
+.research-section { padding: 4rem 0; background-color: var(--bg-light); }
 
 
 .research-card {
-            background: white; border-radius: 12px; padding: 2rem 1.5rem;
+            background-color: white; border-radius: 12px; padding: 2rem 1.5rem;
             box-shadow: 0 3px 15px rgba(0,0,0,0.06); height: 100%; transition: all 0.3s ease;
             border: 1px solid rgba(0,0,0,0.04);
         }
@@ -3993,7 +3993,7 @@ iframe.goog-te-banner-frame {
 
 
 .team-category {
-            display: inline-block; background: var(--primary-green); color: white;
+            display: inline-block; background-color: var(--primary-green); color: white;
             font-size: 0.75rem; font-weight: 500; padding: 0.3rem 0.8rem;
             border-radius: 50px; text-transform: uppercase; letter-spacing: 1px;
             margin-bottom: 1.5rem;
@@ -4034,17 +4034,17 @@ iframe.goog-te-banner-frame {
         }
 
 
-.team-social a:hover { background: var(--primary-green); border-color: var(--primary-green); color: white; }
+.team-social a:hover { background-color: var(--primary-green); border-color: var(--primary-green); color: white; }
 
 
-.pub-section { padding: 4rem 0; background: var(--bg-light); }
+.pub-section { padding: 4rem 0; background-color: var(--bg-light); }
 
 
 .pub-section h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .pub-card {
-            background: white; border-radius: 12px; padding: 1.5rem;
+            background-color: white; border-radius: 12px; padding: 1.5rem;
             box-shadow: 0 3px 15px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);
             margin-bottom: 1rem; transition: all 0.3s ease;
         }
@@ -4074,14 +4074,14 @@ iframe.goog-te-banner-frame {
 .pub-link:hover { color: var(--dark-green); }
 
 
-.funding-section { padding: 4rem 0; background: white; }
+.funding-section { padding: 4rem 0; background-color: white; }
 
 
 .funding-section h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .funding-card {
-            background: white; border-radius: 12px; padding: 1.5rem;
+            background-color: white; border-radius: 12px; padding: 1.5rem;
             box-shadow: 0 3px 15px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);
             height: 100%; transition: all 0.3s ease;
         }
@@ -4109,14 +4109,14 @@ iframe.goog-te-banner-frame {
 .funding-card .period { font-size: 0.875rem; color: var(--primary-green); font-weight: 500; }
 
 
-.partnerships-section { padding: 4rem 0; background: var(--bg-light); }
+.partnerships-section { padding: 4rem 0; background-color: var(--bg-light); }
 
 
 .partnerships-section h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .partnership-card {
-            background: white; border-radius: 12px; padding: 1.5rem;
+            background-color: white; border-radius: 12px; padding: 1.5rem;
             box-shadow: 0 3px 15px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);
             height: 100%; transition: all 0.3s ease;
             display: flex; align-items: flex-start; gap: 15px;
@@ -4142,14 +4142,14 @@ iframe.goog-te-banner-frame {
 .partnership-content .type { font-size: 0.875rem; color: var(--primary-green); font-weight: 500; text-transform: uppercase; }
 
 
-.infra-section { padding: 4rem 0; background: white; }
+.infra-section { padding: 4rem 0; background-color: white; }
 
 
 .infra-section h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .infra-card {
-            background: white; border-radius: 12px; overflow: hidden;
+            background-color: white; border-radius: 12px; overflow: hidden;
             box-shadow: 0 3px 15px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);
             height: 100%; transition: all 0.3s ease;
         }
@@ -4158,7 +4158,7 @@ iframe.goog-te-banner-frame {
 .infra-card:hover { transform: translateY(var(--card-hover-lift)); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
 
 
-.infra-img { height: 160px; overflow: hidden; background: var(--bg-light); display: flex; align-items: center; justify-content: center; }
+.infra-img { height: 160px; overflow: hidden; background-color: var(--bg-light); display: flex; align-items: center; justify-content: center; }
 
 
 .infra-img i { font-size: clamp(1.75rem, 5vw, 2.5rem); color: var(--primary-green); opacity: 0.6; }
@@ -4173,7 +4173,7 @@ iframe.goog-te-banner-frame {
 .infra-body p { font-size: 0.875rem; color: #666; line-height: 1.5; margin-bottom: 0; }
 
 
-.gallery-section { padding: 4rem 0; background: var(--bg-light); }
+.gallery-section { padding: 4rem 0; background-color: var(--bg-light); }
 
 
 .gallery-section h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
@@ -4181,7 +4181,7 @@ iframe.goog-te-banner-frame {
 
 .gallery-img {
             border-radius: 12px; overflow: hidden; box-shadow: 0 3px 15px rgba(0,0,0,0.06);
-            height: 200px; background: #ddd; display: flex; align-items: center; justify-content: center;
+            height: 200px; background-color: #ddd; display: flex; align-items: center; justify-content: center;
             transition: all 0.3s ease;
         }
 
@@ -4221,7 +4221,7 @@ iframe.goog-te-banner-frame {
             position: absolute;
             top: 15px;
             left: 15px;
-            background: var(--primary-green);
+            background-color: var(--primary-green);
             color: white;
             padding: 0.3rem 0.9rem;
             border-radius: 50px;
@@ -4302,7 +4302,7 @@ iframe.goog-te-banner-frame {
 
 /* Stats Section */
         .stats-section {
-            background: white;/*var(--primary-green);*/
+            background-color: white;/*var(--primary-green);*/
             padding: 4rem 0;
             color: var(--primary-green); /*white;*/
         }
@@ -4346,7 +4346,7 @@ iframe.goog-te-banner-frame {
 
 
 .btn-outline-green {
-            background: transparent;
+            background-color: transparent;
             color: var(--primary-green);
             border: 2px solid var(--primary-green);
             padding: 0.875rem 2rem;
@@ -4362,7 +4362,7 @@ iframe.goog-te-banner-frame {
 
 
 .btn-outline-green:hover {
-            background: var(--primary-green);
+            background-color: var(--primary-green);
             color: white;
             transform: translateY(-2px);
         }
@@ -4408,13 +4408,13 @@ iframe.goog-te-banner-frame {
 
 /* Featured News */
         .featured-news {
-            background: var(--bg-light);
+            background-color: var(--bg-light);
             padding: 4rem 0;
         }
 
 
 .featured-card {
-            background: white;
+            background-color: white;
             border-radius: 12px;
             overflow: hidden;
             box-shadow: 0 5px 25px rgba(0,0,0,0.08);
@@ -4520,7 +4520,7 @@ iframe.goog-te-banner-frame {
 /* Newsletter CTA */
         .newsletter-section {
             background-color: var(--primary-green);
-            background: var(--primary-green);
+            background-color: var(--primary-green);
             padding: 3rem 0;
             color: white;
         }
@@ -4554,7 +4554,7 @@ iframe.goog-te-banner-frame {
 
 
 .newsletter-form .btn {
-            background: white;
+            background-color: white;
             color: var(--primary-green);
             border-radius: 50px;
             padding: 0.75rem 2rem;
@@ -4566,7 +4566,7 @@ iframe.goog-te-banner-frame {
 
 
 .newsletter-form .btn:hover {
-            background: var(--dark-green);
+            background-color: var(--dark-green);
             color: white;
             transform: translateY(-2px);
         }
@@ -4578,7 +4578,7 @@ iframe.goog-te-banner-frame {
 
 
 .stat-card {
-            background: white; border-radius: 12px; padding: 1.5rem;
+            background-color: white; border-radius: 12px; padding: 1.5rem;
             box-shadow: 0 3px 15px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);
             text-align: center; height: 100%; transition: all 0.3s ease;
         }
@@ -4588,14 +4588,14 @@ iframe.goog-te-banner-frame {
 
 
 /* Platform Cards */
-        .platforms-section { padding: 4rem 0; background: var(--bg-light); }
+        .platforms-section { padding: 4rem 0; background-color: var(--bg-light); }
 
 
 .platforms-section h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .platform-card {
-            background: white; border-radius: 12px; overflow: hidden;
+            background-color: white; border-radius: 12px; overflow: hidden;
             box-shadow: 0 5px 25px rgba(0,0,0,0.08); border: 1px solid rgba(0,0,0,0.04);
             height: 100%; transition: all 0.3s ease;
         }
@@ -4630,7 +4630,7 @@ iframe.goog-te-banner-frame {
 
 .platform-badge {
             position: absolute; top: 15px; right: 15px;
-            background: rgba(255,255,255,0.2); backdrop-filter: blur(10px);
+            background-color: rgba(255,255,255,0.2); backdrop-filter: blur(10px);
             color: white; font-size: 0.875rem; font-weight: 500;
             padding: 0.4rem 0.9rem; border-radius: 50px; text-transform: uppercase; letter-spacing: 1px;
         }
@@ -4675,7 +4675,7 @@ iframe.goog-te-banner-frame {
 
 
 .platform-contact {
-            background: var(--bg-light); border-radius: 10px; padding: 1.2rem;
+            background-color: var(--bg-light); border-radius: 10px; padding: 1.2rem;
             margin-top: 1rem;
         }
 
@@ -4695,35 +4695,35 @@ iframe.goog-te-banner-frame {
 
 
 .btn-platform {
-            display: inline-block; background: var(--primary-green); color: white;
+            display: inline-block; background-color: var(--primary-green); color: white;
             padding: 0.6rem 1.2rem; border-radius: 50px; font-weight: 500;
             font-size: 0.875rem; text-decoration: none; transition: all 0.3s ease;
         }
 
 
-.btn-platform:hover { background: var(--dark-green); color: white; transform: translateY(-2px); }
+.btn-platform:hover { background-color: var(--dark-green); color: white; transform: translateY(-2px); }
 
 
 .btn-platform-outline {
-            display: inline-block; background: transparent; color: var(--primary-green);
+            display: inline-block; background-color: transparent; color: var(--primary-green);
             border: 1.5px solid var(--primary-green);
             padding: 0.6rem 1.2rem; border-radius: 50px; font-weight: 500;
             font-size: 0.875rem; text-decoration: none; transition: all 0.3s ease;
         }
 
 
-.btn-platform-outline:hover { background: var(--primary-green); color: white; }
+.btn-platform-outline:hover { background-color: var(--primary-green); color: white; }
 
 
 /* Equipment Section */
-        .equipment-section { padding: 4rem 0; background: white; }
+        .equipment-section { padding: 4rem 0; background-color: white; }
 
 
 .equipment-section h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .equipment-card {
-            background: white; border-radius: 12px; padding: 1.5rem;
+            background-color: white; border-radius: 12px; padding: 1.5rem;
             box-shadow: 0 3px 15px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);
             height: 100%; transition: all 0.3s ease; text-align: center;
         }
@@ -4749,7 +4749,7 @@ iframe.goog-te-banner-frame {
 
 
 /* Access Section */
-        .access-section { padding: 4rem 0; background: var(--bg-light); }
+        .access-section { padding: 4rem 0; background-color: var(--bg-light); }
 
 
 .access-section h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
@@ -4759,7 +4759,7 @@ iframe.goog-te-banner-frame {
 
 
 .step-card {
-            background: white; border-radius: 12px; padding: 2rem;
+            background-color: white; border-radius: 12px; padding: 2rem;
             box-shadow: 0 3px 15px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);
             height: 100%; transition: all 0.3s ease; position: relative;
         }
@@ -4818,12 +4818,12 @@ iframe.goog-te-banner-frame {
 /* Admission Section */
         .admission-section {
             padding: 4rem 0;
-            background: white;
+            background-color: white;
         }
 
 
 .admission-card {
-            background: var(--bg-light);
+            background-color: var(--bg-light);
             border-radius: 16px;
             padding: 2rem;
             border: 1px solid rgba(0,0,0,0.04);
@@ -4892,7 +4892,7 @@ iframe.goog-te-banner-frame {
 
 /* Contact Box */
         .contact-box {
-            background: white;
+            background-color: white;
             border-radius: 16px;
             padding: 2.5rem;
             box-shadow: 0 3px 15px rgba(0,0,0,0.06);
@@ -4949,7 +4949,7 @@ iframe.goog-te-banner-frame {
 
 
 .project-card {
-            background: white;
+            background-color: white;
             border-radius: 12px;
             overflow: hidden;
             box-shadow: 0 3px 15px rgba(0,0,0,0.06);
@@ -5002,13 +5002,13 @@ iframe.goog-te-banner-frame {
 
 
 .project-status.active {
-            background: var(--accent-green);
+            background-color: var(--accent-green);
             color: var(--dark-green);
         }
 
 
 .project-status.completed {
-            background: #6b7280;
+            background-color: #6b7280;
             color: white;
         }
 
@@ -5016,7 +5016,7 @@ iframe.goog-te-banner-frame {
 .project-status.new {
   background-color: #1d4ed8 !important;
   background-color: #1d4ed8;
-            background: #3b82f6;
+            background-color: #3b82f6;
             color: white;
         }
 
@@ -5181,7 +5181,7 @@ iframe.goog-te-banner-frame {
 
 
 .partner-card {
-            background: white;
+            background-color: white;
             border-radius: 12px;
             padding: 2rem;
             box-shadow: 0 3px 15px rgba(0,0,0,0.06);
@@ -5234,7 +5234,7 @@ iframe.goog-te-banner-frame {
 
 /* Filter Section */
         .filter-section {
-            background: var(--bg-light);
+            background-color: var(--bg-light);
             padding: 2rem 0;
             border-bottom: 1px solid rgba(0,0,0,0.05);
         }
@@ -5258,7 +5258,7 @@ iframe.goog-te-banner-frame {
 
 
 .btn-filter {
-            background: var(--primary-green);
+            background-color: var(--primary-green);
             color: white;
             border: none;
             padding: 0.65rem 1.5rem;
@@ -5270,13 +5270,13 @@ iframe.goog-te-banner-frame {
 
 
 .btn-filter:hover {
-            background: var(--dark-green);
+            background-color: var(--dark-green);
             transform: translateY(-1px);
         }
 
 
 .btn-filter-outline {
-            background: transparent;
+            background-color: transparent;
             color: var(--primary-green);
             border: 1px solid var(--primary-green);
             padding: 0.65rem 1.5rem;
@@ -5288,7 +5288,7 @@ iframe.goog-te-banner-frame {
 
 
 .btn-filter-outline:hover {
-            background: var(--primary-green);
+            background-color: var(--primary-green);
             color: white;
         }
 
@@ -5389,14 +5389,14 @@ iframe.goog-te-banner-frame {
             right: -20%;
             width: 400px;
             height: 400px;
-            background: rgba(255,255,255,0.03);
+            background-color: rgba(255,255,255,0.03);
             border-radius: 50%;
         }
 
 
 .featured-pub .badge-highlight {
             display: inline-block;
-            background: var(--accent-green);
+            background-color: var(--accent-green);
             color: var(--dark-green);
             padding: 0.3rem 1rem;
             border-radius: 50px;
@@ -5447,7 +5447,7 @@ iframe.goog-te-banner-frame {
 
 
 .btn-featured {
-            background: white;
+            background-color: white;
             color: var(--primary-green);
             border: none;
             padding: 0.6rem 1.2rem;
@@ -5463,14 +5463,14 @@ iframe.goog-te-banner-frame {
 
 
 .btn-featured:hover {
-            background: var(--accent-green);
+            background-color: var(--accent-green);
             color: var(--dark-green);
             transform: translateY(-2px);
         }
 
 
 .btn-featured-outline {
-            background: transparent;
+            background-color: transparent;
             color: white;
             border: 1px solid rgba(255,255,255,0.4);
             padding: 0.6rem 1.2rem;
@@ -5497,7 +5497,7 @@ iframe.goog-te-banner-frame {
 
 
 /* Program Section */
-        .program-section { padding: 4rem 0; background: var(--bg-light); }
+        .program-section { padding: 4rem 0; background-color: var(--bg-light); }
 
 
 .program-section h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
@@ -5513,14 +5513,14 @@ iframe.goog-te-banner-frame {
 
 
 /* Rotations Section */
-        .rotations-section { padding: 4rem 0; background: white; }
+        .rotations-section { padding: 4rem 0; background-color: white; }
 
 
 .rotations-section h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .rotation-card {
-            background: white; border-radius: 12px; padding: 1.5rem;
+            background-color: white; border-radius: 12px; padding: 1.5rem;
             box-shadow: 0 3px 15px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);
             margin-bottom: 1rem; transition: all 0.3s ease;
             border-left: 4px solid var(--primary-green);
@@ -5573,14 +5573,14 @@ iframe.goog-te-banner-frame {
 
 
 /* Documents Section */
-        .documents-section { padding: 4rem 0; background: var(--bg-light); }
+        .documents-section { padding: 4rem 0; background-color: var(--bg-light); }
 
 
 .documents-section h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .doc-card {
-            background: white; border-radius: 12px; padding: 1.5rem;
+            background-color: white; border-radius: 12px; padding: 1.5rem;
             box-shadow: 0 3px 15px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);
             height: 100%; transition: all 0.3s ease; display: flex; align-items: flex-start; gap: 15px;
         }
@@ -5915,7 +5915,7 @@ section.page-header p,
 .accent-divider {
     width: 40px;
     height: 3px;
-    background: var(--accent-green);
+    background-color: var(--accent-green);
     margin-bottom: 1.5rem;
 }
 
@@ -6235,7 +6235,7 @@ section.page-header p,
 
 /* Code blocks (dark theme) */
 .sg-code-block {
-    background: #1e1e2e;
+    background-color: #1e1e2e;
     color: #cdd6f4;
     border-radius: 8px;
     padding: 1rem;
@@ -6265,11 +6265,11 @@ section.page-header p,
 .sg-swatch small {
     opacity: 0.8;
 }
-.sg-swatch-primary { background: var(--primary-green); }
-.sg-swatch-dark { background: var(--dark-green); }
-.sg-swatch-light { background: var(--light-green); }
+.sg-swatch-primary { background-color: var(--primary-green); }
+.sg-swatch-dark { background-color: var(--dark-green); }
+.sg-swatch-light { background-color: var(--light-green); }
 .sg-swatch-bg {
-    background: var(--bg-light);
+    background-color: var(--bg-light);
     color: #222;
     border: 1px solid rgba(0,0,0,0.06);
 }
@@ -6279,7 +6279,7 @@ section.page-header p,
 
 /* Shadow demo box */
 .sg-shadow-box {
-    background: white;
+    background-color: white;
     border-radius: 12px;
     padding: 1.5rem;
     height: 80px;
@@ -6337,7 +6337,7 @@ section.page-header p,
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background: #ddd;
+    background-color: #ddd;
     flex-shrink: 0;
 }
 
@@ -6393,7 +6393,7 @@ section.page-header p,
 .sg-profile-demo-avatar {
     width: 55px;
     height: 55px;
-    background: rgba(26,92,58,0.08);
+    background-color: rgba(26,92,58,0.08);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -6435,7 +6435,7 @@ section.page-header p,
 
 /* Section alt background */
 .sg-section-alt {
-    background: var(--bg-light);
+    background-color: var(--bg-light);
 }
 
 /* Rules list */
