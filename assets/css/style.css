@@ -1292,25 +1292,42 @@ body {
 
 .timeline-item {
   position: relative;
-  margin-bottom: 3rem;
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+  border-left: 3px solid rgba(26, 92, 58, 0.15);
 }
 
 .timeline-item:last-child {
+  border-left: 3px solid transparent;
   margin-bottom: 0;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -9px;
+  top: 4px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--primary-green);
+  border: 3px solid white;
+  box-shadow: 0 0 0 2px var(--primary-green);
+  z-index: 1;
 }
 
 .timeline-content {
   position: relative;
-  width: calc(50% - 40px);
+  flex: 1;
   background: var(--bg-light);
   border-radius: 16px;
   padding: 1.8rem;
   transition: none !important;
 }
 
-.timeline-item:nth-child(odd) .timeline-content {
-  margin-left: auto;
-}
+/* alternating left/right removed — timeline is now linear with vertical line */
 
 .timeline-dot {
   position: absolute;
@@ -4069,6 +4086,12 @@ iframe.goog-te-banner-frame {
 
 
 .pub-section { padding: 4rem 0; background: var(--bg-light); }
+
+.pub-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
 
 
 .pub-section h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }

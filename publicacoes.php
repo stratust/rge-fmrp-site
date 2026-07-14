@@ -79,6 +79,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
             </div>
 
+            <div class="pub-list">
             <!-- Publication 1 -->
             <div class="content-card rge-card">
                 <div class="pub-year-badge">
@@ -317,6 +318,7 @@ require __DIR__ . '/includes/header.php';
                         <a href="publicacoes.php#" class="pub-action-link"><i class="bi bi-share"></i> Citar</a>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </section>
