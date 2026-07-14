@@ -92,6 +92,24 @@ button,
 
 /* Mobile: reduzir padding da base */
 @media (max-width: 576px) {
+    /* Touch targets — minimum 44px for accessibility */
+    .btn-tradutor {
+        min-width: 44px;
+        min-height: 44px;
+        padding: 8px !important;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tradutor-custom-buttons {
+        gap: 4px;
+    }
+    .carousel-control-prev-custom,
+    .carousel-control-next-custom {
+        width: 44px;
+        height: 44px;
+    }
+
     .rge-card {
         padding: 1.25rem;
     }
@@ -785,8 +803,8 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   background: white;
   border: 1px solid #ddd;
   border-radius: 50%;
@@ -1503,8 +1521,8 @@ body {
 }
 
 .social-links a { cursor: pointer;
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   border: 1px solid rgba(255,255,255,0.3);
   border-radius: 50%;
   display: flex;
@@ -2158,6 +2176,13 @@ iframe.goog-te-banner-frame {
             color: var(--primary-green); font-size: 0.8rem; font-weight: 500;
             padding: 0.3rem 0.7rem; border-radius: 50px;
         }
+
+/* Mandato column — consistent alignment */
+.custom-table th:last-child,
+.custom-table td:last-child {
+    text-align: center;
+    white-space: nowrap;
+}
 
 
 /* Council Section */
@@ -3083,6 +3108,14 @@ iframe.goog-te-banner-frame {
 .course-badge.hybrid {
             background: #7c3aed;
         }
+
+/* Ensure consistent badge sizing */
+.course-badge,
+.course-badge.online,
+.course-badge.hybrid {
+    min-width: 80px;
+    text-align: center;
+}
 
 
 .course-body {

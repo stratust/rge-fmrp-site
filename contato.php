@@ -156,7 +156,7 @@ require __DIR__ . '/includes/header.php';
     <section class="map-section">
         <div class="container">
             <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.0!2d-47.85!3d-21.18!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDEwJzQ4LjAiUyA0N8KwNTEnMDAuMCJX!5e0!3m2!1spt-BR!2sbr!4v1609459200000!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3700.5!2d-47.8566!3d-21.1797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9bfcfcfec0001%3A0x8b4b2b3b2b3b2b3b!2sFaculdade%20de%20Medicina%20de%20Ribeir%C3%A3o%20Preto%20-%20USP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <div class="map-overlay">
                     <h4><i class="bi bi-geo-alt-fill me-1" style="color: var(--primary-green);"></i> Departamento de Genética</h4>
                     <p>Av. Bandeirantes, 3900 — FMRP/USP<br>Ribeirão Preto, SP</p>

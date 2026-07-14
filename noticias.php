@@ -155,7 +155,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="media-card rge-card">
                         <div class="news-img">
-                            <img src="https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?w=400&h=250&fit=crop" alt="Notícia 5">
+                            <img src="https://images.unsplash.com/photo-1532042553916-87e6f38c4e6a?w=400&h=250&fit=crop" alt="Notícia 5">
                         </div>
                         <div class="news-body">
                             <span class="news-category">Extensão</span>
@@ -203,7 +203,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="media-card rge-card">
                         <div class="news-img">
-                            <img src="https://images.unsplash.com/photo-1576670159805-381a9de1cdec?w=400&h=250&fit=crop" alt="Notícia 8">
+                            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=250&fit=crop" alt="Notícia 8">
                         </div>
                         <div class="news-body">
                             <span class="news-category">Ensino</span>
