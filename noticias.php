@@ -155,7 +155,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="media-card rge-card">
                         <div class="news-img">
-                            <img src="https://images.unsplash.com/photo-1532042553916-87e6f38c4e6a?w=400&h=250&fit=crop" alt="Notícia 5">
+                            <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=400&h=250&fit=crop" alt="Notícia 5">
                         </div>
                         <div class="news-body">
                             <span class="news-category">Extensão</span>
