@@ -72,8 +72,9 @@ iframe.goog-te-banner-frame {
     position: absolute;
     /**  top: 15px;  */
     top: 4px;
-    right: 8px;
+    right: 0;
     z-index: 9999;
+    overflow: hidden;
 
     display: flex;
     gap: 4px;
@@ -118,6 +119,8 @@ iframe.goog-te-banner-frame {
     border-radius: 4px;
     
     /* Touch target 44px minimum */
+    min-width: 44px;
+    min-height: 44px;
     padding: 8px;
     cursor: pointer;
     transition: all 0.3s ease;

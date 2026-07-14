@@ -218,7 +218,7 @@ button,
 .course-meta-item,
 .news-date {
     font-size: 0.75rem !important;
-    color: #767676;
+    color: #666;
 }
 
 
@@ -739,7 +739,7 @@ body {
 .news-date {
   font-weight: 500;
   text-transform: uppercase;
-  color: #767676;
+  color: #666;
   margin-bottom: 0.5rem;
 }
 
@@ -877,7 +877,7 @@ body {
   left: 1rem;
   top: 50%;
   transform: translateY(-50%);
-  color: #767676;
+  color: #666;
 }
 
 /* =========================================================
@@ -2254,7 +2254,7 @@ iframe.goog-te-banner-frame {
 .member-name { font-weight: 500; font-size: 0.95rem; color: #222; }
 
 
-.member-role { font-size: 0.875rem; color: #767676; }
+.member-role { font-size: 0.875rem; color: #666; }
 
 
 /* Calendar Section */
@@ -2288,7 +2288,7 @@ iframe.goog-te-banner-frame {
 
 .event-date .month {
             font-size: 0.75rem; font-weight: 600; text-transform: uppercase;
-            color: #767676; letter-spacing: 1px;
+            color: #666; letter-spacing: 1px;
         }
 
 
@@ -2675,7 +2675,7 @@ iframe.goog-te-banner-frame {
 
 .team-info p {
             font-size: 0.875rem;
-            color: #767676;
+            color: #666;
             margin-bottom: 0.3rem;
             line-height: 1.4;
         }
@@ -3166,7 +3166,7 @@ iframe.goog-te-banner-frame {
 
 .course-date {
             font-size: 0.875rem;
-            color: #767676;
+            color: #666;
             font-weight: 500;
             text-transform: uppercase;
             margin-bottom: 0.5rem;
@@ -3202,7 +3202,7 @@ iframe.goog-te-banner-frame {
             display: flex;
             gap: 1rem;
             margin-bottom: 1.2rem;
-            color: #767676;
+            color: #666;
             border-top: 1px solid #eee;
             padding-top: 1rem;
         }
@@ -3373,7 +3373,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.staff-contact p { font-size: 0.875rem; color: #767676; margin-bottom: 0.25rem; }
+.staff-contact p { font-size: 0.875rem; color: #666; margin-bottom: 0.25rem; }
 
 
 .staff-contact p i { color: var(--primary-green); margin-right: 6px; font-size: 0.85rem; }
@@ -4030,7 +4030,7 @@ iframe.goog-te-banner-frame {
 .pub-card h6 { font-size: 0.9rem; font-weight: 500; color: #222; margin-bottom: 0.5rem; line-height: 1.4; }
 
 
-.pub-meta { cursor: pointer; font-size: 0.875rem; color: #767676; margin-bottom: 0.5rem; }
+.pub-meta { cursor: pointer; font-size: 0.875rem; color: #666; margin-bottom: 0.5rem; }
 
 
 .pub-meta span { margin-right: 1rem; }
@@ -4237,7 +4237,7 @@ iframe.goog-te-banner-frame {
             gap: 1rem;
             margin-bottom: 1.2rem;
             font-size: 0.875rem;
-            color: #767676;
+            color: #666;
             border-top: 1px solid #eee;
             padding-top: 1rem;
         }
@@ -4306,7 +4306,7 @@ iframe.goog-te-banner-frame {
 
 .pub-authors {
             font-size: 0.875rem;
-            color: #767676;
+            color: #666;
             margin-bottom: 0.5rem;
         }
 
@@ -4640,7 +4640,7 @@ iframe.goog-te-banner-frame {
 
 .meta-item {
             display: flex; align-items: center; gap: 6px;
-            font-size: 0.875rem; color: #767676;
+            font-size: 0.875rem; color: #666;
         }
 
 
@@ -4655,7 +4655,7 @@ iframe.goog-te-banner-frame {
 
 .platform-contact h6 {
             font-size: 0.875rem; font-weight: 500; text-transform: uppercase;
-            color: #767676; letter-spacing: 1px; margin-bottom: 0.75rem;
+            color: #666; letter-spacing: 1px; margin-bottom: 0.75rem;
         }
 
 
@@ -5037,7 +5037,7 @@ iframe.goog-te-banner-frame {
             gap: 0.5rem;
             margin-bottom: 1.2rem;
             font-size: 0.875rem;
-            color: #767676;
+            color: #666;
             border-top: 1px solid #eee;
             padding-top: 1rem;
         }
@@ -5126,7 +5126,7 @@ iframe.goog-te-banner-frame {
 
 .timeline-content .meta { cursor: pointer;
             font-size: 0.875rem;
-            color: #767676;
+            color: #666;
         }
 
 
@@ -5192,7 +5192,7 @@ iframe.goog-te-banner-frame {
 
 .partner-card p {
             font-size: 0.875rem;
-            color: #767676;
+            color: #666;
             margin-bottom: 0;
         }
 
@@ -5273,7 +5273,7 @@ iframe.goog-te-banner-frame {
 
 .pub-count {
             font-size: 0.85rem;
-            color: #767676;
+            color: #666;
             font-weight: 500;
         }
 
@@ -5505,7 +5505,7 @@ iframe.goog-te-banner-frame {
 .rotation-card p { font-size: 0.85rem; color: #666; line-height: 1.6; margin-bottom: 0; }
 
 
-.rotation-meta { cursor: pointer; color: #767676; margin-bottom: 0.5rem; }
+.rotation-meta { cursor: pointer; color: #666; margin-bottom: 0.5rem; }
 
 
 .rotation-meta span { margin-right: 1rem; }
@@ -6251,7 +6251,7 @@ section.page-header p,
     height: 80px;
 }
 .sg-shadow-box small {
-    color: #767676;
+    color: #666;
 }
 
 /* Typography demo table */
@@ -6260,7 +6260,7 @@ section.page-header p,
 .sg-type-header { font-size: clamp(1.625rem, 5.5vw, 2.8rem); font-weight: 700; color: #222; }
 .sg-type-lead { font-size: clamp(0.95rem, 2.5vw, 1.25rem); color: #555; }
 .sg-type-body { font-size: 1rem; color: #555; }
-.sg-type-small { font-size: 0.85rem; color: #767676; }
+.sg-type-small { font-size: 0.85rem; color: #666; }
 
 /* Badge demos (override position:absolute from real classes) */
 .sg-badge-demo {
@@ -6337,7 +6337,7 @@ section.page-header p,
 }
 .sg-media-demo-meta {
     font-size: 0.875rem;
-    color: #767676;
+    color: #666;
     margin-bottom: 0.5rem;
 }
 .sg-media-demo-title {
@@ -6506,4 +6506,29 @@ footer .h6 {
 .card a,
 .rge-card a {
     color: var(--primary-green);
+}
+
+
+/* Nav dropdown links — touch target */
+.navbar .dropdown-item,
+.navbar .nav-link {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+}
+
+/* Navbar — prevent horizontal overflow */
+.navbar {
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+.navbar .container {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Page header subtitle — min 14px */
+.page-header p {
+    font-size: 0.875rem !important;
 }

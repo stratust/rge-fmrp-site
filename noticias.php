@@ -17,6 +17,7 @@ require __DIR__ . '/includes/header.php';
 
 
     <!-- Featured News -->
+    <h2 class="visually-hidden">Notícias em destaque</h2>
     <section class="featured-news">
         <div class="container">
             <div class="section-label">Destaque</div>
