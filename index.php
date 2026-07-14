@@ -365,7 +365,7 @@ require __DIR__ . '/includes/header.php';
     const dotsEl = document.getElementById('newsDots');
     const prevBtn = document.getElementById('newsPrev');
     const nextBtn = document.getElementById('newsNext');
-    const cards = track.querySelectorAll('.news-card-col');
+    const cards = track.querySelectorAll('.media-card-col');
     let current = 0;
 
     function getVisible() {
