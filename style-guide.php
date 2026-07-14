@@ -20,7 +20,9 @@ require __DIR__ . '/includes/header.php';
 
 <!-- ===== STYLE GUIDE HEADER ===== -->
 <style>
-/* Style guide only: normalize h4 inside card demos to card-heading size */
+/* ===== Style Guide exclusive classes (never used in real pages) ===== */
+
+/* Normalize h4 inside card demos to card-heading size */
 .rge-card h4,
 .highlight-box h4 {
     font-size: var(--card-heading-size);
@@ -28,11 +30,263 @@ require __DIR__ . '/includes/header.php';
     color: var(--card-heading-color);
     margin-bottom: 0.5rem;
 }
+
+/* Section/sub-section headings */
+.sg-section-title {
+    font-size: clamp(1.25rem, 4vw, 1.875rem);
+    font-weight: 700;
+    color: #222;
+}
+.sg-subtitle {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #222;
+}
+.sg-subtitle-code {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary-green);
+}
+
+/* Demo text (card descriptions, icon descriptions) */
+.sg-demo-text {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+}
+.sg-demo-text-sm {
+    font-size: 0.85rem;
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+}
+.sg-meta-text {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Code blocks (dark theme) */
+.sg-code-block {
+    background: #1e1e2e;
+    color: #cdd6f4;
+    border-radius: 8px;
+    padding: 1rem;
+}
+.sg-code-block pre {
+    font-size: 0.8rem;
+    margin: 0;
+    color: #cdd6f4;
+}
+.sg-code-label {
+    color: #89b4fa;
+}
+.sg-code-block.rge-card {
+    padding: 1.5rem;
+}
+
+/* Color swatch */
+.sg-swatch {
+    border-radius: 12px;
+    padding: 1.5rem;
+    color: white;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.sg-swatch small {
+    opacity: 0.8;
+}
+
+/* Shadow demo box */
+.sg-shadow-box {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    height: 80px;
+}
+.sg-shadow-box small {
+    color: #767676;
+}
+
+/* Typography demo table */
+.sg-type-hero { font-size: clamp(1.75rem, 6vw, 3rem); font-weight: 700; color: #222; }
+.sg-type-section { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222; }
+.sg-type-header { font-size: clamp(1.625rem, 5.5vw, 2.8rem); font-weight: 700; color: #222; }
+.sg-type-lead { font-size: clamp(0.95rem, 2.5vw, 1.25rem); color: #555; }
+.sg-type-body { font-size: 1rem; color: #555; }
+.sg-type-small { font-size: 0.85rem; color: #767676; }
+
+/* Badge demos (override position:absolute from real classes) */
+.sg-badge-demo {
+    position: static;
+}
+
+/* Card demo label (small <code> inside demos) */
+.sg-card-label {
+    font-size: 0.75rem;
+}
+.sg-card-label-absolute {
+    font-size: 0.75rem;
+    position: absolute;
+    z-index: 1;
+}
+
+/* Media card demo internals */
+.sg-media-demo-img {
+    height: 100px;
+}
+.sg-media-demo-body {
+    padding: 1.5rem;
+}
+
+/* Profile demo avatar */
+.sg-demo-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary-green), var(--light-green));
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.sg-demo-avatar-sm {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #ddd;
+    flex-shrink: 0;
+}
+
+/* Highlight box demo */
+.sg-highlight-demo-h4 { color: white; }
+.sg-highlight-demo-p { font-size: 0.9rem; color: rgba(255,255,255,0.9); }
+.sg-highlight-demo-label { font-size: 0.75rem; color: rgba(255,255,255,0.7); }
+
+/* Icon gallery */
+.sg-icon-gallery {
+    font-size: 1.5rem;
+    color: var(--primary-green);
+}
+
+/* Chefia demo overrides */
+.sg-chefia-demo-header { height: 80px; }
+.sg-chefia-demo-body { padding-top: 2.5rem; }
+
+/* Media card demo (archetype 3) */
+.sg-media-demo-placeholder {
+    height: 140px;
+    background: linear-gradient(135deg, var(--primary-green), var(--light-green));
+    position: relative;
+    overflow: hidden;
+}
+.sg-media-demo-body-internal {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.sg-media-demo-meta {
+    font-size: 0.8rem;
+    color: #767676;
+    margin-bottom: 0.5rem;
+}
+.sg-media-demo-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 0.5rem;
+}
+.sg-media-demo-link {
+    margin-top: 0.5rem;
+}
+
+/* Profile card demo (archetype 4) */
+.sg-profile-demo-layout {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+.sg-profile-demo-avatar {
+    width: 55px;
+    height: 55px;
+    background: rgba(26,92,58,0.08);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-green);
+    font-weight: 600;
+    font-size: 1.3rem;
+    flex-shrink: 0;
+}
+.sg-profile-demo-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 0.2rem;
+}
+.sg-profile-demo-role {
+    font-size: 0.8rem;
+    color: var(--primary-green);
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+}
+.sg-profile-demo-link {
+    font-size: 0.8rem;
+    color: var(--primary-green);
+    font-weight: 500;
+}
+
+/* Demo card title */
+.sg-demo-card-title {
+    font-weight: 600;
+    color: #222;
+}
+.sg-discipline-demo-title {
+    margin-top: 0.5rem;
+}
+.sg-news-demo-body {
+    padding: 1.2rem;
+}
+
+/* Section alt background */
+.sg-section-alt {
+    background: var(--bg-light);
+}
+
+/* Rules list */
+.sg-rules-list {
+    line-height: 2;
+}
+
+/* Chefia demo */
+.sg-chefia-demo-avatar-offset {
+    bottom: -30px;
+}
+.sg-chefia-demo-icon {
+    font-size: 1.5rem;
+}
+
+/* Lab/news demo placeholders */
+.sg-lab-demo-img {
+    background: linear-gradient(135deg, var(--dark-green), var(--primary-green));
+    height: 80px;
+}
+.sg-news-demo-img {
+    background: linear-gradient(135deg, #ccc, #999);
+    height: 80px;
+}
 </style>
-<section class="page-header" style="background: linear-gradient(135deg, var(--primary-green) 0%, var(--dark-green) 100%); color: white;">
+<section class="page-header">
     <div class="container page-header-content">
-        <h1 style="color: white;">Design System</h1>
-        <p style="color: rgba(255,255,255,0.9);">Catálogo oficial de componentes. Use apenas estes componentes ao criar ou editar páginas.</p>
+        <h1>Design System</h1>
+        <p>Catálogo oficial de componentes. Use apenas estes componentes ao criar ou editar páginas.</p>
     </div>
 </section>
 
@@ -40,31 +294,31 @@ require __DIR__ . '/includes/header.php';
 <section class="py-5">
     <div class="container">
         <div class="section-label mb-2">Fundação</div>
-        <h2 class="mb-5" style="font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222;">Design Tokens</h2>
+        <h2 class="mb-5" class="sg-section-title">Design Tokens</h2>
 
         <!-- Colors -->
-        <h3 class="mb-4" style="font-size: 1.3rem; font-weight: 700; color: #222;">Cores</h3>
+        <h3 class="mb-4" class="sg-subtitle">Cores</h3>
         <div class="row g-3 mb-5">
             <div class="col-md-3 col-sm-6">
-                <div style="background: var(--primary-green); border-radius: 12px; padding: 1.5rem; color: white; height: 120px; display: flex; flex-direction: column; justify-content: flex-end;">
+                <div class="sg-swatch" style="background: var(--primary-green);">
                     <strong>--primary-green</strong>
-                    <small style="opacity: 0.8;">#1a5c3a</small>
+                    <small>#1a5c3a</small>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <div style="background: var(--dark-green); border-radius: 12px; padding: 1.5rem; color: white; height: 120px; display: flex; flex-direction: column; justify-content: flex-end;">
+                <div class="sg-swatch" style="background: var(--dark-green);">
                     <strong>--dark-green</strong>
-                    <small style="opacity: 0.8;">#0f3d26</small>
+                    <small>#0f3d26</small>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <div style="background: var(--light-green); border-radius: 12px; padding: 1.5rem; color: white; height: 120px; display: flex; flex-direction: column; justify-content: flex-end;">
+                <div class="sg-swatch" style="background: var(--light-green);">
                     <strong>--light-green</strong>
-                    <small style="opacity: 0.8;">#2d7a52</small>
+                    <small>#2d7a52</small>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <div style="background: var(--bg-light); border-radius: 12px; padding: 1.5rem; color: #222; height: 120px; display: flex; flex-direction: column; justify-content: flex-end; border: 1px solid rgba(0,0,0,0.06);">
+                <div class="sg-swatch" style="background: var(--bg-light); color: #222; border: 1px solid rgba(0,0,0,0.06);">
                     <strong>--bg-light</strong>
                     <small style="opacity: 0.6;">#f8f9fa</small>
                 </div>
@@ -72,7 +326,7 @@ require __DIR__ . '/includes/header.php';
         </div>
 
         <!-- Typography -->
-        <h3 class="mb-4" style="font-size: 1.3rem; font-weight: 700; color: #222;">Tipografia (Fluida com clamp)</h3>
+        <h3 class="mb-4" class="sg-subtitle">Tipografia (Fluida com clamp)</h3>
         <div class="rge-card p-4 mb-5">
             <table class="table table-sm">
                 <thead>
@@ -88,37 +342,37 @@ require __DIR__ . '/includes/header.php';
                         <td><code>h1 (hero)</code></td>
                         <td>Título principal de hero sections</td>
                         <td><code>clamp(1.75rem, 6vw, 3rem)</code></td>
-                        <td><span style="font-size: clamp(1.75rem, 6vw, 3rem); font-weight: 700; color: #222;">Hero Title</span></td>
+                        <td><span class="sg-type-hero">Hero Title</span></td>
                     </tr>
                     <tr>
                         <td><code>h2 (section)</code></td>
                         <td>Títulos de seção</td>
                         <td><code>clamp(1.375rem, 5vw, 2.2rem)</code></td>
-                        <td><span style="font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222;">Section Title</span></td>
+                        <td><span class="sg-section-title">Section Title</span></td>
                     </tr>
                     <tr>
                         <td><code>h2 (page-header)</code></td>
                         <td>Título no page-header</td>
                         <td><code>clamp(1.625rem, 5.5vw, 2.8rem)</code></td>
-                        <td><span style="font-size: clamp(1.625rem, 5.5vw, 2.8rem); font-weight: 700; color: #222;">Page Header</span></td>
+                        <td><span class="sg-type-header">Page Header</span></td>
                     </tr>
                     <tr>
                         <td><code>.lead</code></td>
                         <td>Parágrafo de destaque</td>
                         <td><code>clamp(0.95rem, 2.5vw, 1.25rem)</code></td>
-                        <td><span style="font-size: clamp(0.95rem, 2.5vw, 1.25rem); color: #555;">Lead paragraph text</span></td>
+                        <td><span class="sg-type-lead">Lead paragraph text</span></td>
                     </tr>
                     <tr>
                         <td><code>body</code></td>
                         <td>Texto de corpo</td>
                         <td><code>1rem (16px)</code></td>
-                        <td><span style="font-size: 1rem; color: #555;">Body text at 16px</span></td>
+                        <td><span class="sg-type-body">Body text at 16px</span></td>
                     </tr>
                     <tr>
                         <td><code>small</code></td>
                         <td>Metadados, captions</td>
                         <td><code>0.8rem – 0.9rem</code></td>
-                        <td><span style="font-size: 0.85rem; color: #767676;">Small caption text</span></td>
+                        <td><span class="sg-type-small">Small caption text</span></td>
                     </tr>
                 </tbody>
             </table>
@@ -126,34 +380,34 @@ require __DIR__ . '/includes/header.php';
         </div>
 
         <!-- Shadows -->
-        <h3 class="mb-4" style="font-size: 1.3rem; font-weight: 700; color: #222;">Sombras (Escadas semânticas)</h3>
+        <h3 class="mb-4" class="sg-subtitle">Sombras (Escadas semânticas)</h3>
         <div class="row g-3 mb-5">
             <div class="col-md-3 col-sm-6">
-                <div style="background: white; border-radius: 12px; padding: 1.5rem; box-shadow: var(--shadow-sm); height: 80px; border: 1px solid var(--border-soft);">
+                <div class="sg-shadow-box" style="box-shadow: var(--shadow-sm); border: 1px solid var(--border-soft);">
                     <small><strong>--shadow-sm</strong></small>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <div style="background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 3px 15px rgba(0,0,0,0.06); height: 80px;">
+                <div class="sg-shadow-box" style="box-shadow: 0 3px 15px rgba(0,0,0,0.06);">
                     <small><strong>card base</strong></small><br>
-                    <small style="color: #767676;">0 3px 15px rgba(0,0,0,0.06)</small>
+                    <small class="sg-shadow-box-small">0 3px 15px rgba(0,0,0,0.06)</small>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <div style="background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 8px 25px rgba(0,0,0,0.1); height: 80px;">
+                <div class="sg-shadow-box" style="box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
                     <small><strong>card hover</strong></small><br>
-                    <small style="color: #767676;">0 8px 25px rgba(0,0,0,0.1)</small>
+                    <small class="sg-shadow-box-small">0 8px 25px rgba(0,0,0,0.1)</small>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <div style="background: white; border-radius: 12px; padding: 1.5rem; box-shadow: var(--shadow-lg); height: 80px;">
+                <div class="sg-shadow-box" style="box-shadow: var(--shadow-lg);">
                     <small><strong>--shadow-lg</strong></small>
                 </div>
             </div>
         </div>
 
         <!-- Spacing -->
-        <h3 class="mb-4" style="font-size: 1.3rem; font-weight: 700; color: #222;">Espaçamento (Grid 8pt)</h3>
+        <h3 class="mb-4" class="sg-subtitle">Espaçamento (Grid 8pt)</h3>
         <div class="rge-card p-4 mb-5">
             <table class="table table-sm">
                 <thead>
@@ -175,7 +429,7 @@ require __DIR__ . '/includes/header.php';
         </div>
 
         <!-- Border Radius -->
-        <h3 class="mb-4" style="font-size: 1.3rem; font-weight: 700; color: #222;">Border Radius</h3>
+        <h3 class="mb-4" class="sg-subtitle">Border Radius</h3>
         <div class="rge-card p-4 mb-5">
             <table class="table table-sm">
                 <thead><tr><th>Componente</th><th>Valor</th></tr></thead>
@@ -192,26 +446,26 @@ require __DIR__ . '/includes/header.php';
 </section>
 
 <!-- ===== CARD SYSTEM ===== -->
-<section class="py-5" style="background: var(--bg-light);">
+<section class="py-5 sg-section-alt">
     <div class="container">
         <div class="section-label mb-2">Arquitetura</div>
-        <h2 class="mb-3" style="font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222;">Card System</h2>
+        <h2 class="mb-3" class="sg-section-title">Card System</h2>
         <p class="lead mb-5">5 arquitipos base. Tudo no site é uma variação destes. <strong>Não crie um novo tipo de card sem justificativa.</strong></p>
 
         <!-- Arquétipo 1: Content Card -->
-        <h3 class="mb-2" style="font-size: 1.3rem; font-weight: 700; color: #222;">1. Content Card <code>.rge-card</code></h3>
+        <h3 class="mb-2" class="sg-subtitle">1. Content Card <code>.rge-card</code></h3>
         <p class="text-muted mb-4">Base de todos os cards. Fundo branco, border-radius 12px, sombra suave, hover levanta. <strong>Use sempre a classe <code>rge-card</code></strong> como base.</p>
         <div class="row g-4 mb-5">
             <div class="col-md-4">
-                <div class="rge-card p-4" style="height: 100%;">
-                    <h4 class="mb-2" style="font-weight: 600; color: #222;">Título do card</h4>
-                    <p style="font-size: 0.9rem; color: #666; line-height: 1.6; margin: 0;">Conteúdo do card base. Use este para informação genérica que não tem imagem nem ícone.</p>
+                <div class="rge-card p-4 h-100">
+                    <h4 class="mb-2 sg-demo-card-title">Título do card</h4>
+                    <p class="sg-demo-text">Conteúdo do card base. Use este para informação genérica que não tem imagem nem ícone.</p>
                 </div>
             </div>
             <div class="col-md-8">
-                <div class="rge-card p-4" style="background: #1e1e2e; color: #cdd6f4;">
-                    <small style="color: #89b4fa;">HTML:</small>
-<pre style="font-size: 0.8rem; margin: 0; color: #cdd6f4;"><code>&lt;div class="rge-card p-4"&gt;
+                <div class="rge-card sg-code-block">
+                    <small class="sg-code-label">HTML:</small>
+<pre><code>&lt;div class="rge-card p-4"&gt;
     &lt;h5&gt;Título do card&lt;/h5&gt;
     &lt;p&gt;Conteúdo...&lt;/p&gt;
 &lt;/div&gt;</code></pre>
@@ -220,11 +474,11 @@ require __DIR__ . '/includes/header.php';
         </div>
 
         <!-- Arquétipo 2: Icon Card -->
-        <h3 class="mb-2" style="font-size: 1.3rem; font-weight: 700; color: #222;">2. Icon Card <code>.rge-card</code> + <code>.icon-box</code></h3>
+        <h3 class="mb-2" class="sg-subtitle">2. Icon Card <code>.rge-card</code> + <code>.icon-box</code></h3>
         <p class="text-muted mb-4">Card com ícone no topo. Páginas usam <code>.icon-card .rge-card</code> + <code>.icon-box</code>.</p>
         <div class="row g-4 mb-5">
             <div class="col-md-4">
-                <div class="info-card rge-card" style="height: 100%;">
+                <div class="info-card rge-card h-100">
                     <div class="icon-box"><i class="bi bi-info-circle"></i></div>
                     <h4>Information</h4>
                     <p>Este é o padrão de icon card usado em info-card, contact-card, equipment-card, partner-card, step-card.</p>
@@ -232,7 +486,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="contact-card rge-card" style="height: 100%;">
+                <div class="contact-card rge-card h-100">
                     <div class="contact-icon"><i class="bi bi-envelope"></i></div>
                     <h4>Contato</h4>
                     <p>Email e telefone.</p>
@@ -240,9 +494,9 @@ require __DIR__ . '/includes/header.php';
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="rge-card p-4" style="background: #1e1e2e; color: #cdd6f4;">
-                    <small style="color: #89b4fa;">HTML pattern:</small>
-<pre style="font-size: 0.8rem; margin: 0; color: #cdd6f4;"><code>&lt;div class="rge-card p-4"&gt;
+                <div class="rge-card sg-code-block">
+                    <small class="sg-code-label">HTML pattern:</small>
+<pre><code>&lt;div class="rge-card p-4"&gt;
     &lt;div class="icon-box"&gt;
         &lt;i class="bi bi-*"&gt;&lt;/i&gt;
     &lt;/div&gt;
@@ -254,26 +508,26 @@ require __DIR__ . '/includes/header.php';
         </div>
 
         <!-- Arquétipo 3: Media Card -->
-        <h3 class="mb-2" style="font-size: 1.3rem; font-weight: 700; color: #222;">3. Media Card <code>.rge-card</code> + imagem</h3>
+        <h3 class="mb-2" class="sg-subtitle">3. Media Card <code>.rge-card</code> + imagem</h3>
         <p class="text-muted mb-4">Card com imagem no topo. Páginas usam <code>.media-card .rge-card</code> (padding 0, imagem edge-to-edge).</p>
         <div class="row g-4 mb-5">
             <div class="col-md-4">
-                <div class="course-card rge-card" style="height: 100%; display: flex; flex-direction: column;">
-                    <div style="height: 140px; background: linear-gradient(135deg, var(--primary-green), var(--light-green)); position: relative; overflow: hidden;">
-                        <span style="position: absolute; top: 12px; left: 12px; background: var(--primary-green); color: white; padding: 0.3rem 0.9rem; border-radius: 50px; font-size: 0.7rem; font-weight: 600; text-transform: uppercase;">Badge</span>
+                <div class="course-card rge-card h-100">
+                    <div class="sg-media-demo-placeholder">
+                        <span class="course-badge sg-badge-demo">Badge</span>
                     </div>
-                    <div style="padding: 1.5rem; flex-grow: 1; display: flex; flex-direction: column;">
-                        <div style="font-size: 0.8rem; color: #767676; margin-bottom: 0.5rem;"><i class="bi bi-calendar" style="color: var(--primary-green);"></i> Data</div>
-                        <h4 style="font-size: 1.05rem; font-weight: 600; color: #222; margin-bottom: 0.5rem;">Media Card Title</h4>
-                        <p style="font-size: 0.85rem; color: #666; line-height: 1.6; flex-grow: 1;">Descrição do conteúdo do media card.</p>
-                        <a href="#" class="course-link" style="margin-top: 0.5rem;">Saiba mais <i class="bi bi-arrow-right"></i></a>
+                    <div class="sg-media-demo-body-internal">
+                        <div class="sg-media-demo-meta"><i class="bi bi-calendar"></i> Data</div>
+                        <h4 class="sg-media-demo-title">Media Card Title</h4>
+                        <p class="sg-demo-text-sm" style="flex-grow: 1;">Descrição do conteúdo do media card.</p>
+                        <a href="#" class="course-link sg-media-demo-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-md-8">
-                <div class="rge-card p-4" style="background: #1e1e2e; color: #cdd6f4;">
-                    <small style="color: #89b4fa;">HTML pattern:</small>
-<pre style="font-size: 0.8rem; margin: 0; color: #cdd6f4;"><code>&lt;div class="rge-card" style="overflow: hidden"&gt;
+                <div class="rge-card sg-code-block">
+                    <small class="sg-code-label">HTML pattern:</small>
+<pre><code>&lt;div class="rge-card" style="overflow: hidden"&gt;
     &lt;div style="height: 200px; overflow: hidden"&gt;
         &lt;img src="..." style="object-fit: cover; width: 100%; height: 100%"&gt;
         &lt;span class="badge-pill"&gt;Badge&lt;/span&gt;
@@ -289,25 +543,25 @@ require __DIR__ . '/includes/header.php';
         </div>
 
         <!-- Arquétipo 4: Profile Card -->
-        <h3 class="mb-2" style="font-size: 1.3rem; font-weight: 700; color: #222;">4. Profile Card <code>.profile-card</code></h3>
+        <h3 class="mb-2" class="sg-subtitle">4. Profile Card <code>.profile-card</code></h3>
         <p class="text-muted mb-4">Card de pessoa com foto, nome, cargo e Lattes. Páginas usam <code>.profile-card .rge-card</code>.</p>
         <div class="row g-4 mb-5">
             <div class="col-md-4">
-                <div class="func-card rge-card" style="height: 100%;">
-                    <div style="display: flex; gap: 1rem; align-items: flex-start;">
-                        <div style="width: 55px; height: 55px; background: rgba(26,92,58,0.08); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--primary-green); font-weight: 600; font-size: 1.3rem; flex-shrink: 0;">JD</div>
+                <div class="func-card rge-card h-100">
+                    <div class="sg-profile-demo-layout">
+                        <div class="sg-profile-demo-avatar">JD</div>
                         <div>
-                            <h4 style="font-size: 1rem; font-weight: 600; color: #222; margin-bottom: 0.2rem;">Jane Doe</h4>
-                            <div style="font-size: 0.8rem; color: var(--primary-green); font-weight: 500; margin-bottom: 0.4rem;">Pesquisadora</div>
-                            <a href="#" style="font-size: 0.8rem; color: var(--primary-green); font-weight: 500;">Lattes →</a>
+                            <h4 class="sg-profile-demo-name">Jane Doe</h4>
+                            <div class="sg-profile-demo-role">Pesquisadora</div>
+                            <a href="#" class="sg-profile-demo-link">Lattes →</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-8">
-                <div class="rge-card p-4" style="background: #1e1e2e; color: #cdd6f4;">
-                    <small style="color: #89b4fa;">HTML pattern:</small>
-<pre style="font-size: 0.8rem; margin: 0; color: #cdd6f4;"><code>&lt;div class="rge-card p-3"&gt;
+                <div class="rge-card sg-code-block">
+                    <small class="sg-code-label">HTML pattern:</small>
+<pre><code>&lt;div class="rge-card p-3"&gt;
     &lt;div style="display: flex; gap: 1rem"&gt;
         &lt;img src="foto.jpg" class="profile-photo"&gt;
         &lt;div&gt;
@@ -322,7 +576,7 @@ require __DIR__ . '/includes/header.php';
         </div>
 
         <!-- Arquétipo 5: Highlight/Info Box -->
-        <h3 class="mb-2" style="font-size: 1.3rem; font-weight: 700; color: #222;">5. Highlight Box <code>.highlight-box</code></h3>
+        <h3 class="mb-2" class="sg-subtitle">5. Highlight Box <code>.highlight-box</code></h3>
         <p class="text-muted mb-4">Box de destaque para informações importantes, não é um card clicável.</p>
         <div class="highlight-box mb-5">
             <h3><i class="bi bi-info-circle me-2"></i>Box de Informação</h3>
@@ -330,7 +584,7 @@ require __DIR__ . '/includes/header.php';
         </div>
 
         <!-- Indexação de variantes -->
-        <h3 class="mb-3" style="font-size: 1.3rem; font-weight: 700; color: #222;">Mapeamento: Classes reais usadas nas páginas</h3>
+        <h3 class="mb-3" class="sg-subtitle">Mapeamento: Classes reais usadas nas páginas</h3>
         <div class="rge-card p-4 mb-5">
             <table class="table table-sm mb-0">
                 <thead>
@@ -360,115 +614,115 @@ require __DIR__ . '/includes/header.php';
             <p class="mt-3 mb-0"><strong>Verde:</strong> arquétipos do design system. <strong>Azul:</strong> classes especializadas (uma página/seção específica). Para criar uma página nova, use os arquétipos verdes.</p>
         </div>
 
-        <h3 class="mb-3" style="font-size: 1.3rem; font-weight: 700; color: #222;">Galeria: arquétipos e classes especiais em uso</h3>
+        <h3 class="mb-3" class="sg-subtitle">Galeria: arquétipos e classes especiais em uso</h3>
         <p class="text-muted mb-4">Estes são os cards reais usados nas páginas do site. Copie o padrão HTML da seção acima.</p>
 
         <!-- ── Arquétipos base ── -->
-        <h4 class="mb-3" style="font-size: 1.1rem; font-weight: 600; color: var(--primary-green);">Arquétipos (.rge-card base)</h4>
+        <h4 class="mb-3" class="sg-subtitle-code">Arquétipos (.rge-card base)</h4>
         <div class="row g-4 mb-5">
             <div class="col-md-6 col-lg-4">
                 <div class="content-card rge-card h-100">
-                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.content-card .rge-card</code>
+                    <code class="d-block mb-2 text-muted sg-card-label">.content-card .rge-card</code>
                     <h4>Content Card</h4>
-                    <p style="font-size: 0.9rem; color: #666;">Card de texto genérico. Usado em comissões, linhas de pesquisa, publicações, etc.</p>
+                    <p class="sg-demo-text">Card de texto genérico. Usado em comissões, linhas de pesquisa, publicações, etc.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="icon-card rge-card h-100">
-                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.icon-card .rge-card</code>
+                    <code class="d-block mb-2 text-muted sg-card-label">.icon-card .rge-card</code>
                     <div class="icon-box"><i class="bi bi-info-circle"></i></div>
                     <h4>Icon Card</h4>
-                    <p style="font-size: 0.9rem; color: #666;">Card com ícone no topo. Ensino, contato, serviços, plataformas.</p>
+                    <p class="sg-demo-text">Card com ícone no topo. Ensino, contato, serviços, plataformas.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
-                <div class="media-card rge-card h-100" style="overflow: hidden;">
-                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem; position: absolute; z-index: 1;">.media-card .rge-card</code>
-                    <div style="background: linear-gradient(135deg, var(--light-green), var(--primary-green)); height: 100px;"></div>
-                    <div style="padding: 1.5rem;">
+                <div class="media-card rge-card h-100" >
+                    <code class="d-block mb-2 text-muted sg-card-label-absolute">.media-card .rge-card</code>
+                    <div class="sg-media-demo-img sg-media-demo-placeholder" style="height: 100px;"></div>
+                    <div class="sg-media-demo-body">
                         <h4>Media Card</h4>
-                        <p style="font-size: 0.9rem; color: #666;">Imagem edge-to-edge + body com padding. Notícias, cursos, projetos.</p>
+                        <p class="sg-demo-text">Imagem edge-to-edge + body com padding. Notícias, cursos, projetos.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="profile-card rge-card h-100 text-center">
-                    <code class="d-block mb-2 text-muted text-start" style="font-size: 0.75rem;">.profile-card .rge-card</code>
-                    <div style="width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, var(--primary-green), var(--light-green)); margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.5rem;">JD</div>
+                    <code class="d-block mb-2 text-muted text-start sg-card-label">.profile-card .rge-card</code>
+                    <div class="sg-demo-avatar">JD</div>
                     <h4>Jane Doe</h4>
-                    <p style="font-size: 0.9rem; color: #666;">Docentes, funcionários, equipe.</p>
+                    <p class="sg-demo-text">Docentes, funcionários, equipe.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="highlight-box h-100">
-                    <code class="d-block mb-2" style="font-size: 0.75rem; color: rgba(255,255,255,0.7);">.highlight-box</code>
-                    <h4 style="color: white;">Highlight Box</h4>
-                    <p style="font-size: 0.9rem; color: rgba(255,255,255,0.9);">Box de destaque com fundo gradiente verde. Não é card clicável.</p>
+                    <code class="d-block mb-2 sg-highlight-demo-label">.highlight-box</code>
+                    <h4 class="sg-highlight-demo-h4">Highlight Box</h4>
+                    <p class="sg-highlight-demo-p">Box de destaque com fundo gradiente verde. Não é card clicável.</p>
                 </div>
             </div>
         </div>
 
         <!-- ── Classes especializadas ── -->
-        <h4 class="mb-3" style="font-size: 1.1rem; font-weight: 600; color: var(--primary-green);">Classes Especializadas (páginas específicas)</h4>
+        <h4 class="mb-3" class="sg-subtitle-code">Classes Especializadas (páginas específicas)</h4>
         <div class="row g-4 mb-5">
             <div class="col-md-6 col-lg-4">
-                <div class="chefia-card rge-card h-100 text-center" style="overflow: hidden; padding: 0;">
-                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem; position: absolute; z-index: 1;">.chefia-card-header + .chefia-card-body</code>
-                    <div class="chefia-card-header" style="height: 80px;">
+                <div class="chefia-card rge-card h-100 text-center" >
+                    <code class="d-block mb-2 text-muted sg-card-label-absolute">.chefia-card-header + .chefia-card-body</code>
+                    <div class="chefia-card-header sg-chefia-demo-header">
                         <span class="chefia-badge">Chefe</span>
-                        <div class="chefia-avatar" style="bottom: -30px;"><i class="bi bi-person" style="font-size: 1.5rem;"></i></div>
+                        <div class="chefia-avatar sg-chefia-demo-avatar-offset"><i class="bi bi-person sg-chefia-demo-icon"></i></div>
                     </div>
-                    <div class="chefia-card-body" style="padding-top: 2.5rem;">
+                    <div class="chefia-card-body sg-chefia-demo-body">
                         <h4>Nome do Chefe</h4>
-                        <p style="font-size: 0.85rem; color: #666;">Usado em chefia.php</p>
+                        <p class="sg-demo-text-sm">Usado em chefia.php</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="founder-card rge-card h-100">
-                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.founder-card</code>
-                    <div style="display: flex; gap: 1rem;">
-                        <div style="width: 70px; height: 70px; border-radius: 50%; background: #ddd; flex-shrink: 0;"></div>
+                    <code class="d-block mb-2 text-muted sg-card-label">.founder-card</code>
+                    <div class="sg-profile-demo-layout">
+                        <div class="sg-demo-avatar-sm"></div>
                         <div>
                             <h4>Prof. Dr. Nome</h4>
-                            <p style="font-size: 0.85rem; color: #666;">Fundadores. Usado em historia.php</p>
+                            <p class="sg-demo-text-sm">Fundadores. Usado em historia.php</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
-                <div class="lab-card rge-card h-100" style="overflow: hidden; padding: 0;">
-                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem; position: absolute; z-index: 1;">.lab-card</code>
-                    <div style="background: linear-gradient(135deg, var(--dark-green), var(--primary-green)); height: 80px;"></div>
-                    <div style="padding: 1.5rem;">
+                <div class="lab-card rge-card h-100" >
+                    <code class="d-block mb-2 text-muted sg-card-label-absolute">.lab-card</code>
+                    <div class="sg-lab-demo-img"></div>
+                    <div class="sg-media-demo-body">
                         <h4>Nome do Laboratório</h4>
-                        <p style="font-size: 0.85rem; color: #666;">Labs com imagem. Usado em laboratorios.php</p>
+                        <p class="sg-demo-text-sm">Labs com imagem. Usado em laboratorios.php</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="discipline-card rge-card h-100">
-                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem;">.discipline-card</code>
+                    <code class="d-block mb-2 text-muted sg-card-label">.discipline-card</code>
                     <span class="discipline-tag">PGG-001</span>
-                    <h4 style="margin-top: 0.5rem;">Nome da Disciplina</h4>
-                    <p style="font-size: 0.85rem; color: #666;">Disciplinas. Usado em graduacao/pos-grad.php</p>
+                    <h4 class="sg-discipline-demo-title">Nome da Disciplina</h4>
+                    <p class="sg-demo-text-sm">Disciplinas. Usado em graduacao/pos-grad.php</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="feature-card rge-card h-100 text-center">
-                    <code class="d-block mb-2 text-muted text-start" style="font-size: 0.75rem;">.feature-card</code>
+                    <code class="d-block mb-2 text-muted text-start sg-card-label">.feature-card</code>
                     <div class="feature-icon"><i class="bi bi-mortarboard-fill"></i></div>
                     <h4>Ensino</h4>
-                    <p style="font-size: 0.85rem; color: #666;">4 cards do hero. Usado em index.php</p>
+                    <p class="sg-demo-text-sm">4 cards do hero. Usado em index.php</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
-                <div class="news-card rge-card h-100" style="overflow: hidden; padding: 0;">
-                    <code class="d-block mb-2 text-muted" style="font-size: 0.75rem; position: absolute; z-index: 1;">.news-card</code>
-                    <div style="background: linear-gradient(135deg, #ccc, #999); height: 80px;"></div>
-                    <div class="news-body" style="padding: 1.2rem;">
+                <div class="news-card rge-card h-100" >
+                    <code class="d-block mb-2 text-muted sg-card-label-absolute">.news-card</code>
+                    <div class="sg-news-demo-img"></div>
+                    <div class="news-body sg-news-demo-body">
                         <span class="badge bg-success">Pesquisa</span>
-                        <h4 style="margin-top: 0.5rem;">Título da notícia</h4>
+                        <h4 class="sg-discipline-demo-title">Título da notícia</h4>
                     </div>
                 </div>
             </div>
@@ -480,9 +734,9 @@ require __DIR__ . '/includes/header.php';
 <section class="py-5">
     <div class="container">
         <div class="section-label mb-2">Ações</div>
-        <h2 class="mb-5" style="font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222;">Botões & Links</h2>
+        <h2 class="mb-5" class="sg-section-title">Botões & Links</h2>
 
-        <h3 class="mb-4" style="font-size: 1.3rem; font-weight: 700; color: #222;">Botões Primários (Pill Shape)</h3>
+        <h3 class="mb-4" class="sg-subtitle">Botões Primários (Pill Shape)</h3>
         <div class="rge-card p-4 mb-5">
             <div class="d-flex flex-wrap gap-3 mb-4">
                 <a href="#" class="btn btn-green">Botão Verde <i class="bi bi-arrow-right ms-1"></i></a>
@@ -490,8 +744,8 @@ require __DIR__ . '/includes/header.php';
                 <a href="#" class="btn-white">Botão Branco</a>
                 <a href="#" class="btn-outline-white">Outline Branco</a>
             </div>
-            <div style="background: #1e1e2e; color: #cdd6f4; border-radius: 8px; padding: 1rem;">
-<pre style="font-size: 0.8rem; margin: 0; color: #cdd6f4;"><code>&lt;a class="btn btn-green"&gt;Texto &lt;i class="bi bi-arrow-right ms-1"&gt;&lt;/i&gt;&lt;/a&gt;
+            <div class="sg-code-block">
+<pre><code>&lt;a class="btn btn-green"&gt;Texto &lt;i class="bi bi-arrow-right ms-1"&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;a class="btn-submit"&gt;Submit&lt;/a&gt;
 &lt;a class="btn-white"&gt;Branco&lt;/a&gt;
 &lt;a class="btn-outline-white"&gt;Outline Branco&lt;/a&gt;</code></pre>
@@ -507,7 +761,7 @@ require __DIR__ . '/includes/header.php';
             </table>
         </div>
 
-        <h3 class="mb-4" style="font-size: 1.3rem; font-weight: 700; color: #222;">Links de Ação</h3>
+        <h3 class="mb-4" class="sg-subtitle">Links de Ação</h3>
         <div class="rge-card p-4 mb-5">
             <div class="d-flex flex-column gap-3 mb-4">
                 <a href="#" class="feature-link">Saiba Mais →</a>
@@ -527,22 +781,22 @@ require __DIR__ . '/includes/header.php';
 </section>
 
 <!-- ===== BADGES & TAGS ===== -->
-<section class="py-5" style="background: var(--bg-light);">
+<section class="py-5 sg-section-alt">
     <div class="container">
         <div class="section-label mb-2">Metadados</div>
-        <h2 class="mb-5" style="font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222;">Badges & Tags</h2>
+        <h2 class="mb-5" class="sg-section-title">Badges & Tags</h2>
         <div class="rge-card p-4">
             <div class="d-flex flex-wrap gap-3 mb-4 align-items-center">
-                <span class="program-badge" style="position: static;">Program Badge</span>
-                <span class="course-badge" style="position: static;">Course Badge</span>
-                <span class="course-badge online" style="position: static;">Online</span>
-                <span class="course-badge hybrid" style="position: static;">Híbrido</span>
-                <span class="project-status active" style="position: static;">Ativo</span>
-                <span class="project-status completed" style="position: static;">Concluído</span>
-                <span class="project-status new" style="position: static;">Novo</span>
+                <span class="program-badge" class="sg-badge-demo">Program Badge</span>
+                <span class="course-badge" class="sg-badge-demo">Course Badge</span>
+                <span class="course-badge online" class="sg-badge-demo">Online</span>
+                <span class="course-badge hybrid" class="sg-badge-demo">Híbrido</span>
+                <span class="project-status active" class="sg-badge-demo">Ativo</span>
+                <span class="project-status completed" class="sg-badge-demo">Concluído</span>
+                <span class="project-status new" class="sg-badge-demo">Novo</span>
                 <span class="discipline-tag">Optativa</span>
                 <span class="project-tag">Genética</span>
-                <span class="badge-highlight" style="position: static;">Destaque</span>
+                <span class="badge-highlight" class="sg-badge-demo">Destaque</span>
             </div>
             <table class="table table-sm">
                 <thead><tr><th>Classe</th><th>Tipo</th><th>Uso</th></tr></thead>
@@ -563,35 +817,35 @@ require __DIR__ . '/includes/header.php';
 <section class="py-5">
     <div class="container">
         <div class="section-label mb-2">Pictogramas</div>
-        <h2 class="mb-5" style="font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222;">Padrões de Ícones</h2>
+        <h2 class="mb-5" class="sg-section-title">Padrões de Ícones</h2>
 
         <div class="row g-4 mb-5">
             <div class="col-md-4">
                 <div class="rge-card p-4 text-center">
                     <div class="icon-box mx-auto mb-3"><i class="bi bi-info-circle"></i></div>
                     <h4>Icon Box <code>.icon-box</code></h4>
-                    <p style="font-size: 0.85rem; color: #666;">Quadrado com fundo verde claro, ícone verde. Tamanho 50×50px, radius 10px.</p>
+                    <p class="sg-demo-text-sm">Quadrado com fundo verde claro, ícone verde. Tamanho 50×50px, radius 10px.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="rge-card p-4 text-center">
                     <div class="program-icon mx-auto mb-3"><i class="bi bi-mortarboard"></i></div>
                     <h4>Gradient Icon <code>.program-icon</code></h4>
-                    <p style="font-size: 0.85rem; color: #666;">Quadrado com gradiente verde, ícone branco. Tamanho 56×56px, radius 14px.</p>
+                    <p class="sg-demo-text-sm">Quadrado com gradiente verde, ícone branco. Tamanho 56×56px, radius 14px.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="rge-card p-4 text-center">
                     <div class="contact-icon mx-auto mb-3"><i class="bi bi-envelope"></i></div>
                     <h4>Contact Icon <code>.contact-icon</code></h4>
-                    <p style="font-size: 0.85rem; color: #666;">Idêntico ao icon-box. Use icon-box preferencialmente.</p>
+                    <p class="sg-demo-text-sm">Idêntico ao icon-box. Use icon-box preferencialmente.</p>
                 </div>
             </div>
         </div>
 
         <div class="rge-card p-4">
             <h4 class="mb-3">Ícones Bootstrap disponíveis (biblioteca: Bootstrap Icons)</h4>
-            <div class="d-flex flex-wrap gap-2" style="font-size: 1.5rem; color: var(--primary-green);">
+            <div class="d-flex flex-wrap gap-2 sg-icon-gallery">
                 <i class="bi bi-mortarboard"></i>
                 <i class="bi bi-award"></i>
                 <i class="bi bi-lightning-charge"></i>
@@ -622,35 +876,35 @@ require __DIR__ . '/includes/header.php';
 </section>
 
 <!-- ===== LAYOUT SECTIONS ===== -->
-<section class="py-5" style="background: var(--bg-light);">
+<section class="py-5 sg-section-alt">
     <div class="container">
         <div class="section-label mb-2">Estrutura</div>
-        <h2 class="mb-5" style="font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222;">Seções de Layout</h2>
+        <h2 class="mb-5" class="sg-section-title">Seções de Layout</h2>
 
         <div class="rge-card p-4 mb-4">
             <h4>Page Header <code>.page-header</code></h4>
-            <p style="font-size: 0.9rem; color: #666;">Fundo verde com gradiente, breadcrumb, título h1 e subtítulo. <strong>Toda página tem.</strong></p>
+            <p class="sg-demo-text">Fundo verde com gradiente, breadcrumb, título h1 e subtítulo. <strong>Toda página tem.</strong></p>
         </div>
 
         <div class="rge-card p-4 mb-4">
             <h4>Section Label <code>.section-label</code></h4>
             <div class="section-label mb-2">Exemplo de label</div>
-            <p style="font-size: 0.9rem; color: #666;">Label pequeno acima do título de cada seção. Texto verde, uppercase, letter-spacing.</p>
+            <p class="sg-demo-text">Label pequeno acima do título de cada seção. Texto verde, uppercase, letter-spacing.</p>
         </div>
 
         <div class="rge-card p-4 mb-4">
             <h4>Alternância de fundo de seção</h4>
-            <p style="font-size: 0.9rem; color: #666;">Seções alternam entre <code>background: white</code> e <code>background: var(--bg-light)</code>. Sempre use <code>padding: 4rem 0</code> (mobile: <code>3rem 0</code>).</p>
+            <p class="sg-demo-text">Seções alternam entre <code>background: white</code> e <code>background: var(--bg-light)</code>. Sempre use <code>padding: 4rem 0</code> (mobile: <code>3rem 0</code>).</p>
         </div>
 
         <div class="rge-card p-4 mb-4">
             <h4>CTA Section <code>.cta-section</code></h4>
-            <p style="font-size: 0.9rem; color: #666;">Seção de fundo verde no final de páginas para call-to-action. Contém título, texto e botão branco.</p>
+            <p class="sg-demo-text">Seção de fundo verde no final de páginas para call-to-action. Contém título, texto e botão branco.</p>
         </div>
 
         <div class="rge-card p-4">
             <h4>Grid de cards (Bootstrap)</h4>
-            <p style="font-size: 0.9rem; color: #666;">Use <code>.row.g-4</code> com colunas Bootstrap:</p>
+            <p class="sg-demo-text">Use <code>.row.g-4</code> com colunas Bootstrap:</p>
             <table class="table table-sm">
                 <thead><tr><th>Contexto</th><th>Classes</th></tr></thead>
                 <tbody>
@@ -668,7 +922,7 @@ require __DIR__ . '/includes/header.php';
 <section class="py-5">
     <div class="container">
         <div class="section-label mb-2">Input</div>
-        <h2 class="mb-5" style="font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222;">Formulários</h2>
+        <h2 class="mb-5" class="sg-section-title">Formulários</h2>
         <div class="rge-card p-4">
             <form class="contact-form">
                 <div class="mb-3">
@@ -695,12 +949,12 @@ require __DIR__ . '/includes/header.php';
 </section>
 
 <!-- ===== RULES ===== -->
-<section class="py-5" style="background: var(--bg-light);">
+<section class="py-5 sg-section-alt">
     <div class="container">
         <div class="section-label mb-2">Regras Críticas</div>
-        <h2 class="mb-5" style="font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222;">Regras Para Novas Páginas</h2>
+        <h2 class="mb-5" class="sg-section-title">Regras Para Novas Páginas</h2>
         <div class="rge-card p-4">
-            <ol style="line-height: 2;">
+            <ol class="sg-rules-list">
                 <li><strong>Sempre comece com:</strong> <code>$pageTitle</code> → <code>require header.php</code> → conteúdo → <code>require footer.php</code></li>
                 <li><strong>Toda página tem <code>.page-header</code></strong> com breadcrumb e título h1.</li>
                 <li><strong>Use <code>clamp()</code> para tipografia</strong> — nunca <code>font-size</code> em <code>@media</code>.</li>
