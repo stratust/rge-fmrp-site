@@ -298,7 +298,7 @@ body {
 .navbar-nav .nav-link {
   color: #444;
   font-weight: 500;
-  font-size: 0.85rem;
+  font-size: 0.875rem;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   padding: 1rem 1rem !important;
@@ -378,10 +378,14 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.breadcrumb-custom a { cursor: pointer;
+.breadcrumb-custom a {
   color: rgba(255,255,255,0.7);
   text-decoration: none;
-  font-size: 0.85rem;
+  font-size: 0.875rem;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 4px;
 }
 
 .breadcrumb-custom a:hover,
@@ -390,7 +394,7 @@ body {
 }
 
 .breadcrumb-custom .active {
-  font-size: 0.85rem;
+  font-size: 0.875rem;
 }
 
 .breadcrumb-custom .separator {
@@ -760,7 +764,7 @@ body {
 .news-link {
   color: var(--primary-green);
   text-decoration: none;
-  font-size: 0.85rem;
+  font-size: 0.875rem;
 }
 
 
@@ -841,7 +845,7 @@ body {
   border: 1px solid #ddd;
   background: white;
   color: #555;
-  font-size: 0.85rem;
+  font-size: 0.875rem;
   font-weight: 500;
   transition: all 0.3s ease;
   margin: 0 5px 5px 0;
@@ -979,7 +983,7 @@ body {
 }
 
 .docente-area { cursor: pointer;
-  font-size: 0.85rem;
+  font-size: 0.875rem;
   color: #555;
   line-height: 1.5;
   margin-bottom: 1rem;
@@ -1166,7 +1170,7 @@ body {
 
 .func-detail i {
   color: var(--primary-green);
-  font-size: 0.85rem;
+  font-size: 0.875rem;
 }
 
 .func-detail a { cursor: pointer;
@@ -1338,7 +1342,7 @@ body {
 }
 
 .founder-desc {
-  font-size: 0.85rem;
+  font-size: 0.875rem;
   color: #555;
   line-height: 1.6;
 }
@@ -1371,7 +1375,7 @@ body {
 }
 
 .number-label {
-  font-size: 0.85rem;
+  font-size: 0.875rem;
   color: #666;
   font-weight: 500;
 }
@@ -1500,7 +1504,7 @@ body {
 }
 
 .footer-desc {
-  font-size: 0.85rem;
+  font-size: 0.875rem;
   line-height: 1.6;
   max-width: 250px;
   color: rgba(255,255,255,0.7);
@@ -1509,7 +1513,7 @@ body {
 .footer h6 {
   color: white;
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 1.5rem;
@@ -1528,7 +1532,7 @@ body {
 .footer-links a { cursor: pointer;
   color: rgba(255,255,255,0.7);
   text-decoration: none;
-  font-size: 0.85rem;
+  font-size: 0.875rem;
   transition: color 0.3s;
 }
 
@@ -1541,7 +1545,7 @@ body {
   align-items: flex-start;
   gap: 10px;
   margin-bottom: 0.8rem;
-  font-size: 0.85rem;
+  font-size: 0.875rem;
   color: rgba(255,255,255,0.7);
 }
 
@@ -1566,7 +1570,7 @@ body {
   justify-content: center;
   color: rgba(255,255,255,0.7);
   text-decoration: none;
-  font-size: 0.85rem;
+  font-size: 0.875rem;
   transition: all 0.3s;
 }
 
@@ -1879,7 +1883,7 @@ iframe.goog-te-banner-frame {
 
 
 .chefia-role {
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             color: var(--primary-green);
             font-weight: 600;
             text-transform: uppercase;
@@ -1889,7 +1893,7 @@ iframe.goog-te-banner-frame {
 
 
 .chefia-area { cursor: pointer;
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             color: #555;
             line-height: 1.6;
             margin-bottom: 1.2rem;
@@ -1914,7 +1918,7 @@ iframe.goog-te-banner-frame {
 
 .chefia-contact-item i {
             color: var(--primary-green);
-            font-size: 0.85rem;
+            font-size: 0.875rem;
         }
 
 
@@ -2022,7 +2026,7 @@ iframe.goog-te-banner-frame {
 
 
 .comissao-desc {
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             color: #555;
             line-height: 1.5;
             margin-bottom: 0.8rem;
@@ -2178,7 +2182,7 @@ iframe.goog-te-banner-frame {
 
 .custom-table thead th {
             background: var(--primary-green); color: white; font-weight: 600;
-            font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px;
+            font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.5px;
             padding: 0.9rem 1rem; text-align: left;
         }
 
@@ -2190,7 +2194,7 @@ iframe.goog-te-banner-frame {
 
 
 .custom-table tbody td {
-            padding: 0.85rem 1rem; font-size: 0.9rem; color: #444;
+            padding: 0.875rem 1rem; font-size: 0.9rem; color: #444;
             border-bottom: 1px solid #eee;
         }
 
@@ -2247,7 +2251,7 @@ iframe.goog-te-banner-frame {
             width: 40px; height: 40px; border-radius: 50%;
             background: linear-gradient(135deg, var(--primary-green) 0%, var(--light-green) 100%);
             display: flex; align-items: center; justify-content: center;
-            color: white; font-weight: 600; font-size: 0.85rem; flex-shrink: 0;
+            color: white; font-weight: 600; font-size: 0.875rem; flex-shrink: 0;
         }
 
 
@@ -2295,7 +2299,7 @@ iframe.goog-te-banner-frame {
 .event-details h6 { font-weight: 600; font-size: 0.95rem; color: #222; margin-bottom: 0.25rem; }
 
 
-.event-details p { font-size: 0.85rem; color: #666; margin-bottom: 0; }
+.event-details p { font-size: 0.875rem; color: #666; margin-bottom: 0; }
 
 
 .event-tag {
@@ -2350,10 +2354,10 @@ iframe.goog-te-banner-frame {
 .norm-content h6 { font-weight: 600; font-size: 0.95rem; color: #222; margin-bottom: 0.3rem; }
 
 
-.norm-content p { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; line-height: 1.5; }
+.norm-content p { font-size: 0.875rem; color: #666; margin-bottom: 0.5rem; line-height: 1.5; }
 
 
-.norm-link { color: var(--primary-green); text-decoration: none; font-weight: 500; font-size: 0.85rem; }
+.norm-link { color: var(--primary-green); text-decoration: none; font-weight: 500; font-size: 0.875rem; }
 
 
 .norm-link:hover { color: var(--dark-green); }
@@ -2499,7 +2503,7 @@ iframe.goog-te-banner-frame {
 
 
 .contact-form .form-label {
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             font-weight: 600;
             color: #444;
             margin-bottom: 0.4rem;
@@ -2510,7 +2514,7 @@ iframe.goog-te-banner-frame {
         .contact-form .form-select {
             border: 1px solid #e0e0e0;
             border-radius: 10px;
-            padding: 0.85rem 1.2rem;
+            padding: 0.875rem 1.2rem;
             font-size: 0.9rem;
             color: #444;
             transition: all 0.3s;
@@ -2891,7 +2895,7 @@ iframe.goog-te-banner-frame {
 
 
 .program-meta { cursor: pointer;
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             color: #666;
         }
 
@@ -2980,7 +2984,7 @@ iframe.goog-te-banner-frame {
 
 
 .info-card p {
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             color: #666;
             line-height: 1.6;
             margin-bottom: 0;
@@ -2991,7 +2995,7 @@ iframe.goog-te-banner-frame {
             color: var(--primary-green);
             text-decoration: none;
             font-weight: 500;
-            font-size: 0.85rem;
+            font-size: 0.875rem;
         }
 
 
@@ -3029,7 +3033,7 @@ iframe.goog-te-banner-frame {
             background: white;
             color: var(--primary-green);
             border: 2px solid white;
-            padding: 0.85rem 2rem;
+            padding: 0.875rem 2rem;
             border-radius: 50px;
             font-weight: 500;
             font-size: 0.9rem;
@@ -3052,7 +3056,7 @@ iframe.goog-te-banner-frame {
             background: transparent;
             color: white;
             border: 2px solid rgba(255,255,255,0.5);
-            padding: 0.85rem 2rem;
+            padding: 0.875rem 2rem;
             border-radius: 50px;
             font-weight: 500;
             font-size: 0.9rem;
@@ -3190,7 +3194,7 @@ iframe.goog-te-banner-frame {
 
 
 .course-excerpt {
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             color: #666;
             line-height: 1.6;
             margin-bottom: 1.2rem;
@@ -3284,7 +3288,7 @@ iframe.goog-te-banner-frame {
 
 
 .service-list li {
-            font-size: 0.85rem; color: #555; padding: 0.3rem 0;
+            font-size: 0.875rem; color: #555; padding: 0.3rem 0;
             display: flex; align-items: center; gap: 8px;
         }
 
@@ -3321,7 +3325,7 @@ iframe.goog-te-banner-frame {
 .step-content h6 { font-weight: 500; font-size: 0.9rem; color: #222; margin-bottom: 0.25rem; }
 
 
-.step-content p { font-size: 0.85rem; color: #666; margin: 0; }
+.step-content p { font-size: 0.875rem; color: #666; margin: 0; }
 
 
 /* Staff Section */
@@ -3365,7 +3369,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.staff-body p { font-size: 0.85rem; color: #666; line-height: 1.5; margin-bottom: 0; }
+.staff-body p { font-size: 0.875rem; color: #666; line-height: 1.5; margin-bottom: 0; }
 
 
 .staff-contact {
@@ -3376,7 +3380,7 @@ iframe.goog-te-banner-frame {
 .staff-contact p { font-size: 0.875rem; color: #666; margin-bottom: 0.25rem; }
 
 
-.staff-contact p i { color: var(--primary-green); margin-right: 6px; font-size: 0.85rem; }
+.staff-contact p i { color: var(--primary-green); margin-right: 6px; font-size: 0.875rem; }
 
 
 .staff-category {
@@ -3435,7 +3439,7 @@ iframe.goog-te-banner-frame {
 
 
 .course-desc {
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             color: #555;
             line-height: 1.6;
             margin-bottom: 1rem;
@@ -3453,7 +3457,7 @@ iframe.goog-te-banner-frame {
 
 .course-meta-item i {
             color: var(--primary-green);
-            font-size: 0.85rem;
+            font-size: 0.875rem;
         }
 
 
@@ -3616,7 +3620,7 @@ iframe.goog-te-banner-frame {
 
 
 .lab-teach-desc {
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             color: #555;
             line-height: 1.6;
             margin-bottom: 0.8rem;
@@ -3758,7 +3762,7 @@ iframe.goog-te-banner-frame {
 
 
 .lab-leader {
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             color: var(--primary-green);
             font-weight: 500;
             margin-bottom: 0.8rem;
@@ -3774,7 +3778,7 @@ iframe.goog-te-banner-frame {
 
 
 .lab-desc {
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             color: #555;
             line-height: 1.6;
             margin-bottom: 1rem;
@@ -3799,7 +3803,7 @@ iframe.goog-te-banner-frame {
 
 .lab-meta-item i {
             color: var(--primary-green);
-            font-size: 0.85rem;
+            font-size: 0.875rem;
         }
 
 
@@ -3833,7 +3837,7 @@ iframe.goog-te-banner-frame {
 .lab-link {
             padding: 0.4rem 0.9rem;
             border-radius: 50px;
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             font-weight: 500;
             text-decoration: none;
             transition: all 0.3s;
@@ -3995,7 +3999,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.team-body p { font-size: 0.85rem; color: #666; line-height: 1.5; margin-bottom: 0; }
+.team-body p { font-size: 0.875rem; color: #666; line-height: 1.5; margin-bottom: 0; }
 
 
 .team-social { display: flex; gap: 8px; margin-top: 1rem; }
@@ -4039,10 +4043,10 @@ iframe.goog-te-banner-frame {
 .pub-meta i { margin-right: 4px; color: var(--primary-green); }
 
 
-.pub-card p { font-size: 0.85rem; color: #666; line-height: 1.5; margin-bottom: 0; }
+.pub-card p { font-size: 0.875rem; color: #666; line-height: 1.5; margin-bottom: 0; }
 
 
-.pub-link { color: var(--primary-green); text-decoration: none; font-weight: 500; font-size: 0.85rem; }
+.pub-link { color: var(--primary-green); text-decoration: none; font-weight: 500; font-size: 0.875rem; }
 
 
 .pub-link:hover { color: var(--dark-green); }
@@ -4077,7 +4081,7 @@ iframe.goog-te-banner-frame {
 .funding-card h5 { font-size: 0.9rem; font-weight: 500; color: #222; margin-bottom: 0.5rem; }
 
 
-.funding-card p { font-size: 0.85rem; color: #666; line-height: 1.5; margin-bottom: 0.25rem; }
+.funding-card p { font-size: 0.875rem; color: #666; line-height: 1.5; margin-bottom: 0.25rem; }
 
 
 .funding-card .period { font-size: 0.875rem; color: var(--primary-green); font-weight: 500; }
@@ -4110,10 +4114,10 @@ iframe.goog-te-banner-frame {
 .partnership-content h6 { font-weight: 500; font-size: 0.9rem; color: #222; margin-bottom: 0.3rem; }
 
 
-.partnership-content p { font-size: 0.85rem; color: #666; margin-bottom: 0.25rem; line-height: 1.5; }
+.partnership-content p { font-size: 0.875rem; color: #666; margin-bottom: 0.25rem; line-height: 1.5; }
 
 
-.partnership-content .type { font-size: 0.85rem; color: var(--primary-green); font-weight: 500; text-transform: uppercase; }
+.partnership-content .type { font-size: 0.875rem; color: var(--primary-green); font-weight: 500; text-transform: uppercase; }
 
 
 .infra-section { padding: 4rem 0; background: white; }
@@ -4144,7 +4148,7 @@ iframe.goog-te-banner-frame {
 .infra-body h5 { font-size: 0.9rem; font-weight: 500; color: #222; margin-bottom: 0.5rem; }
 
 
-.infra-body p { font-size: 0.85rem; color: #666; line-height: 1.5; margin-bottom: 0; }
+.infra-body p { font-size: 0.875rem; color: #666; line-height: 1.5; margin-bottom: 0; }
 
 
 .gallery-section { padding: 4rem 0; background: var(--bg-light); }
@@ -4224,7 +4228,7 @@ iframe.goog-te-banner-frame {
 
 
 .research-excerpt {
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             color: #666;
             line-height: 1.6;
             margin-bottom: 1.2rem;
@@ -4323,7 +4327,7 @@ iframe.goog-te-banner-frame {
             background: transparent;
             color: var(--primary-green);
             border: 2px solid var(--primary-green);
-            padding: 0.85rem 2rem;
+            padding: 0.875rem 2rem;
             border-radius: 50px;
             font-weight: 500;
             font-size: 0.9rem;
@@ -4429,7 +4433,7 @@ iframe.goog-te-banner-frame {
 
 .featured-category {
             display: inline-block;
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             font-weight: 500;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -4604,7 +4608,7 @@ iframe.goog-te-banner-frame {
 .platform-badge {
             position: absolute; top: 15px; right: 15px;
             background: rgba(255,255,255,0.2); backdrop-filter: blur(10px);
-            color: white; font-size: 0.85rem; font-weight: 500;
+            color: white; font-size: 0.875rem; font-weight: 500;
             padding: 0.4rem 0.9rem; border-radius: 50px; text-transform: uppercase; letter-spacing: 1px;
         }
 
@@ -4660,17 +4664,17 @@ iframe.goog-te-banner-frame {
 
 
 .platform-contact p {
-            font-size: 0.85rem; color: #555; margin-bottom: 0.4rem;
+            font-size: 0.875rem; color: #555; margin-bottom: 0.4rem;
         }
 
 
-.platform-contact p i { color: var(--primary-green); margin-right: 6px; font-size: 0.85rem; }
+.platform-contact p i { color: var(--primary-green); margin-right: 6px; font-size: 0.875rem; }
 
 
 .btn-platform {
             display: inline-block; background: var(--primary-green); color: white;
             padding: 0.6rem 1.2rem; border-radius: 50px; font-weight: 500;
-            font-size: 0.85rem; text-decoration: none; transition: all 0.3s ease;
+            font-size: 0.875rem; text-decoration: none; transition: all 0.3s ease;
         }
 
 
@@ -4681,7 +4685,7 @@ iframe.goog-te-banner-frame {
             display: inline-block; background: transparent; color: var(--primary-green);
             border: 1.5px solid var(--primary-green);
             padding: 0.6rem 1.2rem; border-radius: 50px; font-weight: 500;
-            font-size: 0.85rem; text-decoration: none; transition: all 0.3s ease;
+            font-size: 0.875rem; text-decoration: none; transition: all 0.3s ease;
         }
 
 
@@ -4718,7 +4722,7 @@ iframe.goog-te-banner-frame {
 .equipment-card h5 { font-size: 0.9rem; font-weight: 500; color: #222; margin-bottom: 0.5rem; }
 
 
-.equipment-card p { font-size: 0.85rem; color: #666; line-height: 1.5; margin-bottom: 0; }
+.equipment-card p { font-size: 0.875rem; color: #666; line-height: 1.5; margin-bottom: 0; }
 
 
 /* Access Section */
@@ -4744,7 +4748,7 @@ iframe.goog-te-banner-frame {
 .step-card h5 { font-size: 1rem; font-weight: 500; color: #222; margin: 0.5rem 0 0.75rem; }
 
 
-.step-card p { font-size: 0.85rem; color: #666; line-height: 1.6; margin-bottom: 0; }
+.step-card p { font-size: 0.875rem; color: #666; line-height: 1.6; margin-bottom: 0; }
 
 
 /* ============================================
@@ -5023,7 +5027,7 @@ iframe.goog-te-banner-frame {
 
 
 .project-excerpt {
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             color: #666;
             line-height: 1.6;
             margin-bottom: 1.2rem;
@@ -5096,7 +5100,7 @@ iframe.goog-te-banner-frame {
             border-radius: 8px;
             color: var(--primary-green);
             font-weight: 700;
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             flex-shrink: 0;
         }
 
@@ -5117,7 +5121,7 @@ iframe.goog-te-banner-frame {
 
 
 .timeline-content p {
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             color: #666;
             line-height: 1.5;
             margin-bottom: 0.5rem;
@@ -5272,7 +5276,7 @@ iframe.goog-te-banner-frame {
 
 
 .pub-count {
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             color: #666;
             font-weight: 500;
         }
@@ -5324,7 +5328,7 @@ iframe.goog-te-banner-frame {
 .pub-action-link {
             color: var(--primary-green);
             text-decoration: none;
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             font-weight: 500;
             display: inline-flex;
             align-items: center;
@@ -5369,7 +5373,7 @@ iframe.goog-te-banner-frame {
             color: var(--dark-green);
             padding: 0.3rem 1rem;
             border-radius: 50px;
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -5398,7 +5402,7 @@ iframe.goog-te-banner-frame {
 
 
 .featured-pub .journal {
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             font-weight: 500;
             opacity: 0.8;
             position: relative;
@@ -5422,7 +5426,7 @@ iframe.goog-te-banner-frame {
             padding: 0.6rem 1.2rem;
             border-radius: 50px;
             font-weight: 500;
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             text-decoration: none;
             display: inline-flex;
             align-items: center;
@@ -5445,7 +5449,7 @@ iframe.goog-te-banner-frame {
             padding: 0.6rem 1.2rem;
             border-radius: 50px;
             font-weight: 500;
-            font-size: 0.85rem;
+            font-size: 0.875rem;
             text-decoration: none;
             display: inline-flex;
             align-items: center;
@@ -5502,7 +5506,7 @@ iframe.goog-te-banner-frame {
 .rotation-card h6 { font-weight: 500; font-size: 1rem; color: #222; margin-bottom: 0.5rem; }
 
 
-.rotation-card p { font-size: 0.85rem; color: #666; line-height: 1.6; margin-bottom: 0; }
+.rotation-card p { font-size: 0.875rem; color: #666; line-height: 1.6; margin-bottom: 0; }
 
 
 .rotation-meta { cursor: pointer; color: #666; margin-bottom: 0.5rem; }
@@ -5571,10 +5575,10 @@ iframe.goog-te-banner-frame {
 .doc-content h6 { font-weight: 500; font-size: 0.9rem; color: #222; margin-bottom: 0.3rem; }
 
 
-.doc-content p { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; line-height: 1.5; }
+.doc-content p { font-size: 0.875rem; color: #666; margin-bottom: 0.5rem; line-height: 1.5; }
 
 
-.doc-link { color: var(--primary-green); text-decoration: none; font-weight: 500; font-size: 0.85rem; }
+.doc-link { color: var(--primary-green); text-decoration: none; font-weight: 500; font-size: 0.875rem; }
 
 
 .doc-link:hover { color: var(--dark-green); }
@@ -5587,7 +5591,7 @@ iframe.goog-te-banner-frame {
     color:rgba(255,255,255,0.7);
     text-decoration:none;
     border-radius:12px;
-    font-size:0.85rem;
+    font-size:0.875rem;
     font-weight:400;
     transition:all .3s ease;
 }
@@ -5897,7 +5901,7 @@ section.page-header p,
     line-height: 1.7;
 }
 .text-meta {
-    font-size: 0.85rem;
+    font-size: 0.875rem;
     color: #888;
     margin-top: 0.5rem;
 }
@@ -5927,13 +5931,13 @@ section.page-header p,
 
 /* Filter label */
 .filter-label {
-    font-size: 0.85rem;
+    font-size: 0.875rem;
 }
 
 /* Form select compact */
 .form-select-compact {
     width: auto;
-    font-size: 0.85rem;
+    font-size: 0.875rem;
     border-radius: 8px;
 }
 
@@ -6189,7 +6193,7 @@ section.page-header p,
     margin: 0;
 }
 .sg-demo-text-sm {
-    font-size: 0.85rem;
+    font-size: 0.875rem;
     color: #666;
     line-height: 1.6;
     margin: 0;
@@ -6260,7 +6264,7 @@ section.page-header p,
 .sg-type-header { font-size: clamp(1.625rem, 5.5vw, 2.8rem); font-weight: 700; color: #222; }
 .sg-type-lead { font-size: clamp(0.95rem, 2.5vw, 1.25rem); color: #555; }
 .sg-type-body { font-size: 1rem; color: #555; }
-.sg-type-small { font-size: 0.85rem; color: #666; }
+.sg-type-small { font-size: 0.875rem; color: #666; }
 
 /* Badge demos (override position:absolute from real classes) */
 .sg-badge-demo {
@@ -6419,7 +6423,8 @@ section.page-header p,
 
 /* Lab/news demo placeholders */
 .sg-lab-demo-img {
-    background: linear-gradient(135deg, var(--dark-green), var(--primary-green));
+    background-color: var(--dark-green);
+    background-image: linear-gradient(135deg, var(--dark-green), var(--primary-green));
     height: 80px;
 }
 .sg-news-demo-img {
