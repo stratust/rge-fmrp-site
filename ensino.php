@@ -24,13 +24,13 @@ require __DIR__ . '/includes/header.php';
                     <h2>Formando os geneticistas<br>do futuro</h2>
                     <p>O Departamento de Genética da FMRP/USP oferece uma formação completa e atualizada, desde a graduação até a pós-graduação stricto sensu, além de cursos e atividades de extensão que conectam a universidade à sociedade.</p>
                     <p>Nossos programas combinam sólida base teórica com intensa prática em laboratórios de ponta, preparando profissionais capacitados para atuar em pesquisa, ensino, saúde, biotecnologia e diversas áreas correlatas.</p>
-                    <a href="ensino.php#programas" class="btn-green" style="background-color: var(--primary-green); color: white; border: 2px solid var(--primary-green); padding: 0.75rem 1.5rem; border-radius: 50px; font-weight: 500; font-size: 0.9rem; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; transition: all 0.3s;">
+                    <a href="ensino.php#programas" class="btn-green" >
                         Conheça Nossos Programas <i class="bi bi-arrow-down"></i>
                     </a>
                 </div>
                 <div class="col-lg-6">
-                    <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-                        <img src="https://images.unsplash.com/photo-1562774053-701939374585?w=800&h=500&fit=crop" alt="Ensino no Departamento de Genética" style="width: 100%; height: auto; display: block;">
+                    <div class="hero-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1562774053-701939374585?w=800&h=500&fit=crop" alt="Ensino no Departamento de Genética" >
                     </div>
                 </div>
             </div>

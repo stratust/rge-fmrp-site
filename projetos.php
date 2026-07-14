@@ -28,8 +28,8 @@ require __DIR__ . '/includes/header.php';
                     <p>Cada projeto reúne pesquisadores, estudantes e técnicos em torno de questões científicas relevantes, contribuindo para o avanço do conhecimento e para soluções que beneficiam a sociedade.</p>
                 </div>
                 <div class="col-lg-6">
-                    <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-                        <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=500&fit=crop" alt="Projetos de Pesquisa" style="width: 100%; height: auto; display: block;">
+                    <div class="hero-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=500&fit=crop" alt="Projetos de Pesquisa" >
                     </div>
                 </div>
             </div>
@@ -75,13 +75,13 @@ require __DIR__ . '/includes/header.php';
             <div class="section-header">
                 <h2>Conheça nossas iniciativas</h2>
                 <div class="d-flex gap-2">
-                    <select class="form-select form-select-sm" style="width: auto; font-size: 0.85rem; border-radius: 8px;">
+                    <select class="form-select form-select-sm" class="form-select-compact">
                         <option selected>Todos os status</option>
                         <option>Em andamento</option>
                         <option>Novos</option>
                         <option>Concluídos</option>
                     </select>
-                    <select class="form-select form-select-sm" style="width: auto; font-size: 0.85rem; border-radius: 8px;">
+                    <select class="form-select form-select-sm" class="form-select-compact">
                         <option selected>Todas as áreas</option>
                         <option>Genética Molecular</option>
                         <option>Genômica</option>

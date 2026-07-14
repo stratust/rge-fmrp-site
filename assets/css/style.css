@@ -990,6 +990,36 @@ body {
   color: #333;
 }
 
+.docente-area-name {
+    font-size: 12px;
+}
+
+.ods-label {
+    font-size: 14px;
+    margin: 0 0 12px 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.2;
+}
+
+.ods-label .docente-role-subtitle {
+    font-weight: normal;
+    font-size: 11px;
+    display: block;
+    color: #666;
+    margin-top: 2px;
+}
+
+.ods-tags {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
 .docente-contact {
   font-size: 0.8rem;
   color: #777;
@@ -1021,6 +1051,12 @@ body {
   background: var(--primary-green);
   color: white;
   border-color: var(--primary-green);
+}
+
+.docente-link img {
+    background-color: #FFFFFF;
+    object-fit: contain;
+    display: block;
 }
 
 .docente-link-primary:hover {
@@ -5567,6 +5603,11 @@ iframe.goog-te-banner-frame {
 
 /* === ods-img (docente ODS badges) — moved from inline <style> for W3C compliance === */
 .ods-img {
+    width: 42px;
+    height: 42px;
+    display: block;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
     transition: transform 0.25s ease;
 }
 .ods-img:hover {
@@ -5830,4 +5871,232 @@ section.page-header p,
 .page-header h1,
 .page-header p {
     color: white !important;
+}
+
+/* ============================================
+   UTILITY CLASSES — extracted from inline styles
+   ============================================ */
+
+/* Accent divider (hero sections) */
+.accent-divider {
+    width: 40px;
+    height: 3px;
+    background: var(--accent-green);
+    margin-bottom: 1.5rem;
+}
+
+/* Body text variants */
+.text-body-relaxed {
+    color: #555;
+    line-height: 1.8;
+}
+.text-body-sm {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+    line-height: 1.7;
+}
+.text-meta {
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 0.5rem;
+}
+.text-meta-sm {
+    font-size: 0.8rem;
+    color: #888;
+}
+.text-label-muted {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Hero image wrapper */
+.hero-image-wrap {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.hero-image-wrap img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Filter label */
+.filter-label {
+    font-size: 0.85rem;
+}
+
+/* Form select compact */
+.form-select-compact {
+    width: auto;
+    font-size: 0.85rem;
+    border-radius: 8px;
+}
+
+/* Navbar brand subtitle */
+.navbar-brand-subtitle {
+    margin-top: -4px;
+}
+
+/* Lab header variants */
+.lab-header-variant {
+    background: linear-gradient(135deg, #4a7c59 0%, #6b9e75 100%);
+}
+
+/* Contact list */
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.contact-list li {
+    margin-bottom: 0.6rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* News image short variant */
+.news-img-short {
+    height: 160px;
+}
+
+/* Flex column gap utility */
+.flex-col-gap-sm {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+/* Card full width */
+.card-full-width {
+    width: 100%;
+}
+
+/* Chefia links push to bottom */
+.chefia-links-bottom {
+    margin-top: auto;
+    padding-top: 20px;
+}
+
+/* Docente photo placeholder border */
+.docente-photo-placeholder {
+    border: 2px solid #FFFFFF;
+}
+
+/* Docente photo dimensions */
+.docente-photo {
+    width: 125px;
+    height: 125px;
+    object-fit: contain;
+    display: block;
+}
+
+/* Lattes button */
+.docente-lattes-btn {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+.docente-lattes-btn:hover {
+    background-color: var(--primary-green);
+    color: white;
+    border-color: var(--primary-green);
+}
+
+/* Docente name */
+.docente-card-name {
+    font-size: 14px;
+    margin: 0 0 12px 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.3;
+}
+
+/* Docente role subtitle */
+.docente-role-subtitle {
+    font-weight: normal;
+    font-size: 11px;
+    display: block;
+    color: #666;
+    margin-top: 2px;
+}
+
+/* Docente area container */
+.docente-area-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+    min-height: 48px;
+    margin-bottom: 0;
+}
+
+/* Docente area tag */
+.docente-area-tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    background: rgba(26, 92, 58, 0.08);
+    color: var(--primary-green);
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+/* Docente photo wrap */
+.docente-photo-wrap {
+    flex: 0 1 auto;
+    box-sizing: border-box;
+}
+
+/* Docente links container */
+.docente-links-row {
+    clear: both;
+    width: 100%;
+    display: block;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 6px;
+}
+
+/* Docente body layout */
+.docente-body-compact {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-height: 48px;
+}
+
+/* Google translate hidden */
+.translate-hidden {
+    display: none;
+}
+
+.alert-info-custom {
+    background: rgba(26,92,58,0.05);
+    border: 1px solid rgba(26,92,58,0.1);
+    border-radius: 12px;
+    padding: 1.2rem 1.5rem;
+    color: #444;
+    font-size: 0.9rem;
 }

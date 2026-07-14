@@ -28,8 +28,8 @@ require __DIR__ . '/includes/header.php';
                     <p>Nossos grupos de pesquisa publicam regularmente em revistas de alto impacto, colaboram com instituições nacionais e internacionais e formam recursos humanos altamente qualificados para o mercado acadêmico e industrial.</p>
                 </div>
                 <div class="col-lg-6">
-                    <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-                        <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=500&fit=crop" alt="Pesquisa no Departamento de Genética" style="width: 100%; height: auto; display: block;">
+                    <div class="hero-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=500&fit=crop" alt="Pesquisa no Departamento de Genética" >
                     </div>
                 </div>
             </div>

@@ -28,8 +28,8 @@ require __DIR__ . '/includes/header.php';
                     <p>Nossos cursos combinam teoria e prática, com acesso a laboratórios modernos e orientação de docentes especializados. As atividades de extensão fortalecem o vínculo entre a universidade e a sociedade, promovendo o acesso ao conhecimento científico.</p>
                 </div>
                 <div class="col-lg-6">
-                    <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-                        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=500&fit=crop" alt="Cursos de Extensão" style="width: 100%; height: auto; display: block;">
+                    <div class="hero-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=500&fit=crop" alt="Cursos de Extensão" >
                     </div>
                 </div>
             </div>
@@ -43,7 +43,7 @@ require __DIR__ . '/includes/header.php';
             <div class="d-flex justify-content-between align-items-end mb-4">
                 <h2>Cursos disponíveis</h2>
                 <div class="d-flex gap-2">
-                    <select class="form-select form-select-sm" style="width: auto; font-size: 0.85rem; border-radius: 8px;">
+                    <select class="form-select form-select-sm" class="form-select-compact">
                         <option selected>Todos os cursos</option>
                         <option>Presencial</option>
                         <option>Online</option>
@@ -236,7 +236,7 @@ require __DIR__ . '/includes/header.php';
             <p class="mx-auto">Acompanhe nosso site e redes sociais para saber primeiro sobre novos cursos, programas de verão e eventos de extensão.</p>
             <div class="d-flex flex-wrap justify-content-center gap-3">
                 <a href="noticias.php" class="btn-white">Ver Notícias <i class="bi bi-arrow-right"></i></a>
-                <a href="index.php#contato" class="btn-white" style="background: transparent; color: white; border-color: rgba(255,255,255,0.5);">Fale Conosco <i class="bi bi-arrow-right"></i></a>
+                <a href="index.php#contato" class="btn-white" >Fale Conosco <i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
     </section>

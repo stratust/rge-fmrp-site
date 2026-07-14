@@ -55,7 +55,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-lg-8">
                     <div class="section-label">Pesquisa</div>
                     <h2>Linhas de pesquisa do laboratório</h2>
-                    <p style="color: #555; line-height: 1.8;">[Descrição geral das áreas de investigação do laboratório, metodologias empregadas e impacto esperado dos estudos.]</p>
+                    <p class="text-body-relaxed">[Descrição geral das áreas de investigação do laboratório, metodologias empregadas e impacto esperado dos estudos.]</p>
                 </div>
             </div>
             <div class="row g-4">
@@ -388,7 +388,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-lg-8">
                     <div class="section-label">Producao Cientifica</div>
                     <h2>Publicacoes recentes</h2>
-                    <p style="color: #555; line-height: 1.8;">[Breve descricao da producao cientifica do laboratorio, destacando revistas de alto impacto e areas de maior contribuicao.]</p>
+                    <p class="text-body-relaxed">[Breve descricao da producao cientifica do laboratorio, destacando revistas de alto impacto e areas de maior contribuicao.]</p>
                 </div>
             </div>
             <div class="row">
@@ -450,7 +450,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-lg-8">
                     <div class="section-label">Financiamentos</div>
                     <h2>Apoio e recursos obtidos</h2>
-                    <p style="color: #555; line-height: 1.8;">[Descricao das principais fontes de financiamento que sustentam as pesquisas do laboratorio, incluindo agencias nacionais e internacionais.]</p>
+                    <p class="text-body-relaxed">[Descricao das principais fontes de financiamento que sustentam as pesquisas do laboratorio, incluindo agencias nacionais e internacionais.]</p>
                 </div>
             </div>
             <div class="row g-4">
@@ -505,7 +505,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-lg-8">
                     <div class="section-label">Parcerias</div>
                     <h2>Colaboracoes nacionais e internacionais</h2>
-                    <p style="color: #555; line-height: 1.8;">[Descricao das principais parcerias institucionais que fortalecem a pesquisa do laboratorio, promovendo intercambio de conhecimento e recursos.]</p>
+                    <p class="text-body-relaxed">[Descricao das principais parcerias institucionais que fortalecem a pesquisa do laboratorio, promovendo intercambio de conhecimento e recursos.]</p>
                 </div>
             </div>
             <div class="row g-4">
@@ -516,7 +516,7 @@ require __DIR__ . '/includes/header.php';
                             <h4>[Nome da Instituicao]</h4>
                             <p>[Cidade, Estado]</p>
                             <p class="type">Colaboracao Nacional</p>
-                            <p style="font-size: 0.8rem; color: #888; margin-top: 0.5rem;">[Breve descricao da parceria e projetos conjuntos]</p>
+                            <p class="text-meta">[Breve descricao da parceria e projetos conjuntos]</p>
                         </div>
                     </div>
                 </div>
@@ -527,7 +527,7 @@ require __DIR__ . '/includes/header.php';
                             <h4>[Nome da Instituicao]</h4>
                             <p>[Cidade, Estado]</p>
                             <p class="type">Colaboracao Nacional</p>
-                            <p style="font-size: 0.8rem; color: #888; margin-top: 0.5rem;">[Breve descricao da parceria e projetos conjuntos]</p>
+                            <p class="text-meta">[Breve descricao da parceria e projetos conjuntos]</p>
                         </div>
                     </div>
                 </div>
@@ -538,7 +538,7 @@ require __DIR__ . '/includes/header.php';
                             <h4>[Nome da Instituicao]</h4>
                             <p>[Cidade, Pais]</p>
                             <p class="type">Colaboracao Internacional</p>
-                            <p style="font-size: 0.8rem; color: #888; margin-top: 0.5rem;">[Breve descricao da parceria e projetos conjuntos]</p>
+                            <p class="text-meta">[Breve descricao da parceria e projetos conjuntos]</p>
                         </div>
                     </div>
                 </div>
@@ -549,7 +549,7 @@ require __DIR__ . '/includes/header.php';
                             <h4>[Nome da Instituicao]</h4>
                             <p>[Cidade, Pais]</p>
                             <p class="type">Colaboracao Internacional</p>
-                            <p style="font-size: 0.8rem; color: #888; margin-top: 0.5rem;">[Breve descricao da parceria e projetos conjuntos]</p>
+                            <p class="text-meta">[Breve descricao da parceria e projetos conjuntos]</p>
                         </div>
                     </div>
                 </div>
@@ -560,7 +560,7 @@ require __DIR__ . '/includes/header.php';
                             <h4>[Nome da Instituicao]</h4>
                             <p>[Cidade, Pais]</p>
                             <p class="type">Colaboracao Internacional</p>
-                            <p style="font-size: 0.8rem; color: #888; margin-top: 0.5rem;">[Breve descricao da parceria e projetos conjuntos]</p>
+                            <p class="text-meta">[Breve descricao da parceria e projetos conjuntos]</p>
                         </div>
                     </div>
                 </div>
@@ -571,7 +571,7 @@ require __DIR__ . '/includes/header.php';
                             <h4>[Nome da Instituicao]</h4>
                             <p>[Cidade, Pais]</p>
                             <p class="type">Colaboracao Internacional</p>
-                            <p style="font-size: 0.8rem; color: #888; margin-top: 0.5rem;">[Breve descricao da parceria e projetos conjuntos]</p>
+                            <p class="text-meta">[Breve descricao da parceria e projetos conjuntos]</p>
                         </div>
                     </div>
                 </div>
@@ -586,7 +586,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-lg-8">
                     <div class="section-label">Infraestrutura</div>
                     <h2>Equipamentos e instalacoes</h2>
-                    <p style="color: #555; line-height: 1.8;">[Descricao da infraestrutura do laboratorio, destacando equipamentos de ponta e instalacoes especializadas.]</p>
+                    <p class="text-body-relaxed">[Descricao da infraestrutura do laboratorio, destacando equipamentos de ponta e instalacoes especializadas.]</p>
                 </div>
             </div>
             <div class="row g-4">
@@ -645,7 +645,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-lg-8">
                     <div class="section-label">Galeria</div>
                     <h2>Momentos do laboratorio</h2>
-                    <p style="color: #555; line-height: 1.8;">[Registros fotograficos de atividades do laboratorio, eventos, defesas e momentos da equipe.]</p>
+                    <p class="text-body-relaxed">[Registros fotograficos de atividades do laboratorio, eventos, defesas e momentos da equipe.]</p>
                 </div>
             </div>
             <div class="row g-4">

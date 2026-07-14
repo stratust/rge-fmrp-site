@@ -27,7 +27,7 @@ require __DIR__ . '/includes/header.php';
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 hero-content">
-                    <div style="width: 40px; height: 3px; background: var(--accent-green); margin-bottom: 1.5rem;"></div>
+                    <div class="accent-divider"></div>
                     <h1>Serviços de<br>Genética Médica</h1>
                     <p>Atendimento especializado em diagnóstico, aconselhamento e acompanhamento genético para pacientes e famílias.</p>
                     <div class="d-flex flex-wrap gap-3">
@@ -46,7 +46,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-lg-8">
                     <div class="section-label">Nossos Serviços</div>
                     <h2>Atendimento integral em genética médica</h2>
-                    <p style="color: #555; line-height: 1.8;">O Serviço de Genética Médica do Departamento de Genética da FMRP/USP oferece assistência especializada para diagnóstico, orientação e acompanhamento de condições genéticas e hereditárias, integrando pesquisa, ensino e extensão.</p>
+                    <p class="text-body-relaxed">O Serviço de Genética Médica do Departamento de Genética da FMRP/USP oferece assistência especializada para diagnóstico, orientação e acompanhamento de condições genéticas e hereditárias, integrando pesquisa, ensino e extensão.</p>
                 </div>
             </div>
             <div class="row g-4">

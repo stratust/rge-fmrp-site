@@ -22,14 +22,14 @@ require __DIR__ . '/includes/header.php';
         <div class="container">
             <form class="filter-form row g-3 align-items-end">
                 <div class="col-md-4">
-                    <label class="form-label" style="font-size: 0.8rem; font-weight: 600; color: #666; text-transform: uppercase; letter-spacing: 0.5px;">Buscar</label>
+                    <label class="form-label" >Buscar</label>
                     <div class="input-group">
-                        <span class="input-group-text bg-white border-end-0" style="border-color: #e0e0e0;"><i class="bi bi-search text-muted"></i></span>
-                        <input type="text" class="form-control border-start-0" placeholder="Título, autor ou palavra-chave..." style="border-color: #e0e0e0;">
+                        <span class="input-group-text bg-white border-end-0" ><i class="bi bi-search text-muted"></i></span>
+                        <input type="text" class="form-control border-start-0" placeholder="Título, autor ou palavra-chave..." >
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <label class="form-label" style="font-size: 0.8rem; font-weight: 600; color: #666; text-transform: uppercase; letter-spacing: 0.5px;">Ano</label>
+                    <label class="form-label" >Ano</label>
                     <select class="form-select">
                         <option selected>Todos os anos</option>
                         <option>2025</option>
@@ -40,7 +40,7 @@ require __DIR__ . '/includes/header.php';
                     </select>
                 </div>
                 <div class="col-md-3">
-                    <label class="form-label" style="font-size: 0.8rem; font-weight: 600; color: #666; text-transform: uppercase; letter-spacing: 0.5px;">Área</label>
+                    <label class="form-label" >Área</label>
                     <select class="form-select">
                         <option selected>Todas as áreas</option>
                         <option>Genética Molecular</option>

@@ -26,7 +26,7 @@ require __DIR__ . '/includes/header.php';
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 hero-content">
-                    <div style="width: 40px; height: 3px; background: var(--accent-green); margin-bottom: 1.5rem;"></div>
+                    <div class="accent-divider"></div>
                     <h1>Plataformas<br>Multiusuários</h1>
                     <p>Infraestrutura científica de alta performance disponível para pesquisadores internos e externos, promovendo colaboração e excelência em pesquisa.</p>
                     <div class="d-flex flex-wrap gap-3">
@@ -87,7 +87,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-lg-8">
                     <div class="section-label">Nossas Plataformas</div>
                     <h2>Infraestrutura especializada para sua pesquisa</h2>
-                    <p style="color: #555; line-height: 1.8;">Cada plataforma é operada por equipe técnica qualificada e oferece treinamento, suporte experimental e análise de dados para garantir resultados de excelência.</p>
+                    <p class="text-body-relaxed">Cada plataforma é operada por equipe técnica qualificada e oferece treinamento, suporte experimental e análise de dados para garantir resultados de excelência.</p>
                 </div>
             </div>
 
@@ -247,7 +247,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-lg-8">
                     <div class="section-label">Equipamentos</div>
                     <h2>Infraestrutura compartilhada</h2>
-                    <p style="color: #555; line-height: 1.8;">Além das plataformas especializadas, o Departamento oferece equipamentos de uso multiusuário para análises complementares e preparação de amostras.</p>
+                    <p class="text-body-relaxed">Além das plataformas especializadas, o Departamento oferece equipamentos de uso multiusuário para análises complementares e preparação de amostras.</p>
                 </div>
             </div>
             <div class="row g-4">
@@ -304,7 +304,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-lg-8">
                     <div class="section-label">Como Acessar</div>
                     <h2>Fluxo de solicitação de serviços</h2>
-                    <p style="color: #555; line-height: 1.8;">O acesso às plataformas é aberto a pesquisadores da USP e instituições externas mediante agendamento prévio e aprovação do coordenador da plataforma.</p>
+                    <p class="text-body-relaxed">O acesso às plataformas é aberto a pesquisadores da USP e instituições externas mediante agendamento prévio e aprovação do coordenador da plataforma.</p>
                 </div>
             </div>
             <div class="row g-4">

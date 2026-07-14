@@ -64,7 +64,7 @@ require __DIR__ . '/includes/header.php';
                                 </div>
                                 <h3>Horário de Atendimento</h3>
                                 <p>Segunda a sexta-feira<br><strong>8h às 12h</strong> e <strong>13h às 17h</strong></p>
-                                <p style="font-size: 0.8rem; color: #888;">Atendimento presencial mediante agendamento.</p>
+                                <p class="text-meta-sm">Atendimento presencial mediante agendamento.</p>
                             </div>
                         </div>
                     </div>
@@ -83,21 +83,21 @@ require __DIR__ . '/includes/header.php';
                     <p>Preencha os campos ao lado com suas informações e a natureza do seu contato. Campos marcados com * são obrigatórios.</p>
                     <div class="mt-4">
                         <h4>Para assuntos específicos:</h4>
-                        <ul style="list-style: none; padding: 0; margin: 0;">
-                            <li style="margin-bottom: 0.6rem; font-size: 0.9rem; color: #666;">
-                                <i class="bi bi-mortarboard me-2" style="color: var(--primary-green);"></i>
+                        <ul class="contact-list">
+                            <li >
+                                <i class="bi bi-mortarboard me-2" ></i>
                                 <strong>Graduação:</strong> <a href="mailto:gradgenetica@fmrp.usp.br">gradgenetica@fmrp.usp.br</a>
                             </li>
-                            <li style="margin-bottom: 0.6rem; font-size: 0.9rem; color: #666;">
-                                <i class="bi bi-journal-bookmark me-2" style="color: var(--primary-green);"></i>
+                            <li >
+                                <i class="bi bi-journal-bookmark me-2" ></i>
                                 <strong>Pós-graduação:</strong> <a href="mailto:ppg.pggen@usp.br">ppg.pgen@usp.br</a>
                             </li>
-                            <li style="margin-bottom: 0.6rem; font-size: 0.9rem; color: #666;">
-                                <i class="bi bi-people me-2" style="color: var(--primary-green);"></i>
+                            <li >
+                                <i class="bi bi-people me-2" ></i>
                                 <strong>Extensão:</strong> <a href="mailto:extensao@fmrp.usp.br">extensao@fmrp.usp.br</a>
                             </li>
-                            <li style="margin-bottom: 0.6rem; font-size: 0.9rem; color: #666;">
-                                <i class="bi bi-briefcase me-2" style="color: var(--primary-green);"></i>
+                            <li >
+                                <i class="bi bi-briefcase me-2" ></i>
                                 <strong>Parcerias:</strong> <a href="mailto:parcerias@fmrp.usp.br">parcerias@fmrp.usp.br</a>
                             </li>
                         </ul>
@@ -136,9 +136,9 @@ require __DIR__ . '/includes/header.php';
                             </div>
                             <div class="col-12">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="privacyCheck" required style="border-color: #ccc;">
-                                    <label class="form-check-label" for="privacyCheck" style="font-size: 0.85rem; color: #666;">
-                                        Concordo com a <a href="contato.php#" style="color: var(--primary-green);">Política de Privacidade</a> e autorizo o uso dos dados fornecidos para contato.
+                                    <input class="form-check-input" type="checkbox" id="privacyCheck" required >
+                                    <label class="form-check-label" for="privacyCheck" >
+                                        Concordo com a <a href="contato.php#" >Política de Privacidade</a> e autorizo o uso dos dados fornecidos para contato.
                                     </label>
                                 </div>
                             </div>
@@ -158,7 +158,7 @@ require __DIR__ . '/includes/header.php';
             <div class="map-container">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3700.5!2d-47.8566!3d-21.1797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9bfcfcfec0001%3A0x8b4b2b3b2b3b2b3b!2sFaculdade%20de%20Medicina%20de%20Ribeir%C3%A3o%20Preto%20-%20USP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <div class="map-overlay">
-                    <h4><i class="bi bi-geo-alt-fill me-1" style="color: var(--primary-green);"></i> Departamento de Genética</h4>
+                    <h4><i class="bi bi-geo-alt-fill me-1" ></i> Departamento de Genética</h4>
                     <p>Av. Bandeirantes, 3900 — FMRP/USP<br>Ribeirão Preto, SP</p>
                 </div>
             </div>

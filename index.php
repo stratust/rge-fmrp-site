@@ -13,7 +13,7 @@ require __DIR__ . '/includes/header.php';
     <div class="container">
             <div class="row">
                 <div class="col-lg-6 hero-content">
-                    <div style="width: 40px; height: 3px; background: var(--accent-green); margin-bottom: 1.5rem;"></div>
+                    <div class="accent-divider"></div>
                     <h1>Departamento de<br>Genética</h1>
                     <p class="subtitle">FMRP – USP</p>
                     <p>Excelência em ensino, pesquisa<br>e inovação em genética.</p>

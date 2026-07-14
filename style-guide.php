@@ -98,6 +98,17 @@ require __DIR__ . '/includes/header.php';
 .sg-swatch small {
     opacity: 0.8;
 }
+.sg-swatch-primary { background: var(--primary-green); }
+.sg-swatch-dark { background: var(--dark-green); }
+.sg-swatch-light { background: var(--light-green); }
+.sg-swatch-bg {
+    background: var(--bg-light);
+    color: #222;
+    border: 1px solid rgba(0,0,0,0.06);
+}
+.sg-swatch-bg small {
+    opacity: 0.6;
+}
 
 /* Shadow demo box */
 .sg-shadow-box {
@@ -282,6 +293,11 @@ require __DIR__ . '/includes/header.php';
     background: linear-gradient(135deg, #ccc, #999);
     height: 80px;
 }
+
+.sg-shadow-sm { box-shadow: var(--shadow-sm); border: 1px solid var(--border-soft); }
+.sg-shadow-base { box-shadow: 0 3px 15px rgba(0,0,0,0.06); }
+.sg-shadow-hover { box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
+.sg-shadow-lg { box-shadow: var(--shadow-lg); }
 </style>
 <section class="page-header">
     <div class="container page-header-content">
@@ -300,27 +316,27 @@ require __DIR__ . '/includes/header.php';
         <h3 class="mb-4" class="sg-subtitle">Cores</h3>
         <div class="row g-3 mb-5">
             <div class="col-md-3 col-sm-6">
-                <div class="sg-swatch" style="background: var(--primary-green);">
+                <div class="sg-swatch sg-swatch-primary">
                     <strong>--primary-green</strong>
                     <small>#1a5c3a</small>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <div class="sg-swatch" style="background: var(--dark-green);">
+                <div class="sg-swatch sg-swatch-dark">
                     <strong>--dark-green</strong>
                     <small>#0f3d26</small>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <div class="sg-swatch" style="background: var(--light-green);">
+                <div class="sg-swatch sg-swatch-light">
                     <strong>--light-green</strong>
                     <small>#2d7a52</small>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <div class="sg-swatch" style="background: var(--bg-light); color: #222; border: 1px solid rgba(0,0,0,0.06);">
+                <div class="sg-swatch sg-swatch-bg">
                     <strong>--bg-light</strong>
-                    <small style="opacity: 0.6;">#f8f9fa</small>
+                    <small>#f8f9fa</small>
                 </div>
             </div>
         </div>
@@ -383,24 +399,24 @@ require __DIR__ . '/includes/header.php';
         <h3 class="mb-4" class="sg-subtitle">Sombras (Escadas semânticas)</h3>
         <div class="row g-3 mb-5">
             <div class="col-md-3 col-sm-6">
-                <div class="sg-shadow-box" style="box-shadow: var(--shadow-sm); border: 1px solid var(--border-soft);">
+                <div class="sg-shadow-box sg-shadow-sm">
                     <small><strong>--shadow-sm</strong></small>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <div class="sg-shadow-box" style="box-shadow: 0 3px 15px rgba(0,0,0,0.06);">
+                <div class="sg-shadow-box sg-shadow-base">
                     <small><strong>card base</strong></small><br>
                     <small class="sg-shadow-box-small">0 3px 15px rgba(0,0,0,0.06)</small>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <div class="sg-shadow-box" style="box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
+                <div class="sg-shadow-box sg-shadow-hover">
                     <small><strong>card hover</strong></small><br>
                     <small class="sg-shadow-box-small">0 8px 25px rgba(0,0,0,0.1)</small>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <div class="sg-shadow-box" style="box-shadow: var(--shadow-lg);">
+                <div class="sg-shadow-box sg-shadow-lg">
                     <small><strong>--shadow-lg</strong></small>
                 </div>
             </div>
@@ -519,7 +535,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="sg-media-demo-body-internal">
                         <div class="sg-media-demo-meta"><i class="bi bi-calendar"></i> Data</div>
                         <h4 class="sg-media-demo-title">Media Card Title</h4>
-                        <p class="sg-demo-text-sm" style="flex-grow: 1;">Descrição do conteúdo do media card.</p>
+                        <p class="sg-demo-text-sm" >Descrição do conteúdo do media card.</p>
                         <a href="#" class="course-link sg-media-demo-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
@@ -638,7 +654,7 @@ require __DIR__ . '/includes/header.php';
             <div class="col-md-6 col-lg-4">
                 <div class="media-card rge-card h-100" >
                     <code class="d-block mb-2 text-muted sg-card-label-absolute">.media-card .rge-card</code>
-                    <div class="sg-media-demo-img sg-media-demo-placeholder" style="height: 100px;"></div>
+                    <div class="sg-media-demo-img sg-media-demo-placeholder" ></div>
                     <div class="sg-media-demo-body">
                         <h4>Media Card</h4>
                         <p class="sg-demo-text">Imagem edge-to-edge + body com padding. Notícias, cursos, projetos.</p>

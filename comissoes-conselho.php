@@ -26,7 +26,7 @@ require __DIR__ . '/includes/header.php';
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 hero-content">
-                    <div style="width: 40px; height: 3px; background: var(--accent-green); margin-bottom: 1.5rem;"></div>
+                    <div class="accent-divider"></div>
                     <h1>Conselho e Comiss&otilde;es</h1>
                     <p>Transparência e organização na gestão do Departamento de Genética. Acompanhe a composição das comissões, membros do conselho e calendário de reuniões.</p>
                 </div>
@@ -196,7 +196,7 @@ require __DIR__ . '/includes/header.php';
             <!-- Comissão de Graduação -->
             <div class="content-card rge-card" id="comgrad">
                 <h3><i class="bi bi-mortarboard"></i> Comissão de Graduação</h3>
-                <p class="text-muted mb-3" style="font-size: 0.9rem;">Responsável pela organização, supervisão e avaliação das atividades de ensino de graduação vinculadas ao departamento.</p>
+                <p class="text-muted mb-3" >Responsável pela organização, supervisão e avaliação das atividades de ensino de graduação vinculadas ao departamento.</p>
                 <div class="table-responsive">
                     <table class="custom-table">
                         <thead>
@@ -235,7 +235,7 @@ require __DIR__ . '/includes/header.php';
             <!-- Comissão de Pós-Graduação -->
             <div class="content-card rge-card" id="compos">
                 <h3><i class="bi bi-journal-bookmark"></i> Comissão de Pós-Graduação</h3>
-                <p class="text-muted mb-3" style="font-size: 0.9rem;">Atua na coordenação dos programas de mestrado e doutorado, seleção de alunos, avaliação de dissertações e teses.</p>
+                <p class="text-muted mb-3" >Atua na coordenação dos programas de mestrado e doutorado, seleção de alunos, avaliação de dissertações e teses.</p>
                 <div class="table-responsive">
                     <table class="custom-table">
                         <thead>
@@ -274,7 +274,7 @@ require __DIR__ . '/includes/header.php';
             <!-- Comissão de Pesquisa -->
             <div class="content-card rge-card" id="compesq">
                 <h3><i class="bi bi-flask"></i> Comissão de Pesquisa</h3>
-                <p class="text-muted mb-3" style="font-size: 0.9rem;">Fomenta e acompanha as atividades de pesquisa do departamento, incluindo editais, bolsas e parcerias institucionais.</p>
+                <p class="text-muted mb-3" >Fomenta e acompanha as atividades de pesquisa do departamento, incluindo editais, bolsas e parcerias institucionais.</p>
                 <div class="table-responsive">
                     <table class="custom-table">
                         <thead>
@@ -308,7 +308,7 @@ require __DIR__ . '/includes/header.php';
             <!-- Comissão de Extensão -->
             <div class="content-card rge-card" id="cominfo">
                 <h3><i class="bi bi-globe-americas"></i> Comissão de Informática</h3>
-                <p class="text-muted mb-3" style="font-size: 0.9rem;">Coordena as atividades de informática do departamento.</p>
+                <p class="text-muted mb-3" >Coordena as atividades de informática do departamento.</p>
                 <div class="table-responsive">
                     <table class="custom-table">
                         <thead>
@@ -620,8 +620,8 @@ require __DIR__ . '/includes/header.php';
                 </div>
             </div>
 
-            <div class="alert mt-4" style="background: rgba(26,92,58,0.05); border: 1px solid rgba(26,92,58,0.1); border-radius: 12px; padding: 1.2rem 1.5rem; color: #444; font-size: 0.9rem;">
-                <i class="bi bi-info-circle-fill me-2" style="color: var(--primary-green);"></i>
+            <div class="alert alert-info-custom mt-4">
+                <i class="bi bi-info-circle-fill me-2" ></i>
                 <strong>Nota:</strong> As reuniões do Conselho do Departamento ocorrem sempre na <strong>1ª quarta-feira do mês</strong>, das 10:00 às 12:00. As reuniões da Congregação ocorrem na <strong>terça-feira subsequente</strong>, das 14:00 às 16:00. Reuniões extraordinárias podem ser convocadas mediante editais publicados nesta página.
             </div>
         </div>

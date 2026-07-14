@@ -63,7 +63,7 @@ require __DIR__ . '/includes/header.php';
                  <!-- Adicionado h-100 na coluna para ela esticar por igual se houver diferença de texto -->
                 <div class="col-md-6 col-lg-5 d-flex">
                    <!-- Adicionado d-flex flex-column h-100 para o card ocupar toda a altura e aceitar o comportamento flex -->
-                    <div class="media-card d-flex flex-column h-100 rge-card" style="width: 100%;">
+                    <div class="media-card d-flex flex-column h-100 rge-card" class="card-full-width">
                         <div class="chefia-card-header">
                             <span class="chefia-badge">Chefe</span>
                             <div class="chefia-avatar">
@@ -99,22 +99,13 @@ require __DIR__ . '/includes/header.php';
                             </div>
                             
                             <!-- O margin-top: auto agora funcionará perfeitamente por conta do ecossistema flex montado acima -->
-                            <div class="chefia-links" style="margin-top: auto; padding-top: 20px;">
+                            <div class="chefia-links" class="chefia-links-bottom">
                                 <!-- Curriculo Lates -->
                                                                        <a href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4782663H3" target="_blank" 
                                           rel="noopener noreferrer"  class="docente-link docente-link-primary" 
-                                         style="background-color: #fff;
-                                                          border: 1px solid #ddd;
-                                                          border-radius: 20px;
-                                                          padding: 4px 12px;
-                                                          color: #333;
-                                                          font-size: 0.75rem;
-                                                          font-weight: 600;
-                                                          display: inline-flex;
-                                                          align-items: center;
-                                                          gap: 8px;"   title="Currículo Lattes"  > 
+                                            title="Currículo Lattes"  > 
                                         <img src="assets/img/logo_lattes.png" alt="Currículo Lattes"  
-                                            style="background-color:#FFFFFF;  object-fit:contain; display:block;"  ></a>
+                                            ></a>
                                                                 <!-- Pagina pessoal -->
                                                             </div>
                         </div>
@@ -126,7 +117,7 @@ require __DIR__ . '/includes/header.php';
                  <!-- Adicionado h-100 na coluna para ela esticar por igual se houver diferença de texto -->
                   <div class="col-md-6 col-lg-5 d-flex">
                      <!-- Adicionado d-flex flex-column h-100 para o card ocupar toda a altura e aceitar o comportamento flex -->
-                      <div class="media-card d-flex flex-column h-100 rge-card" style="width: 100%;"  >
+                      <div class="media-card d-flex flex-column h-100 rge-card" class="card-full-width"  >
                         <div class="chefia-card-header">
                             <span class="chefia-badge">Vice-Chefe</span>
                             <div class="chefia-avatar">
@@ -162,22 +153,13 @@ require __DIR__ . '/includes/header.php';
                             </div>
                             
                             <!-- O margin-top: auto agora funcionará perfeitamente por conta do ecossistema flex montado acima -->
-                            <div class="chefia-links" style="margin-top: auto; padding-top: 20px;">
+                            <div class="chefia-links" class="chefia-links-bottom">
                                 <!-- Curriculo Lates -->
                                                                        <a href="http://lattes.cnpq.br/0408321083175019" target="_blank" 
                                           rel="noopener noreferrer"  class="docente-link docente-link-primary" 
-                                         style="background-color: #fff;
-                                                          border: 1px solid #ddd;
-                                                          border-radius: 20px;
-                                                          padding: 4px 12px;
-                                                          color: #333;
-                                                          font-size: 0.75rem;
-                                                          font-weight: 600;
-                                                          display: inline-flex;
-                                                          align-items: center;
-                                                          gap: 8px;"   title="Currículo Lattes"  > 
+                                            title="Currículo Lattes"  > 
                                         <img src="assets/img/logo_lattes.png" alt="Currículo Lattes"  
-                                            style="background-color:#FFFFFF;  object-fit:contain; display:block;"  ></a>
+                                            ></a>
                                                                 <!-- Pagina pessoal -->
                                                             </div>
                         </div>
@@ -285,7 +267,7 @@ require __DIR__ . '/includes/header.php';
                     <!-- Alterado de$row['Nom_Pessoa'] para  $row['chefe']  -->
                     <strong class="strchefe" >Chefe:</strong> WILSON ARAÚJO DA SILVA JUNIOR                </div>
 
-                                    <div class="timeline-role" style="margin-top: 6px;">
+                                    <div class="timeline-role">
                         <strong>Vice:</strong> ESTER SILVEIRA RAMOS                    </div>
                 
                                     <span class="timeline-badge">Gestão Atual</span>
@@ -303,7 +285,7 @@ require __DIR__ . '/includes/header.php';
                     <!-- Alterado de$row['Nom_Pessoa'] para  $row['chefe']  -->
                     <strong class="strchefe" >Chefe:</strong> ESTER SILVEIRA RAMOS                </div>
 
-                                    <div class="timeline-role" style="margin-top: 6px;">
+                                    <div class="timeline-role">
                         <strong>Vice:</strong> NILCE MARIA MARTINEZ ROSSI                    </div>
                 
                 
@@ -320,7 +302,7 @@ require __DIR__ . '/includes/header.php';
                     <!-- Alterado de$row['Nom_Pessoa'] para  $row['chefe']  -->
                     <strong class="strchefe" >Chefe:</strong> AGUINALDO LUIZ SIMÕES                </div>
 
-                                    <div class="timeline-role" style="margin-top: 6px;">
+                                    <div class="timeline-role">
                         <strong>Vice:</strong> WILSON ARAÚJO DA SILVA JUNIOR                    </div>
                 
                 
@@ -337,7 +319,7 @@ require __DIR__ . '/includes/header.php';
                     <!-- Alterado de$row['Nom_Pessoa'] para  $row['chefe']  -->
                     <strong class="strchefe" >Chefe:</strong> WILSON ARAÚJO DA SILVA JUNIOR                </div>
 
-                                    <div class="timeline-role" style="margin-top: 6px;">
+                                    <div class="timeline-role">
                         <strong>Vice:</strong> LUCIA REGINA MARTELLI                    </div>
                 
                 
@@ -354,7 +336,7 @@ require __DIR__ . '/includes/header.php';
                     <!-- Alterado de$row['Nom_Pessoa'] para  $row['chefe']  -->
                     <strong class="strchefe" >Chefe:</strong> AGUINALDO LUIZ SIMÕES                </div>
 
-                                    <div class="timeline-role" style="margin-top: 6px;">
+                                    <div class="timeline-role">
                         <strong>Vice:</strong> WILSON ARAÚJO DA SILVA JUNIOR                    </div>
                 
                 
@@ -371,7 +353,7 @@ require __DIR__ . '/includes/header.php';
                     <!-- Alterado de$row['Nom_Pessoa'] para  $row['chefe']  -->
                     <strong class="strchefe" >Chefe:</strong> NILCE MARIA MARTINEZ ROSSI                </div>
 
-                                    <div class="timeline-role" style="margin-top: 6px;">
+                                    <div class="timeline-role">
                         <strong>Vice:</strong> AGUINALDO LUIZ SIMÕES                    </div>
                 
                 
@@ -388,7 +370,7 @@ require __DIR__ . '/includes/header.php';
                     <!-- Alterado de$row['Nom_Pessoa'] para  $row['chefe']  -->
                     <strong class="strchefe" >Chefe:</strong> NILCE MARIA MARTINEZ ROSSI                </div>
 
-                                    <div class="timeline-role" style="margin-top: 6px;">
+                                    <div class="timeline-role">
                         <strong>Vice:</strong> EUCLEIA PRIMO BETIOLI CONTEL                    </div>
                 
                 
@@ -405,7 +387,7 @@ require __DIR__ . '/includes/header.php';
                     <!-- Alterado de$row['Nom_Pessoa'] para  $row['chefe']  -->
                     <strong class="strchefe" >Chefe:</strong> MOACYR ANTONIO MESTRINER                </div>
 
-                                    <div class="timeline-role" style="margin-top: 6px;">
+                                    <div class="timeline-role">
                         <strong>Vice:</strong> EUCLEIA PRIMO BETIOLI CONTEL                    </div>
                 
                 
@@ -422,7 +404,7 @@ require __DIR__ . '/includes/header.php';
                     <!-- Alterado de$row['Nom_Pessoa'] para  $row['chefe']  -->
                     <strong class="strchefe" >Chefe:</strong> NILCE MARIA MARTINEZ ROSSI                </div>
 
-                                    <div class="timeline-role" style="margin-top: 6px;">
+                                    <div class="timeline-role">
                         <strong>Vice:</strong> EUCLEIA PRIMO BETIOLI CONTEL                    </div>
                 
                 
@@ -439,7 +421,7 @@ require __DIR__ . '/includes/header.php';
                     <!-- Alterado de$row['Nom_Pessoa'] para  $row['chefe']  -->
                     <strong class="strchefe" >Chefe:</strong> NILCE MARIA MARTINEZ ROSSI                </div>
 
-                                    <div class="timeline-role" style="margin-top: 6px;">
+                                    <div class="timeline-role">
                         <strong>Vice:</strong> JOÃO MONTEIRO DE PINA NETO                    </div>
                 
                 
@@ -456,7 +438,7 @@ require __DIR__ . '/includes/header.php';
                     <!-- Alterado de$row['Nom_Pessoa'] para  $row['chefe']  -->
                     <strong class="strchefe" >Chefe:</strong> EUCLEIA PRIMO BETIOLI CONTEL                </div>
 
-                                    <div class="timeline-role" style="margin-top: 6px;">
+                                    <div class="timeline-role">
                         <strong>Vice:</strong> NILCE MARIA MARTINEZ ROSSI                    </div>
                 
                 
@@ -473,7 +455,7 @@ require __DIR__ . '/includes/header.php';
                     <!-- Alterado de$row['Nom_Pessoa'] para  $row['chefe']  -->
                     <strong class="strchefe" >Chefe:</strong> FRANCISCO ALBERTO DE MOURA DUARTE                </div>
 
-                                    <div class="timeline-role" style="margin-top: 6px;">
+                                    <div class="timeline-role">
                         <strong>Vice:</strong> MOACYR ANTONIO MESTRINER                    </div>
                 
                 
@@ -490,7 +472,7 @@ require __DIR__ . '/includes/header.php';
                     <!-- Alterado de$row['Nom_Pessoa'] para  $row['chefe']  -->
                     <strong class="strchefe" >Chefe:</strong> MOACYR ANTONIO MESTRINER                </div>
 
-                                    <div class="timeline-role" style="margin-top: 6px;">
+                                    <div class="timeline-role">
                         <strong>Vice:</strong> EUCLEIA PRIMO BETIOLI CONTEL                    </div>
                 
                 
@@ -507,7 +489,7 @@ require __DIR__ . '/includes/header.php';
                     <!-- Alterado de$row['Nom_Pessoa'] para  $row['chefe']  -->
                     <strong class="strchefe" >Chefe:</strong> FRANCISCO ALBERTO DE MOURA DUARTE                </div>
 
-                                    <div class="timeline-role" style="margin-top: 6px;">
+                                    <div class="timeline-role">
                         <strong>Vice:</strong> MOACYR ANTONIO MESTRINER                    </div>
                 
                 
@@ -524,7 +506,7 @@ require __DIR__ . '/includes/header.php';
                     <!-- Alterado de$row['Nom_Pessoa'] para  $row['chefe']  -->
                     <strong class="strchefe" >Chefe:</strong> IRIS FERRARI                </div>
 
-                                    <div class="timeline-role" style="margin-top: 6px;">
+                                    <div class="timeline-role">
                         <strong>Vice:</strong> MOACYR ANTONIO MESTRINER                    </div>
                 
                 
@@ -541,7 +523,7 @@ require __DIR__ . '/includes/header.php';
                     <!-- Alterado de$row['Nom_Pessoa'] para  $row['chefe']  -->
                     <strong class="strchefe" >Chefe:</strong> FRANCISCO ALBERTO DE MOURA DUARTE                </div>
 
-                                    <div class="timeline-role" style="margin-top: 6px;">
+                                    <div class="timeline-role">
                         <strong>Vice:</strong> IRIS FERRARI                    </div>
                 
                 
@@ -558,7 +540,7 @@ require __DIR__ . '/includes/header.php';
                     <!-- Alterado de$row['Nom_Pessoa'] para  $row['chefe']  -->
                     <strong class="strchefe" >Chefe:</strong> WARWICK ESTEVAM KERR                </div>
 
-                                    <div class="timeline-role" style="margin-top: 6px;">
+                                    <div class="timeline-role">
                         <strong>Vice:</strong> IRIS FERRARI                    </div>
                 
                 
@@ -575,7 +557,7 @@ require __DIR__ . '/includes/header.php';
                     <!-- Alterado de$row['Nom_Pessoa'] para  $row['chefe']  -->
                     <strong class="strchefe" >Chefe:</strong> HUMBERTO DE QUEIROZ MENEZES                </div>
 
-                                    <div class="timeline-role" style="margin-top: 6px;">
+                                    <div class="timeline-role">
                         <strong>Vice:</strong> IRIS FERRARI                    </div>
                 
                 
@@ -592,7 +574,7 @@ require __DIR__ . '/includes/header.php';
                     <!-- Alterado de$row['Nom_Pessoa'] para  $row['chefe']  -->
                     <strong class="strchefe" >Chefe:</strong> IRIS FERRARI                </div>
 
-                                    <div class="timeline-role" style="margin-top: 6px;">
+                                    <div class="timeline-role">
                         <strong>Vice:</strong> GERALDO GARCIA DUARTE                    </div>
                 
                 
@@ -609,7 +591,7 @@ require __DIR__ . '/includes/header.php';
                     <!-- Alterado de$row['Nom_Pessoa'] para  $row['chefe']  -->
                     <strong class="strchefe" >Chefe:</strong> WARWICK ESTEVAM KERR                </div>
 
-                                    <div class="timeline-role" style="margin-top: 6px;">
+                                    <div class="timeline-role">
                         <strong>Vice:</strong> MARIA APARECIDA DE PAIVA FRANCO                    </div>
                 
                 
@@ -626,7 +608,7 @@ require __DIR__ . '/includes/header.php';
                     <!-- Alterado de$row['Nom_Pessoa'] para  $row['chefe']  -->
                     <strong class="strchefe" >Chefe:</strong> WARWICK ESTEVAM KERR                </div>
 
-                                    <div class="timeline-role" style="margin-top: 6px;">
+                                    <div class="timeline-role">
                         <strong>Vice:</strong> GERALDO GARCIA DUARTE                    </div>
                 
                 

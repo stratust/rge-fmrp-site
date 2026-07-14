@@ -38,7 +38,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-lg-4">
                     <div class="d-flex flex-column gap-4">
                         <div class="media-card rge-card">
-                            <div class="news-img" style="height: 160px;">
+                            <div class="news-img news-img-short">
                                 <img src="https://images.unsplash.com/photo-1544531586-fde5298cdd40?w=400&h=250&fit=crop" alt="Evento">
                             </div>
                             <div class="news-body">
@@ -49,7 +49,7 @@ require __DIR__ . '/includes/header.php';
                             </div>
                         </div>
                         <div class="media-card rge-card">
-                            <div class="news-img" style="height: 160px;">
+                            <div class="news-img news-img-short">
                                 <img src="https://images.unsplash.com/photo-1628595351029-c2bf17511435?w=400&h=250&fit=crop" alt="Pós-graduação">
                             </div>
                             <div class="news-body">
@@ -72,14 +72,14 @@ require __DIR__ . '/includes/header.php';
             <div class="section-header">
                 <h2>Fique por dentro</h2>
                 <div class="d-flex gap-2">
-                    <select class="form-select form-select-sm" style="width: auto; font-size: 0.85rem; border-radius: 8px;">
+                    <select class="form-select form-select-sm" class="form-select-compact">
                         <option selected>Todas as categorias</option>
                         <option>Pesquisa</option>
                         <option>Ensino</option>
                         <option>Eventos</option>
                         <option>Extensão</option>
                     </select>
-                    <select class="form-select form-select-sm" style="width: auto; font-size: 0.85rem; border-radius: 8px;">
+                    <select class="form-select form-select-sm" class="form-select-compact">
                         <option selected>Mais recentes</option>
                         <option>Mais antigas</option>
                     </select>

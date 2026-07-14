@@ -28,7 +28,7 @@ require __DIR__ . '/includes/header.php';
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 hero-content">
-                    <div style="width: 40px; height: 3px; background: var(--accent-green); margin-bottom: 1.5rem;"></div>
+                    <div class="accent-divider"></div>
                     <h1>Residência em Genética Médica</h1>
                     <p class="subtitle">Programa de Especialização – FMRP/USP</p>
                     <p>Formação de especialistas em Genética Médica com excelência acadêmica, prática clínica integrada e pesquisa científica de ponta no maior centro médico do interior paulista.</p>
@@ -94,7 +94,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-lg-8">
                     <div class="section-label">Estrutura Curricular</div>
                     <h2>Estrutura do programa de residência</h2>
-                    <p style="color: #555; line-height: 1.8;">O programa é desenvolvido em três anos de formação, com progressão gradual da complexidade clínica e integração crescente com as atividades de pesquisa e ensino.</p>
+                    <p class="text-body-relaxed">O programa é desenvolvido em três anos de formação, com progressão gradual da complexidade clínica e integração crescente com as atividades de pesquisa e ensino.</p>
                 </div>
             </div>
             <div class="row g-4">
@@ -146,7 +146,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-lg-8">
                     <div class="section-label">Rotatórias</div>
                     <h2>Rotatórias do programa</h2>
-                    <p style="color: #555; line-height: 1.8;">As rotatórias complementam a formação em genética médica com experiências em áreas correlatas essenciais para a prática do especialista.</p>
+                    <p class="text-body-relaxed">As rotatórias complementam a formação em genética médica com experiências em áreas correlatas essenciais para a prática do especialista.</p>
                 </div>
             </div>
             <div class="row">
@@ -221,7 +221,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-lg-8">
                     <div class="section-label">Processo Seletivo</div>
                     <h2>Como ingressar no programa</h2>
-                    <p style="color: #555; line-height: 1.8;">O processo seletivo para a Residência Médica em Genética Médica da FMRP/USP segue o calendário nacional do Sistema de Seleção Unificada (SiSU) ou processo seletivo próprio, conforme edital publicado anualmente.</p>
+                    <p class="text-body-relaxed">O processo seletivo para a Residência Médica em Genética Médica da FMRP/USP segue o calendário nacional do Sistema de Seleção Unificada (SiSU) ou processo seletivo próprio, conforme edital publicado anualmente.</p>
                 </div>
             </div>
 
@@ -273,13 +273,13 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-lg-4">
                     <div class="icon-card rge-card">
                         <h3><i class="bi bi-calendar-event"></i> Calendário [2026]</h3>
-                        <ul style="padding-left: 1.2rem; margin-bottom: 0;">
-                            <li style="font-size: 0.9rem; color: #555; margin-bottom: 0.5rem; line-height: 1.7;"><strong>Publicação do edital:</strong> [Data]</li>
-                            <li style="font-size: 0.9rem; color: #555; margin-bottom: 0.5rem; line-height: 1.7;"><strong>Inscrições:</strong> [Data] a [Data]</li>
-                            <li style="font-size: 0.9rem; color: #555; margin-bottom: 0.5rem; line-height: 1.7;"><strong>Prova teórica:</strong> [Data]</li>
-                            <li style="font-size: 0.9rem; color: #555; margin-bottom: 0.5rem; line-height: 1.7;"><strong>Entrevistas:</strong> [Data]</li>
-                            <li style="font-size: 0.9rem; color: #555; margin-bottom: 0.5rem; line-height: 1.7;"><strong>Resultado final:</strong> [Data]</li>
-                            <li style="font-size: 0.9rem; color: #555; margin-bottom: 0; line-height: 1.7;"><strong>Início das atividades:</strong> [Data]</li>
+                        <ul >
+                            <li class="text-body-sm"><strong>Publicação do edital:</strong> [Data]</li>
+                            <li class="text-body-sm"><strong>Inscrições:</strong> [Data] a [Data]</li>
+                            <li class="text-body-sm"><strong>Prova teórica:</strong> [Data]</li>
+                            <li class="text-body-sm"><strong>Entrevistas:</strong> [Data]</li>
+                            <li class="text-body-sm"><strong>Resultado final:</strong> [Data]</li>
+                            <li ><strong>Início das atividades:</strong> [Data]</li>
                         </ul>
                     </div>
                 </div>
@@ -353,7 +353,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-lg-8">
                     <div class="section-label">Documentos</div>
                     <h2>Documentos e normativos</h2>
-                    <p style="color: #555; line-height: 1.8;">Acesse os documentos oficiais do programa, editais de seleção e normativas da Comissão Nacional de Residência Médica.</p>
+                    <p class="text-body-relaxed">Acesse os documentos oficiais do programa, editais de seleção e normativas da Comissão Nacional de Residência Médica.</p>
                 </div>
             </div>
             <div class="row g-4">

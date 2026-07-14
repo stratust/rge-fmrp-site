@@ -59,7 +59,7 @@ require __DIR__ . '/includes/header.php';
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8 mb-3 mb-lg-0">
-                    <span class="text-muted me-2" style="font-size: 0.85rem;">Filtrar por área:</span>
+                    <span class="text-muted me-2" class="filter-label">Filtrar por área:</span>
                     <button type="button" class="filter-btn active" data-area="">Todos</button>
                     <button type="button" class="filter-btn" data-area="Bioinformática">Bioinformática</button>
                     <button type="button" class="filter-btn" data-area="Genética Humana">Genética Humana</button>
@@ -102,23 +102,10 @@ require __DIR__ . '/includes/header.php';
                     
                     <div class="profile-card h-100 rge-card">
 
-                        <div class="docente-photo-wrap  background:#F8F9FA !important">
+                        <div class="docente-photo-wrap">
 
-                                                                                             <div class="docente-photo-placeholder" style="border: 2px solid #FFFFFF;">
-                                      <img 
-                                          src="assets/img/fotos_docentes/foto14.png"
-                                          alt="WILSON ARAÚJO DA SILVA JUNIOR"
-                              
-                                          style="
-                                              width:125px;
-                                              height:125px;
-                              
-                                              object-fit:cover;
-                                              border: 2px solid #FFFFFF;
-                                              border-radius:50%;
-                              
-                                              display:block;
-                                          "
+                                                                                             <div class="docente-photo-placeholder">
+                                      <img src="assets/img/fotos_docentes/foto14.png" alt="WILSON ARAÚJO DA SILVA JUNIOR" class="docente-photo-img">
                                       >
 
                                   </div>
@@ -130,37 +117,37 @@ require __DIR__ . '/includes/header.php';
                             
                         </div>
 
-                        <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
+                        <div class="docente-body" class="flex-col-gap-sm" >
                              <!--  Nome Docente -->   
                             <h3 class="docente-name">
                                 Wilson Araújo da Silva Junior                            </h3>
 
      
                             <!--  Area/Setor  -->
-                            <div style="min-height: 48px; margin-bottom: 0px !important; ">
+                            <div >
                                                    <!--  Titulacao  -->
-                            <span class="docente-role" style="font-size:12px;" >
+                            <span class="docente-role" >
                                 PROFESSOR ASSOCIADO - MS 5                            </span>
 
                             
                               <p class="docente-area" >
                                   <strong>Setor:</strong>
-                                  <span style="font-size:12px;">Genética Molecular e Bioinformática</span>
+                                  <span class="docente-area-name">Genética Molecular e Bioinformática</span>
                               </p>                            
                             </div>
                             
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
-        <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
+        <div class="ods" class="docente-links-row">    
       
-                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
-                            ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
+                                      <p class="ods-label">
+                            ODS <span class="docente-role-subtitle">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
                       </p>
                         
                         
-                     <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
-                                                      <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                     <div class="ods-tags">
+                                                      <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal3" target="_blank" title="SDG: 3">
                                 
@@ -169,10 +156,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-3.svg" alt="ODS: 3"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal4" target="_blank" title="SDG: 4">
                                 
@@ -181,10 +168,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-4.svg" alt="ODS: 4"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal9" target="_blank" title="SDG: 9">
                                 
@@ -193,10 +180,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-9.svg" alt="ODS: 9"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal17" target="_blank" title="SDG: 17">
                                 
@@ -205,7 +192,7 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-17.svg" alt="ODS: 17"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
                                                            </div>
@@ -225,25 +212,15 @@ require __DIR__ . '/includes/header.php';
                             
                             
                             <!-- Curriculo Lates e Pagina Pessoal/Site -->            
-                            <div class="docente-links"  style="display:flex;  justify-content:center; 
-                                    align-items:center; gap:10px; flex-wrap:wrap;" >
+                            <div class="docente-links">
                                  <!-- Curriculo Lates -->
                                                                     <a href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4782663H3"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="docente-link docente-link-primary" 
-                                         style="background-color: #fff;
-                                                          border: 1px solid #ddd;
-                                                          border-radius: 20px;
-                                                          padding: 4px 12px;
-                                                          color: #333;
-                                                          font-size: 0.75rem;
-                                                          font-weight: 600;
-                                                          display: inline-flex;
-                                                          align-items: center;
-                                                          gap: 8px;" > 
+                                          > 
                                         <img src="assets/img/logo_lattes.png" alt="Currículo Lattes"  
-                                            style="background-color:#FFFFFF;  object-fit:contain; display:block;"  >
+                                              >
                                     </a>
   
                                                                 
@@ -264,23 +241,10 @@ require __DIR__ . '/includes/header.php';
                     
                     <div class="profile-card h-100 rge-card">
 
-                        <div class="docente-photo-wrap  background:#F8F9FA !important">
+                        <div class="docente-photo-wrap">
 
-                                                                                             <div class="docente-photo-placeholder" style="border: 2px solid #FFFFFF;">
-                                      <img 
-                                          src="assets/img/fotos_docentes/foto3.png"
-                                          alt="ESTER SILVEIRA RAMOS"
-                              
-                                          style="
-                                              width:125px;
-                                              height:125px;
-                              
-                                              object-fit:cover;
-                                              border: 2px solid #FFFFFF;
-                                              border-radius:50%;
-                              
-                                              display:block;
-                                          "
+                                                                                             <div class="docente-photo-placeholder">
+                                      <img src="assets/img/fotos_docentes/foto3.png" alt="ESTER SILVEIRA RAMOS" class="docente-photo-img">
                                       >
 
                                   </div>
@@ -292,37 +256,37 @@ require __DIR__ . '/includes/header.php';
                             
                         </div>
 
-                        <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
+                        <div class="docente-body" class="flex-col-gap-sm" >
                              <!--  Nome Docente -->   
                             <h3 class="docente-name">
                                 Ester Silveira Ramos                            </h3>
 
      
                             <!--  Area/Setor  -->
-                            <div style="min-height: 48px; margin-bottom: 0px !important; ">
+                            <div >
                                                    <!--  Titulacao  -->
-                            <span class="docente-role" style="font-size:12px;" >
+                            <span class="docente-role" >
                                 PROFESSORA TITULAR - MS 6                            </span>
 
                             
                               <p class="docente-area" >
                                   <strong>Setor:</strong>
-                                  <span style="font-size:12px;">Genética Humana e Médica</span>
+                                  <span class="docente-area-name">Genética Humana e Médica</span>
                               </p>                            
                             </div>
                             
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
-        <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
+        <div class="ods" class="docente-links-row">    
       
-                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
-                            ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
+                                      <p class="ods-label">
+                            ODS <span class="docente-role-subtitle">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
                       </p>
                         
                         
-                     <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
-                                                      <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                     <div class="ods-tags">
+                                                      <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal3" target="_blank" title="SDG: 3">
                                 
@@ -331,10 +295,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-3.svg" alt="ODS: 3"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal4" target="_blank" title="SDG: 4">
                                 
@@ -343,10 +307,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-4.svg" alt="ODS: 4"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal5" target="_blank" title="SDG: 5">
                                 
@@ -355,10 +319,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-5.svg" alt="ODS: 5"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal10" target="_blank" title="SDG: 10">
                                 
@@ -367,10 +331,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-10.svg" alt="ODS: 10"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal12" target="_blank" title="SDG: 12">
                                 
@@ -379,10 +343,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-12.svg" alt="ODS: 12"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal16" target="_blank" title="SDG: 16">
                                 
@@ -391,7 +355,7 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-16.svg" alt="ODS: 16"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
                                                            </div>
@@ -411,25 +375,15 @@ require __DIR__ . '/includes/header.php';
                             
                             
                             <!-- Curriculo Lates e Pagina Pessoal/Site -->            
-                            <div class="docente-links"  style="display:flex;  justify-content:center; 
-                                    align-items:center; gap:10px; flex-wrap:wrap;" >
+                            <div class="docente-links">
                                  <!-- Curriculo Lates -->
                                                                     <a href="http://lattes.cnpq.br/0408321083175019"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="docente-link docente-link-primary" 
-                                         style="background-color: #fff;
-                                                          border: 1px solid #ddd;
-                                                          border-radius: 20px;
-                                                          padding: 4px 12px;
-                                                          color: #333;
-                                                          font-size: 0.75rem;
-                                                          font-weight: 600;
-                                                          display: inline-flex;
-                                                          align-items: center;
-                                                          gap: 8px;" > 
+                                          > 
                                         <img src="assets/img/logo_lattes.png" alt="Currículo Lattes"  
-                                            style="background-color:#FFFFFF;  object-fit:contain; display:block;"  >
+                                              >
                                     </a>
   
                                                                 
@@ -450,23 +404,10 @@ require __DIR__ . '/includes/header.php';
                     
                     <div class="profile-card h-100 rge-card">
 
-                        <div class="docente-photo-wrap  background:#F8F9FA !important">
+                        <div class="docente-photo-wrap">
 
-                                                                                             <div class="docente-photo-placeholder" style="border: 2px solid #FFFFFF;">
-                                      <img 
-                                          src="assets/img/fotos_docentes/foto15.png"
-                                          alt="ALEXANDRO GUTERRES DA SILVA"
-                              
-                                          style="
-                                              width:125px;
-                                              height:125px;
-                              
-                                              object-fit:cover;
-                                              border: 2px solid #FFFFFF;
-                                              border-radius:50%;
-                              
-                                              display:block;
-                                          "
+                                                                                             <div class="docente-photo-placeholder">
+                                      <img src="assets/img/fotos_docentes/foto15.png" alt="ALEXANDRO GUTERRES DA SILVA" class="docente-photo-img">
                                       >
 
                                   </div>
@@ -477,37 +418,37 @@ require __DIR__ . '/includes/header.php';
                             
                         </div>
 
-                        <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
+                        <div class="docente-body" class="flex-col-gap-sm" >
                              <!--  Nome Docente -->   
                             <h3 class="docente-name">
                                 Alexandro Guterres da Silva                            </h3>
 
      
                             <!--  Area/Setor  -->
-                            <div style="min-height: 48px; margin-bottom: 0px !important; ">
+                            <div >
                                                    <!--  Titulacao  -->
-                            <span class="docente-role" style="font-size:12px;" >
+                            <span class="docente-role" >
                                 PROFESSOR DOUTOR - MS 3                            </span>
 
                             
                               <p class="docente-area" >
                                   <strong>Setor:</strong>
-                                  <span style="font-size:12px;">Genética Molecular e Bioinformática</span>
+                                  <span class="docente-area-name">Genética Molecular e Bioinformática</span>
                               </p>                            
                             </div>
                             
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
-        <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
+        <div class="ods" class="docente-links-row">    
       
-                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
-                            ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
+                                      <p class="ods-label">
+                            ODS <span class="docente-role-subtitle">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
                       </p>
                         
                         
-                     <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
-                                                      <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                     <div class="ods-tags">
+                                                      <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal1" target="_blank" title="SDG: 1">
                                 
@@ -516,10 +457,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-1.svg" alt="ODS: 1"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal2" target="_blank" title="SDG: 2">
                                 
@@ -528,10 +469,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-2.svg" alt="ODS: 2"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal3" target="_blank" title="SDG: 3">
                                 
@@ -540,10 +481,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-3.svg" alt="ODS: 3"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal4" target="_blank" title="SDG: 4">
                                 
@@ -552,10 +493,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-4.svg" alt="ODS: 4"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal9" target="_blank" title="SDG: 9">
                                 
@@ -564,10 +505,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-9.svg" alt="ODS: 9"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal15" target="_blank" title="SDG: 15">
                                 
@@ -576,7 +517,7 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-15.svg" alt="ODS: 15"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
                                                            </div>
@@ -596,25 +537,15 @@ require __DIR__ . '/includes/header.php';
                             
                             
                             <!-- Curriculo Lates e Pagina Pessoal/Site -->            
-                            <div class="docente-links"  style="display:flex;  justify-content:center; 
-                                    align-items:center; gap:10px; flex-wrap:wrap;" >
+                            <div class="docente-links">
                                  <!-- Curriculo Lates -->
                                                                     <a href="http://lattes.cnpq.br/9249560344292511"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="docente-link docente-link-primary" 
-                                         style="background-color: #fff;
-                                                          border: 1px solid #ddd;
-                                                          border-radius: 20px;
-                                                          padding: 4px 12px;
-                                                          color: #333;
-                                                          font-size: 0.75rem;
-                                                          font-weight: 600;
-                                                          display: inline-flex;
-                                                          align-items: center;
-                                                          gap: 8px;" > 
+                                          > 
                                         <img src="assets/img/logo_lattes.png" alt="Currículo Lattes"  
-                                            style="background-color:#FFFFFF;  object-fit:contain; display:block;"  >
+                                              >
                                     </a>
   
                                                                 
@@ -635,23 +566,10 @@ require __DIR__ . '/includes/header.php';
                     
                     <div class="profile-card h-100 rge-card">
 
-                        <div class="docente-photo-wrap  background:#F8F9FA !important">
+                        <div class="docente-photo-wrap">
 
-                                                                                             <div class="docente-photo-placeholder" style="border: 2px solid #FFFFFF;">
-                                      <img 
-                                          src="assets/img/fotos_docentes/foto17.png"
-                                          alt="APARECIDA MARIA FONTES"
-                              
-                                          style="
-                                              width:125px;
-                                              height:125px;
-                              
-                                              object-fit:cover;
-                                              border: 2px solid #FFFFFF;
-                                              border-radius:50%;
-                              
-                                              display:block;
-                                          "
+                                                                                             <div class="docente-photo-placeholder">
+                                      <img src="assets/img/fotos_docentes/foto17.png" alt="APARECIDA MARIA FONTES" class="docente-photo-img">
                                       >
 
                                   </div>
@@ -662,37 +580,37 @@ require __DIR__ . '/includes/header.php';
                             
                         </div>
 
-                        <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
+                        <div class="docente-body" class="flex-col-gap-sm" >
                              <!--  Nome Docente -->   
                             <h3 class="docente-name">
                                 Aparecida Maria Fontes                            </h3>
 
      
                             <!--  Area/Setor  -->
-                            <div style="min-height: 48px; margin-bottom: 0px !important; ">
+                            <div >
                                                    <!--  Titulacao  -->
-                            <span class="docente-role" style="font-size:12px;" >
+                            <span class="docente-role" >
                                 PROFESSORA DOUTORA - MS 3                            </span>
 
                             
                               <p class="docente-area" >
                                   <strong>Setor:</strong>
-                                  <span style="font-size:12px;">Doenças Metabólicas Hereditárias</span>
+                                  <span class="docente-area-name">Doenças Metabólicas Hereditárias</span>
                               </p>                            
                             </div>
                             
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
-        <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
+        <div class="ods" class="docente-links-row">    
       
-                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
-                            ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
+                                      <p class="ods-label">
+                            ODS <span class="docente-role-subtitle">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
                       </p>
                         
                         
-                     <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
-                                                      <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                     <div class="ods-tags">
+                                                      <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal3" target="_blank" title="SDG: 3">
                                 
@@ -701,10 +619,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-3.svg" alt="ODS: 3"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal4" target="_blank" title="SDG: 4">
                                 
@@ -713,10 +631,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-4.svg" alt="ODS: 4"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal5" target="_blank" title="SDG: 5">
                                 
@@ -725,10 +643,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-5.svg" alt="ODS: 5"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal9" target="_blank" title="SDG: 9">
                                 
@@ -737,10 +655,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-9.svg" alt="ODS: 9"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal17" target="_blank" title="SDG: 17">
                                 
@@ -749,7 +667,7 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-17.svg" alt="ODS: 17"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
                                                            </div>
@@ -769,25 +687,15 @@ require __DIR__ . '/includes/header.php';
                             
                             
                             <!-- Curriculo Lates e Pagina Pessoal/Site -->            
-                            <div class="docente-links"  style="display:flex;  justify-content:center; 
-                                    align-items:center; gap:10px; flex-wrap:wrap;" >
+                            <div class="docente-links">
                                  <!-- Curriculo Lates -->
                                                                     <a href="http://lattes.cnpq.br/2104806254317258"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="docente-link docente-link-primary" 
-                                         style="background-color: #fff;
-                                                          border: 1px solid #ddd;
-                                                          border-radius: 20px;
-                                                          padding: 4px 12px;
-                                                          color: #333;
-                                                          font-size: 0.75rem;
-                                                          font-weight: 600;
-                                                          display: inline-flex;
-                                                          align-items: center;
-                                                          gap: 8px;" > 
+                                          > 
                                         <img src="assets/img/logo_lattes.png" alt="Currículo Lattes"  
-                                            style="background-color:#FFFFFF;  object-fit:contain; display:block;"  >
+                                              >
                                     </a>
   
                                                                 
@@ -808,23 +716,10 @@ require __DIR__ . '/includes/header.php';
                     
                     <div class="profile-card h-100 rge-card">
 
-                        <div class="docente-photo-wrap  background:#F8F9FA !important">
+                        <div class="docente-photo-wrap">
 
-                                                                                             <div class="docente-photo-placeholder" style="border: 2px solid #FFFFFF;">
-                                      <img 
-                                          src="assets/img/fotos_docentes/foto1.png"
-                                          alt="DAVID DE JONG"
-                              
-                                          style="
-                                              width:125px;
-                                              height:125px;
-                              
-                                              object-fit:cover;
-                                              border: 2px solid #FFFFFF;
-                                              border-radius:50%;
-                              
-                                              display:block;
-                                          "
+                                                                                             <div class="docente-photo-placeholder">
+                                      <img src="assets/img/fotos_docentes/foto1.png" alt="DAVID DE JONG" class="docente-photo-img">
                                       >
 
                                   </div>
@@ -835,37 +730,37 @@ require __DIR__ . '/includes/header.php';
                             
                         </div>
 
-                        <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
+                        <div class="docente-body" class="flex-col-gap-sm" >
                              <!--  Nome Docente -->   
                             <h3 class="docente-name">
                                 David de Jong                            </h3>
 
      
                             <!--  Area/Setor  -->
-                            <div style="min-height: 48px; margin-bottom: 0px !important; ">
+                            <div >
                                                    <!--  Titulacao  -->
-                            <span class="docente-role" style="font-size:12px;" >
+                            <span class="docente-role" >
                                 PROFESSOR DOUTOR - MS 3                            </span>
 
                             
                               <p class="docente-area" >
                                   <strong>Setor:</strong>
-                                  <span style="font-size:12px;">Biologia e Genética de Abelhas</span>
+                                  <span class="docente-area-name">Biologia e Genética de Abelhas</span>
                               </p>                            
                             </div>
                             
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
-        <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
+        <div class="ods" class="docente-links-row">    
       
-                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
-                            ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
+                                      <p class="ods-label">
+                            ODS <span class="docente-role-subtitle">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
                       </p>
                         
                         
-                     <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
-                                                      <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                     <div class="ods-tags">
+                                                      <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal2" target="_blank" title="SDG: 2">
                                 
@@ -874,10 +769,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-2.svg" alt="ODS: 2"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal3" target="_blank" title="SDG: 3">
                                 
@@ -886,10 +781,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-3.svg" alt="ODS: 3"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal8" target="_blank" title="SDG: 8">
                                 
@@ -898,10 +793,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-8.svg" alt="ODS: 8"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal15" target="_blank" title="SDG: 15">
                                 
@@ -910,7 +805,7 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-15.svg" alt="ODS: 15"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
                                                            </div>
@@ -930,25 +825,15 @@ require __DIR__ . '/includes/header.php';
                             
                             
                             <!-- Curriculo Lates e Pagina Pessoal/Site -->            
-                            <div class="docente-links"  style="display:flex;  justify-content:center; 
-                                    align-items:center; gap:10px; flex-wrap:wrap;" >
+                            <div class="docente-links">
                                  <!-- Curriculo Lates -->
                                                                     <a href="http://lattes.cnpq.br/5009050038505035"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="docente-link docente-link-primary" 
-                                         style="background-color: #fff;
-                                                          border: 1px solid #ddd;
-                                                          border-radius: 20px;
-                                                          padding: 4px 12px;
-                                                          color: #333;
-                                                          font-size: 0.75rem;
-                                                          font-weight: 600;
-                                                          display: inline-flex;
-                                                          align-items: center;
-                                                          gap: 8px;" > 
+                                          > 
                                         <img src="assets/img/logo_lattes.png" alt="Currículo Lattes"  
-                                            style="background-color:#FFFFFF;  object-fit:contain; display:block;"  >
+                                              >
                                     </a>
   
                                                                 
@@ -969,23 +854,10 @@ require __DIR__ . '/includes/header.php';
                     
                     <div class="profile-card h-100 rge-card">
 
-                        <div class="docente-photo-wrap  background:#F8F9FA !important">
+                        <div class="docente-photo-wrap">
 
-                                                                                             <div class="docente-photo-placeholder" style="border: 2px solid #FFFFFF;">
-                                      <img 
-                                          src="assets/img/fotos_docentes/foto6.png"
-                                          alt="ISRAEL GOMY"
-                              
-                                          style="
-                                              width:125px;
-                                              height:125px;
-                              
-                                              object-fit:cover;
-                                              border: 2px solid #FFFFFF;
-                                              border-radius:50%;
-                              
-                                              display:block;
-                                          "
+                                                                                             <div class="docente-photo-placeholder">
+                                      <img src="assets/img/fotos_docentes/foto6.png" alt="ISRAEL GOMY" class="docente-photo-img">
                                       >
 
                                   </div>
@@ -996,37 +868,37 @@ require __DIR__ . '/includes/header.php';
                             
                         </div>
 
-                        <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
+                        <div class="docente-body" class="flex-col-gap-sm" >
                              <!--  Nome Docente -->   
                             <h3 class="docente-name">
                                 Israel Gomy                            </h3>
 
      
                             <!--  Area/Setor  -->
-                            <div style="min-height: 48px; margin-bottom: 0px !important; ">
+                            <div >
                                                    <!--  Titulacao  -->
-                            <span class="docente-role" style="font-size:12px;" >
+                            <span class="docente-role" >
                                 PROFESSOR DOUTOR - MS 3                            </span>
 
                             
                               <p class="docente-area" >
                                   <strong>Setor:</strong>
-                                  <span style="font-size:12px;">Genética Molecular e Bioinformática</span>
+                                  <span class="docente-area-name">Genética Molecular e Bioinformática</span>
                               </p>                            
                             </div>
                             
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
-        <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
+        <div class="ods" class="docente-links-row">    
       
-                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
-                            ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
+                                      <p class="ods-label">
+                            ODS <span class="docente-role-subtitle">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
                       </p>
                         
                         
-                     <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
-                                                      <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                     <div class="ods-tags">
+                                                      <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal3" target="_blank" title="SDG: 3">
                                 
@@ -1035,10 +907,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-3.svg" alt="ODS: 3"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal4" target="_blank" title="SDG: 4">
                                 
@@ -1047,10 +919,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-4.svg" alt="ODS: 4"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal9" target="_blank" title="SDG: 9">
                                 
@@ -1059,10 +931,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-9.svg" alt="ODS: 9"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal10" target="_blank" title="SDG: 10">
                                 
@@ -1071,7 +943,7 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-10.svg" alt="ODS: 10"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
                                                            </div>
@@ -1091,25 +963,15 @@ require __DIR__ . '/includes/header.php';
                             
                             
                             <!-- Curriculo Lates e Pagina Pessoal/Site -->            
-                            <div class="docente-links"  style="display:flex;  justify-content:center; 
-                                    align-items:center; gap:10px; flex-wrap:wrap;" >
+                            <div class="docente-links">
                                  <!-- Curriculo Lates -->
                                                                     <a href="http://lattes.cnpq.br/8419061609955405"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="docente-link docente-link-primary" 
-                                         style="background-color: #fff;
-                                                          border: 1px solid #ddd;
-                                                          border-radius: 20px;
-                                                          padding: 4px 12px;
-                                                          color: #333;
-                                                          font-size: 0.75rem;
-                                                          font-weight: 600;
-                                                          display: inline-flex;
-                                                          align-items: center;
-                                                          gap: 8px;" > 
+                                          > 
                                         <img src="assets/img/logo_lattes.png" alt="Currículo Lattes"  
-                                            style="background-color:#FFFFFF;  object-fit:contain; display:block;"  >
+                                              >
                                     </a>
   
                                                                 
@@ -1130,23 +992,10 @@ require __DIR__ . '/includes/header.php';
                     
                     <div class="profile-card h-100 rge-card">
 
-                        <div class="docente-photo-wrap  background:#F8F9FA !important">
+                        <div class="docente-photo-wrap">
 
-                                                                                             <div class="docente-photo-placeholder" style="border: 2px solid #FFFFFF;">
-                                      <img 
-                                          src="assets/img/fotos_docentes/foto7.png"
-                                          alt="JEREMY ANDREW SQUIRE"
-                              
-                                          style="
-                                              width:125px;
-                                              height:125px;
-                              
-                                              object-fit:cover;
-                                              border: 2px solid #FFFFFF;
-                                              border-radius:50%;
-                              
-                                              display:block;
-                                          "
+                                                                                             <div class="docente-photo-placeholder">
+                                      <img src="assets/img/fotos_docentes/foto7.png" alt="JEREMY ANDREW SQUIRE" class="docente-photo-img">
                                       >
 
                                   </div>
@@ -1157,37 +1006,37 @@ require __DIR__ . '/includes/header.php';
                             
                         </div>
 
-                        <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
+                        <div class="docente-body" class="flex-col-gap-sm" >
                              <!--  Nome Docente -->   
                             <h3 class="docente-name">
                                 Jeremy Andrew Squire                            </h3>
 
      
                             <!--  Area/Setor  -->
-                            <div style="min-height: 48px; margin-bottom: 0px !important; ">
+                            <div >
                                                    <!--  Titulacao  -->
-                            <span class="docente-role" style="font-size:12px;" >
+                            <span class="docente-role" >
                                 PROFESSOR DOUTOR - MS 3                            </span>
 
                             
                               <p class="docente-area" >
                                   <strong>Setor:</strong>
-                                  <span style="font-size:12px;">Citogenética Molecular Humana</span>
+                                  <span class="docente-area-name">Citogenética Molecular Humana</span>
                               </p>                            
                             </div>
                             
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
-        <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
+        <div class="ods" class="docente-links-row">    
       
-                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
-                            ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
+                                      <p class="ods-label">
+                            ODS <span class="docente-role-subtitle">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
                       </p>
                         
                         
-                     <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
-                                                      <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                     <div class="ods-tags">
+                                                      <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal3" target="_blank" title="SDG: 3">
                                 
@@ -1196,10 +1045,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-3.svg" alt="ODS: 3"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal4" target="_blank" title="SDG: 4">
                                 
@@ -1208,7 +1057,7 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-4.svg" alt="ODS: 4"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
                                                            </div>
@@ -1228,25 +1077,15 @@ require __DIR__ . '/includes/header.php';
                             
                             
                             <!-- Curriculo Lates e Pagina Pessoal/Site -->            
-                            <div class="docente-links"  style="display:flex;  justify-content:center; 
-                                    align-items:center; gap:10px; flex-wrap:wrap;" >
+                            <div class="docente-links">
                                  <!-- Curriculo Lates -->
                                                                     <a href="http://lattes.cnpq.br/6790462418235210"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="docente-link docente-link-primary" 
-                                         style="background-color: #fff;
-                                                          border: 1px solid #ddd;
-                                                          border-radius: 20px;
-                                                          padding: 4px 12px;
-                                                          color: #333;
-                                                          font-size: 0.75rem;
-                                                          font-weight: 600;
-                                                          display: inline-flex;
-                                                          align-items: center;
-                                                          gap: 8px;" > 
+                                          > 
                                         <img src="assets/img/logo_lattes.png" alt="Currículo Lattes"  
-                                            style="background-color:#FFFFFF;  object-fit:contain; display:block;"  >
+                                              >
                                     </a>
   
                                                                 
@@ -1267,7 +1106,7 @@ require __DIR__ . '/includes/header.php';
                     
                     <div class="profile-card h-100 rge-card">
 
-                        <div class="docente-photo-wrap  background:#F8F9FA !important">
+                        <div class="docente-photo-wrap">
 
                                                                                          
                                   <div class="docente-photo-placeholder">
@@ -1279,27 +1118,27 @@ require __DIR__ . '/includes/header.php';
                             
                         </div>
 
-                        <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
+                        <div class="docente-body" class="flex-col-gap-sm" >
                              <!--  Nome Docente -->   
                             <h3 class="docente-name">
                                 Maria Cristina da Silva Pranchevicius                            </h3>
 
      
                             <!--  Area/Setor  -->
-                            <div style="min-height: 48px; margin-bottom: 0px !important; ">
+                            <div >
                                                    <!--  Titulacao  -->
-                            <span class="docente-role" style="font-size:12px;" >
+                            <span class="docente-role" >
                                 PROFESSORA DOUTORA - MS 3                            </span>
 
                             
                               <p class="docente-area" >
                                   <strong>Setor:</strong>
-                                  <span style="font-size:12px;">Genética e Evolução</span>
+                                  <span class="docente-area-name">Genética e Evolução</span>
                               </p>                            
                             </div>
                             
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
-        <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
+        <div class="ods" class="docente-links-row">    
       
                       </div>
         <!-- Final - ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
@@ -1317,25 +1156,15 @@ require __DIR__ . '/includes/header.php';
                             
                             
                             <!-- Curriculo Lates e Pagina Pessoal/Site -->            
-                            <div class="docente-links"  style="display:flex;  justify-content:center; 
-                                    align-items:center; gap:10px; flex-wrap:wrap;" >
+                            <div class="docente-links">
                                  <!-- Curriculo Lates -->
                                                                     <a href="http://lattes.cnpq.br/4772148921558977"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="docente-link docente-link-primary" 
-                                         style="background-color: #fff;
-                                                          border: 1px solid #ddd;
-                                                          border-radius: 20px;
-                                                          padding: 4px 12px;
-                                                          color: #333;
-                                                          font-size: 0.75rem;
-                                                          font-weight: 600;
-                                                          display: inline-flex;
-                                                          align-items: center;
-                                                          gap: 8px;" > 
+                                          > 
                                         <img src="assets/img/logo_lattes.png" alt="Currículo Lattes"  
-                                            style="background-color:#FFFFFF;  object-fit:contain; display:block;"  >
+                                              >
                                     </a>
   
                                                                 
@@ -1356,23 +1185,10 @@ require __DIR__ . '/includes/header.php';
                     
                     <div class="profile-card h-100 rge-card">
 
-                        <div class="docente-photo-wrap  background:#F8F9FA !important">
+                        <div class="docente-photo-wrap">
 
-                                                                                             <div class="docente-photo-placeholder" style="border: 2px solid #FFFFFF;">
-                                      <img 
-                                          src="assets/img/fotos_docentes/foto9.png"
-                                          alt="MARINA CANDIDO VISONTAI CORMEDI"
-                              
-                                          style="
-                                              width:125px;
-                                              height:125px;
-                              
-                                              object-fit:cover;
-                                              border: 2px solid #FFFFFF;
-                                              border-radius:50%;
-                              
-                                              display:block;
-                                          "
+                                                                                             <div class="docente-photo-placeholder">
+                                      <img src="assets/img/fotos_docentes/foto9.png" alt="MARINA CANDIDO VISONTAI CORMEDI" class="docente-photo-img">
                                       >
 
                                   </div>
@@ -1383,37 +1199,37 @@ require __DIR__ . '/includes/header.php';
                             
                         </div>
 
-                        <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
+                        <div class="docente-body" class="flex-col-gap-sm" >
                              <!--  Nome Docente -->   
                             <h3 class="docente-name">
                                 Marina Candido Visontai Cormedi                            </h3>
 
      
                             <!--  Area/Setor  -->
-                            <div style="min-height: 48px; margin-bottom: 0px !important; ">
+                            <div >
                                                    <!--  Titulacao  -->
-                            <span class="docente-role" style="font-size:12px;" >
+                            <span class="docente-role" >
                                 PROFESSOR DOUTOR - MS 3                            </span>
 
                             
                               <p class="docente-area" >
                                   <strong>Setor:</strong>
-                                  <span style="font-size:12px;">Oncogenética Humana</span>
+                                  <span class="docente-area-name">Oncogenética Humana</span>
                               </p>                            
                             </div>
                             
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
-        <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
+        <div class="ods" class="docente-links-row">    
       
-                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
-                            ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
+                                      <p class="ods-label">
+                            ODS <span class="docente-role-subtitle">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
                       </p>
                         
                         
-                     <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
-                                                      <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                     <div class="ods-tags">
+                                                      <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal3" target="_blank" title="SDG: 3">
                                 
@@ -1422,10 +1238,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-3.svg" alt="ODS: 3"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal10" target="_blank" title="SDG: 10">
                                 
@@ -1434,7 +1250,7 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-10.svg" alt="ODS: 10"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
                                                            </div>
@@ -1454,25 +1270,15 @@ require __DIR__ . '/includes/header.php';
                             
                             
                             <!-- Curriculo Lates e Pagina Pessoal/Site -->            
-                            <div class="docente-links"  style="display:flex;  justify-content:center; 
-                                    align-items:center; gap:10px; flex-wrap:wrap;" >
+                            <div class="docente-links">
                                  <!-- Curriculo Lates -->
                                                                     <a href="http://lattes.cnpq.br/9043763645682823"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="docente-link docente-link-primary" 
-                                         style="background-color: #fff;
-                                                          border: 1px solid #ddd;
-                                                          border-radius: 20px;
-                                                          padding: 4px 12px;
-                                                          color: #333;
-                                                          font-size: 0.75rem;
-                                                          font-weight: 600;
-                                                          display: inline-flex;
-                                                          align-items: center;
-                                                          gap: 8px;" > 
+                                          > 
                                         <img src="assets/img/logo_lattes.png" alt="Currículo Lattes"  
-                                            style="background-color:#FFFFFF;  object-fit:contain; display:block;"  >
+                                              >
                                     </a>
   
                                                                 
@@ -1493,23 +1299,10 @@ require __DIR__ . '/includes/header.php';
                     
                     <div class="profile-card h-100 rge-card">
 
-                        <div class="docente-photo-wrap  background:#F8F9FA !important">
+                        <div class="docente-photo-wrap">
 
-                                                                                             <div class="docente-photo-placeholder" style="border: 2px solid #FFFFFF;">
-                                      <img 
-                                          src="assets/img/fotos_docentes/nilce.jpg"
-                                          alt="NILCE MARIA MARTINEZ ROSSI"
-                              
-                                          style="
-                                              width:125px;
-                                              height:125px;
-                              
-                                              object-fit:cover;
-                                              border: 2px solid #FFFFFF;
-                                              border-radius:50%;
-                              
-                                              display:block;
-                                          "
+                                                                                             <div class="docente-photo-placeholder">
+                                      <img src="assets/img/fotos_docentes/nilce.jpg" alt="NILCE MARIA MARTINEZ ROSSI" class="docente-photo-img">
                                       >
 
                                   </div>
@@ -1520,37 +1313,37 @@ require __DIR__ . '/includes/header.php';
                             
                         </div>
 
-                        <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
+                        <div class="docente-body" class="flex-col-gap-sm" >
                              <!--  Nome Docente -->   
                             <h3 class="docente-name">
                                 Nilce Maria Martinez Rossi                            </h3>
 
      
                             <!--  Area/Setor  -->
-                            <div style="min-height: 48px; margin-bottom: 0px !important; ">
+                            <div >
                                                    <!--  Titulacao  -->
-                            <span class="docente-role" style="font-size:12px;" >
+                            <span class="docente-role" >
                                 PROFESSORA TITULAR - MS 6                            </span>
 
                             
                               <p class="docente-area" >
                                   <strong>Setor:</strong>
-                                  <span style="font-size:12px;">Genética e Biologia Molecular de Fungos</span>
+                                  <span class="docente-area-name">Genética e Biologia Molecular de Fungos</span>
                               </p>                            
                             </div>
                             
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
-        <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
+        <div class="ods" class="docente-links-row">    
       
-                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
-                            ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
+                                      <p class="ods-label">
+                            ODS <span class="docente-role-subtitle">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
                       </p>
                         
                         
-                     <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
-                                                      <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                     <div class="ods-tags">
+                                                      <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal3" target="_blank" title="SDG: 3">
                                 
@@ -1559,10 +1352,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-3.svg" alt="ODS: 3"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal4" target="_blank" title="SDG: 4">
                                 
@@ -1571,7 +1364,7 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-4.svg" alt="ODS: 4"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
                                                            </div>
@@ -1591,25 +1384,15 @@ require __DIR__ . '/includes/header.php';
                             
                             
                             <!-- Curriculo Lates e Pagina Pessoal/Site -->            
-                            <div class="docente-links"  style="display:flex;  justify-content:center; 
-                                    align-items:center; gap:10px; flex-wrap:wrap;" >
+                            <div class="docente-links">
                                  <!-- Curriculo Lates -->
                                                                     <a href="http://lattes.cnpq.br/6923302540858368"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="docente-link docente-link-primary" 
-                                         style="background-color: #fff;
-                                                          border: 1px solid #ddd;
-                                                          border-radius: 20px;
-                                                          padding: 4px 12px;
-                                                          color: #333;
-                                                          font-size: 0.75rem;
-                                                          font-weight: 600;
-                                                          display: inline-flex;
-                                                          align-items: center;
-                                                          gap: 8px;" > 
+                                          > 
                                         <img src="assets/img/logo_lattes.png" alt="Currículo Lattes"  
-                                            style="background-color:#FFFFFF;  object-fit:contain; display:block;"  >
+                                              >
                                     </a>
   
                                                                 
@@ -1630,7 +1413,7 @@ require __DIR__ . '/includes/header.php';
                     
                     <div class="profile-card h-100 rge-card">
 
-                        <div class="docente-photo-wrap  background:#F8F9FA !important">
+                        <div class="docente-photo-wrap">
 
                                                                                          
                                   <div class="docente-photo-placeholder">
@@ -1642,27 +1425,27 @@ require __DIR__ . '/includes/header.php';
                             
                         </div>
 
-                        <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
+                        <div class="docente-body" class="flex-col-gap-sm" >
                              <!--  Nome Docente -->   
                             <h3 class="docente-name">
                                 Reinaldo Otávio Alvarenga Alves de Brito                            </h3>
 
      
                             <!--  Area/Setor  -->
-                            <div style="min-height: 48px; margin-bottom: 0px !important; ">
+                            <div >
                                                    <!--  Titulacao  -->
-                            <span class="docente-role" style="font-size:12px;" >
+                            <span class="docente-role" >
                                 PROFESSOR DOUTOR - MS 3                            </span>
 
                             
                               <p class="docente-area" >
                                   <strong>Setor:</strong>
-                                  <span style="font-size:12px;">Genética, Melhoramento Animal e Computação</span>
+                                  <span class="docente-area-name">Genética, Melhoramento Animal e Computação</span>
                               </p>                            
                             </div>
                             
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
-        <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
+        <div class="ods" class="docente-links-row">    
       
                       </div>
         <!-- Final - ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
@@ -1680,25 +1463,15 @@ require __DIR__ . '/includes/header.php';
                             
                             
                             <!-- Curriculo Lates e Pagina Pessoal/Site -->            
-                            <div class="docente-links"  style="display:flex;  justify-content:center; 
-                                    align-items:center; gap:10px; flex-wrap:wrap;" >
+                            <div class="docente-links">
                                  <!-- Curriculo Lates -->
                                                                     <a href="http://lattes.cnpq.br/8253066295947754"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="docente-link docente-link-primary" 
-                                         style="background-color: #fff;
-                                                          border: 1px solid #ddd;
-                                                          border-radius: 20px;
-                                                          padding: 4px 12px;
-                                                          color: #333;
-                                                          font-size: 0.75rem;
-                                                          font-weight: 600;
-                                                          display: inline-flex;
-                                                          align-items: center;
-                                                          gap: 8px;" > 
+                                          > 
                                         <img src="assets/img/logo_lattes.png" alt="Currículo Lattes"  
-                                            style="background-color:#FFFFFF;  object-fit:contain; display:block;"  >
+                                              >
                                     </a>
   
                                                                 
@@ -1719,23 +1492,10 @@ require __DIR__ . '/includes/header.php';
                     
                     <div class="profile-card h-100 rge-card">
 
-                        <div class="docente-photo-wrap  background:#F8F9FA !important">
+                        <div class="docente-photo-wrap">
 
-                                                                                             <div class="docente-photo-placeholder" style="border: 2px solid #FFFFFF;">
-                                      <img 
-                                          src="assets/img/fotos_docentes/foto12.png"
-                                          alt="SILVANA GIULIATTI"
-                              
-                                          style="
-                                              width:125px;
-                                              height:125px;
-                              
-                                              object-fit:cover;
-                                              border: 2px solid #FFFFFF;
-                                              border-radius:50%;
-                              
-                                              display:block;
-                                          "
+                                                                                             <div class="docente-photo-placeholder">
+                                      <img src="assets/img/fotos_docentes/foto12.png" alt="SILVANA GIULIATTI" class="docente-photo-img">
                                       >
 
                                   </div>
@@ -1746,37 +1506,37 @@ require __DIR__ . '/includes/header.php';
                             
                         </div>
 
-                        <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
+                        <div class="docente-body" class="flex-col-gap-sm" >
                              <!--  Nome Docente -->   
                             <h3 class="docente-name">
                                 Silvana Giuliatti                            </h3>
 
      
                             <!--  Area/Setor  -->
-                            <div style="min-height: 48px; margin-bottom: 0px !important; ">
+                            <div >
                                                    <!--  Titulacao  -->
-                            <span class="docente-role" style="font-size:12px;" >
+                            <span class="docente-role" >
                                 PROFESSORA ASSOCIADA - MS 5                            </span>
 
                             
                               <p class="docente-area" >
                                   <strong>Setor:</strong>
-                                  <span style="font-size:12px;">Bioinformática</span>
+                                  <span class="docente-area-name">Bioinformática</span>
                               </p>                            
                             </div>
                             
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
-        <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
+        <div class="ods" class="docente-links-row">    
       
-                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
-                            ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
+                                      <p class="ods-label">
+                            ODS <span class="docente-role-subtitle">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
                       </p>
                         
                         
-                     <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
-                                                      <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                     <div class="ods-tags">
+                                                      <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal3" target="_blank" title="SDG: 3">
                                 
@@ -1785,10 +1545,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-3.svg" alt="ODS: 3"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal4" target="_blank" title="SDG: 4">
                                 
@@ -1797,10 +1557,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-4.svg" alt="ODS: 4"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal8" target="_blank" title="SDG: 8">
                                 
@@ -1809,10 +1569,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-8.svg" alt="ODS: 8"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal9" target="_blank" title="SDG: 9">
                                 
@@ -1821,7 +1581,7 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-9.svg" alt="ODS: 9"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
                                                            </div>
@@ -1841,25 +1601,15 @@ require __DIR__ . '/includes/header.php';
                             
                             
                             <!-- Curriculo Lates e Pagina Pessoal/Site -->            
-                            <div class="docente-links"  style="display:flex;  justify-content:center; 
-                                    align-items:center; gap:10px; flex-wrap:wrap;" >
+                            <div class="docente-links">
                                  <!-- Curriculo Lates -->
                                                                     <a href="http://lattes.cnpq.br/4036808925343874"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="docente-link docente-link-primary" 
-                                         style="background-color: #fff;
-                                                          border: 1px solid #ddd;
-                                                          border-radius: 20px;
-                                                          padding: 4px 12px;
-                                                          color: #333;
-                                                          font-size: 0.75rem;
-                                                          font-weight: 600;
-                                                          display: inline-flex;
-                                                          align-items: center;
-                                                          gap: 8px;" > 
+                                          > 
                                         <img src="assets/img/logo_lattes.png" alt="Currículo Lattes"  
-                                            style="background-color:#FFFFFF;  object-fit:contain; display:block;"  >
+                                              >
                                     </a>
   
                                                                 
@@ -1880,23 +1630,10 @@ require __DIR__ . '/includes/header.php';
                     
                     <div class="profile-card h-100 rge-card">
 
-                        <div class="docente-photo-wrap  background:#F8F9FA !important">
+                        <div class="docente-photo-wrap">
 
-                                                                                             <div class="docente-photo-placeholder" style="border: 2px solid #FFFFFF;">
-                                      <img 
-                                          src="assets/img/fotos_docentes/foto18.png"
-                                          alt="THIAGO YUKIO KIKUCHI OLIVEIRA"
-                              
-                                          style="
-                                              width:125px;
-                                              height:125px;
-                              
-                                              object-fit:cover;
-                                              border: 2px solid #FFFFFF;
-                                              border-radius:50%;
-                              
-                                              display:block;
-                                          "
+                                                                                             <div class="docente-photo-placeholder">
+                                      <img src="assets/img/fotos_docentes/foto18.png" alt="THIAGO YUKIO KIKUCHI OLIVEIRA" class="docente-photo-img">
                                       >
 
                                   </div>
@@ -1907,27 +1644,27 @@ require __DIR__ . '/includes/header.php';
                             
                         </div>
 
-                        <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
+                        <div class="docente-body" class="flex-col-gap-sm" >
                              <!--  Nome Docente -->   
                             <h3 class="docente-name">
                                 Thiago Yukio Kikuchi Oliveira                            </h3>
 
      
                             <!--  Area/Setor  -->
-                            <div style="min-height: 48px; margin-bottom: 0px !important; ">
+                            <div >
                                                    <!--  Titulacao  -->
-                            <span class="docente-role" style="font-size:12px;" >
+                            <span class="docente-role" >
                                 PROFESSOR DOUTOR - MS 3                            </span>
 
                             
                               <p class="docente-area" >
                                   <strong>Setor:</strong>
-                                  <span style="font-size:12px;">Bioinformática</span>
+                                  <span class="docente-area-name">Bioinformática</span>
                               </p>                            
                             </div>
                             
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
-        <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
+        <div class="ods" class="docente-links-row">    
       
                       </div>
         <!-- Final - ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
@@ -1945,25 +1682,15 @@ require __DIR__ . '/includes/header.php';
                             
                             
                             <!-- Curriculo Lates e Pagina Pessoal/Site -->            
-                            <div class="docente-links"  style="display:flex;  justify-content:center; 
-                                    align-items:center; gap:10px; flex-wrap:wrap;" >
+                            <div class="docente-links">
                                  <!-- Curriculo Lates -->
                                                                     <a href="http://lattes.cnpq.br/5144797474156835"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="docente-link docente-link-primary" 
-                                         style="background-color: #fff;
-                                                          border: 1px solid #ddd;
-                                                          border-radius: 20px;
-                                                          padding: 4px 12px;
-                                                          color: #333;
-                                                          font-size: 0.75rem;
-                                                          font-weight: 600;
-                                                          display: inline-flex;
-                                                          align-items: center;
-                                                          gap: 8px;" > 
+                                          > 
                                         <img src="assets/img/logo_lattes.png" alt="Currículo Lattes"  
-                                            style="background-color:#FFFFFF;  object-fit:contain; display:block;"  >
+                                              >
                                     </a>
   
                                                                 
@@ -1984,23 +1711,10 @@ require __DIR__ . '/includes/header.php';
                     
                     <div class="profile-card h-100 rge-card">
 
-                        <div class="docente-photo-wrap  background:#F8F9FA !important">
+                        <div class="docente-photo-wrap">
 
-                                                                                             <div class="docente-photo-placeholder" style="border: 2px solid #FFFFFF;">
-                                      <img 
-                                          src="assets/img/fotos_docentes/foto13.png"
-                                          alt="VICTOR EVANGELISTA DE FARIA FERRAZ"
-                              
-                                          style="
-                                              width:125px;
-                                              height:125px;
-                              
-                                              object-fit:cover;
-                                              border: 2px solid #FFFFFF;
-                                              border-radius:50%;
-                              
-                                              display:block;
-                                          "
+                                                                                             <div class="docente-photo-placeholder">
+                                      <img src="assets/img/fotos_docentes/foto13.png" alt="VICTOR EVANGELISTA DE FARIA FERRAZ" class="docente-photo-img">
                                       >
 
                                   </div>
@@ -2011,37 +1725,37 @@ require __DIR__ . '/includes/header.php';
                             
                         </div>
 
-                        <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
+                        <div class="docente-body" class="flex-col-gap-sm" >
                              <!--  Nome Docente -->   
                             <h3 class="docente-name">
                                 Victor Evangelista de Faria Ferraz                            </h3>
 
      
                             <!--  Area/Setor  -->
-                            <div style="min-height: 48px; margin-bottom: 0px !important; ">
+                            <div >
                                                    <!--  Titulacao  -->
-                            <span class="docente-role" style="font-size:12px;" >
+                            <span class="docente-role" >
                                 PROFESSOR DOUTOR - MS 3                            </span>
 
                             
                               <p class="docente-area" >
                                   <strong>Setor:</strong>
-                                  <span style="font-size:12px;">Genética Humana e Médica</span>
+                                  <span class="docente-area-name">Genética Humana e Médica</span>
                               </p>                            
                             </div>
                             
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
-        <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
+        <div class="ods" class="docente-links-row">    
       
-                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
-                            ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
+                                      <p class="ods-label">
+                            ODS <span class="docente-role-subtitle">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
                       </p>
                         
                         
-                     <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
-                                                      <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                     <div class="ods-tags">
+                                                      <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal3" target="_blank" title="SDG: 3">
                                 
@@ -2050,10 +1764,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-3.svg" alt="ODS: 3"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal4" target="_blank" title="SDG: 4">
                                 
@@ -2062,10 +1776,10 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-4.svg" alt="ODS: 4"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
-                                                                              <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                                                                              <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal10" target="_blank" title="SDG: 10">
                                 
@@ -2074,7 +1788,7 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-10.svg" alt="ODS: 10"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
                                                            </div>
@@ -2094,25 +1808,15 @@ require __DIR__ . '/includes/header.php';
                             
                             
                             <!-- Curriculo Lates e Pagina Pessoal/Site -->            
-                            <div class="docente-links"  style="display:flex;  justify-content:center; 
-                                    align-items:center; gap:10px; flex-wrap:wrap;" >
+                            <div class="docente-links">
                                  <!-- Curriculo Lates -->
                                                                     <a href="http://lattes.cnpq.br/0028263686402117"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="docente-link docente-link-primary" 
-                                         style="background-color: #fff;
-                                                          border: 1px solid #ddd;
-                                                          border-radius: 20px;
-                                                          padding: 4px 12px;
-                                                          color: #333;
-                                                          font-size: 0.75rem;
-                                                          font-weight: 600;
-                                                          display: inline-flex;
-                                                          align-items: center;
-                                                          gap: 8px;" > 
+                                          > 
                                         <img src="assets/img/logo_lattes.png" alt="Currículo Lattes"  
-                                            style="background-color:#FFFFFF;  object-fit:contain; display:block;"  >
+                                              >
                                     </a>
   
                                                                 
@@ -2142,23 +1846,10 @@ require __DIR__ . '/includes/header.php';
                     
                     <div class="profile-card h-100 rge-card">
 
-                        <div class="docente-photo-wrap  background:#F8F9FA !important">
+                        <div class="docente-photo-wrap">
 
-                                                                                             <div class="docente-photo-placeholder" style="border: 2px solid #FFFFFF;">
-                                      <img 
-                                          src="assets/img/fotos_docentes/foto16.png"
-                                          alt="AGUINALDO LUIZ SIMÕES"
-                              
-                                          style="
-                                              width:125px;
-                                              height:125px;
-                              
-                                              object-fit:cover;
-                                              border: 2px solid #FFFFFF;
-                                              border-radius:50%;
-                              
-                                              display:block;
-                                          "
+                                                                                             <div class="docente-photo-placeholder">
+                                      <img src="assets/img/fotos_docentes/foto16.png" alt="AGUINALDO LUIZ SIMÕES" class="docente-photo-img">
                                       >
 
                                   </div>
@@ -2169,27 +1860,27 @@ require __DIR__ . '/includes/header.php';
                             
                         </div>
 
-                        <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
+                        <div class="docente-body" class="flex-col-gap-sm" >
                              <!--  Nome Docente -->   
                             <h3 class="docente-name">
                                 Aguinaldo Luiz Simões                            </h3>
 
      
                             <!--  Area/Setor  -->
-                            <div style="min-height: 48px; margin-bottom: 0px !important; ">
+                            <div >
                                                    <!--  Titulacao  -->
-                            <span class="docente-role" style="font-size:12px;" >
+                            <span class="docente-role" >
                                 PROFESSOR ASSOCIADO - MS 5                            </span>
 
                             
                               <p class="docente-area" >
                                   <strong>Setor:</strong>
-                                  <span style="font-size:12px;">Genética Bioquímica</span>
+                                  <span class="docente-area-name">Genética Bioquímica</span>
                               </p>                            
                             </div>
                             
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
-        <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
+        <div class="ods" class="docente-links-row">    
       
                       </div>
         <!-- Final - ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
@@ -2207,25 +1898,15 @@ require __DIR__ . '/includes/header.php';
                             
                             
                             <!-- Curriculo Lates e Pagina Pessoal/Site -->            
-                            <div class="docente-links"  style="display:flex;  justify-content:center; 
-                                    align-items:center; gap:10px; flex-wrap:wrap;" >
+                            <div class="docente-links">
                                  <!-- Curriculo Lates -->
                                                                     <a href="http://lattes.cnpq.br/0539959335174399"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="docente-link docente-link-primary" 
-                                         style="background-color: #fff;
-                                                          border: 1px solid #ddd;
-                                                          border-radius: 20px;
-                                                          padding: 4px 12px;
-                                                          color: #333;
-                                                          font-size: 0.75rem;
-                                                          font-weight: 600;
-                                                          display: inline-flex;
-                                                          align-items: center;
-                                                          gap: 8px;" > 
+                                          > 
                                         <img src="assets/img/logo_lattes.png" alt="Currículo Lattes"  
-                                            style="background-color:#FFFFFF;  object-fit:contain; display:block;"  >
+                                              >
                                     </a>
   
                                                                 
@@ -2246,23 +1927,10 @@ require __DIR__ . '/includes/header.php';
                     
                     <div class="profile-card h-100 rge-card">
 
-                        <div class="docente-photo-wrap  background:#F8F9FA !important">
+                        <div class="docente-photo-wrap">
 
-                                                                                             <div class="docente-photo-placeholder" style="border: 2px solid #FFFFFF;">
-                                      <img 
-                                          src="assets/img/fotos_docentes/foto11.png"
-                                          alt="ANTONIO ROSSI FILHO"
-                              
-                                          style="
-                                              width:125px;
-                                              height:125px;
-                              
-                                              object-fit:cover;
-                                              border: 2px solid #FFFFFF;
-                                              border-radius:50%;
-                              
-                                              display:block;
-                                          "
+                                                                                             <div class="docente-photo-placeholder">
+                                      <img src="assets/img/fotos_docentes/foto11.png" alt="ANTONIO ROSSI FILHO" class="docente-photo-img">
                                       >
 
                                   </div>
@@ -2273,27 +1941,27 @@ require __DIR__ . '/includes/header.php';
                             
                         </div>
 
-                        <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
+                        <div class="docente-body" class="flex-col-gap-sm" >
                              <!--  Nome Docente -->   
                             <h3 class="docente-name">
                                 Antonio Rossi Filho                            </h3>
 
      
                             <!--  Area/Setor  -->
-                            <div style="min-height: 48px; margin-bottom: 0px !important; ">
+                            <div >
                                                    <!--  Titulacao  -->
-                            <span class="docente-role" style="font-size:12px;" >
+                            <span class="docente-role" >
                                 PROFESSOR TITULAR - MS 6                            </span>
 
                             
                               <p class="docente-area" >
                                   <strong>Setor:</strong>
-                                  <span style="font-size:12px;">Bioquímica e Imunologia</span>
+                                  <span class="docente-area-name">Bioquímica e Imunologia</span>
                               </p>                            
                             </div>
                             
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
-        <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
+        <div class="ods" class="docente-links-row">    
       
                       </div>
         <!-- Final - ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
@@ -2311,25 +1979,15 @@ require __DIR__ . '/includes/header.php';
                             
                             
                             <!-- Curriculo Lates e Pagina Pessoal/Site -->            
-                            <div class="docente-links"  style="display:flex;  justify-content:center; 
-                                    align-items:center; gap:10px; flex-wrap:wrap;" >
+                            <div class="docente-links">
                                  <!-- Curriculo Lates -->
                                                                     <a href="http://lattes.cnpq.br/6727957065019831"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="docente-link docente-link-primary" 
-                                         style="background-color: #fff;
-                                                          border: 1px solid #ddd;
-                                                          border-radius: 20px;
-                                                          padding: 4px 12px;
-                                                          color: #333;
-                                                          font-size: 0.75rem;
-                                                          font-weight: 600;
-                                                          display: inline-flex;
-                                                          align-items: center;
-                                                          gap: 8px;" > 
+                                          > 
                                         <img src="assets/img/logo_lattes.png" alt="Currículo Lattes"  
-                                            style="background-color:#FFFFFF;  object-fit:contain; display:block;"  >
+                                              >
                                     </a>
   
                                                                 
@@ -2359,23 +2017,10 @@ require __DIR__ . '/includes/header.php';
                     
                     <div class="profile-card h-100 rge-card">
 
-                        <div class="docente-photo-wrap  background:#F8F9FA !important">
+                        <div class="docente-photo-wrap">
 
-                                                                                             <div class="docente-photo-placeholder" style="border: 2px solid #FFFFFF;">
-                                      <img 
-                                          src="assets/img/fotos_docentes/foto8.png"
-                                          alt="KLAUS HARTMANN HARTFELDER"
-                              
-                                          style="
-                                              width:125px;
-                                              height:125px;
-                              
-                                              object-fit:cover;
-                                              border: 2px solid #FFFFFF;
-                                              border-radius:50%;
-                              
-                                              display:block;
-                                          "
+                                                                                             <div class="docente-photo-placeholder">
+                                      <img src="assets/img/fotos_docentes/foto8.png" alt="KLAUS HARTMANN HARTFELDER" class="docente-photo-img">
                                       >
 
                                   </div>
@@ -2386,37 +2031,37 @@ require __DIR__ . '/includes/header.php';
                             
                         </div>
 
-                        <div class="docente-body" style="display: flex; flex-direction: column; gap: 4px;" >
+                        <div class="docente-body" class="flex-col-gap-sm" >
                              <!--  Nome Docente -->   
                             <h3 class="docente-name">
                                 Klaus Hartmann Hartfelder                            </h3>
 
      
                             <!--  Area/Setor  -->
-                            <div style="min-height: 48px; margin-bottom: 0px !important; ">
+                            <div >
                                                    <!--  Titulacao  -->
-                            <span class="docente-role" style="font-size:12px;" >
+                            <span class="docente-role" >
                                 PROFESSOR TITULAR - MS 6                            </span>
 
                             
                               <p class="docente-area" >
                                   <strong>Setor:</strong>
-                                  <span style="font-size:12px;">Biologia e Genética de Abelhas</span>
+                                  <span class="docente-area-name">Biologia e Genética de Abelhas</span>
                               </p>                            
                             </div>
                             
         <!-- ODS (Objetivos de Desenvolvimento Sustentável)  -->                            
-        <div class="ods" style="clear: both; width: 100%; display: block; margin-top: 0px !important; padding-top: 0;">    
+        <div class="ods" class="docente-links-row">    
       
-                                      <p class="ods-label" style="font-size:14px; margin: 0 0 12px 0; padding: 0; font-weight: bold; text-align: left; line-height: 1.2;">
-                            ODS <span style="font-weight: normal; font-size: 11px; display: block; color: #666; margin-top: 2px;">
+                                      <p class="ods-label">
+                            ODS <span class="docente-role-subtitle">
                             Objetivos de Desenvolvimento Sustentável
                         </span>
                       </p>
                         
                         
-                     <div style="display: flex; flex-wrap: wrap; width: 100%; align-items: flex-start; justify-content: flex-start; gap: 4px;">
-                                                      <div  class="ods-item"  style="flex: 0 1 auto; box-sizing: border-box;" >
+                     <div class="ods-tags">
+                                                      <div  class="ods-item"   >
                                     <!-- Em Ingles  -->
                                     <a href="https://sdgs.un.org/goals/goal15" target="_blank" title="SDG: 15">
                                 
@@ -2425,7 +2070,7 @@ require __DIR__ . '/includes/header.php';
                                     -->
                                    
                                       <img src="assets/img/ods/SDG-15.svg" alt="ODS: 15"  class="ods-img"  
-                                           style="width: 42px; height: 42px; display: block; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+                                           >
                                    </a>
                                 </div>
                                                            </div>
@@ -2445,25 +2090,15 @@ require __DIR__ . '/includes/header.php';
                             
                             
                             <!-- Curriculo Lates e Pagina Pessoal/Site -->            
-                            <div class="docente-links"  style="display:flex;  justify-content:center; 
-                                    align-items:center; gap:10px; flex-wrap:wrap;" >
+                            <div class="docente-links">
                                  <!-- Curriculo Lates -->
                                                                     <a href="http://lattes.cnpq.br/3376142410575714"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="docente-link docente-link-primary" 
-                                         style="background-color: #fff;
-                                                          border: 1px solid #ddd;
-                                                          border-radius: 20px;
-                                                          padding: 4px 12px;
-                                                          color: #333;
-                                                          font-size: 0.75rem;
-                                                          font-weight: 600;
-                                                          display: inline-flex;
-                                                          align-items: center;
-                                                          gap: 8px;" > 
+                                          > 
                                         <img src="assets/img/logo_lattes.png" alt="Currículo Lattes"  
-                                            style="background-color:#FFFFFF;  object-fit:contain; display:block;"  >
+                                              >
                                     </a>
   
                                                                 

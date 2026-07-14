@@ -21,7 +21,7 @@ if (!isset($pageTitle)) $pageTitle = 'Departamento de Genética - FMRP/USP';
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/style.css?v=38">
+    <link rel="stylesheet" href="assets/css/style.css?v=39">
     <link rel="stylesheet" href="assets/css/rgetradutor.css">
     <style>
 .navbar .dropdown-toggle::after {
@@ -87,8 +87,8 @@ if (!isset($pageTitle)) $pageTitle = 'Departamento de Genética - FMRP/USP';
     <!-- Legenda com duas linhas -->
     <div>
        <div class="fw-bold">FMRP • USP</div>
-      <!--  <div class="text-muted small" style="margin-top: -4px;">Departamento de Genética</div>  -->  
-       <div class="text-muted small" style="margin-top: -4px;">DEPARTAMENTO DE GENÉTICA</div>
+      <!--  <div class="text-muted small" class="navbar-brand-subtitle">Departamento de Genética</div>  -->  
+       <div class="text-muted small" class="navbar-brand-subtitle">DEPARTAMENTO DE GENÉTICA</div>
    </div>
 </div>
             </a>
@@ -113,7 +113,7 @@ if (!isset($pageTitle)) $pageTitle = 'Departamento de Genética - FMRP/USP';
 
 </div>
 
-<div id="google_translate_element" style="display:none;"></div>
+<div id="google_translate_element" class="translate-hidden"></div>
 
 
 

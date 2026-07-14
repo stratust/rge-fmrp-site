@@ -52,7 +52,7 @@ require __DIR__ . '/includes/header.php';
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
-                    <span class="text-muted me-2" style="font-size: 0.85rem;">Filtrar por área:</span>
+                    <span class="text-muted me-2" class="filter-label">Filtrar por área:</span>
                     <button class="filter-btn active">Todos</button>
                     <button class="filter-btn">Genética Molecular</button>
                     <button class="filter-btn">Genômica</button>
@@ -426,7 +426,7 @@ require __DIR__ . '/includes/header.php';
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
                     <div class="lab-card rge-card">
-                        <div class="lab-header" style="background: linear-gradient(135deg, #4a7c59 0%, #6b9e75 100%);">
+                        <div class="lab-header" class="lab-header-variant">
                             <i class="bi bi-mortarboard lab-header-icon"></i>
                             <span class="lab-badge lab-badge-teaching">Ensino</span>
                         </div>
@@ -443,7 +443,7 @@ require __DIR__ . '/includes/header.php';
 
                 <div class="col-md-6 col-lg-4">
                     <div class="lab-card rge-card">
-                        <div class="lab-header" style="background: linear-gradient(135deg, #4a7c59 0%, #6b9e75 100%);">
+                        <div class="lab-header" class="lab-header-variant">
                             <i class="bi bi-laptop lab-header-icon"></i>
                             <span class="lab-badge lab-badge-teaching">Ensino</span>
                         </div>
@@ -460,7 +460,7 @@ require __DIR__ . '/includes/header.php';
 
                 <div class="col-md-6 col-lg-4">
                     <div class="lab-card rge-card">
-                        <div class="lab-header" style="background: linear-gradient(135deg, #4a7c59 0%, #6b9e75 100%);">
+                        <div class="lab-header" class="lab-header-variant">
                             <i class="bi bi-microscope lab-header-icon"></i>
                             <span class="lab-badge lab-badge-teaching">Ensino</span>
                         </div>
