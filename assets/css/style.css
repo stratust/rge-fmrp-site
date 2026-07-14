@@ -2222,7 +2222,7 @@ iframe.goog-te-banner-frame {
 
 
 .mandate-badge {
-            display: inline-block; background: rgba(26, 92, 58, 0.08);
+            display: inline-block; background-color: rgb(236, 241, 238);
             color: var(--primary-green); font-size: 0.875rem; font-weight: 500;
             padding: 0.3rem 0.7rem; border-radius: 50px;
         }
@@ -2319,7 +2319,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.tag-conselho { background: rgba(26, 92, 58, 0.1); color: var(--primary-green); }
+.tag-conselho { background-color: rgb(232, 239, 235); color: var(--primary-green); }
 
 
 .tag-cta { cursor: pointer; background: rgba(59, 130, 246, 0.1); color: #3b82f6; }
@@ -2353,7 +2353,7 @@ iframe.goog-te-banner-frame {
 
 
 .norm-icon {
-            width: 45px; height: 45px; background: rgba(26, 92, 58, 0.08);
+            width: 45px; height: 45px; background-color: rgb(236, 241, 238);
             border-radius: 10px; display: flex; align-items: center; justify-content: center;
             flex-shrink: 0;
         }
@@ -2452,7 +2452,7 @@ iframe.goog-te-banner-frame {
 .contact-icon {
             width: 50px;
             height: 50px;
-            background: rgba(26, 92, 58, 0.08);
+            background-color: rgb(236, 241, 238);
             border-radius: 12px;
             display: flex;
             align-items: center;
@@ -2660,7 +2660,7 @@ iframe.goog-te-banner-frame {
 .team-avatar {
             width: 55px;
             height: 55px;
-            background: rgba(26, 92, 58, 0.08);
+            background-color: rgb(236, 241, 238);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -2977,7 +2977,7 @@ iframe.goog-te-banner-frame {
 .info-card .icon-box {
             width: 50px;
             height: 50px;
-            background: rgba(26, 92, 58, 0.08);
+            background-color: rgb(236, 241, 238);
             border-radius: 10px;
             display: flex;
             align-items: center;
@@ -3284,7 +3284,7 @@ iframe.goog-te-banner-frame {
 
 .service-icon {
             width: 55px; height: 55px; margin-bottom: 1.2rem;
-            background: rgba(26, 92, 58, 0.08); border-radius: 12px;
+            background-color: rgb(236, 241, 238); border-radius: 12px;
             display: flex; align-items: center; justify-content: center;
         }
 
@@ -3542,7 +3542,7 @@ iframe.goog-te-banner-frame {
 
 .discipline-tag {
             display: inline-block;
-            background: rgba(26, 92, 58, 0.08);
+            background-color: rgb(236, 241, 238);
             color: var(--primary-green);
             font-size: 0.75rem;
             font-weight: 500;
@@ -3834,7 +3834,7 @@ iframe.goog-te-banner-frame {
 
 
 .lab-tag {
-            background: rgba(26, 92, 58, 0.08);
+            background-color: rgb(236, 241, 238);
             color: var(--primary-green);
             font-size: 0.75rem;
             font-weight: 500;
@@ -3963,7 +3963,7 @@ iframe.goog-te-banner-frame {
 
 
 .keyword-badge {
-            display: inline-block; background: rgba(26, 92, 58, 0.08); color: var(--primary-green);
+            display: inline-block; background-color: rgb(236, 241, 238); color: var(--primary-green);
             font-size: 0.875rem; font-weight: 500; padding: 0.4rem 0.9rem;
             border-radius: 50px; margin: 0.25rem 0.25rem 0 0;
         }
@@ -4088,7 +4088,7 @@ iframe.goog-te-banner-frame {
 
 .funding-icon {
             width: 50px; height: 50px; margin-bottom: 1rem;
-            background: rgba(26, 92, 58, 0.08); border-radius: 12px;
+            background-color: rgb(236, 241, 238); border-radius: 12px;
             display: flex; align-items: center; justify-content: center;
         }
 
@@ -4123,7 +4123,7 @@ iframe.goog-te-banner-frame {
 
 
 .partnership-flag {
-            width: 45px; height: 45px; background: rgba(26, 92, 58, 0.08);
+            width: 45px; height: 45px; background-color: rgb(236, 241, 238);
             border-radius: 10px; display: flex; align-items: center; justify-content: center;
             flex-shrink: 0; font-size: clamp(0.9375rem, 3vw, 1.3rem);
         }
@@ -4311,7 +4311,7 @@ iframe.goog-te-banner-frame {
             text-transform: uppercase;
             letter-spacing: 0.5px;
             color: var(--primary-green);
-            background: rgba(26, 92, 58, 0.08);
+            background-color: rgb(236, 241, 238);
             padding: 0.25rem 0.75rem;
             border-radius: 20px;
             margin-bottom: 0.75rem;
@@ -4395,7 +4395,7 @@ iframe.goog-te-banner-frame {
             text-transform: uppercase;
             letter-spacing: 1px;
             color: var(--primary-green);
-            background: rgba(26, 92, 58, 0.08);
+            background-color: rgb(236, 241, 238);
             padding: 0.25rem 0.75rem;
             border-radius: 20px;
             margin-bottom: 0.75rem;
@@ -4456,7 +4456,7 @@ iframe.goog-te-banner-frame {
             text-transform: uppercase;
             letter-spacing: 1px;
             color: var(--primary-green);
-            background: rgba(26, 92, 58, 0.08);
+            background-color: rgb(236, 241, 238);
             padding: 0.3rem 1rem;
             border-radius: 20px;
             margin-bottom: 1rem;
@@ -4730,7 +4730,7 @@ iframe.goog-te-banner-frame {
 
 .equipment-icon {
             width: 60px; height: 60px; margin: 0 auto 1rem;
-            background: rgba(26, 92, 58, 0.08); border-radius: 12px;
+            background-color: rgb(236, 241, 238); border-radius: 12px;
             display: flex; align-items: center; justify-content: center;
         }
 
@@ -5030,7 +5030,7 @@ iframe.goog-te-banner-frame {
             text-transform: uppercase;
             letter-spacing: 0.5px;
             color: var(--primary-green);
-            background: rgba(26, 92, 58, 0.08);
+            background-color: rgb(236, 241, 238);
             padding: 0.25rem 0.75rem;
             border-radius: 20px;
             margin-bottom: 0.75rem;
@@ -5116,7 +5116,7 @@ iframe.goog-te-banner-frame {
             min-width: 90px;
             text-align: center;
             padding: 0.5rem;
-            background: rgba(26, 92, 58, 0.08);
+            background-color: rgb(236, 241, 238);
             border-radius: 8px;
             color: var(--primary-green);
             font-weight: 700;
@@ -5195,7 +5195,7 @@ iframe.goog-te-banner-frame {
 .partner-icon {
             width: 60px;
             height: 60px;
-            background: rgba(26, 92, 58, 0.08);
+            background-color: rgb(236, 241, 238);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -5305,7 +5305,7 @@ iframe.goog-te-banner-frame {
 .pub-year-badge {
             min-width: 70px;
             height: 70px;
-            background: rgba(26, 92, 58, 0.08);
+            background-color: rgb(236, 241, 238);
             border-radius: 10px;
             display: flex;
             flex-direction: column;
@@ -5583,7 +5583,7 @@ iframe.goog-te-banner-frame {
 
 
 .doc-icon {
-            width: 45px; height: 45px; background: rgba(26, 92, 58, 0.08);
+            width: 45px; height: 45px; background-color: rgb(236, 241, 238);
             border-radius: 10px; display: flex; align-items: center; justify-content: center;
             flex-shrink: 0;
         }
@@ -6076,7 +6076,7 @@ section.page-header p,
     justify-content: center;
     align-items: center;
     font-size: 11px;
-    background: rgba(26, 92, 58, 0.08);
+    background-color: rgb(236, 241, 238);
     color: var(--primary-green);
     padding: 3px 8px;
     border-radius: 4px;
@@ -6556,4 +6556,18 @@ footer .h6 {
 /* Page header subtitle — min 14px */
 .page-header p {
     font-size: 0.875rem !important;
+}
+
+/* Page links touch targets */
+.page-link {
+    min-width: 44px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Filter button min-height */
+.btn-filter {
+    min-height: 44px;
 }
