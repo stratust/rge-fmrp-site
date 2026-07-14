@@ -4630,7 +4630,7 @@ iframe.goog-te-banner-frame {
 
 .platform-badge {
             position: absolute; top: 15px; right: 15px;
-            background-color: rgba(255,255,255,0.2); backdrop-filter: blur(10px);
+            background-color: transparent; backdrop-filter: blur(10px);
             color: white; font-size: 0.875rem; font-weight: 500;
             padding: 0.4rem 0.9rem; border-radius: 50px; text-transform: uppercase; letter-spacing: 1px;
         }
@@ -6593,3 +6593,11 @@ footer .h6 {
 /* Badge text colors for AA contrast */
 .badge.bg-primary-subtle { color: #1d4ed8 !important; }
 .badge.bg-purple-subtle, .badge[style*="168, 85, 247"] { color: #7c3aed !important; }
+
+/* .btn-white inside dark sections — inherit dark bg, not white */
+.cta-section .btn-white,
+.contact-banner .btn-white {
+    background-color: transparent !important;
+    color: white !important;
+    border: 2px solid white;
+}
