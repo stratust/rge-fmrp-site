@@ -27,6 +27,8 @@
     border-radius: var(--card-radius);
     box-shadow: var(--card-shadow);
     transition: var(--card-transition);
+    padding: 2rem;
+    height: 100%;
 }
 
 /* ============================================
@@ -69,6 +71,30 @@ button,
 .card-link,
 [onclick] {
     cursor: pointer;
+}
+
+/* ============================================
+   ARQUÉTIPOS DE CARD — apenas diferenciais
+   .rge-card já tem padding 2rem + height 100%
+   ============================================ */
+
+/* Content Card — sem diferencial, usa .rge-card puro */
+
+/* Icon Card — sem diferencial, usa .rge-card puro */
+
+/* Media Card — imagem edge-to-edge, override padding */
+.media-card {
+    overflow: hidden;
+    padding: 0;
+}
+
+/* Profile Card — sem diferencial, usa .rge-card puro */
+
+/* Mobile: reduzir padding da base */
+@media (max-width: 576px) {
+    .rge-card {
+        padding: 1.25rem;
+    }
 }
 
 /* Hover padrão para todos os cards .rge-card */
