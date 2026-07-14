@@ -78,7 +78,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="media-card rge-card">
                         <div class="course-img">
-                            <img src="https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?w=600&h=400&fit=crop" alt="Curso 2">
+                            <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=600&h=400&fit=crop" alt="Curso 2">
                             <span class="course-badge online">Online</span>
                         </div>
                         <div class="course-body">
@@ -162,7 +162,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="media-card rge-card">
                         <div class="course-img">
-                            <img src="https://images.unsplash.com/photo-1576670159805-381a9de1cdec?w=600&h=400&fit=crop" alt="Curso 6">
+                            <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=600&h=400&fit=crop" alt="Curso 6">
                             <span class="course-badge">Presencial</span>
                         </div>
                         <div class="course-body">
