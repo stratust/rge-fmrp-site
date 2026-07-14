@@ -84,8 +84,27 @@ button,
 
 /* Media Card — imagem edge-to-edge, override padding */
 .media-card {
+    background: var(--card-bg);
+    border: var(--card-border);
+    border-radius: var(--card-radius);
+    box-shadow: var(--card-shadow);
+    transition: var(--card-transition);
     overflow: hidden;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.media-card:hover,
+.feature-card:hover,
+.news-card:hover,
+.founder-card:hover,
+.number-card:hover {
+    transform: translateY(var(--card-hover-lift));
+    box-shadow: var(--card-shadow-hover);
 }
 
 /* Profile Card — sem diferencial, usa .rge-card puro */
@@ -588,13 +607,7 @@ body {
   height: 100%;
 }
 
-.feature-card:hover,
-.news-card:hover,
-.founder-card:hover,
-.number-card:hover {
-  transform: translateY(var(--card-hover-lift));
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
+/* hover handled in media-card group above */
 
 .feature-icon {
   width: 50px;
@@ -2857,7 +2870,8 @@ iframe.goog-te-banner-frame {
         }
 
 
-.program-card:hover .program-img img {
+.program-card:hover .program-img img,
+.media-card:hover .program-img img {
             transform: scale(1.08);
         }
 
@@ -2910,14 +2924,17 @@ iframe.goog-te-banner-frame {
         }
 
 
-.program-card h3 {
+.program-card h3,
+.media-card h3 {
             font-weight: 700;
             color: #222;
+            font-size: 1.3rem;
             margin-bottom: 0.75rem;
         }
 
 
-.program-card p {
+.program-card p,
+.media-card p {
             font-size: 0.9rem;
             color: #666;
             line-height: 1.7;
@@ -2926,9 +2943,12 @@ iframe.goog-te-banner-frame {
         }
 
 
-.program-meta { cursor: pointer;
+.program-meta {
+            display: flex;
+            gap: 1.5rem;
             font-size: 0.85rem;
             color: #666;
+            margin-bottom: 1rem;
         }
 
 
@@ -2955,7 +2975,8 @@ iframe.goog-te-banner-frame {
         }
 
 
-.program-card:hover .program-link {
+.program-card:hover .program-link,
+.media-card:hover .program-link {
             gap: 12px;
             color: var(--dark-green);
         }

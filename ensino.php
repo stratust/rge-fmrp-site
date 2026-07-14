@@ -50,7 +50,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-4">
                     <a href="graduacao.php" class="media-card">
                         <div class="program-img">
-                            <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&h=400&fit=crop" alt="Graduação">
+                            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&h=400&fit=crop" alt="Graduação">
                             <div class="program-img-overlay"></div>
                             <span class="program-badge">Graduação</span>
                         </div>
