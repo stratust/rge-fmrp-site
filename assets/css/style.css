@@ -2092,23 +2092,31 @@ iframe.goog-te-banner-frame {
 .commissions-section p { color: #555; line-height: 1.8; margin-bottom: 1rem; }
 
 
-.commission-card {
-            background: white; border-radius: 12px; padding: 2rem;
-            box-shadow: 0 3px 15px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);
-            margin-bottom: 1.5rem; transition: all 0.3s ease;
-        }
+/* Card containers — consolidated (3 identical defs → 1)
+   Used in: comissões style-guide demos. Real pages use .content-card.rge-card
+   Inner content differs (.member-row, .event-item, .custom-table) — those stay separate */
+.commission-card,
+.council-card,
+.calendar-card {
+    background: white; border-radius: 12px; padding: 2rem;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);
+    margin-bottom: 1.5rem; transition: all 0.3s ease;
+}
 
+.commission-card:hover,
+.council-card:hover,
+.calendar-card:hover { box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
 
-.commission-card:hover { box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
+.commission-card h5,
+.council-card h5,
+.calendar-card h5 {
+    color: var(--primary-green); font-weight: 600; font-size: 1.1rem;
+    margin-bottom: 1.2rem; display: flex; align-items: center; gap: 10px;
+}
 
-
-.commission-card h5 {
-            color: var(--primary-green); font-weight: 600; font-size: 1.1rem;
-            margin-bottom: 1.2rem; display: flex; align-items: center; gap: 10px;
-        }
-
-
-.commission-card h5 i { font-size: 1.2rem; }
+.commission-card h5 i,
+.council-card h5 i,
+.calendar-card h5 i { font-size: 1.2rem; }
 
 
 .custom-table { width: 100%; border-collapse: separate; border-spacing: 0; }
@@ -2153,29 +2161,13 @@ iframe.goog-te-banner-frame {
 
 
 /* Council Section */
-        .council-section { padding: 4rem 0; background: var(--bg-light); }
+.council-section { padding: 4rem 0; background: var(--bg-light); }
 
 
 .council-section h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: #222; margin-bottom: 1.5rem; line-height: 1.3; }
 
 
 .council-section p { color: #555; line-height: 1.8; margin-bottom: 1rem; }
-
-
-.council-card {
-            background: white; border-radius: 12px; padding: 2rem;
-            box-shadow: 0 3px 15px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);
-            margin-bottom: 1.5rem;
-        }
-
-
-.council-card h5 {
-            color: var(--primary-green); font-weight: 600; font-size: 1.1rem;
-            margin-bottom: 1.2rem; display: flex; align-items: center; gap: 10px;
-        }
-
-
-.council-card h5 i { font-size: 1.2rem; }
 
 
 .member-row {
@@ -2212,22 +2204,6 @@ iframe.goog-te-banner-frame {
 
 
 .calendar-section p { color: #555; line-height: 1.8; margin-bottom: 1rem; }
-
-
-.calendar-card {
-            background: white; border-radius: 12px; padding: 2rem;
-            box-shadow: 0 3px 15px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);
-            margin-bottom: 1.5rem;
-        }
-
-
-.calendar-card h5 {
-            color: var(--primary-green); font-weight: 600; font-size: 1.1rem;
-            margin-bottom: 1.2rem; display: flex; align-items: center; gap: 10px;
-        }
-
-
-.calendar-card h5 i { font-size: 1.2rem; }
 
 
 .event-item {
