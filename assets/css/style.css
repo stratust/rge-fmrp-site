@@ -2667,6 +2667,7 @@ iframe.goog-te-banner-frame {
 
 
 .social-cta h3 {
+            color: white;
             font-size: clamp(0.9375rem, 3vw, 1.3rem);
             font-weight: 600;
             margin-bottom: 0.5rem;
@@ -2974,6 +2975,7 @@ iframe.goog-te-banner-frame {
 .cta-section h2 {
             font-size: clamp(1.25rem, 4vw, 1.875rem);
             font-weight: 700;
+            color: white;
             margin-bottom: 1rem;
         }
 
@@ -3356,7 +3358,7 @@ iframe.goog-te-banner-frame {
         }
 
 
-.contact-banner h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; margin-bottom: 1rem; }
+.contact-banner h2 { font-size: clamp(1.25rem, 4vw, 1.875rem); font-weight: 700; color: white; margin-bottom: 1rem; }
 
 
 .contact-banner p { font-size: 1rem; opacity: 0.9; max-width: 500px; margin-bottom: 1.5rem; }
@@ -4462,6 +4464,7 @@ iframe.goog-te-banner-frame {
 
 
 .newsletter-section h3 {
+            color: white;
             font-weight: 500;
             margin-bottom: 0.5rem;
         }
@@ -5806,4 +5809,22 @@ section .section-header h2:not(.h5):not(.h6) {
     font-size: clamp(1.25rem, 4vw, 1.875rem);
     font-weight: 700;
     color: #222;
+}
+
+/* ⚠️ OVERRIDE: sections com fundo escuro precavem herança do catch-all acima.
+   Sempre que criar uma section com fundo verde/escuro, adicione-a aqui. */
+.cta-section h2,
+.contact-banner h2,
+.social-cta h2,
+.social-cta h3,
+.newsletter-section h2,
+.newsletter-section h3,
+.highlight-box h2,
+.highlight-box h3,
+.quote-block h2,
+.quote-block p,
+.featured-pub h2,
+.page-header h1,
+.page-header p {
+    color: white;
 }
