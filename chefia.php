@@ -63,8 +63,8 @@ require __DIR__ . '/includes/header.php';
                  <!-- Adicionado h-100 na coluna para ela esticar por igual se houver diferença de texto -->
                 <div class="col-md-6 col-lg-5 d-flex">
                    <!-- Adicionado d-flex flex-column h-100 para o card ocupar toda a altura e aceitar o comportamento flex -->
-                    <div class="content-card d-flex flex-column h-100 rge-card" style="width: 100%;">
-                        <div class="content-card-header">
+                    <div class="media-card d-flex flex-column h-100 rge-card" style="width: 100%;">
+                        <div class="chefia-card-header">
                             <span class="chefia-badge">Chefe</span>
                             <div class="chefia-avatar">
                                  <!-- A FOTO ENTRA AQUI SUBSTITUINDO O �?CONE - CHEFE -->
@@ -73,7 +73,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <!-- Modificado: Adicionado d-flex flex-column e flex-grow-1 para preencher o espaço interno -->
                         <!-- ALTERAÇÃO AQUI: Adicionado padding-bottom: 0px !important; -->
-                       <div class="content-card-body d-flex flex-column flex-grow-1"  style="padding-bottom: 0px !important;"  >
+                       <div class="chefia-card-body d-flex flex-column flex-grow-1"  >
                             <h3 class="chefia-name">Wilson Araújo da Silva Junior</h3>
                             <div class="chefia-role">Chefe do Departamento</div>
                             <p class="chefia-area">
@@ -126,8 +126,8 @@ require __DIR__ . '/includes/header.php';
                  <!-- Adicionado h-100 na coluna para ela esticar por igual se houver diferença de texto -->
                   <div class="col-md-6 col-lg-5 d-flex">
                      <!-- Adicionado d-flex flex-column h-100 para o card ocupar toda a altura e aceitar o comportamento flex -->
-                      <div class="content-card d-flex flex-column h-100 rge-card" style="width: 100%;"  >
-                        <div class="chefia-card-header content-card-header-vice"  >
+                      <div class="media-card d-flex flex-column h-100 rge-card" style="width: 100%;"  >
+                        <div class="chefia-card-header">
                             <span class="chefia-badge">Vice-Chefe</span>
                             <div class="chefia-avatar">
                                  <!-- A FOTO ENTRA AQUI SUBSTITUINDO O �?CONE - VICE -->
@@ -136,7 +136,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <!-- Modificado: Adicionado d-flex flex-column e flex-grow-1 para preencher o espaço interno -->
                         <!-- ALTERAÇÃO AQUI: Adicionado padding-bottom: 0px !important; -->
-                       <div class="content-card-body d-flex flex-column flex-grow-1"  style="padding-bottom: 0px !important;"  >
+                       <div class="chefia-card-body d-flex flex-column flex-grow-1"  >
                             <h3 class="chefia-name">Ester Silveira Ramos</h3>
                             <div class="chefia-role">Vice-Chefe do Departamento</div>
                             <p class="chefia-area">
