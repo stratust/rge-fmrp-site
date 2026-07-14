@@ -2324,8 +2324,7 @@ iframe.goog-te-banner-frame {
 .tag-conselho { background-color: rgb(232, 239, 235); color: var(--primary-green); }
 
 
-.tag-cta { cursor: pointer; background-color: rgb(219, 234, 254)
-  /* text color should be #1d4ed8 for AA */; color: #3b82f6; }
+.tag-cta { background-color: rgb(219, 234, 254); color: #1d4ed8; }
 
 
 .tag-congregacao { background-color: rgb(243, 232, 255); color: #a855f7; }
@@ -4630,7 +4629,7 @@ iframe.goog-te-banner-frame {
 
 .platform-badge {
             position: absolute; top: 15px; right: 15px;
-            background-color: transparent; backdrop-filter: blur(10px);
+            background-color: rgba(0, 0, 0, 0.3);
             color: white; font-size: 0.875rem; font-weight: 500;
             padding: 0.4rem 0.9rem; border-radius: 50px; text-transform: uppercase; letter-spacing: 1px;
         }
@@ -4695,7 +4694,7 @@ iframe.goog-te-banner-frame {
 
 
 .btn-platform {
-            display: inline-block; background-color: var(--primary-green); color: white;
+            display: inline-block; background-color: var(--primary-green); color: white !important;
             padding: 0.6rem 1.2rem; border-radius: 50px; font-weight: 500;
             font-size: 0.875rem; text-decoration: none; transition: all 0.3s ease;
         }
