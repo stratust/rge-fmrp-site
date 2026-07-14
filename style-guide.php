@@ -527,12 +527,12 @@ require __DIR__ . '/includes/header.php';
             <div class="col-md-8">
                 <div class="rge-card sg-code-block">
                     <small class="sg-code-label">HTML pattern:</small>
-<pre><code>&lt;div class="rge-card" style="overflow: hidden"&gt;
-    &lt;div style="height: 200px; overflow: hidden"&gt;
-        &lt;img src="..." style="object-fit: cover; width: 100%; height: 100%"&gt;
-        &lt;span class="badge-pill"&gt;Badge&lt;/span&gt;
+<pre><code>&lt;div class="media-card rge-card"&gt;
+    &lt;div class="news-img"&gt;
+        &lt;img src="..." alt="..."&gt;
+        &lt;span class="course-badge"&gt;Badge&lt;/span&gt;
     &lt;/div&gt;
-    &lt;div style="padding: 1.5rem"&gt;
+    &lt;div class="news-body"&gt;
         &lt;h5&gt;Título&lt;/h5&gt;
         &lt;p&gt;Descrição&lt;/p&gt;
         &lt;a class="feature-link"&gt;Link →&lt;/a&gt;
@@ -561,9 +561,9 @@ require __DIR__ . '/includes/header.php';
             <div class="col-md-8">
                 <div class="rge-card sg-code-block">
                     <small class="sg-code-label">HTML pattern:</small>
-<pre><code>&lt;div class="rge-card p-3"&gt;
-    &lt;div style="display: flex; gap: 1rem"&gt;
-        &lt;img src="foto.jpg" class="profile-photo"&gt;
+<pre><code>&lt;div class="profile-card rge-card"&gt;
+    &lt;div class="profile-header"&gt;
+        &lt;img src="foto.jpg" class="profile-avatar" alt="..."&gt;
         &lt;div&gt;
             &lt;h5&gt;Nome&lt;/h5&gt;
             &lt;div class="role"&gt;Cargo&lt;/div&gt;
