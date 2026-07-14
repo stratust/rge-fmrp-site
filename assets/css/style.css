@@ -493,6 +493,7 @@ body {
    HOME / HERO / NOTÍCIAS / PESQUISA
    ========================================================= */
 .hero-section {
+  background-color: var(--bg-light);
   position: relative;
   height: 600px;
   display: flex;
@@ -2322,10 +2323,10 @@ iframe.goog-te-banner-frame {
 .tag-conselho { background-color: rgb(232, 239, 235); color: var(--primary-green); }
 
 
-.tag-cta { cursor: pointer; background: rgba(59, 130, 246, 0.1); color: #3b82f6; }
+.tag-cta { cursor: pointer; background-color: rgba(59, 130, 246, 0.15); color: #3b82f6; }
 
 
-.tag-congregacao { background: rgba(168, 85, 247, 0.1); color: #a855f7; }
+.tag-congregacao { background-color: rgba(168, 85, 247, 0.15); color: #a855f7; }
 
 
 .semester-badge {
@@ -2736,7 +2737,7 @@ iframe.goog-te-banner-frame {
 .social-btn {
             width: 45px;
             height: 45px;
-            background: rgba(255,255,255,0.15);
+            background-color: rgba(255,255,255,0.2);
             border: 1px solid rgba(255,255,255,0.3);
             border-radius: 50%;
             display: flex;
@@ -5010,6 +5011,7 @@ iframe.goog-te-banner-frame {
 
 
 .project-status.new {
+  background-color: #1d4ed8;
             background: #3b82f6;
             color: white;
         }
@@ -5365,6 +5367,7 @@ iframe.goog-te-banner-frame {
 
 /* Featured Publication */
         .featured-pub {
+  background-color: var(--dark-green);
             background: linear-gradient(135deg, var(--primary-green) 0%, var(--dark-green) 100%);
             border-radius: 12px;
             padding: 2.5rem;
@@ -5479,7 +5482,7 @@ iframe.goog-te-banner-frame {
 
 
 .btn-featured-outline:hover {
-            background: rgba(255,255,255,0.15);
+            background-color: rgba(255,255,255,0.2);
             border-color: white;
         }
 
@@ -5693,7 +5696,8 @@ iframe.goog-te-banner-frame {
 @media (max-width: 992px) {
     .navbar-brand img,
     .navbar-brand svg { height: 45px; }
-    .hero-section { height: 480px; }
+    .hero-section {
+  background-color: var(--bg-light); height: 480px; }
     .about-section,
     .research-section,
     .intro-section,
@@ -5707,7 +5711,8 @@ iframe.goog-te-banner-frame {
 /* ===== LARGE PHONE (max-width: 768px) ===== */
 @media (max-width: 768px) {
     /* Hero + page-header: escalar proporcionalmente */
-    .hero-section { height: 420px; }
+    .hero-section {
+  background-color: var(--bg-light); height: 420px; }
     .page-header { padding: 60px 0 50px; }
     .features-section { margin-top: -30px; }
 
@@ -5847,7 +5852,8 @@ iframe.goog-te-banner-frame {
 
 /* ===== SMALL PHONE (max-width: 375px) ===== */
 @media (max-width: 375px) {
-    .hero-section { height: 360px; }
+    .hero-section {
+  background-color: var(--bg-light); height: 360px; }
     /* h1 scales via clamp() in base CSS */
     .chefia-card { padding: 16px 12px; }
     .feature-card { padding: 1rem 0.75rem; }
