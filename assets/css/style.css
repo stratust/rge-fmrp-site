@@ -5813,18 +5813,21 @@ section .section-header h2:not(.h5):not(.h6) {
 
 /* ⚠️ OVERRIDE: sections com fundo escuro precavem herança do catch-all acima.
    Sempre que criar uma section com fundo verde/escuro, adicione-a aqui. */
-.cta-section h2,
-.contact-banner h2,
-.social-cta h2,
-.social-cta h3,
-.newsletter-section h2,
-.newsletter-section h3,
+section.cta-section h2,
+section.contact-banner h2,
+section.social-cta h2,
+section.social-cta h3,
+section.newsletter-section h2,
+section.newsletter-section h3,
 .highlight-box h2,
 .highlight-box h3,
 .quote-block h2,
 .quote-block p,
-.featured-pub h2,
+section.featured-pub h2,
+.featured-pub h3,
+section.page-header h1,
+section.page-header p,
 .page-header h1,
 .page-header p {
-    color: white;
+    color: white !important;
 }
