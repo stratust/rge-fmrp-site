@@ -301,7 +301,7 @@ body {
   font-size: 0.85rem;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  padding: 1rem 1rem !important;
+  padding: 1rem 0.75rem !important;
 }
 
 .navbar-nav .nav-link:hover,
@@ -378,10 +378,11 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.breadcrumb-custom a { cursor: pointer;
+.breadcrumb-custom a {
   color: rgba(255,255,255,0.7);
   text-decoration: none;
   font-size: 0.85rem;
+  padding: 0.875rem 0.25rem;
 }
 
 .breadcrumb-custom a:hover,
@@ -1000,7 +1001,7 @@ body {
     padding: 0;
     font-weight: bold;
     text-align: left;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 
 .ods-label .docente-role-subtitle {
@@ -1022,7 +1023,7 @@ body {
 
 .docente-contact {
   font-size: 0.8rem;
-  color: #777;
+  color: #666;
   margin-bottom: 1rem;
 }
 
@@ -1898,7 +1899,7 @@ iframe.goog-te-banner-frame {
 
 .chefia-contact {
             font-size: 0.8rem;
-            color: #777;
+            color: #666;
             margin-bottom: 1.2rem;
         }
 
@@ -1919,7 +1920,7 @@ iframe.goog-te-banner-frame {
 
 
 .chefia-contact-item a { cursor: pointer;
-            color: #777;
+            color: #666;
             text-decoration: none;
             transition: color 0.2s;
         }
@@ -3625,7 +3626,7 @@ iframe.goog-te-banner-frame {
 
 .lab-teach-meta { cursor: pointer;
             font-size: 0.8rem;
-            color: #777;
+            color: #666;
         }
 
 
@@ -3784,7 +3785,7 @@ iframe.goog-te-banner-frame {
 
 .lab-meta { cursor: pointer;
             font-size: 0.8rem;
-            color: #777;
+            color: #666;
             margin-bottom: 1rem;
         }
 
@@ -6431,3 +6432,12 @@ section.page-header p,
 .sg-shadow-base { box-shadow: 0 3px 15px rgba(0,0,0,0.06); }
 .sg-shadow-hover { box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
 .sg-shadow-lg { box-shadow: var(--shadow-lg); }
+
+/* Constrain tradutor wrapper to prevent horizontal scroll */
+.navbar .d-flex.order-lg-last {
+    flex-shrink: 1;
+    min-width: 0;
+}
+.tradutor-custom-buttons {
+    flex-shrink: 1;
+}

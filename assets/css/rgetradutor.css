@@ -118,10 +118,10 @@ iframe.goog-te-banner-frame {
     border: 1px solid #ddd;
     border-radius: 4px;
     
-    /* Touch target 44px minimum */
-    min-width: 44px;
-    min-height: 44px;
-    padding: 8px;
+    /* Touch target — compact to fit navbar */
+    min-width: 36px;
+    min-height: 36px;
+    padding: 4px;
     cursor: pointer;
     transition: all 0.3s ease;
     
@@ -167,3 +167,5 @@ iframe.goog-te-banner-frame {
     width: 20px;
     height: auto;
 }
+
+/* Position tradutor buttons — prevent horizontal overflow */

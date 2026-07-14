@@ -21,7 +21,7 @@ if (!isset($pageTitle)) $pageTitle = 'Departamento de Genética - FMRP/USP';
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/style.css?v=40">
+    <link rel="stylesheet" href="assets/css/style.css?v=41">
     <link rel="stylesheet" href="assets/css/rgetradutor.css">
 </head>
 <body>
@@ -48,7 +48,7 @@ if (!isset($pageTitle)) $pageTitle = 'Departamento de Genética - FMRP/USP';
             <!--  Final - Logotipo do Depto de Genetica -->
 
             <div class="d-flex align-items-center order-lg-last">
-                <div class="d-flex align-items-center me-3">
+                <div class="d-flex align-items-center">
                     <!--  Importante - Tradutor -->
                          <link rel="stylesheet" href="assets/css/rgetradutor.css">
 <!-- Adicionamos a classe 'notranslate' na div pai -->

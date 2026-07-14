@@ -14,7 +14,7 @@
   <!-- Legenda com duas linhas -->
   <div>
     <div class="fw-bold">FMRP • USP</div>
-    <div class="text-muted small" class="navbar-brand-subtitle"><h2 class="h6">Departamento de Genética</h2></div>
+    <div class="small navbar-brand-subtitle"><h2 class="h6">Departamento de Genética</h2></div>
   </div>
 </div>
                     <p class="footer-desc mt-3">Compromisso com a formação de excelência e a produção de conhecimento científico.</p>
