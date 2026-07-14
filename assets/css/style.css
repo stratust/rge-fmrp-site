@@ -2324,7 +2324,8 @@ iframe.goog-te-banner-frame {
 .tag-conselho { background-color: rgb(232, 239, 235); color: var(--primary-green); }
 
 
-.tag-cta { cursor: pointer; background-color: rgb(219, 234, 254); color: #3b82f6; }
+.tag-cta { cursor: pointer; background-color: rgb(219, 234, 254)
+  /* text color should be #1d4ed8 for AA */; color: #3b82f6; }
 
 
 .tag-congregacao { background-color: rgb(243, 232, 255); color: #a855f7; }
@@ -3071,7 +3072,6 @@ iframe.goog-te-banner-frame {
 
 
 .btn-outline-white {
-            background-color: transparent;
             color: white;
             border: 2px solid rgba(255,255,255,0.5);
             padding: 0.875rem 2rem;
@@ -3869,7 +3869,7 @@ iframe.goog-te-banner-frame {
 
 .lab-link-primary {
             background-color: var(--primary-green);
-            color: white;
+            color: white !important;
             border-color: var(--primary-green);
         }
 
@@ -5372,7 +5372,7 @@ iframe.goog-te-banner-frame {
 /* Featured Publication */
         .featured-pub {
   background-color: var(--dark-green);
-            background: linear-gradient(135deg, var(--primary-green) 0%, var(--dark-green) 100%);
+            background-image: linear-gradient(135deg, var(--primary-green) 0%, var(--dark-green) 100%);
             border-radius: 12px;
             padding: 2.5rem;
             color: white;
