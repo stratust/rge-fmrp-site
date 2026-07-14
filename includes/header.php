@@ -21,55 +21,8 @@ if (!isset($pageTitle)) $pageTitle = 'Departamento de Genética - FMRP/USP';
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/style.css?v=39">
+    <link rel="stylesheet" href="assets/css/style.css?v=40">
     <link rel="stylesheet" href="assets/css/rgetradutor.css">
-    <style>
-.navbar .dropdown-toggle::after {
-    display: inline-block !important;
-    margin-left: .55em;
-    vertical-align: .15em;
-    content: "";
-    border-top: .35em solid;
-    border-right: .35em solid transparent;
-    border-bottom: 0;
-    border-left: .35em solid transparent;
-}
-
-.dropdown-toggle-split {
-    background: none;
-    border: none;
-    color: inherit;
-    line-height: 1;
-}
-
-.dropdown-toggle-split:hover,
-.dropdown-toggle-split:focus {
-    color: inherit;
-    box-shadow: none;
-}
-
-.menu-titulo{
-    cursor: default;      /* remove a mãozinha */
-    text-decoration: none;
-}
-
-.menu-titulo:hover{
-    text-decoration: none;
-}
-    
-/* Dropdown toggle button — reset to look like nav-link */
-.nav-link.dropdown-toggle.menu-titulo {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font: inherit;
-    color: inherit;
-    padding: inherit;
-    display: inline-flex;
-    align-items: center;
-}
-
-</style>
 </head>
 <body>
 
