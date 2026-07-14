@@ -201,7 +201,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="media-card rge-card">
                         <div class="project-img">
-                            <img src="https://images.unsplash.com/photo-1576670159805-381a9de1cdec?w=600&h=400&fit=crop" alt="Projeto 6">
+                            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&h=400&fit=crop" alt="Projeto 6">
                             <span class="project-status completed">Concluído</span>
                         </div>
                         <div class="project-body">

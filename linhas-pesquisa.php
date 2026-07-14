@@ -191,7 +191,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="col-md-6 col-lg-4">
                     <div class="content-card rge-card">
                         <div class="research-img">
-                            <img src="https://images.unsplash.com/photo-1576670159805-381a9de1cdec?w=600&h=400&fit=crop" alt="Genética Médica">
+                            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&h=400&fit=crop" alt="Genética Médica">
                             <span class="research-badge">Ativa</span>
                         </div>
                         <div class="research-body">
